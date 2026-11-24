@@ -1075,5 +1075,147 @@
     "announcementOnly": 117,
     "profileAdded": 4,
     "profileTextOnly": true
+  },
+  "v012": {
+    "changes": [
+      {
+        "id": "02-chief-1",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AC%AC5%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "02-chief-2",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AC%AC5%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "02-chief-3",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AC%AC5%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "05-chief-1",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/05%E9%AB%98%E9%9B%84%E5%B8%82/01%E5%B8%82%E9%95%B7/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "05-chief-2",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/05%E9%AB%98%E9%9B%84%E5%B8%82/01%E5%B8%82%E9%95%B7/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "05-chief-3",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/05%E9%AB%98%E9%9B%84%E5%B8%82/01%E5%B8%82%E9%95%B7/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "05-chief-4",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/05%E9%AB%98%E9%9B%84%E5%B8%82/01%E5%B8%82%E9%95%B7/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "05-chief-5",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/05%E9%AB%98%E9%9B%84%E5%B8%82/01%E5%B8%82%E9%95%B7/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "08-chief-1",
+        "field": "registration_party",
+        "source": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf"
+      },
+      {
+        "id": "08-chief-2",
+        "field": "registration_party",
+        "source": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf"
+      },
+      {
+        "id": "10-chief-1",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/10%E5%8D%97%E6%8A%95%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7.pdf"
+      },
+      {
+        "id": "11-chief-1",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf"
+      },
+      {
+        "id": "11-chief-2",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf"
+      },
+      {
+        "id": "11-chief-3",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf"
+      },
+      {
+        "id": "11-chief-4",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf"
+      },
+      {
+        "id": "14-chief-1",
+        "field": "registration_party",
+        "source": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf"
+      },
+      {
+        "id": "14-chief-2",
+        "field": "registration_party",
+        "source": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf"
+      },
+      {
+        "id": "14-chief-3",
+        "field": "registration_party",
+        "source": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf"
+      },
+      {
+        "id": "14-chief-4",
+        "field": "registration_party",
+        "source": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf"
+      },
+      {
+        "id": "19-chief-1",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/19%E6%96%B0%E7%AB%B9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+      },
+      {
+        "id": "19-chief-2",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/19%E6%96%B0%E7%AB%B9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+      },
+      {
+        "id": "19-chief-3",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/19%E6%96%B0%E7%AB%B9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7.pdf"
+      },
+      {
+        "id": "22-chief-1",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "22-chief-1",
+        "field": "profile",
+        "source": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "22-chief-2",
+        "field": "party",
+        "source": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      },
+      {
+        "id": "22-chief-2",
+        "field": "profile",
+        "source": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
+      }
+    ],
+    "conflicts": [
+      "10-chief-2"
+    ],
+    "party": 18,
+    "registration": 6,
+    "profiles": 2,
+    "partyCoverage": 971,
+    "registrationOnly": 6
   }
 }

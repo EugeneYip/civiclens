@@ -1,40 +1,11 @@
 {
-  "version": "0.1.11",
+  "version": "0.1.12",
   "national": {
     "media": "https://info.cec.gov.tw/vote2026/media/",
     "schedule": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
     "referendum": "https://web.cec.gov.tw/central/article/65455"
   },
   "entries": [
-    {
-      "county": "01",
-      "office": "chief",
-      "date": "2026-11-14",
-      "title": "臺北市長公辦政見發表會・第一場",
-      "kind": "公辦政見發表",
-      "video": "LSUZwnOhq68",
-      "source": "https://web.cec.gov.tw/mect/article/65389",
-      "publisher": "臺北市選舉委員會",
-      "status": "公告連結已定位；播放器未實測"
-    },
-    {
-      "county": "01",
-      "office": "chief",
-      "date": "2026-11-21",
-      "title": "臺北市長公辦政見發表會・第二場",
-      "kind": "公辦政見發表",
-      "source": "https://web.cec.gov.tw/mect/article/65388",
-      "status": "官方公告入口"
-    },
-    {
-      "county": "01",
-      "office": "council",
-      "date": "2026-11-18",
-      "title": "臺北市議員公辦政見發表會・各選區",
-      "kind": "公辦政見發表",
-      "source": "https://web.cec.gov.tw/mect/article/65388",
-      "status": "各選區官方影音入口；11/18–25"
-    },
     {
       "county": "02",
       "office": "chief",
@@ -128,6 +99,198 @@
       "source": "https://web.cec.gov.tw/phec/article/65787",
       "publisher": "澎湖有線",
       "status": "公告連結已定位；播放器未實測"
+    },
+    {
+      "county": "01",
+      "office": "chief",
+      "title": "臺北市長公辦政見發表會・第一場（含字幕）",
+      "kind": "公辦政見發表",
+      "date": "2026-11-14",
+      "video": "7tmQWV4wuYY",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "01",
+      "office": "chief",
+      "title": "臺北市長公辦政見發表會・第二場",
+      "kind": "公辦政見發表",
+      "date": "2026-11-21",
+      "video": "0aQYBIyBmJM",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "01",
+      "office": "council",
+      "title": "臺北市議員公辦政見發表會・第1選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        1
+      ],
+      "video": "2ArVvgGTfbs",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "01",
+      "office": "council",
+      "title": "臺北市議員公辦政見發表會・第2選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        2
+      ],
+      "video": "_Nymob2XDnc",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "01",
+      "office": "council",
+      "title": "臺北市議員公辦政見發表會・第3、7、8選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        3,
+        7,
+        8
+      ],
+      "video": "pBhxCe_kyaU",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "01",
+      "office": "council",
+      "title": "臺北市議員公辦政見發表會・第4選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        4
+      ],
+      "video": "A3qsx8sDcUg",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "01",
+      "office": "council",
+      "title": "臺北市議員公辦政見發表會・第5選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        5
+      ],
+      "video": "PzgwKGbx8tI",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "01",
+      "office": "council",
+      "title": "臺北市議員公辦政見發表會・第6選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        6
+      ],
+      "video": "a9UXubbYmdQ",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "publisher": "臺北市選舉委員會",
+      "status": "官方公告列有影片連結；播放狀態未實測"
+    },
+    {
+      "county": "06",
+      "office": "chief",
+      "date": null,
+      "title": "桃園市首長公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/tyec/article/65589",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "06",
+      "office": "council",
+      "date": null,
+      "title": "桃園市議員公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/tyec/article/65589",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "16",
+      "office": "chief",
+      "date": null,
+      "title": "宜蘭縣首長公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/ilec/article/65436",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": null,
+      "title": "宜蘭縣議員公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/ilec/article/65436",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "21",
+      "office": "chief",
+      "date": null,
+      "title": "金門縣首長公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/kmec/article/65564",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "21",
+      "office": "council",
+      "date": null,
+      "title": "金門縣議員公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/kmec/article/65564",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "11",
+      "office": "chief",
+      "date": null,
+      "title": "雲林縣首長公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/ylec",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "11",
+      "office": "council",
+      "date": null,
+      "title": "雲林縣議員公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/ylec",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "04",
+      "office": "council",
+      "date": null,
+      "title": "臺南市議員公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/tnec/article/65653",
+      "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "05",
+      "office": "council",
+      "date": null,
+      "title": "高雄市議員公辦政見發表會",
+      "kind": "官方日程／影音入口",
+      "source": "https://web.cec.gov.tw/khec/article/65510",
+      "status": "選委會公告或網站入口；未取得個別影片"
     }
   ]
 }
