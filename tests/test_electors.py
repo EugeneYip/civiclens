@@ -17,7 +17,7 @@ class ElectorTests(unittest.TestCase):
   self.assertTrue(D['referendum_pdf'].endswith('bc81d816-ce36-4140-b1a3-3f88cf6d7adc.pdf'))
   page=(ROOT/'index.html').read_text()
   self.assertEqual(json.loads(re.search(r'id="elector-data">(.*?)</script>',page,re.S).group(1)),D)
-  self.assertIn('非實際行政界線',page)
+  self.assertIn('id="elector-value"',page);self.assertIn('id="elector-source"',page)
   self.assertIn('全國性公投 · 第22案',page)
  def test_known_rows(self):
   self.assertEqual(D['counties']['臺北市'],[2031431,2026809,0,0,2015296,2072492])

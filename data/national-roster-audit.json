@@ -1071,10 +1071,12 @@
     "council": 1493,
     "groups": 243,
     "counties": 22,
-    "party": 953,
+    "party": 971,
     "announcementOnly": 117,
-    "profileAdded": 4,
-    "profileTextOnly": true
+    "profileAdded": 6,
+    "registrationOnly": 6,
+    "profileTotal": 12,
+    "previousProfileTextOnly": true
   },
   "v012": {
     "changes": [

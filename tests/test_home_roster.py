@@ -13,5 +13,5 @@ class HomeRoster(unittest.TestCase):
     self.assertIn('cec.gov.tw',r['name_source']['url']);self.assertIn('cec.gov.tw',r['party_source']['url']);self.assertIsNone(r['performance'])
  def test_home(self):
   s=(R/'index.html').read_text();self.assertLess(s.index('class="county-grid"'),s.index('id="county-panel"'))
-  self.assertIn('id="explorer"',s);self.assertIn('scripts/explorer.js?v=019',s)
+  self.assertIn('id="explorer"',s);self.assertRegex(s,r'scripts/explorer\.js\?v=\d+');self.assertIn('id="candidate-search"',s);self.assertIn('data-view="video"',s)
   self.assertNotIn('id="county-search"',s)
