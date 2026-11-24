@@ -1,0 +1,18 @@
+name: Browser smoke test
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install --no-save --package-lock=false playwright-core@1.52.0
+      - name: Test mobile browser on local static site
+        run: |
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          test -n "$CHROME_BIN"
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/civiclens-http.log 2>&1 &
+          for i in $(seq 1 20); do curl -fsS http://127.0.0.1:8765/ >/dev/null && break; sleep 1; done
+          node tests/browser_smoke.cjs

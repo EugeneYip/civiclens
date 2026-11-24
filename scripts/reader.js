@@ -1,7 +1,7 @@
 "use strict";
 const $=id=>document.getElementById(id), county=$("county"), office=$("office"), doc=$("doc"), frame=$("pdf"), viewer=$("viewer"), original=$("original"), load=$("load"), status=$("status"), directory=$("directory");
 const officialURL=(value,pdf=false)=>{try{const u=new URL(value);return u.protocol==='https:'&&u.hostname==='eebulletin.cec.gov.tw'&&!u.username&&!u.password&&!u.port&&(pdf?u.pathname.startsWith('/115/')&&u.pathname.endsWith('.pdf'):u.searchParams.get('dir')?.startsWith('115'))?u.href:null}catch{return null}};
-const archiveURL=value=>{try{const u=new URL(value);return u.protocol==='https:'&&u.hostname==='bulletin.cec.gov.tw'&&!u.username&&!u.password&&!u.port&&decodeURIComponent(u.pathname)==='/01選舉公報/04縣市長/115年/臺東縣縣長.pdf'&&!u.search&&!u.hash?u.href:null}catch{return null}};
+const archiveURL=value=>{try{const u=new URL(value);return u.protocol==='https:'&&u.hostname==='bulletin.cec.gov.tw'&&!u.username&&!u.password&&!u.port&&['/01選舉公報/04縣市長/115年/臺東縣縣長.pdf','/01選舉公報/04縣市長/115年/澎湖縣縣長.pdf'].includes(decodeURIComponent(u.pathname))&&!u.search&&!u.hash?u.href:null}catch{return null}};
 const effective=x=>['not_found','fetch_limit'].includes(x?.status)&&x.fallback?.status==='fetch_limit'&&archiveURL(x.fallback.url)?{...x,url:x.fallback.url,status:'fetch_limit',usingFallback:true}:x;
 const pdfURL=value=>officialURL(value,true)||archiveURL(value);
 let data,current=null,loadTimer=null;

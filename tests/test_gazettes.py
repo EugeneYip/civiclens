@@ -32,6 +32,7 @@ class GazetteTests(unittest.TestCase):
   g=json.loads((R/'data/gazettes.json').read_text());d=next(o for c in g['counties'] if c['code']=='17' for o in c['offices'] if o['id']=='chief')['documents'][0]
   self.assertEqual(d['fallback']['status'],'fetch_limit');self.assertEqual(urlparse(d['fallback']['url']).hostname,'bulletin.cec.gov.tw')
   self.assertIn("['not_found','fetch_limit'].includes(x?.status)",(R/'scripts/reader.js').read_text())
+  self.assertIn("/01選舉公報/04縣市長/115年/澎湖縣縣長.pdf",(R/'scripts/reader.js').read_text())
  def test_results_no_vote_claim(self):
   p=(R/'results.html').read_text();self.assertIn('尚未串接即時票數',p);self.assertIn('https://www.cec.gov.tw/',p)
   self.assertIn('2026-11-28T16:00:00+08:00',(R/'scripts/results.js').read_text())
