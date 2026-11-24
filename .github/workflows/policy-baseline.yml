@@ -1,0 +1,26 @@
+name: Generate pre-election policy review baseline
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_policy_baseline.py'
+      - '.github/workflows/policy-baseline.yml'
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/build_policy_baseline.py
+      - run: python3 -m unittest discover -s tests -v
+      - name: Stage generated baseline
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "policy-baseline-${GITHUB_RUN_ID}"
+          git add data/policy-review-baseline.json
+          git commit -m 'Generate pre-election policy review baseline'
+          git push origin HEAD
