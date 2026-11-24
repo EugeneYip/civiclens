@@ -18,7 +18,7 @@
 3. 執行 `python3 scripts/build.py` 與 `python3 -m unittest discover -s tests -v`。
 4. 審查法律、授權、編輯規範、完整性及公開資金／利益關係揭露後，再開啟 GitHub Pages：Settings → Pages → Deploy from a branch → main → / (root)。若方案不支援私人儲存庫 Pages，先保持不公開，完成審查後切換公開。
 
-預期網址（尚未部署）：`https://eugeneyip.github.io/civiclens/`。
+正式網址：[civiclens.eugeneyip.net](https://civiclens.eugeneyip.net/)（網域與 GitHub Pages 已由維護者設定；外部連線尚待獨立驗證）。
 
 ## 維護
 
@@ -30,3 +30,7 @@
 - [版本紀錄](CHANGELOG.md)
 
 本專案原創程式碼採 [MIT 授權](LICENSE)；政府文件、候選人自述及其他第三方資料各自適用其原有權利與使用條件，不因程式碼授權而改變。本版未重製公報 PDF、候選人相片或個人資料。
+
+## V0.2.0-alpha.1 開發分支
+
+本分支新增六筆臺北市市長名冊試作及逐欄證據。僅供開發與審查；正式站仍為 V0.1.0。執行 `python3 -m http.server 8000` 後瀏覽 `/preview/roster.html`，不要直接以 file:// 開啟。詳見 [名冊查核計畫](docs/ROSTER-AUDIT.md)。獨立人工覆核、全國名冊對帳、資料授權及法律審查尚未完成，不得合併部署。
