@@ -12,4 +12,5 @@ def present(k,r,old=True):
  "party":bool(r.get("party") is not None or r.get("registration_party") is not None or p["records"].get(k) or y.get("party")),
  "policy":bool(r.get("platform") or x.get("policy") or y.get("topics")),
  "policy_text_source":bool(y.get("text_available"))}
-print(json.dumps({"before":{f:sum(present(k,r,True)[f] for k,r in rows.items()) for f in present(next(iter(rows)),next(iter(rows.values())))}, "after":{f:sum(present(k,r,False)[f] for k,r in rows.items()) for f in present(next(iter(rows)),next(iter(rows.values())))}, "bulletin":b["stats"]},ensure_ascii=False))
+extra=load("bulletin-details")
+print(json.dumps({"before":{f:sum(present(k,r,True)[f] for k,r in rows.items()) for f in present(next(iter(rows)),next(iter(rows.values())))}, "after":{f:sum(present(k,r,False)[f] for k,r in rows.items()) for f in present(next(iter(rows)),next(iter(rows.values())))}, "bulletin":b["stats"],"details":extra["stats"]},ensure_ascii=False))
