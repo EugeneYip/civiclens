@@ -1,0 +1,29 @@
+name: Generate public bulletin facts for review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/derive_bulletin.py'
+      - '.github/workflows/derive-bulletin.yml'
+permissions:
+  contents: write
+jobs:
+  derive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage source and generate restricted public data
+        run: |
+          python3 scripts/stage_bulletin.py --output "$RUNNER_TEMP/bulletin-review.json"
+          python3 scripts/derive_bulletin.py "$RUNNER_TEMP/bulletin-review.json" data/bulletin-facts.json
+          python3 -m unittest discover -s tests -v
+      - name: Commit generated file to isolated branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "bulletin-facts-${GITHUB_RUN_ID}"
+          git add data/bulletin-facts.json
+          git commit -m 'Generate restricted public bulletin fact index'
+          git push origin HEAD
