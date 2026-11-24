@@ -31,6 +31,7 @@ class GazetteTests(unittest.TestCase):
  def test_penghu_fallback(self):
   g=json.loads((R/'data/gazettes.json').read_text());d=next(o for c in g['counties'] if c['code']=='17' for o in c['offices'] if o['id']=='chief')['documents'][0]
   self.assertEqual(d['fallback']['status'],'fetch_limit');self.assertEqual(urlparse(d['fallback']['url']).hostname,'bulletin.cec.gov.tw')
+  self.assertEqual(unquote(urlparse(d['fallback']['url']).path),'/01選舉公報/04縣市長/115年/澎湖縣縣長.pdf')
   self.assertIn("['not_found','fetch_limit'].includes(x?.status)",(R/'scripts/reader.js').read_text())
   self.assertIn("/01選舉公報/04縣市長/115年/澎湖縣縣長.pdf",(R/'scripts/reader.js').read_text())
  def test_results_no_vote_claim(self):
