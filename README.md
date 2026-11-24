@@ -1,8 +1,8 @@
-# CivicLens 公民鏡
+# 11/28 · CivicLens
 
 獨立選舉資訊與公共治理專案。讓事實透明，讓判斷自主。
 
-**V0.1.0 / 2026-11-24：官方資料入口與統計基礎版，尚非完整候選人資料庫。**
+**V0.1.1 / 2026-11-24：官方資料入口與統計基礎版，尚非完整候選人資料庫。**
 
 - 22 縣市官方電子公報目錄，逐一查閱確認；地理分類僅供瀏覽。
 - 中選會公布的九種職務統計，非即時數據或民調。
@@ -16,9 +16,9 @@
 1. 目前使用 `EugeneYip/civiclens` 公開儲存庫，預設分支 `main`；公開原始碼不代表正式網站已通過發布審查。
 2. 複製儲存庫至本機。
 3. 執行 `python3 scripts/build.py` 與 `python3 -m unittest discover -s tests -v`。
-4. 審查法律、授權、編輯規範、完整性及公開資金／利益關係揭露後，再開啟 GitHub Pages：Settings → Pages → Deploy from a branch → main → / (root)。若方案不支援私人儲存庫 Pages，先保持不公開，完成審查後切換公開。
+4. GitHub Pages 已由維護者啟用；main 為正式站來源。候選人資料仍需通過發布門檻。
 
-預期網址（尚未部署）：`https://eugeneyip.github.io/civiclens/`。
+正式網址：[civiclens.eugeneyip.net](https://civiclens.eugeneyip.net/)。
 
 ## 維護
 
