@@ -1,0 +1,279 @@
+{
+  "version": "0.2.0-alpha.1",
+  "release_status": "blocked_pending_independent_review",
+  "reviewed_on": "2026-11-25",
+  "timezone": "Asia/Taipei",
+  "scope": "臺北市直轄市長選舉；完整單一選區測試，不代表全國",
+  "expected_count": 6,
+  "national_reference_count": 19100,
+  "source_registry": {
+    "final": {
+      "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+      "title": "臺北市第9屆市長選舉候選人名單",
+      "date": "2026-11-12",
+      "locator": "第1頁，臺北市候選人姓名、號次",
+      "kind": "official_final"
+    },
+    "draw": {
+      "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+      "title": "115年直轄市長選舉候選人登記冊（臺北市，含抽籤號次）",
+      "date": "2026-10-27",
+      "locator": "第1頁，姓名、推薦之政黨、抽籤號次",
+      "kind": "official_draw"
+    },
+    "announcement": {
+      "url": "https://web.cec.gov.tw/mect/article/65738",
+      "title": "臺北市第9屆市長選舉候選人名單公告",
+      "date": "2026-11-12",
+      "kind": "official_announcement"
+    }
+  },
+  "records": [
+    {
+      "election_id": "2026-local",
+      "jurisdiction_code": "01",
+      "office_id": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 1,
+      "fields": {
+        "name": {
+          "value": "郭璽",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+              "locator": "第1頁，臺北市候選人姓名、號次；1號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            },
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；1號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        },
+        "party": {
+          "value": "台灣麻將最大黨",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；1號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "election_id": "2026-local",
+      "jurisdiction_code": "01",
+      "office_id": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 2,
+      "fields": {
+        "name": {
+          "value": "林志成",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+              "locator": "第1頁，臺北市候選人姓名、號次；2號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            },
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；2號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        },
+        "party": {
+          "value": "無",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；2號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "election_id": "2026-local",
+      "jurisdiction_code": "01",
+      "office_id": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 3,
+      "fields": {
+        "name": {
+          "value": "沈伯洋",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+              "locator": "第1頁，臺北市候選人姓名、號次；3號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            },
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；3號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        },
+        "party": {
+          "value": "民主進步黨",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；3號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "election_id": "2026-local",
+      "jurisdiction_code": "01",
+      "office_id": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 4,
+      "fields": {
+        "name": {
+          "value": "蕭文乾",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+              "locator": "第1頁，臺北市候選人姓名、號次；4號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            },
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；4號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        },
+        "party": {
+          "value": "臺灣SoR無法黨",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；4號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "election_id": "2026-local",
+      "jurisdiction_code": "01",
+      "office_id": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 5,
+      "fields": {
+        "name": {
+          "value": "蔣萬安",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+              "locator": "第1頁，臺北市候選人姓名、號次；5號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            },
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；5號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        },
+        "party": {
+          "value": "中國國民黨",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；5號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "election_id": "2026-local",
+      "jurisdiction_code": "01",
+      "office_id": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 6,
+      "fields": {
+        "name": {
+          "value": "唐新民",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+              "locator": "第1頁，臺北市候選人姓名、號次；6號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            },
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；6號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        },
+        "party": {
+          "value": "三勢團結促進聯盟",
+          "status": "verified",
+          "source_kind": "official",
+          "evidence": [
+            {
+              "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+              "locator": "第1頁，姓名、推薦之政黨、抽籤號次；6號",
+              "retrieved_on": "2026-11-25",
+              "reviewer": "AI-assisted visual cross-check; independent human review pending"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
