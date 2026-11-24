@@ -17,5 +17,7 @@ class ChiefReview(unittest.TestCase):
     self.assertIs(r["publication_allowed"],False)
     self.assertTrue((r["evidence"]["name"].get("notice") or r["evidence"]["name"].get("identity_source"))["url"].startswith(("https://web.cec.gov.tw/","https://www.cec.gov.tw/")))
     self.assertEqual(r["evidence"]["recommending_party"] is None,r["recommending_party"] is None)
-    self.assertTrue(all(r[k] is None for k in ("education","experience","platform")))
+    for k in ("education","experience","platform"):
+     if r[k] is not None: self.assertTrue(r["evidence"][k]["url"].startswith("https://eebulletin.cec.gov.tw/"))
 if __name__=="__main__": unittest.main()
+

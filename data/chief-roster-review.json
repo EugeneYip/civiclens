@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0-alpha.6",
+  "version": "0.2.0-alpha.8",
   "as_of": "2026-11-25",
   "timezone": "Asia/Taipei",
   "release_status": "blocked_pending_independent_review",
@@ -9,7 +9,8 @@
     "無：公報推薦政黨欄記載無，不推論黨籍。null：尚未取得或整理。",
     "金門第7號由正式公告補入；推薦政黨未擷取。",
     "所有候選人及來源需獨立覆核；不提供評分或投票建議。",
-    "本輪新增24筆，5縣正式公告影像及嘉義市抽籤影像。花蓮第4號姓名更正，推薦政黨重設待核；南投公告頁碼補正。"
+    "本輪新增24筆，5縣正式公告影像及嘉義市抽籤影像。花蓮第4號姓名更正，推薦政黨重設待核；南投公告頁碼補正。",
+    "臺北與連江首長8人新增學經歷、政見摘要及公報逐欄來源。圖片政見可能僅部分摘要或待整理。登記階段推薦政黨另設欄位，不能取代正式公報；花蓮姓名歧異仍待核對。"
   ],
   "districts": [
     {
@@ -29,9 +30,9 @@
           "ballot_number": 1,
           "name": "郭璽",
           "recommending_party": "台灣麻將最大黨",
-          "education": null,
-          "experience": null,
-          "platform": null,
+          "education": "美國西北大學工業工程博士；海軍軍官學校。",
+          "experience": "自述曾任海軍司令部顧問、海軍中校、政黨創辦人及主席、大學副教授等。",
+          "platform": "商圈及夜間經濟；長照與高齡生活圈；社區益智活動；都更與耐震；智慧城市；新舊社區更新；跨世代文化與共學。",
           "publication_allowed": false,
           "evidence": {
             "name": {
@@ -49,9 +50,46 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 1"
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "郭璽／推薦之政黨",
+              "kind": "official_gazette",
+              "crosscheck": {
+                "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+                "page": 1,
+                "kind": "ballot_draw"
+              }
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "郭璽／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "郭璽／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "郭璽／政見",
+              "kind": "candidate_self_report",
+              "status": "summary",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "summary",
+            "recommending_party": "official_gazette_image_checked"
           }
         },
         {
@@ -59,9 +97,9 @@
           "ballot_number": 2,
           "name": "林志成",
           "recommending_party": "無",
-          "education": null,
-          "experience": null,
-          "platform": null,
+          "education": "褒忠國小、國中；彰化培元高職；自述美國北維吉尼亞大學研究所碩士。",
+          "experience": "自述曾經營健身中心、擔任運動會及軍中新兵代表，並有健力與健美競賽經歷。",
+          "platform": "遊民安置、司法與警政改革、體育場館開放、免費健身中心、節慶現金發放、性交易管理及學生午餐補助。",
           "publication_allowed": false,
           "evidence": {
             "name": {
@@ -79,9 +117,46 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 2"
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "林志成／推薦之政黨",
+              "kind": "official_gazette",
+              "crosscheck": {
+                "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+                "page": 1,
+                "kind": "ballot_draw"
+              }
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "林志成／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "林志成／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "林志成／政見",
+              "kind": "candidate_self_report",
+              "status": "summary",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "summary",
+            "recommending_party": "official_gazette_image_checked"
           }
         },
         {
@@ -89,9 +164,9 @@
           "ballot_number": 3,
           "name": "沈伯洋",
           "recommending_party": "民主進步黨",
-          "education": null,
-          "experience": null,
-          "platform": null,
+          "education": "加州大學爾灣分校犯罪與法律社會學博士；賓州大學法學碩士；臺大法學碩士。",
+          "experience": "自述經歷包括立法委員、臺北大學犯罪學研究所所長、民間組織及律師工作。",
+          "platform": "圖片政見以城市空間、機會、陪伴、安全、未來與時間為主要分類；尚未逐項轉錄。",
           "publication_allowed": false,
           "evidence": {
             "name": {
@@ -109,9 +184,46 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 3"
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "沈伯洋／推薦之政黨",
+              "kind": "official_gazette",
+              "crosscheck": {
+                "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+                "page": 1,
+                "kind": "ballot_draw"
+              }
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "沈伯洋／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "沈伯洋／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "沈伯洋／政見",
+              "kind": "candidate_self_report",
+              "status": "partial_image_summary",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "partial_image_summary",
+            "recommending_party": "official_gazette_image_checked"
           }
         },
         {
@@ -119,9 +231,9 @@
           "ballot_number": 4,
           "name": "蕭文乾",
           "recommending_party": "臺灣 SoR 無法黨",
-          "education": null,
-          "experience": null,
-          "platform": null,
+          "education": "自述就讀臺灣與美國多所中小學，及臺灣師範大學翻譯研究所。",
+          "experience": "自述從事英文教學；公報未列一般條列式職歷。",
+          "platform": "倡議 SoR（閱讀科學）在英語教育的推廣及教學改革。",
           "publication_allowed": false,
           "evidence": {
             "name": {
@@ -139,9 +251,46 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 4"
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蕭文乾／推薦之政黨",
+              "kind": "official_gazette",
+              "crosscheck": {
+                "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+                "page": 1,
+                "kind": "ballot_draw"
+              }
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蕭文乾／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蕭文乾／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蕭文乾／政見",
+              "kind": "candidate_self_report",
+              "status": "summary",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "summary",
+            "recommending_party": "official_gazette_image_checked"
           }
         },
         {
@@ -149,9 +298,9 @@
           "ballot_number": 5,
           "name": "蔣萬安",
           "recommending_party": "中國國民黨",
-          "education": null,
-          "experience": null,
-          "platform": null,
+          "education": "師大附中國中部、建國高中；政大法律與外交雙學士；賓夕法尼亞大學法學碩士及法律博士。",
+          "experience": "自述經歷包括第八屆臺北市長、第九及第十屆立法委員、國民黨團書記長與律師工作。",
+          "platform": "圖片政見包含市民生活保障與城市長期發展；尚未逐項轉錄。",
           "publication_allowed": false,
           "evidence": {
             "name": {
@@ -169,9 +318,46 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 5"
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蔣萬安／推薦之政黨",
+              "kind": "official_gazette",
+              "crosscheck": {
+                "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+                "page": 1,
+                "kind": "ballot_draw"
+              }
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蔣萬安／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蔣萬安／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "蔣萬安／政見",
+              "kind": "candidate_self_report",
+              "status": "partial_image_summary",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "partial_image_summary",
+            "recommending_party": "official_gazette_image_checked"
           }
         },
         {
@@ -179,8 +365,8 @@
           "ballot_number": 6,
           "name": "唐新民",
           "recommending_party": "三勢團結促進聯盟",
-          "education": null,
-          "experience": null,
+          "education": "公報學歷欄自述建中、台大、柏克萊光電博士（未獨立確認）。",
+          "experience": "公報含多項個人身分及歷史政治主張，尚未整理為可查證的任職紀錄；請閱原文。",
           "platform": null,
           "publication_allowed": false,
           "evidence": {
@@ -199,9 +385,46 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 6"
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "唐新民／推薦之政黨",
+              "kind": "official_gazette",
+              "crosscheck": {
+                "url": "https://www.cec.gov.tw/api/file/b74a02c0-b39e-4258-afd8-eb31787b0eb0.pdf",
+                "page": 1,
+                "kind": "ballot_draw"
+              }
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "唐新民／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "唐新民／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "唐新民／政見",
+              "kind": "candidate_self_report",
+              "status": "image_pending",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "image_pending",
+            "recommending_party": "official_gazette_image_checked"
           }
         }
       ]
@@ -944,8 +1167,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "苗栗縣／陳品安／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "民主進步黨"
         },
         {
           "id": "08-chief-2",
@@ -987,8 +1218,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "苗栗縣／鍾東錦／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "中國國民黨"
         }
       ],
       "identity_source": {
@@ -1473,8 +1712,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "屏東縣／蘇清泉／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "中國國民黨"
         },
         {
           "id": "13-chief-2",
@@ -1516,8 +1763,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "屏東縣／周春米／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "民主進步黨"
         }
       ],
       "identity_source": {
@@ -1581,8 +1836,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "臺東縣／李吳穎智／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         },
         {
           "id": "14-chief-2",
@@ -1624,8 +1887,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "臺東縣／陳瑩／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "民主進步黨"
         },
         {
           "id": "14-chief-3",
@@ -1667,8 +1938,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "臺東縣／王志偉／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         },
         {
           "id": "14-chief-4",
@@ -1710,8 +1989,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "臺東縣／吳秀華／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "中國國民黨"
         }
       ],
       "identity_source": {
@@ -1854,6 +2141,11 @@
             "source": "https://web.cec.gov.tw/api/file/6bd6ef5c-b17d-464f-9bd9-a6c216f40dd2.pdf",
             "page": 2,
             "reason": "正式公告原始影像核對"
+          },
+          "source_conflict": {
+            "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+            "page": 1,
+            "note": "9/7登記彙總表姓名與現行開發稿存在歧異；未合併政黨資料。須重新核對正式名單及公報。"
           }
         }
       ]
@@ -1912,8 +2204,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "宜蘭縣／林國漳／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "民主進步黨"
         },
         {
           "id": "16-chief-2",
@@ -1955,8 +2255,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "宜蘭縣／陳宏毅／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         },
         {
           "id": "16-chief-3",
@@ -1998,8 +2306,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "宜蘭縣／吳宗憲／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "中國國民黨"
         },
         {
           "id": "16-chief-4",
@@ -2041,8 +2357,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "宜蘭縣／劉燦輝／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         },
         {
           "id": "16-chief-5",
@@ -2084,8 +2408,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "宜蘭縣／楊鉯婷／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         }
       ],
       "identity_source": {
@@ -2149,8 +2481,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "澎湖縣／許智富／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         },
         {
           "id": "17-chief-2",
@@ -2192,8 +2532,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "澎湖縣／周倪安／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "台聯黨"
         },
         {
           "id": "17-chief-3",
@@ -2235,8 +2583,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "澎湖縣／葉竹林／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         },
         {
           "id": "17-chief-4",
@@ -2278,8 +2634,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "澎湖縣／吳淑瑾／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "民主進步黨"
         },
         {
           "id": "17-chief-5",
@@ -2321,8 +2685,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "澎湖縣／陳振中／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "中國國民黨"
         },
         {
           "id": "17-chief-6",
@@ -2364,8 +2736,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "澎湖縣／陳盡川／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         }
       ],
       "identity_source": {
@@ -3011,8 +3391,16 @@
               },
               "gazette": null
             },
-            "recommending_party": null
-          }
+            "recommending_party": null,
+            "registration_recommending_party": {
+              "url": "https://web.cec.gov.tw/api/file/370f3bbf-6408-4fdc-b8d8-9b9214913f74.pdf",
+              "page": 1,
+              "kind": "registration_snapshot",
+              "date": "2026-09-07",
+              "locator": "金門縣／黃世團／推薦之政黨"
+            }
+          },
+          "registration_recommending_party": "無"
         }
       ]
     },
@@ -3033,9 +3421,9 @@
           "ballot_number": 1,
           "name": "王忠銘",
           "recommending_party": "中國國民黨",
-          "education": null,
-          "experience": null,
-          "platform": null,
+          "education": "淡江大學教育政策與領導研究所、台北市立師院、國立馬祖高中畢業。",
+          "experience": "自述曾任連江縣第八屆縣長、副縣長、馬祖國家風景區管理處處長及縣府相關職務。",
+          "platform": "行政數位化；離島運輸與新船；生育補助；酒廠及觀光發展；肺癌篩檢；社會住宅與航班。",
           "publication_allowed": false,
           "evidence": {
             "name": {
@@ -3053,9 +3441,41 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/01%E7%B8%A3%E9%95%B7/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/01%E7%B8%A3%E9%95%B7/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 1"
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "王忠銘／推薦之政黨",
+              "kind": "official_gazette"
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "王忠銘／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "王忠銘／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "王忠銘／政見",
+              "kind": "candidate_self_report",
+              "status": "summary",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "summary",
+            "recommending_party": "official_gazette_image_checked"
           }
         },
         {
@@ -3063,9 +3483,9 @@
           "ballot_number": 2,
           "name": "曹爾元",
           "recommending_party": "無",
-          "education": null,
-          "experience": null,
-          "platform": null,
+          "education": "國立中興大學農藝系；農產運銷系碩士學分班結業。",
+          "experience": "自述曾任農改場技正、自來水廠廠長與縣府觀光、建設、民政及地政局局長。",
+          "platform": "福利與敬老優惠；醫療服務；離島交通；觀光交流；科技教育；都市計畫與住宅；生育及教育補助。",
           "publication_allowed": false,
           "evidence": {
             "name": {
@@ -3083,9 +3503,41 @@
               "gazette": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/01%E7%B8%A3%E9%95%B7/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf"
             },
             "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/01%E7%B8%A3%E9%95%B7/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "locator": "推薦之政黨欄／號次 2"
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "曹爾元／推薦之政黨",
+              "kind": "official_gazette"
+            },
+            "education": {
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "曹爾元／學歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "experience": {
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "曹爾元／經歷",
+              "kind": "candidate_self_report",
+              "status": "candidate_self_report_summary",
+              "independent_review": "pending"
+            },
+            "platform": {
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "page": 1,
+              "locator": "曹爾元／政見",
+              "kind": "candidate_self_report",
+              "status": "summary",
+              "independent_review": "pending"
             }
+          },
+          "field_status": {
+            "education": "candidate_self_report_summary",
+            "experience": "candidate_self_report_summary",
+            "platform": "summary",
+            "recommending_party": "official_gazette_image_checked"
           }
         }
       ]
