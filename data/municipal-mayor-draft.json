@@ -1,0 +1,430 @@
+{
+  "version": "0.2.0-alpha.4",
+  "scope": "六直轄市市長正式公告姓名與號次，2026-11-12 公告階段，不代表最終投票日名單",
+  "reviewed_on": "2026-11-25",
+  "timezone": "Asia/Taipei",
+  "reference_count": 23,
+  "release_status": "blocked_pending_independent_review",
+  "notes": [
+    "六都全部姓名與號次由各地方選委會正式公告第1頁影像擷取。",
+    "未取得所有推薦政黨欄位，故全數留空，不能解讀為無黨籍。",
+    "仍須確認更正公告、資格異動及獨立人工覆核；不得公開發布於正式網站。",
+    "臺北市六筆與既有試作重疊，不重複計算。"
+  ],
+  "records": [
+    {
+      "election_id": "2026-local",
+      "county_code": "01",
+      "county": "臺北市",
+      "office": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 1,
+      "name": "郭璽",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "01",
+      "county": "臺北市",
+      "office": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 2,
+      "name": "林志成",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "01",
+      "county": "臺北市",
+      "office": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 3,
+      "name": "沈伯洋",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "01",
+      "county": "臺北市",
+      "office": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 4,
+      "name": "蕭文乾",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "01",
+      "county": "臺北市",
+      "office": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 5,
+      "name": "蔣萬安",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "01",
+      "county": "臺北市",
+      "office": "municipal-mayor",
+      "district_id": "01-citywide",
+      "ballot_number": 6,
+      "name": "唐新民",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "02",
+      "county": "新北市",
+      "office": "municipal-mayor",
+      "district_id": "02-citywide",
+      "ballot_number": 1,
+      "name": "蘇巧慧",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/0a75b59d-00ba-4a78-aabb-d3f8e0c95cb5.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "02",
+      "county": "新北市",
+      "office": "municipal-mayor",
+      "district_id": "02-citywide",
+      "ballot_number": 2,
+      "name": "蘇輝湟",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/0a75b59d-00ba-4a78-aabb-d3f8e0c95cb5.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "02",
+      "county": "新北市",
+      "office": "municipal-mayor",
+      "district_id": "02-citywide",
+      "ballot_number": 3,
+      "name": "李四川",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/0a75b59d-00ba-4a78-aabb-d3f8e0c95cb5.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "03",
+      "county": "臺中市",
+      "office": "municipal-mayor",
+      "district_id": "03-citywide",
+      "ballot_number": 1,
+      "name": "何欣純",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/4c594d84-2b6e-4046-b84d-f6e57ecb4f83.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "03",
+      "county": "臺中市",
+      "office": "municipal-mayor",
+      "district_id": "03-citywide",
+      "ballot_number": 2,
+      "name": "洪麗華",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/4c594d84-2b6e-4046-b84d-f6e57ecb4f83.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "03",
+      "county": "臺中市",
+      "office": "municipal-mayor",
+      "district_id": "03-citywide",
+      "ballot_number": 3,
+      "name": "江啟臣",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/4c594d84-2b6e-4046-b84d-f6e57ecb4f83.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "04",
+      "county": "臺南市",
+      "office": "municipal-mayor",
+      "district_id": "04-citywide",
+      "ballot_number": 1,
+      "name": "蕭燐洪",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/ed07c0a6-13c6-421d-98c0-9aae2178dcc8.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "04",
+      "county": "臺南市",
+      "office": "municipal-mayor",
+      "district_id": "04-citywide",
+      "ballot_number": 2,
+      "name": "謝龍介",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/ed07c0a6-13c6-421d-98c0-9aae2178dcc8.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "04",
+      "county": "臺南市",
+      "office": "municipal-mayor",
+      "district_id": "04-citywide",
+      "ballot_number": 3,
+      "name": "陳亭妃",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/ed07c0a6-13c6-421d-98c0-9aae2178dcc8.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "04",
+      "county": "臺南市",
+      "office": "municipal-mayor",
+      "district_id": "04-citywide",
+      "ballot_number": 4,
+      "name": "葉人文",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/ed07c0a6-13c6-421d-98c0-9aae2178dcc8.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "05",
+      "county": "高雄市",
+      "office": "municipal-mayor",
+      "district_id": "05-citywide",
+      "ballot_number": 1,
+      "name": "張靜",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/b18b321c-76a2-43af-aae7-e985402e7300.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "05",
+      "county": "高雄市",
+      "office": "municipal-mayor",
+      "district_id": "05-citywide",
+      "ballot_number": 2,
+      "name": "王肇民",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/b18b321c-76a2-43af-aae7-e985402e7300.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "05",
+      "county": "高雄市",
+      "office": "municipal-mayor",
+      "district_id": "05-citywide",
+      "ballot_number": 3,
+      "name": "柯志恩",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/b18b321c-76a2-43af-aae7-e985402e7300.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "05",
+      "county": "高雄市",
+      "office": "municipal-mayor",
+      "district_id": "05-citywide",
+      "ballot_number": 4,
+      "name": "洪方隆",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/b18b321c-76a2-43af-aae7-e985402e7300.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "05",
+      "county": "高雄市",
+      "office": "municipal-mayor",
+      "district_id": "05-citywide",
+      "ballot_number": 5,
+      "name": "賴瑞隆",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/b18b321c-76a2-43af-aae7-e985402e7300.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "06",
+      "county": "桃園市",
+      "office": "municipal-mayor",
+      "district_id": "06-citywide",
+      "ballot_number": 1,
+      "name": "黃世杰",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/3da3d792-5d46-4704-9941-30de7adb92ac.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    },
+    {
+      "election_id": "2026-local",
+      "county_code": "06",
+      "county": "桃園市",
+      "office": "municipal-mayor",
+      "district_id": "06-citywide",
+      "ballot_number": 2,
+      "name": "張善政",
+      "source": {
+        "url": "https://web.cec.gov.tw/api/file/3da3d792-5d46-4704-9941-30de7adb92ac.pdf",
+        "page": 1,
+        "section": "候選人名單",
+        "method": "official PDF page-image transcription",
+        "review_status": "AI visual review; independent review pending"
+      },
+      "party": null,
+      "publication_allowed": false
+    }
+  ]
+}
