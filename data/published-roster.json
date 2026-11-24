@@ -1,0 +1,2309 @@
+{
+  "version": "0.1.9",
+  "scope": "臺北市市長及議員公告名冊；姓名與號次經官方公告及相關官方文件原始影像核對。推薦政黨依公報或10/27抽籤名冊；不等同目前黨籍。非投票日最終名冊。候選人自述摘要未經獨立認證。",
+  "reviewed_on": "2026-11-25",
+  "review": "AI-assisted source-image review; independent human review pending",
+  "districts": [
+    {
+      "id": "01-chief",
+      "county": "01",
+      "office": "chief",
+      "number": null,
+      "scope": "全市",
+      "seats": 1,
+      "notice": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "candidates": [
+        {
+          "id": "01-chief-1",
+          "name": "郭璽",
+          "number": 1,
+          "party": "台灣麻將最大黨",
+          "party_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "official_gazette"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+            "page": 1,
+            "date": "2026-11-12"
+          },
+          "platform": "商圈與夜間經濟、青年就業、高齡生活圈、長照、都市更新、智慧城市、社區及跨世代文化。",
+          "education": "美國西北大學工業工程博士、海軍軍官學校。",
+          "experience": "海軍中校、潛艦國造海軍司令部顧問、政黨創辦及主席、大學副教授。",
+          "platform_status": "summary",
+          "performance": null,
+          "profile_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "candidate_self_report_summary"
+          }
+        },
+        {
+          "id": "01-chief-2",
+          "name": "林志成",
+          "number": 2,
+          "party": "無",
+          "party_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "official_gazette"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+            "page": 1,
+            "date": "2026-11-12"
+          },
+          "platform": "遊民安置、司法及警政改革、體育場館開放、節慶發放金額、性交易管理及學生免費午餐。",
+          "education": "雲林縣麥寮國小、褒忠國中、彰化培元高職、美國北維吉尼亞大學研究所碩士。",
+          "experience": "健身中心負責人、運動會及新兵訓練代表、健力與健美競賽經歷。",
+          "platform_status": "summary",
+          "performance": null,
+          "profile_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "candidate_self_report_summary"
+          }
+        },
+        {
+          "id": "01-chief-3",
+          "name": "沈伯洋",
+          "number": 3,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "official_gazette"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+            "page": 1,
+            "date": "2026-11-12"
+          },
+          "platform": "空間、機會、陪伴、韌性及時間等政策主題；海報細項尚未完整轉錄。",
+          "education": "加州大學爾灣分校犯罪與法律社會學博士、賓州大學及臺大法學碩士。",
+          "experience": "立法委員、臺北大學犯罪學研究所所長、民間組織及律師工作。",
+          "platform_status": "partial",
+          "performance": null,
+          "profile_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "candidate_self_report_summary"
+          }
+        },
+        {
+          "id": "01-chief-4",
+          "name": "蕭文乾",
+          "number": 4,
+          "party": "臺灣 SoR 無法黨",
+          "party_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "official_gazette"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+            "page": 1,
+            "date": "2026-11-12"
+          },
+          "platform": "倡議閱讀科學（Science of Reading）英語教育，推廣社會認識並倡議立法保障。",
+          "education": "自述在臺灣及美國就學，並列臺灣師範大學翻譯研究所。",
+          "experience": "自述從事英文教學，未列一般條列式職歷。",
+          "platform_status": "summary",
+          "performance": null,
+          "profile_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "candidate_self_report_summary"
+          }
+        },
+        {
+          "id": "01-chief-5",
+          "name": "蔣萬安",
+          "number": 5,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "official_gazette"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+            "page": 1,
+            "date": "2026-11-12"
+          },
+          "platform": "市民生活保障及長期城市發展；海報涵蓋育兒、長照、居住、交通及城市建設，細項尚未完整轉錄。",
+          "education": "師大附中、建國高中、政治大學法律與外交雙學士、賓夕法尼亞大學法學碩士及法律博士。",
+          "experience": "第八屆臺北市長、第九及第十屆立法委員、國民黨團書記長、律師工作。",
+          "platform_status": "partial",
+          "performance": null,
+          "profile_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "candidate_self_report_summary"
+          }
+        },
+        {
+          "id": "01-chief-6",
+          "name": "唐新民",
+          "number": 6,
+          "party": "三勢團結促進聯盟",
+          "party_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "official_gazette"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/fda742f4-2d52-48b6-8b26-1c6c96d323ca.pdf",
+            "page": 1,
+            "date": "2026-11-12"
+          },
+          "platform": null,
+          "education": "公報自述建中、台大、柏克萊光電博士。",
+          "experience": null,
+          "platform_status": "image_pending",
+          "performance": null,
+          "profile_source": {
+            "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+            "page": 1,
+            "kind": "candidate_self_report_summary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-council-1",
+      "county": "01",
+      "office": "council",
+      "number": 1,
+      "scope": "北投區、士林區",
+      "seats": 12,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+      "candidates": [
+        {
+          "id": "01-council-1-1",
+          "name": "汪志冰",
+          "number": 1,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-2",
+          "name": "林杏兒",
+          "number": 2,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-3",
+          "name": "陳怡潔",
+          "number": 3,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-4",
+          "name": "陳慈慧",
+          "number": 4,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-5",
+          "name": "林世宗",
+          "number": 5,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-6",
+          "name": "紀建漢",
+          "number": 6,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-7",
+          "name": "劉致好",
+          "number": 7,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-8",
+          "name": "賴苡任",
+          "number": 8,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-9",
+          "name": "謝閔弘",
+          "number": 9,
+          "party": "時代力量",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-10",
+          "name": "陳彥廷",
+          "number": 10,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-11",
+          "name": "侯漢廷",
+          "number": 11,
+          "party": "新黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-12",
+          "name": "陳重文",
+          "number": 12,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-13",
+          "name": "鍾佩玲",
+          "number": 13,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-14",
+          "name": "張斯綱",
+          "number": 14,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-15",
+          "name": "李文",
+          "number": 15,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-16",
+          "name": "黃瀞瑩",
+          "number": 16,
+          "party": "台灣民眾黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-17",
+          "name": "林聖峰",
+          "number": 17,
+          "party": "天宙和平統一家庭黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 1,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-18",
+          "name": "林揚庭",
+          "number": 18,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-19",
+          "name": "林延鳳",
+          "number": 19,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-1-20",
+          "name": "陳賢蔚",
+          "number": 20,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    },
+    {
+      "id": "01-council-2",
+      "county": "01",
+      "office": "council",
+      "number": 2,
+      "scope": "內湖區、南港區",
+      "seats": 9,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+      "candidates": [
+        {
+          "id": "01-council-2-1",
+          "name": "闕枚莎",
+          "number": 1,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-2",
+          "name": "游淑慧",
+          "number": 2,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-3",
+          "name": "陳冠安",
+          "number": 3,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-4",
+          "name": "陳又新",
+          "number": 4,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-5",
+          "name": "王孝維",
+          "number": 5,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-6",
+          "name": "何恕懷",
+          "number": 6,
+          "party": "新黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-7",
+          "name": "吳世正",
+          "number": 7,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-8",
+          "name": "高嘉瑜",
+          "number": 8,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-9",
+          "name": "李明賢",
+          "number": 9,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-10",
+          "name": "陳宥丞",
+          "number": 10,
+          "party": "台灣民眾黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-11",
+          "name": "何孟樺",
+          "number": 11,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-12",
+          "name": "黃啟彬",
+          "number": 12,
+          "party": "永久和平自然法",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-2-13",
+          "name": "吳欣岱",
+          "number": 13,
+          "party": "台灣基進",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    },
+    {
+      "id": "01-council-3",
+      "county": "01",
+      "office": "council",
+      "number": 3,
+      "scope": "松山區、信義區",
+      "seats": 9,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+      "candidates": [
+        {
+          "id": "01-council-3-1",
+          "name": "許淑華",
+          "number": 1,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 2,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-2",
+          "name": "詹為元",
+          "number": 2,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-3",
+          "name": "秦慧珠",
+          "number": 3,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-4",
+          "name": "左曉明",
+          "number": 4,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-5",
+          "name": "洪健益",
+          "number": 5,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-6",
+          "name": "許甫",
+          "number": 6,
+          "party": "台灣民眾黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-7",
+          "name": "許原榮",
+          "number": 7,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-8",
+          "name": "戴錫欽",
+          "number": 8,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-9",
+          "name": "鄧樂強",
+          "number": 9,
+          "party": "台灣基進",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-10",
+          "name": "張文潔",
+          "number": 10,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-11",
+          "name": "郭凡",
+          "number": 11,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-12",
+          "name": "李明璇",
+          "number": 12,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-3-13",
+          "name": "林柏勛",
+          "number": 13,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    },
+    {
+      "id": "01-council-4",
+      "county": "01",
+      "office": "council",
+      "number": 4,
+      "scope": "中山區、大同區",
+      "seats": 8,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+      "candidates": [
+        {
+          "id": "01-council-4-1",
+          "name": "柳采葳",
+          "number": 1,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-2",
+          "name": "黃麗香",
+          "number": 2,
+          "party": "台聯黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-3",
+          "name": "李易儒",
+          "number": 3,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-4",
+          "name": "陳炳甫",
+          "number": 4,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-5",
+          "name": "林亮君",
+          "number": 5,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 3,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-6",
+          "name": "李惠暄",
+          "number": 6,
+          "party": "小民參政歐巴桑聯盟",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-7",
+          "name": "朱政騏",
+          "number": 7,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-8",
+          "name": "林珍羽",
+          "number": 8,
+          "party": "台灣民眾黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-9",
+          "name": "林子揚",
+          "number": 9,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-10",
+          "name": "顏若芳",
+          "number": 10,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-11",
+          "name": "熊羿",
+          "number": 11,
+          "party": "勞動黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-12",
+          "name": "陳怡君",
+          "number": 12,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-13",
+          "name": "賴俊翰",
+          "number": 13,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-4-14",
+          "name": "葉林傳",
+          "number": 14,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    },
+    {
+      "id": "01-council-5",
+      "county": "01",
+      "office": "council",
+      "number": 5,
+      "scope": "中正區、萬華區",
+      "seats": 8,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+      "candidates": [
+        {
+          "id": "01-council-5-1",
+          "name": "張延延",
+          "number": 1,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-2",
+          "name": "吳志剛",
+          "number": 2,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-3",
+          "name": "陳力新",
+          "number": 3,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-4",
+          "name": "吳怡萱",
+          "number": 4,
+          "party": "台灣民眾黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-5",
+          "name": "徐立信",
+          "number": 5,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-6",
+          "name": "馬郁雯",
+          "number": 6,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-7",
+          "name": "鍾小平",
+          "number": 7,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-8",
+          "name": "郭昭巖",
+          "number": 8,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 4,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-9",
+          "name": "譚傳紹",
+          "number": 9,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-10",
+          "name": "張銘祐",
+          "number": 10,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-11",
+          "name": "王振庭",
+          "number": 11,
+          "party": "台灣綠黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-12",
+          "name": "洪婉臻",
+          "number": 12,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-13",
+          "name": "劉耀仁",
+          "number": 13,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-5-14",
+          "name": "應佳好",
+          "number": 14,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    },
+    {
+      "id": "01-council-6",
+      "county": "01",
+      "office": "council",
+      "number": 6,
+      "scope": "大安區、文山區",
+      "seats": 13,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+      "candidates": [
+        {
+          "id": "01-council-6-1",
+          "name": "曾獻瑩",
+          "number": 1,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-2",
+          "name": "王閔生",
+          "number": 2,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-3",
+          "name": "耿葳",
+          "number": 3,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-4",
+          "name": "李柏毅",
+          "number": 4,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-5",
+          "name": "王欣儀",
+          "number": 5,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-6",
+          "name": "張維學",
+          "number": 6,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-7",
+          "name": "陳聖文",
+          "number": 7,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-8",
+          "name": "陳錦祥",
+          "number": 8,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-9",
+          "name": "陳峙穎",
+          "number": 9,
+          "party": "時代力量",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-10",
+          "name": "簡舒培",
+          "number": 10,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-11",
+          "name": "李道翔",
+          "number": 11,
+          "party": "左翼聯盟",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 5,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-12",
+          "name": "楊植斗",
+          "number": 12,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-13",
+          "name": "張志豪",
+          "number": 13,
+          "party": "台灣民眾黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-14",
+          "name": "李奇峯",
+          "number": 14,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-15",
+          "name": "苗博雅",
+          "number": 15,
+          "party": "社會民主黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-16",
+          "name": "徐弘庭",
+          "number": 16,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-17",
+          "name": "鍾沛君",
+          "number": 17,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-6-18",
+          "name": "劉品妡",
+          "number": 18,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    },
+    {
+      "id": "01-council-7",
+      "county": "01",
+      "office": "council",
+      "number": 7,
+      "scope": "臺北市之平地原住民",
+      "seats": 1,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC7%E5%8F%8A%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "candidates": [
+        {
+          "id": "01-council-7-1",
+          "name": "林筱薇 Icyang Tamana",
+          "number": 1,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-7-2",
+          "name": "李芳儒",
+          "number": 2,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    },
+    {
+      "id": "01-council-8",
+      "county": "01",
+      "office": "council",
+      "number": 8,
+      "scope": "臺北市之山地原住民",
+      "seats": 1,
+      "notice": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+      "gazette": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC7%E5%8F%8A%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "candidates": [
+        {
+          "id": "01-council-8-1",
+          "name": "孔垂峯 Haisul Islitian",
+          "number": 1,
+          "party": "無",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-8-2",
+          "name": "林家豪",
+          "number": 2,
+          "party": "民主進步黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        },
+        {
+          "id": "01-council-8-3",
+          "name": "李傅鈺婷",
+          "number": 3,
+          "party": "中國國民黨",
+          "party_source": {
+            "url": "https://www.cec.gov.tw/api/file/6ae7925e-d158-42ba-814c-34794f003ddb.pdf",
+            "page": 6,
+            "date": "2026-10-27",
+            "kind": "official_draw"
+          },
+          "name_source": {
+            "url": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
+            "page": 1,
+            "date": "2026-11-17"
+          },
+          "platform": null,
+          "experience": null,
+          "education": null,
+          "performance": null
+        }
+      ]
+    }
+  ]
+}
