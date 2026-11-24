@@ -1,0 +1,126 @@
+{
+  "version": "0.1.18",
+  "reviewed_on": "2026-11-25",
+  "notice": "臺北市長選舉公報第1頁，選擇性事實摘要；非完整政見、可行性或履行查核。以同一頁面檢視全體6人。",
+  "records": {
+    "01-chief-1": {
+      "name": "郭璽",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/03%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "部分公報主張已核對",
+      "items": [
+        {
+          "id": "01-chief-1-p1",
+          "topic": "社福",
+          "summary": "以15分鐘生活圈整合高齡者的就醫、照護、餐食、交通與居住服務。",
+          "target": "15分鐘生活圈",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "01-chief-1-p2",
+          "topic": "居住與都市",
+          "summary": "設跨局處都更單一受理窗口，簡化老屋重建審查。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "01-chief-2": {
+      "name": "林志成",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/03%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "部分公報主張已核對",
+      "items": [
+        {
+          "id": "01-chief-2-p1",
+          "topic": "育兒與社福",
+          "summary": "主張由市府負擔幼兒園至大學午餐費。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "01-chief-2-p2",
+          "topic": "文化與觀光",
+          "summary": "提出在龍山寺前公園興建免費健身設施。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "01-chief-3": {
+      "name": "沈伯洋",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/03%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "部分公報主張已核對",
+      "items": [
+        {
+          "id": "01-chief-3-p1",
+          "topic": "育兒與社福",
+          "summary": "擬為0至18歲親子提供每月600點的同行卡。",
+          "target": "每月600點",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "01-chief-3-p2",
+          "topic": "經濟與就業",
+          "summary": "擬推動為期8年、規模20億元的青年國際計畫。",
+          "target": "8年、20億元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "01-chief-4": {
+      "name": "蕭文乾",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/03%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "部分公報主張已核對",
+      "items": [
+        {
+          "id": "01-chief-4-p1",
+          "topic": "教育與青年",
+          "summary": "主張國會立法保障以閱讀科學（Science of Reading）為基礎的英語教育，並指出市長無立法權。",
+          "target": null,
+          "scope": "全國立法倡議，非市長可獨立執行的承諾",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "01-chief-5": {
+      "name": "蔣萬安",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/03%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "部分公報主張已核對",
+      "items": [
+        {
+          "id": "01-chief-5-p1",
+          "topic": "居住與都市",
+          "summary": "提出供應1萬戶婚育住宅資源。",
+          "target": "1萬戶",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "01-chief-5-p2",
+          "topic": "育兒與社福",
+          "summary": "提出新生兒可使用8小時免費托嬰。",
+          "target": "8小時",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "01-chief-6": {
+      "name": "唐新民",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/03%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "圖文密度過高，未能可靠辨讀具體可衡量承諾",
+      "items": []
+    }
+  }
+}

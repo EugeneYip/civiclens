@@ -1,0 +1,22 @@
+{
+  "version": "0.1.18",
+  "source": "https://www.twreporter.org/a/2026-local-elections-municipality-mayors-campaign-promises-check",
+  "published": "2026-11-17",
+  "publisher": "報導者及四個專業組織",
+  "term": "2022–2026",
+  "topics": [
+    "社會住宅",
+    "幼托",
+    "長照",
+    "綠色運輸"
+  ],
+  "counties": {
+    "01": "蔣萬安",
+    "02": "侯友宜",
+    "03": "盧秀燕",
+    "04": "黃偉哲",
+    "05": "陳其邁",
+    "06": "張善政"
+  },
+  "notice": "外部專業組織追蹤，非 CivicLens 的獨立結論。僅適用所列任期及任職者；不轉嫁到其他候選人。"
+}
