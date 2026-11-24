@@ -1,0 +1,26 @@
+name: Stage bulletin enrichment for review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stage_bulletin.py'
+      - '.github/workflows/stage-bulletin.yml'
+permissions:
+  contents: read
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test staging code
+        run: python3 -m unittest discover -s tests -p test_bulletin_stage.py -v
+      - name: Build review-only snapshot
+        run: python3 scripts/stage_bulletin.py --output "$RUNNER_TEMP/bulletin-review.json"
+      - name: Upload review artifact (not deployed)
+        uses: actions/upload-artifact@v4
+        with:
+          name: bulletin-review
+          path: ${{ runner.temp }}/bulletin-review.json
+          retention-days: 7
