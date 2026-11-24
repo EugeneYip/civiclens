@@ -9,5 +9,7 @@ sources=''.join(f'<article class="source"><div><span class="eyebrow">{esc(s["age
 electors=json.loads((root/'data/electors.json').read_text())
 elector_json=json.dumps(electors,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
 national=''.join(f'<div><span>{esc(label)}</span><strong>{n:,}</strong></div>' for label,n in zip(electors['labels'],electors['totals']))
-page=(root/'scripts/template.html').read_text().replace('<!--COUNTIES-->',cards).replace('<!--ROWS-->',rows).replace('<!--SOURCES-->',sources).replace('<!--ELECTORS-->',elector_json).replace('<!--NATIONAL-->',national).replace('<!--CSS-->',(root/'scripts/style.css').read_text()).replace('<!--JS-->',(root/'scripts/app.js').read_text())
+chief=json.loads((root/'data/chief-sources.json').read_text())
+chief_json=json.dumps(chief,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
+page=(root/'scripts/template.html').read_text().replace('<!--COUNTIES-->',cards).replace('<!--ROWS-->',rows).replace('<!--SOURCES-->',sources).replace('<!--ELECTORS-->',elector_json).replace('<!--NATIONAL-->',national).replace('<!--CHIEF_SOURCES-->',chief_json).replace('<!--CSS-->',(root/'scripts/style.css').read_text()).replace('<!--JS-->',(root/'scripts/app.js').read_text())
 (root/'index.html').write_text(page)
