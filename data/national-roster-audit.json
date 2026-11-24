@@ -1,0 +1,460 @@
+{
+  "inputs": [
+    {
+      "route": "tpcec",
+      "path": "data/elections/2026/numbers/tpcec.csv",
+      "sha": "fc7773c1cb65181bd4e27ac25a91cc6b7fdebc5d",
+      "selected": 114
+    },
+    {
+      "route": "tcec",
+      "path": "data/elections/2026/numbers/tcec.csv",
+      "sha": "cb620a765d5b61ec2db6695a14360be2c9db3ab1",
+      "selected": 104
+    },
+    {
+      "route": "tnec",
+      "path": "data/elections/2026/numbers/tnec.csv",
+      "sha": "c0b94358ead6a9d705240df0a5fe309ce3b1bb51",
+      "selected": 91
+    },
+    {
+      "route": "khec",
+      "path": "data/elections/2026/numbers/khec.csv",
+      "sha": "4408411d33e3dae3b1a1fdba27111ff0f9c56157",
+      "selected": 106
+    },
+    {
+      "route": "tyec",
+      "path": "data/elections/2026/numbers/tyec.csv",
+      "sha": "e0f49ae878257a279a4003f43bf289766fc1d4a7",
+      "selected": 110
+    },
+    {
+      "route": "hccec",
+      "path": "data/elections/2026/numbers/hccec.csv",
+      "sha": "6573caaebf12915e8c6f6ab5844d6029f38e689e",
+      "selected": 71
+    },
+    {
+      "route": "mlec",
+      "path": "data/elections/2026/numbers/mlec.csv",
+      "sha": "524b3428722374ee4902d5d7e9cf565b71e11cde",
+      "selected": 58
+    },
+    {
+      "route": "chec",
+      "path": "data/elections/2026/numbers/chec.csv",
+      "sha": "48337b405a1f204201057f2d1b0d3f09e2b7307b",
+      "selected": 90
+    }
+  ],
+  "issues": [
+    {
+      "route": "mlec",
+      "category": "county-mayor",
+      "district": "苗栗縣",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-mayor",
+      "district": "苗栗縣",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "7",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "8",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "9",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "10",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "11",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "12",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "13",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "14",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第1選舉區",
+      "number": "15",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第2選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第2選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第2選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第3選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第3選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第3選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第3選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第3選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第3選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第3選舉區",
+      "number": "7",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "7",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "8",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "9",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "10",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "11",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第4選舉區",
+      "number": "12",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "7",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "8",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "9",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "10",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "11",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第5選舉區",
+      "number": "12",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第6選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第6選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第6選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第7選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第7選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第8選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "mlec",
+      "category": "county-councilor",
+      "district": "苗栗縣第8選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    }
+  ]
+}
