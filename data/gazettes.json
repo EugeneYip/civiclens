@@ -1,5 +1,5 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "checked_on": "2026-11-25",
   "timezone": "Asia/Taipei",
   "source": "https://eebulletin.cec.gov.tw/?dir=115",
@@ -41,7 +41,10 @@
               "correction": {
                 "url": "https://web.cec.gov.tw/mect/article/66035",
                 "label": "11/17 選舉人資格勘誤"
-              }
+              },
+              "district_numbers": [
+                1
+              ]
             },
             {
               "id": "01-council-2",
@@ -57,7 +60,10 @@
               "correction": {
                 "url": "https://web.cec.gov.tw/mect/article/66035",
                 "label": "11/17 選舉人資格勘誤"
-              }
+              },
+              "district_numbers": [
+                2
+              ]
             },
             {
               "id": "01-council-3",
@@ -73,7 +79,10 @@
               "correction": {
                 "url": "https://web.cec.gov.tw/mect/article/66035",
                 "label": "11/17 選舉人資格勘誤"
-              }
+              },
+              "district_numbers": [
+                3
+              ]
             },
             {
               "id": "01-council-4",
@@ -89,7 +98,10 @@
               "correction": {
                 "url": "https://web.cec.gov.tw/mect/article/66035",
                 "label": "11/17 選舉人資格勘誤"
-              }
+              },
+              "district_numbers": [
+                4
+              ]
             },
             {
               "id": "01-council-5",
@@ -105,7 +117,10 @@
               "correction": {
                 "url": "https://web.cec.gov.tw/mect/article/66035",
                 "label": "11/17 選舉人資格勘誤"
-              }
+              },
+              "district_numbers": [
+                5
+              ]
             },
             {
               "id": "01-council-6",
@@ -121,7 +136,10 @@
               "correction": {
                 "url": "https://web.cec.gov.tw/mect/article/66035",
                 "label": "11/17 選舉人資格勘誤"
-              }
+              },
+              "district_numbers": [
+                6
+              ]
             },
             {
               "id": "01-council-7",
@@ -133,7 +151,11 @@
               "district_source": {
                 "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
                 "page": 3
-              }
+              },
+              "district_numbers": [
+                7,
+                8
+              ]
             }
           ]
         },
@@ -167,7 +189,189 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "02-council-1",
+              "label": "第1選舉區｜石門區、三芝區、淡水區、八里區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "石門區、三芝區、淡水區、八里區",
+              "district_numbers": [
+                1
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-2",
+              "label": "第2選舉區｜林口區、五股區、泰山區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "林口區、五股區、泰山區",
+              "district_numbers": [
+                2
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-3",
+              "label": "第3選舉區｜新莊區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "新莊區",
+              "district_numbers": [
+                3
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-4",
+              "label": "第4選舉區｜蘆洲區、三重區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "蘆洲區、三重區",
+              "district_numbers": [
+                4
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-5",
+              "label": "第5選舉區｜板橋區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "板橋區",
+              "district_numbers": [
+                5
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-6",
+              "label": "第6選舉區｜中和區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "中和區",
+              "district_numbers": [
+                6
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-7",
+              "label": "第7選舉區｜永和區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "永和區",
+              "district_numbers": [
+                7
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-8",
+              "label": "第8選舉區｜樹林區、鶯歌區、土城區、三峽區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "樹林區、鶯歌區、土城區、三峽區",
+              "district_numbers": [
+                8
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-9",
+              "label": "第9選舉區｜新店區、深坑區、石碇區、坪林區、烏來區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "新店區、深坑區、石碇區、坪林區、烏來區",
+              "district_numbers": [
+                9
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-10",
+              "label": "第10選舉區｜平溪區、瑞芳區、雙溪區、貢寮區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "平溪區、瑞芳區、雙溪區、貢寮區",
+              "district_numbers": [
+                10
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-11",
+              "label": "第11選舉區｜金山區、萬里區、汐止區",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "金山區、萬里區、汐止區",
+              "district_numbers": [
+                11
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "02-council-12",
+              "label": "第12及13選舉區｜新北市之平地原住民／新北市之山地原住民",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC5%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1-%E7%AC%AC12%E5%8F%8A13%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "新北市之平地原住民／新北市之山地原住民",
+              "district_numbers": [
+                12,
+                13
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            }
+          ]
         },
         {
           "id": "village",
@@ -929,7 +1133,38 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "20-council-1",
+              "label": "第1選舉區｜東區",
+              "url": "https://eebulletin.cec.gov.tw/115/20%E5%98%89%E7%BE%A9%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "fetch_limit",
+              "district_scope": "東區",
+              "district_numbers": [
+                1
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 15
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "20-council-2",
+              "label": "第2選舉區｜西區",
+              "url": "https://eebulletin.cec.gov.tw/115/20%E5%98%89%E7%BE%A9%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E5%98%89%E7%BE%A9%E5%B8%82%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "fetch_limit",
+              "district_scope": "西區",
+              "district_numbers": [
+                2
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 15
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1"
+            }
+          ]
         },
         {
           "id": "village",
@@ -1035,7 +1270,68 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "22-council-1",
+              "label": "第1選舉區｜南竿鄉",
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "南竿鄉",
+              "district_numbers": [
+                1
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 13
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "22-council-2",
+              "label": "第2選舉區｜北竿鄉",
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "fetch_limit",
+              "district_scope": "北竿鄉",
+              "district_numbers": [
+                2
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 13
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "22-council-3",
+              "label": "第3選舉區｜莒光鄉",
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "莒光鄉",
+              "district_numbers": [
+                3
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 13
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1"
+            },
+            {
+              "id": "22-council-4",
+              "label": "第4選舉區｜東引鄉",
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/02%E7%B8%A3%E8%AD%B0%E5%93%A1/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E5%9B%9B%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "district_scope": "東引鄉",
+              "district_numbers": [
+                4
+              ],
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 13
+              },
+              "directory_evidence": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1"
+            }
+          ]
         },
         {
           "id": "town-chief",
