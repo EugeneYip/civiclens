@@ -1,0 +1,229 @@
+{
+  "version": "0.2.0-alpha.2-source-index",
+  "checked_on": "2026-11-25",
+  "timezone": "Asia/Taipei",
+  "national_qualification_baseline": 81,
+  "source_status_note": "已找到公告或官方目錄入口，並非所有附件已讀取或逐筆驗證。公告及附件仍須核對修正、資格異動；不能由目錄推定候選人名單。",
+  "records": [
+    {
+      "county_code": "01",
+      "county": "臺北市",
+      "office": "直轄市長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F01%E8%87%BA%E5%8C%97%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/mect/article/65738",
+      "source_kind": "notice",
+      "status": "pilot_exists_independent_review_pending",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "02",
+      "county": "新北市",
+      "office": "直轄市長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/api/file/0a75b59d-00ba-4a78-aabb-d3f8e0c95cb5.pdf",
+      "source_kind": "notice_pdf",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "03",
+      "county": "臺中市",
+      "office": "直轄市長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/tcec/article/65768",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "04",
+      "county": "臺南市",
+      "office": "直轄市長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F04%E8%87%BA%E5%8D%97%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/api/file/ed07c0a6-13c6-421d-98c0-9aae2178dcc8.pdf",
+      "source_kind": "notice_pdf",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "05",
+      "county": "高雄市",
+      "office": "直轄市長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/api/file/b18b321c-76a2-43af-aae7-e985402e7300.pdf",
+      "source_kind": "notice_pdf",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "06",
+      "county": "桃園市",
+      "office": "直轄市長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/tyec/article/65650",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "07",
+      "county": "新竹縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/api/file/2502d1d2-d378-4bae-bbf9-495a06538c47.pdf",
+      "source_kind": "notice_pdf",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "08",
+      "county": "苗栗縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/mlec/article/65833",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "09",
+      "county": "彰化縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/chec/article/65918",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "10",
+      "county": "南投縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/api/file/ef5a8934-5b17-494b-8e72-c78422626a38.pdf",
+      "source_kind": "notice_pdf",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "11",
+      "county": "雲林縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/ylec",
+      "source_kind": "directory",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "12",
+      "county": "嘉義縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/api/file/b1af0063-56aa-44a1-8348-071e3d97b26b.pdf",
+      "source_kind": "notice_pdf",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "13",
+      "county": "屏東縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/ptec/article/65862",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "14",
+      "county": "臺東縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/ttec",
+      "source_kind": "directory",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "15",
+      "county": "花蓮縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/hlec/article/65967",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "16",
+      "county": "宜蘭縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/ilec?Lang=zh-tw",
+      "source_kind": "directory",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "17",
+      "county": "澎湖縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/phec/article/65985",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "18",
+      "county": "基隆市",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F18%E5%9F%BA%E9%9A%86%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/klec",
+      "source_kind": "directory",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "19",
+      "county": "新竹市",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F19%E6%96%B0%E7%AB%B9%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/hcec/article/list/6151",
+      "source_kind": "directory",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "20",
+      "county": "嘉義市",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82",
+      "source_url": "https://web.cec.gov.tw/cyec/article/list/2473?beginDate=&endDate=&keyword=&page=1",
+      "source_kind": "directory",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "21",
+      "county": "金門縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/kmec",
+      "source_kind": "directory",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    },
+    {
+      "county_code": "22",
+      "county": "連江縣",
+      "office": "縣（市）長",
+      "official_bulletin_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3",
+      "source_url": "https://web.cec.gov.tw/lcec/article/66010",
+      "source_kind": "notice",
+      "status": "source_located_not_transcribed",
+      "publication_allowed": false
+    }
+  ]
+}
