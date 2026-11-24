@@ -8,5 +8,6 @@ rows=''.join(f'<tr><th scope="row">{esc(x["office"])}</th><td>{x["seats"]:,}</td
 sources=''.join(f'<article class="source"><div><span class="eyebrow">{esc(s["agency"])} · {esc(s["type"])}</span><h3>{esc(s["title"])}</h3><p>{esc(s["description"])}</p></div><a href="{esc(s["url"],quote=True)}" target="_blank" rel="noopener noreferrer">原始來源 ↗</a></article>' for s in d['sources'])
 electors=json.loads((root/'data/electors.json').read_text())
 elector_json=json.dumps(electors,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
-page=(root/'scripts/template.html').read_text().replace('<!--COUNTIES-->',cards).replace('<!--ROWS-->',rows).replace('<!--SOURCES-->',sources).replace('<!--ELECTORS-->',elector_json).replace('<!--CSS-->',(root/'scripts/style.css').read_text()).replace('<!--JS-->',(root/'scripts/app.js').read_text())
+national=''.join(f'<div><span>{esc(label)}</span><strong>{n:,}</strong></div>' for label,n in zip(electors['labels'],electors['totals']))
+page=(root/'scripts/template.html').read_text().replace('<!--COUNTIES-->',cards).replace('<!--ROWS-->',rows).replace('<!--SOURCES-->',sources).replace('<!--ELECTORS-->',elector_json).replace('<!--NATIONAL-->',national).replace('<!--CSS-->',(root/'scripts/style.css').read_text()).replace('<!--JS-->',(root/'scripts/app.js').read_text())
 (root/'index.html').write_text(page)
