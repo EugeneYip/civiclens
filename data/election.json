@@ -1,0 +1,301 @@
+{
+  "version": "0.1.0",
+  "reviewed_on": "2026-11-24",
+  "timezone": "Asia/Taipei",
+  "election_date": "2026-11-28",
+  "scope": "115 年地方公職人員選舉",
+  "stats_source": "CEC-03",
+  "county_source": "CEC-02",
+  "counties": [
+    {
+      "code": "01",
+      "name": "臺北市",
+      "region": "北部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F01%E8%87%BA%E5%8C%97%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "02",
+      "name": "新北市",
+      "region": "北部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "03",
+      "name": "臺中市",
+      "region": "中部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "04",
+      "name": "臺南市",
+      "region": "南部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F04%E8%87%BA%E5%8D%97%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "05",
+      "name": "高雄市",
+      "region": "南部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "06",
+      "name": "桃園市",
+      "region": "北部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "07",
+      "name": "新竹縣",
+      "region": "北部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "08",
+      "name": "苗栗縣",
+      "region": "中部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "09",
+      "name": "彰化縣",
+      "region": "中部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "10",
+      "name": "南投縣",
+      "region": "中部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "11",
+      "name": "雲林縣",
+      "region": "中部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "12",
+      "name": "嘉義縣",
+      "region": "南部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "13",
+      "name": "屏東縣",
+      "region": "南部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "14",
+      "name": "臺東縣",
+      "region": "東部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "15",
+      "name": "花蓮縣",
+      "region": "東部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "16",
+      "name": "宜蘭縣",
+      "region": "東部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "17",
+      "name": "澎湖縣",
+      "region": "離島",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "18",
+      "name": "基隆市",
+      "region": "北部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F18%E5%9F%BA%E9%9A%86%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "19",
+      "name": "新竹市",
+      "region": "北部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F19%E6%96%B0%E7%AB%B9%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "20",
+      "name": "嘉義市",
+      "region": "南部",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "21",
+      "name": "金門縣",
+      "region": "離島",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    },
+    {
+      "code": "22",
+      "name": "連江縣",
+      "region": "離島",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3",
+      "source_id": "CEC-02",
+      "verified_on": "2026-11-24"
+    }
+  ],
+  "offices": [
+    {
+      "office": "直轄市長",
+      "seats": 6,
+      "registered": 23,
+      "candidates": 23,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "直轄市議員",
+      "seats": 381,
+      "registered": 610,
+      "candidates": 605,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "縣（市）長",
+      "seats": 16,
+      "registered": 58,
+      "candidates": 58,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "縣（市）議員",
+      "seats": 538,
+      "registered": 892,
+      "candidates": 888,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "鄉（鎮、市）長",
+      "seats": 198,
+      "registered": 465,
+      "candidates": 460,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "鄉（鎮、市）民代表",
+      "seats": 2076,
+      "registered": 3437,
+      "candidates": 3387,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "直轄市山地原住民區長",
+      "seats": 6,
+      "registered": 16,
+      "candidates": 15,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "直轄市山地原住民區民代表",
+      "seats": 50,
+      "registered": 94,
+      "candidates": 92,
+      "source_id": "CEC-03"
+    },
+    {
+      "office": "村（里）長",
+      "seats": 7780,
+      "registered": 14100,
+      "candidates": 13572,
+      "source_id": "CEC-03"
+    }
+  ],
+  "sources": [
+    {
+      "id": "CEC-01",
+      "agency": "中央選舉委員會",
+      "type": "官方專區",
+      "title": "2026 地方選舉專區",
+      "description": "選務說明、候選人與投開票所查詢入口。",
+      "url": "https://info.cec.gov.tw/vote2026/",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "id": "CEC-02",
+      "agency": "中央選舉委員會",
+      "type": "原始公報",
+      "title": "115 年電子選舉公報",
+      "description": "22 縣市公報目錄；公報內候選人自述不等同獨立查證。",
+      "url": "https://eebulletin.cec.gov.tw/?dir=115",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "id": "CEC-03",
+      "agency": "中央選舉委員會",
+      "type": "官方統計與說明",
+      "title": "競選活動期間相關注意事項答客問",
+      "description": "本版九種職務的名額、登記人數及候選人數，以及選舉期間規範的來源。",
+      "url": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0096",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "id": "CEC-04",
+      "agency": "中央選舉委員會",
+      "type": "歷史資料",
+      "title": "選舉資料庫",
+      "description": "歷屆公職選舉結果及統計。",
+      "url": "https://db.cec.gov.tw/ElecTable/",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "id": "MOJ-01",
+      "agency": "法務部",
+      "type": "法規",
+      "title": "公職人員選舉罷免法",
+      "description": "相關法規原文，尤其第 53、56 條。",
+      "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010",
+      "reviewed_on": "2026-11-24"
+    }
+  ],
+  "candidate_records": [],
+  "candidate_status": "not_imported"
+}
