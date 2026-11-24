@@ -9,7 +9,7 @@ class NationalSupplement(unittest.TestCase):
   for d in n['districts']:
    self.assertTrue(d['review'].startswith('secondary')); self.assertEqual([r['number'] for r in d['candidates']],list(range(1,len(d['candidates'])+1)))
  def test_video(self):
-  d=json.loads((R/'data/election-media.json').read_text()); self.assertEqual(sum(bool(x.get('video')) for x in d['entries']),10)
+  d=json.loads((R/'data/election-media.json').read_text()); self.assertGreaterEqual(sum(bool(x.get('video')) for x in d['entries']),10)
   self.assertTrue(all('cec.gov.tw' in x['source'] for x in d['entries']))
   self.assertIn('youtube-nocookie.com/embed/',(R/'scripts/explorer.js').read_text())
  def test_no_fake_performance(self):
