@@ -1,14 +1,15 @@
 {
-  "version": "0.2.0-alpha.5",
+  "version": "0.2.0-alpha.6",
   "as_of": "2026-11-25",
   "timezone": "Asia/Taipei",
   "release_status": "blocked_pending_independent_review",
-  "scope": "縣市長名冊開發稿；未核對更正公告與最終資格；推薦政黨非黨籍",
+  "scope": "22縣市首長姓名與號次開發名冊，嘉義市以官方抽籤影像及資格審定名單為主，正式公告待核；非最終投票日名冊",
   "reference_total": 81,
   "notes": [
     "無：公報推薦政黨欄記載無，不推論黨籍。null：尚未取得或整理。",
     "金門第7號由正式公告補入；推薦政黨未擷取。",
-    "所有候選人及來源需獨立覆核；不提供評分或投票建議。"
+    "所有候選人及來源需獨立覆核；不提供評分或投票建議。",
+    "本輪新增24筆，5縣正式公告影像及嘉義市抽籤影像。花蓮第4號姓名更正，推薦政黨重設待核；南投公告頁碼補正。"
   ],
   "districts": [
     {
@@ -895,9 +896,107 @@
       "office": "縣長",
       "district_id": "08-chief",
       "gazette_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
-      "notice": null,
-      "review_status": "not_transcribed",
-      "candidates": []
+      "notice": {
+        "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      },
+      "review_status": "final_notice_image_checked_independent_review_pending",
+      "candidates": [
+        {
+          "id": "08-chief-1",
+          "ballot_number": 1,
+          "name": "陳品安",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "08-chief-2",
+          "ballot_number": 2,
+          "name": "鍾東錦",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        }
+      ],
+      "identity_source": {
+        "url": "https://web.cec.gov.tw/api/file/7d5023e7-7988-45d8-aa09-ca492bb6fd1e.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      }
     },
     {
       "county_code": "09",
@@ -1040,8 +1139,9 @@
       "district_id": "10-chief",
       "gazette_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
       "notice": {
-        "url": "https://web.cec.gov.tw/api/file/2399bff2-f0f9-44b4-ac23-8a4fc5749e5f.pdf",
-        "page": null
+        "url": "https://web.cec.gov.tw/api/file/ef5a8934-5b17-494b-8e72-c78422626a38.pdf",
+        "page": 2,
+        "kind": "official_final_notice"
       },
       "review_status": "transcribed_pending_independent_review",
       "candidates": [
@@ -1057,15 +1157,17 @@
           "evidence": {
             "name": {
               "notice": {
-                "url": "https://web.cec.gov.tw/api/file/2399bff2-f0f9-44b4-ac23-8a4fc5749e5f.pdf",
-                "page": null
+                "url": "https://web.cec.gov.tw/api/file/ef5a8934-5b17-494b-8e72-c78422626a38.pdf",
+                "page": 2,
+                "kind": "official_final_notice"
               },
               "gazette": "https://eebulletin.cec.gov.tw/115/10%E5%8D%97%E6%8A%95%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7.pdf"
             },
             "ballot_number": {
               "notice": {
-                "url": "https://web.cec.gov.tw/api/file/2399bff2-f0f9-44b4-ac23-8a4fc5749e5f.pdf",
-                "page": null
+                "url": "https://web.cec.gov.tw/api/file/ef5a8934-5b17-494b-8e72-c78422626a38.pdf",
+                "page": 2,
+                "kind": "official_final_notice"
               },
               "gazette": "https://eebulletin.cec.gov.tw/115/10%E5%8D%97%E6%8A%95%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7.pdf"
             },
@@ -1087,15 +1189,17 @@
           "evidence": {
             "name": {
               "notice": {
-                "url": "https://web.cec.gov.tw/api/file/2399bff2-f0f9-44b4-ac23-8a4fc5749e5f.pdf",
-                "page": null
+                "url": "https://web.cec.gov.tw/api/file/ef5a8934-5b17-494b-8e72-c78422626a38.pdf",
+                "page": 2,
+                "kind": "official_final_notice"
               },
               "gazette": "https://eebulletin.cec.gov.tw/115/10%E5%8D%97%E6%8A%95%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7.pdf"
             },
             "ballot_number": {
               "notice": {
-                "url": "https://web.cec.gov.tw/api/file/2399bff2-f0f9-44b4-ac23-8a4fc5749e5f.pdf",
-                "page": null
+                "url": "https://web.cec.gov.tw/api/file/ef5a8934-5b17-494b-8e72-c78422626a38.pdf",
+                "page": 2,
+                "kind": "official_final_notice"
               },
               "gazette": "https://eebulletin.cec.gov.tw/115/10%E5%8D%97%E6%8A%95%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7.pdf"
             },
@@ -1321,9 +1425,107 @@
       "office": "縣長",
       "district_id": "13-chief",
       "gazette_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
-      "notice": null,
-      "review_status": "not_transcribed",
-      "candidates": []
+      "notice": {
+        "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      },
+      "review_status": "final_notice_image_checked_independent_review_pending",
+      "candidates": [
+        {
+          "id": "13-chief-1",
+          "ballot_number": 1,
+          "name": "蘇清泉",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "13-chief-2",
+          "ballot_number": 2,
+          "name": "周春米",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        }
+      ],
+      "identity_source": {
+        "url": "https://web.cec.gov.tw/api/file/7b8e5f95-bb62-40ba-8758-abb0e5f15d74.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      }
     },
     {
       "county_code": "14",
@@ -1331,9 +1533,193 @@
       "office": "縣長",
       "district_id": "14-chief",
       "gazette_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
-      "notice": null,
-      "review_status": "not_transcribed",
-      "candidates": []
+      "notice": {
+        "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      },
+      "review_status": "final_notice_image_checked_independent_review_pending",
+      "candidates": [
+        {
+          "id": "14-chief-1",
+          "ballot_number": 1,
+          "name": "李吳穎智",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "14-chief-2",
+          "ballot_number": 2,
+          "name": "陳瑩",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "14-chief-3",
+          "ballot_number": 3,
+          "name": "王志偉",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "14-chief-4",
+          "ballot_number": 4,
+          "name": "吳秀華",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        }
+      ],
+      "identity_source": {
+        "url": "https://web.cec.gov.tw/api/file/2daf9632-3936-4006-a800-f68d6fac5b3c.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      }
     },
     {
       "county_code": "15",
@@ -1440,8 +1826,8 @@
         {
           "id": "15-chief-4",
           "ballot_number": 4,
-          "name": "羅佩泰",
-          "recommending_party": "台灣工黨",
+          "name": "羅佩秦",
+          "recommending_party": null,
           "education": null,
           "experience": null,
           "platform": null,
@@ -1461,10 +1847,13 @@
               },
               "gazette": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf"
             },
-            "recommending_party": {
-              "gazette": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
-              "locator": "推薦之政黨欄／號次 4"
-            }
+            "recommending_party": null
+          },
+          "correction": {
+            "old": "羅佩泰",
+            "source": "https://web.cec.gov.tw/api/file/6bd6ef5c-b17d-464f-9bd9-a6c216f40dd2.pdf",
+            "page": 2,
+            "reason": "正式公告原始影像核對"
           }
         }
       ]
@@ -1475,9 +1864,236 @@
       "office": "縣長",
       "district_id": "16-chief",
       "gazette_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
-      "notice": null,
-      "review_status": "not_transcribed",
-      "candidates": []
+      "notice": {
+        "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      },
+      "review_status": "final_notice_image_checked_independent_review_pending",
+      "candidates": [
+        {
+          "id": "16-chief-1",
+          "ballot_number": 1,
+          "name": "林國漳",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "16-chief-2",
+          "ballot_number": 2,
+          "name": "陳宏毅",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "16-chief-3",
+          "ballot_number": 3,
+          "name": "吳宗憲",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "16-chief-4",
+          "ballot_number": 4,
+          "name": "劉燦輝",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "16-chief-5",
+          "ballot_number": 5,
+          "name": "楊鉯婷",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        }
+      ],
+      "identity_source": {
+        "url": "https://web.cec.gov.tw/api/file/0eac43b3-05f8-4437-8ed9-e3371af9655c.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      }
     },
     {
       "county_code": "17",
@@ -1485,9 +2101,279 @@
       "office": "縣長",
       "district_id": "17-chief",
       "gazette_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
-      "notice": null,
-      "review_status": "not_transcribed",
-      "candidates": []
+      "notice": {
+        "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      },
+      "review_status": "final_notice_image_checked_independent_review_pending",
+      "candidates": [
+        {
+          "id": "17-chief-1",
+          "ballot_number": 1,
+          "name": "許智富",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "17-chief-2",
+          "ballot_number": 2,
+          "name": "周倪安",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "17-chief-3",
+          "ballot_number": 3,
+          "name": "葉竹林",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "17-chief-4",
+          "ballot_number": 4,
+          "name": "吳淑瑾",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "17-chief-5",
+          "ballot_number": 5,
+          "name": "陳振中",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        },
+        {
+          "id": "17-chief-6",
+          "ballot_number": 6,
+          "name": "陳盡川",
+          "recommending_party": null,
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "identity_source": {
+                "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+                "page": 1,
+                "kind": "official_final_notice",
+                "date": "2026-11-17"
+              },
+              "gazette": null
+            },
+            "recommending_party": null
+          }
+        }
+      ],
+      "identity_source": {
+        "url": "https://web.cec.gov.tw/api/file/2a659c78-10c0-4707-aca5-d7888fa290e4.pdf",
+        "page": 1,
+        "kind": "official_final_notice",
+        "date": "2026-11-17"
+      }
     },
     {
       "county_code": "18",
@@ -1704,8 +2590,210 @@
       "district_id": "20-chief",
       "gazette_directory": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
       "notice": null,
-      "review_status": "not_transcribed",
-      "candidates": []
+      "review_status": "draw_image_checked_final_notice_pending",
+      "candidates": [
+        {
+          "id": "20-chief-1",
+          "ballot_number": 1,
+          "name": "王義成",
+          "recommending_party": "無",
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "recommending_party": {
+              "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+              "page": 1,
+              "locator": "推薦之政黨／1號",
+              "kind": "official_ballot_draw"
+            }
+          }
+        },
+        {
+          "id": "20-chief-2",
+          "ballot_number": 2,
+          "name": "陳愷璜",
+          "recommending_party": "無",
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "recommending_party": {
+              "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+              "page": 1,
+              "locator": "推薦之政黨／2號",
+              "kind": "official_ballot_draw"
+            }
+          }
+        },
+        {
+          "id": "20-chief-3",
+          "ballot_number": 3,
+          "name": "張啓楷",
+          "recommending_party": "台灣民眾黨",
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "recommending_party": {
+              "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+              "page": 1,
+              "locator": "推薦之政黨／3號",
+              "kind": "official_ballot_draw"
+            }
+          }
+        },
+        {
+          "id": "20-chief-4",
+          "ballot_number": 4,
+          "name": "王美惠",
+          "recommending_party": "民主進步黨",
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "recommending_party": {
+              "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+              "page": 1,
+              "locator": "推薦之政黨／4號",
+              "kind": "official_ballot_draw"
+            }
+          }
+        },
+        {
+          "id": "20-chief-5",
+          "ballot_number": 5,
+          "name": "黃宏成台灣阿成世界偉人財神總統",
+          "recommending_party": "無",
+          "education": null,
+          "experience": null,
+          "platform": null,
+          "publication_allowed": false,
+          "evidence": {
+            "name": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "ballot_number": {
+              "notice": null,
+              "identity_source": {
+                "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+                "page": 1,
+                "kind": "official_ballot_draw",
+                "date": "2026-10-27"
+              },
+              "gazette": null
+            },
+            "recommending_party": {
+              "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+              "page": 1,
+              "locator": "推薦之政黨／5號",
+              "kind": "official_ballot_draw"
+            }
+          }
+        }
+      ],
+      "identity_source": {
+        "url": "https://www.cec.gov.tw/api/file/7dc869c1-a71b-4f73-b208-73954a9c23e5.pdf",
+        "page": 1,
+        "kind": "official_ballot_draw",
+        "date": "2026-10-27"
+      },
+      "source_discrepancy": {
+        "gazette": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf",
+        "qualification": "https://web.cec.gov.tw/central/article/65213",
+        "note": "公報文字擷取第2號誤讀為陳愷瑛；抽籤原始影像及資格審定名單為陳愷璜。第3號保留原字啓，第5號全名不截短。正式11/17公告附件仍待取得。"
+      }
     },
     {
       "county_code": "21",
