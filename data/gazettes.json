@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "checked_on": "2026-11-25",
   "timezone": "Asia/Taipei",
   "source": "https://eebulletin.cec.gov.tw/?dir=115",
@@ -29,45 +29,111 @@
           "documents": [
             {
               "id": "01-council-1",
-              "label": "第1選舉區",
+              "label": "第1選舉區｜北投區、士林區",
               "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "第1選舉區",
+              "district_scope": "北投區、士林區",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "correction": {
+                "url": "https://web.cec.gov.tw/mect/article/66035",
+                "label": "11/17 選舉人資格勘誤"
+              }
             },
             {
               "id": "01-council-2",
-              "label": "第2選舉區",
+              "label": "第2選舉區｜內湖區、南港區",
               "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "第2選舉區",
+              "district_scope": "內湖區、南港區",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "correction": {
+                "url": "https://web.cec.gov.tw/mect/article/66035",
+                "label": "11/17 選舉人資格勘誤"
+              }
             },
             {
               "id": "01-council-3",
-              "label": "第3選舉區",
+              "label": "第3選舉區｜松山區、信義區",
               "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "第3選舉區",
+              "district_scope": "松山區、信義區",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "correction": {
+                "url": "https://web.cec.gov.tw/mect/article/66035",
+                "label": "11/17 選舉人資格勘誤"
+              }
             },
             {
               "id": "01-council-4",
-              "label": "第4選舉區",
+              "label": "第4選舉區｜中山區、大同區",
               "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "第4選舉區",
+              "district_scope": "中山區、大同區",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "correction": {
+                "url": "https://web.cec.gov.tw/mect/article/66035",
+                "label": "11/17 選舉人資格勘誤"
+              }
             },
             {
               "id": "01-council-5",
-              "label": "第5選舉區",
+              "label": "第5選舉區｜中正區、萬華區",
               "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "第5選舉區",
+              "district_scope": "中正區、萬華區",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "correction": {
+                "url": "https://web.cec.gov.tw/mect/article/66035",
+                "label": "11/17 選舉人資格勘誤"
+              }
             },
             {
               "id": "01-council-6",
-              "label": "第6選舉區",
+              "label": "第6選舉區｜大安區、文山區",
               "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "第6選舉區",
+              "district_scope": "大安區、文山區",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              },
+              "correction": {
+                "url": "https://web.cec.gov.tw/mect/article/66035",
+                "label": "11/17 選舉人資格勘誤"
+              }
             },
             {
               "id": "01-council-7",
-              "label": "第7及第8選舉區",
+              "label": "第7及第8選舉區｜平地原住民／山地原住民",
               "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC7%E5%8F%8A%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "第7及第8選舉區",
+              "district_scope": "平地原住民／山地原住民",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 3
+              }
             }
           ]
         },
@@ -885,21 +951,39 @@
           "documents": [
             {
               "id": "21-chief-1",
-              "label": "金門縣第9屆縣長、縣議員選舉公報正面-第一區",
+              "label": "第1選舉區｜金城鎮、金寧鄉、烏坵鄉（縣長、縣議員合併公報）",
               "url": "https://eebulletin.cec.gov.tw/115/21%E9%87%91%E9%96%80%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "金門縣第9屆縣長、縣議員選舉公報正面-第一區",
+              "district_scope": "金城鎮、金寧鄉、烏坵鄉",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 13
+              }
             },
             {
               "id": "21-chief-2",
-              "label": "金門縣第9屆縣長、縣議員選舉公報正面-第二區",
+              "label": "第2選舉區｜金湖鎮、金沙鎮（縣長、縣議員合併公報）",
               "url": "https://eebulletin.cec.gov.tw/115/21%E9%87%91%E9%96%80%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "金門縣第9屆縣長、縣議員選舉公報正面-第二區",
+              "district_scope": "金湖鎮、金沙鎮",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 13
+              }
             },
             {
               "id": "21-chief-3",
-              "label": "金門縣第9屆縣長、縣議員選舉公報正面-第三區",
+              "label": "第3選舉區｜烈嶼鄉（縣長、縣議員合併公報）",
               "url": "https://eebulletin.cec.gov.tw/115/21%E9%87%91%E9%96%80%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf",
-              "status": "retrieved_pdf"
+              "status": "retrieved_pdf",
+              "original_label": "金門縣第9屆縣長、縣議員選舉公報正面-第三區",
+              "district_scope": "烈嶼鄉",
+              "district_source": {
+                "url": "https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf",
+                "page": 13
+              }
             }
           ]
         },

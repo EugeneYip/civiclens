@@ -6,3 +6,6 @@
 @media(max-width:350px){.clock{gap:3px}.clock b{font-size:18px}.clock small{font-size:10px}.hero{padding:9px 8px}.vote-time strong{font-size:15px}.vote-time{padding-left:6px}.county button{font-size:12px}.filters{grid-template-columns:minmax(0,1fr) 90px auto}}
 
 .county-doc-links{display:flex;gap:15px;flex-wrap:wrap}.county-doc-links a,.reader-link{font-size:13px;font-weight:650;display:inline-flex;align-items:center;min-height:44px}.reader-link{margin-left:auto;white-space:nowrap}.sectionhead .tag{font-size:12px}
+
+/* Compact county selector: all 22 visible, no redundant controls. */
+#directory .county-grid{margin-top:2px;gap:5px}#directory .county button,#directory .county a{min-height:44px}#directory .data-note{border:0;padding:0;margin-top:6px}#directory .sectionhead{margin-bottom:7px}

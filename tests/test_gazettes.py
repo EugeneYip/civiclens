@@ -32,3 +32,12 @@ class GazetteTests(unittest.TestCase):
   p=(R/'results.html').read_text();self.assertIn('尚未串接即時票數',p);self.assertIn('https://www.cec.gov.tw/',p)
   self.assertIn('2026-11-28T16:00:00+08:00',(R/'scripts/results.js').read_text())
   self.assertIn('href="results.html"',(R/'index.html').read_text())
+
+ def test_district_names(self):
+  g=json.loads((R/'data/gazettes.json').read_text()); t=next(c for c in g['counties'] if c['code']=='01'); ds=next(o for o in t['offices'] if o['id']=='council')['documents']
+  self.assertEqual(len(ds),7);self.assertEqual(ds[0]['district_scope'],'北投區、士林區');self.assertEqual(ds[-1]['district_scope'],'平地原住民／山地原住民');self.assertEqual(sum('correction' in x for x in ds),6)
+  self.assertTrue(all(x['district_source']['page']==3 for x in ds))
+ def test_reader_auto_and_compact(self):
+  p=(R/'index.html').read_text();self.assertNotIn('id="county-search"',p);self.assertEqual(p.count('class="county"'),22)
+  r=(R/'scripts/reader.js').read_text();self.assertIn('function selectDocument(auto=true)',r);self.assertIn('if(auto&&!load.disabled)openPDF()',r);self.assertIn("selectCounty(p.get('office'),p.get('doc'),true)",r)
+  self.assertNotIn('>站內閱讀</button>',(R/'gazettes.html').read_text())
