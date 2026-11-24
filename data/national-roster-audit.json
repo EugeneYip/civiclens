@@ -47,6 +47,48 @@
       "path": "data/elections/2026/numbers/chec.csv",
       "sha": "48337b405a1f204201057f2d1b0d3f09e2b7307b",
       "selected": 90
+    },
+    {
+      "route": "ntec",
+      "path": "data/elections/2026/numbers/ntec.csv",
+      "sha": "8e5d0032ca9c70a3268b935e88d6e486ce423c48",
+      "selected": 63
+    },
+    {
+      "route": "ylec",
+      "path": "data/elections/2026/numbers/ylec.csv",
+      "sha": "f294ca52919fba8bbdaaea2e414e427f9e0ae9a7",
+      "selected": 76
+    },
+    {
+      "route": "cycec",
+      "path": "data/elections/2026/numbers/cycec.csv",
+      "sha": "b6decd9feb002aed82f3b8a61602374c4e5133d4",
+      "selected": 54
+    },
+    {
+      "route": "ptec",
+      "path": "data/elections/2026/numbers/ptec.csv",
+      "sha": "0520e58fde78978762074a631e67eab066c21d6d",
+      "selected": 89
+    },
+    {
+      "route": "ttec",
+      "path": "data/elections/2026/numbers/ttec.csv",
+      "sha": "8a69894dc37cef0531b89bbecea51f9e4c7bbea0",
+      "selected": 60
+    },
+    {
+      "route": "hlec",
+      "path": "data/elections/2026/numbers/hlec.csv",
+      "sha": "2923d28d730c88a037d63e276477f3e9636d69f7",
+      "selected": 59
+    },
+    {
+      "route": "ilec",
+      "path": "data/elections/2026/numbers/ilec.csv",
+      "sha": "fa60974131498aa2cd6fde9040c690c3e5582e03",
+      "selected": 64
     }
   ],
   "issues": [
