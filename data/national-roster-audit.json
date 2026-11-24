@@ -89,6 +89,42 @@
       "path": "data/elections/2026/numbers/ilec.csv",
       "sha": "fa60974131498aa2cd6fde9040c690c3e5582e03",
       "selected": 64
+    },
+    {
+      "route": "phec",
+      "path": "data/elections/2026/numbers/phec.csv",
+      "sha": "7c280854a700da62b9085f1c94a2ac775f93bd2b",
+      "selected": 42
+    },
+    {
+      "route": "klec",
+      "path": "data/elections/2026/numbers/klec.csv",
+      "sha": "82d61ba8f99beb4fecdb89e07e06b779524ce3fb",
+      "selected": 62
+    },
+    {
+      "route": "hcec",
+      "path": "data/elections/2026/numbers/hcec.csv",
+      "sha": "3a092d19c0362e1198967337d2a14c489c84154c",
+      "selected": 59
+    },
+    {
+      "route": "cyec",
+      "path": "data/elections/2026/numbers/cyec.csv",
+      "sha": "57f246e37825dfa0cc9f7c3d4b0c15f0bbe41dcc",
+      "selected": 42
+    },
+    {
+      "route": "kmec",
+      "path": "data/elections/2026/numbers/kmec.csv",
+      "sha": "2742233f8e578eb473e1dc059678225e499cb0f3",
+      "selected": 41
+    },
+    {
+      "route": "lcec",
+      "path": "data/elections/2026/numbers/lcec.csv",
+      "sha": "2e6d288c69a1096feed7344d1d666b9f7043100c",
+      "selected": 16
     }
   ],
   "issues": [
@@ -496,6 +532,419 @@
       "category": "county-councilor",
       "district": "苗栗縣第8選舉區",
       "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-mayor",
+      "district": "新竹市",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-mayor",
+      "district": "新竹市",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-mayor",
+      "district": "新竹市",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "7",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "8",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "9",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "10",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "11",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "12",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "13",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "14",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "15",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "16",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "17",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "18",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第1選舉區",
+      "number": "19",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第2選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第2選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第2選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第2選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第2選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第2選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第3選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第3選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第3選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "7",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "8",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "9",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "10",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "11",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "12",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第4選舉區",
+      "number": "13",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "5",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "6",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "7",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第5選舉區",
+      "number": "8",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第6選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第6選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第7選舉區",
+      "number": "1",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第7選舉區",
+      "number": "2",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第7選舉區",
+      "number": "3",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第7選舉區",
+      "number": "4",
+      "reason": "scope/source/number"
+    },
+    {
+      "route": "hcec",
+      "category": "county-councilor",
+      "district": "新竹市第7選舉區",
+      "number": "5",
       "reason": "scope/source/number"
     }
   ]
