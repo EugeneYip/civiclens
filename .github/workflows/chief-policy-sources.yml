@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/import_chief_sources.py'
+      - 'tests/test_secondary_sources.py'
+      - 'tests/test_chief_policy_sources.py'
       - '.github/workflows/chief-policy-sources.yml'
 permissions:
   contents: write
