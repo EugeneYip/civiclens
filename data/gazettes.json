@@ -1,0 +1,971 @@
+{
+  "version": "0.1.5",
+  "checked_on": "2026-11-25",
+  "timezone": "Asia/Taipei",
+  "source": "https://eebulletin.cec.gov.tw/?dir=115",
+  "counties": [
+    {
+      "code": "01",
+      "name": "臺北市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F01%E8%87%BA%E5%8C%97%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F01%E8%87%BA%E5%8C%97%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "01-chief-1",
+              "label": "臺北市第9屆市長選舉公報",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F01%E8%87%BA%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": [
+            {
+              "id": "01-council-1",
+              "label": "第1選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "01-council-2",
+              "label": "第2選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "01-council-3",
+              "label": "第3選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "01-council-4",
+              "label": "第4選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "01-council-5",
+              "label": "第5選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "01-council-6",
+              "label": "第6選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B11117.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "01-council-7",
+              "label": "第7及第8選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC15%E5%B1%86%E8%AD%B0%E5%93%A1%E7%AC%AC7%E5%8F%8A%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F01%E8%87%BA%E5%8C%97%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "name": "新北市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "02-chief-1",
+              "label": "新北市第5屆市長選舉選舉公報",
+              "url": "https://eebulletin.cec.gov.tw/115/02%E6%96%B0%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E5%8C%97%E5%B8%82%E7%AC%AC5%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "district-chief",
+          "label": "區長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F04%E5%8D%80%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "district-rep",
+          "label": "區民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F02%E6%96%B0%E5%8C%97%E5%B8%82%2F05%E5%8D%80%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "name": "臺中市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "03-chief-1",
+              "label": "臺中市市長",
+              "url": "https://eebulletin.cec.gov.tw/115/03%E8%87%BA%E4%B8%AD%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E4%B8%AD%E5%B8%82%E5%B8%82%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "district-chief",
+          "label": "區長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82%2F04%E5%8D%80%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "district-rep",
+          "label": "區民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82%2F05%E5%8D%80%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "name": "臺南市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F04%E8%87%BA%E5%8D%97%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F04%E8%87%BA%E5%8D%97%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "04-chief-1",
+              "label": "臺南市市長",
+              "url": "https://eebulletin.cec.gov.tw/115/04%E8%87%BA%E5%8D%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8D%97%E5%B8%82%E5%B8%82%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F04%E8%87%BA%E5%8D%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F04%E8%87%BA%E5%8D%97%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "name": "高雄市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "05-chief-1",
+              "label": "高雄市市長選舉公報",
+              "url": "https://eebulletin.cec.gov.tw/115/05%E9%AB%98%E9%9B%84%E5%B8%82/01%E5%B8%82%E9%95%B7/%E9%AB%98%E9%9B%84%E5%B8%82%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "district-chief",
+          "label": "原住民區長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82%2F03%E5%8E%9F%E4%BD%8F%E6%B0%91%E5%8D%80%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "district-rep",
+          "label": "原住民區民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82%2F04%E5%8E%9F%E4%BD%8F%E6%B0%91%E5%8D%80%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82%2F05%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "name": "桃園市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "06-chief-1",
+              "label": "115-桃園市第4屆市長選舉",
+              "url": "https://eebulletin.cec.gov.tw/115/06%E6%A1%83%E5%9C%92%E5%B8%82/01%E5%B8%82%E9%95%B7/115-%E6%A1%83%E5%9C%92%E5%B8%82%E7%AC%AC4%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "district-chief",
+          "label": "區長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F04%E5%8D%80%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "district-rep",
+          "label": "區民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F05%E5%8D%80%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "name": "新竹縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "07-chief-1",
+              "label": "新竹縣縣長",
+              "url": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "name": "苗栗縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "08-chief-1",
+              "label": "苗栗縣縣長選舉",
+              "url": "https://eebulletin.cec.gov.tw/115/08%E8%8B%97%E6%A0%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8B%97%E6%A0%97%E7%B8%A3%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf",
+              "status": "fetch_limit"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "name": "彰化縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "09-chief-1",
+              "label": "彰化縣縣長",
+              "url": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name": "南投縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "10-chief-1",
+              "label": "臺灣省南投縣第20屆縣長",
+              "url": "https://eebulletin.cec.gov.tw/115/10%E5%8D%97%E6%8A%95%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name": "雲林縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "11-chief-1",
+              "label": "雲林縣第20屆縣長選舉",
+              "url": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "name": "嘉義縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "12-chief-1",
+              "label": "嘉義縣縣長",
+              "url": "https://eebulletin.cec.gov.tw/115/12%E5%98%89%E7%BE%A9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%98%89%E7%BE%A9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "name": "屏東縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "13-chief-1",
+              "label": "縣長公報",
+              "url": "https://eebulletin.cec.gov.tw/115/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E7%B8%A3%E9%95%B7%E5%85%AC%E5%A0%B1.pdf",
+              "status": "fetch_limit"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name": "臺東縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "14-chief-1",
+              "label": "01-縣長+投開票所",
+              "url": "https://eebulletin.cec.gov.tw/115/14%E8%87%BA%E6%9D%B1%E7%B8%A3/01%E7%B8%A3%E9%95%B7/01-%E7%B8%A3%E9%95%B7%2B%E6%8A%95%E9%96%8B%E7%A5%A8%E6%89%80.pdf",
+              "status": "not_found"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name": "花蓮縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "15-chief-1",
+              "label": "花蓮縣縣長",
+              "url": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name": "宜蘭縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "16-chief-1",
+              "label": "宜蘭縣縣長選舉公報",
+              "url": "https://eebulletin.cec.gov.tw/115/16%E5%AE%9C%E8%98%AD%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "fetch_limit"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name": "澎湖縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "17-chief-1",
+              "label": "澎湖縣第20屆縣長選舉選舉公報",
+              "url": "https://eebulletin.cec.gov.tw/115/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "fetch_limit"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name": "基隆市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F18%E5%9F%BA%E9%9A%86%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F18%E5%9F%BA%E9%9A%86%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "18-chief-1",
+              "label": "基隆市長",
+              "url": "https://eebulletin.cec.gov.tw/115/18%E5%9F%BA%E9%9A%86%E5%B8%82/01%E5%B8%82%E9%95%B7/%E5%9F%BA%E9%9A%86%E5%B8%82%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F18%E5%9F%BA%E9%9A%86%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F18%E5%9F%BA%E9%9A%86%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "name": "新竹市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F19%E6%96%B0%E7%AB%B9%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F19%E6%96%B0%E7%AB%B9%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "19-chief-1",
+              "label": "新竹市市長",
+              "url": "https://eebulletin.cec.gov.tw/115/19%E6%96%B0%E7%AB%B9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F19%E6%96%B0%E7%AB%B9%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F19%E6%96%B0%E7%AB%B9%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name": "嘉義市",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82%2F01%E5%B8%82%E9%95%B7",
+          "documents": [
+            {
+              "id": "20-chief-1",
+              "label": "嘉義市選舉區",
+              "url": "https://eebulletin.cec.gov.tw/115/20%E5%98%89%E7%BE%A9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E5%98%89%E7%BE%A9%E5%B8%82%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "fetch_limit"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "市議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F20%E5%98%89%E7%BE%A9%E5%B8%82%2F03%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "name": "金門縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "21-chief-1",
+              "label": "金門縣第9屆縣長、縣議員選舉公報正面-第一區",
+              "url": "https://eebulletin.cec.gov.tw/115/21%E9%87%91%E9%96%80%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "21-chief-2",
+              "label": "金門縣第9屆縣長、縣議員選舉公報正面-第二區",
+              "url": "https://eebulletin.cec.gov.tw/115/21%E9%87%91%E9%96%80%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf",
+              "status": "retrieved_pdf"
+            },
+            {
+              "id": "21-chief-3",
+              "label": "金門縣第9屆縣長、縣議員選舉公報正面-第三區",
+              "url": "https://eebulletin.cec.gov.tw/115/21%E9%87%91%E9%96%80%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "name": "連江縣",
+      "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3",
+      "offices": [
+        {
+          "id": "chief",
+          "label": "縣長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F01%E7%B8%A3%E9%95%B7",
+          "documents": [
+            {
+              "id": "22-chief-1",
+              "label": "115年連江縣-第一選區選舉公報",
+              "url": "https://eebulletin.cec.gov.tw/115/22%E9%80%A3%E6%B1%9F%E7%B8%A3/01%E7%B8%A3%E9%95%B7/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf"
+            }
+          ]
+        },
+        {
+          "id": "council",
+          "label": "縣議員",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
+          "documents": []
+        },
+        {
+          "id": "town-chief",
+          "label": "鄉鎮市長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F03%E9%84%89%E9%8E%AE%E5%B8%82%E9%95%B7",
+          "documents": []
+        },
+        {
+          "id": "town-rep",
+          "label": "鄉鎮市民代表",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F04%E9%84%89%E9%8E%AE%E5%B8%82%E6%B0%91%E4%BB%A3%E8%A1%A8",
+          "documents": []
+        },
+        {
+          "id": "village",
+          "label": "村里長",
+          "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F22%E9%80%A3%E6%B1%9F%E7%B8%A3%2F05%E6%9D%91%E9%87%8C%E9%95%B7",
+          "documents": []
+        }
+      ]
+    }
+  ]
+}

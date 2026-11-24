@@ -5,5 +5,4 @@
 @media(max-width:470px){.top{display:flex;flex-wrap:wrap;gap:0;justify-content:space-between;padding:7px 0 0}.brand{width:100%;min-height:38px}.brand small{font-size:11px}.branddate{font-size:24px}nav{width:100%;justify-content:space-between}nav a{flex:1;min-height:44px;font-size:14px}.hero{margin-top:8px}.clock b{font-size:22px}.vote-time strong{font-size:16px}.vote-time span{font-size:10px}.county button{font-size:13px}.ref-count{text-align:left}}
 @media(max-width:350px){.clock{gap:3px}.clock b{font-size:18px}.clock small{font-size:10px}.hero{padding:9px 8px}.vote-time strong{font-size:15px}.vote-time{padding-left:6px}.county button{font-size:12px}.filters{grid-template-columns:minmax(0,1fr) 90px auto}}
 
-/* 0.1.4: compact source access and coherent identity */
-.brand svg{width:32px;height:32px}.chief-notice{display:flex;align-items:center;min-height:44px;font-size:14px;font-weight:650;color:var(--accent);border-top:1px solid var(--line);margin-top:5px;text-decoration:none}.chief-notice:hover{text-decoration:underline}.chief-notice:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.county-doc-links{display:flex;gap:15px;flex-wrap:wrap}.county-doc-links a,.reader-link{font-size:13px;font-weight:650;display:inline-flex;align-items:center;min-height:44px}.reader-link{margin-left:auto;white-space:nowrap}.sectionhead .tag{font-size:12px}
