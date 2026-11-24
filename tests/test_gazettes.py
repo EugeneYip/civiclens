@@ -14,9 +14,9 @@ class GazetteTests(unittest.TestCase):
     self.assertTrue(parse_qs(u.query)['dir'][0].startswith('115/'+c['code']+c['name']+'/'))
     for d in o['documents']:
      p=urlparse(d['url']);self.assertEqual((p.scheme,p.netloc),('https','eebulletin.cec.gov.tw'));self.assertTrue(unquote(p.path).startswith('/'+parse_qs(u.query)['dir'][0]+'/')); self.assertIn(d['status'],['retrieved_pdf','fetch_limit','not_found']);docs.append(d)
-  self.assertEqual(len(docs),31);self.assertEqual(len({d['id'] for d in docs}),31)
-  self.assertEqual(sum(d['status']=='retrieved_pdf' for d in docs),25)
-  self.assertEqual(sum(d['status']=='fetch_limit' for d in docs),5)
+  self.assertEqual(len(docs),49);self.assertEqual(len({d['id'] for d in docs}),49)
+  self.assertEqual(sum(d['status']=='retrieved_pdf' for d in docs),40)
+  self.assertEqual(sum(d['status']=='fetch_limit' for d in docs),8)
   self.assertEqual(sum(d['status']=='not_found' for d in docs),1)
  def test_title_and_links(self):
   p=(R/'index.html').read_text();self.assertIn('<title>11.28｜115年地方公職人員選舉</title>',p);self.assertIn('href="gazettes.html"',p);self.assertIn('id="official-directory"',p)
@@ -41,3 +41,11 @@ class GazetteTests(unittest.TestCase):
   p=(R/'index.html').read_text();self.assertNotIn('id="county-search"',p);self.assertEqual(p.count('class="county"'),22)
   r=(R/'scripts/reader.js').read_text();self.assertIn('function selectDocument(auto=true)',r);self.assertIn('if(auto&&!load.disabled)openPDF()',r);self.assertIn("selectCounty(p.get('office'),p.get('doc'),true)",r)
   self.assertNotIn('>站內閱讀</button>',(R/'gazettes.html').read_text())
+
+ def test_national_districts(self):
+  d=json.loads((R/'data/council-districts.json').read_text());self.assertEqual(len(d['counties']),22);self.assertEqual(d['district_count'],221);self.assertEqual(d['seats'],919)
+  self.assertEqual(sum(x['seats'] for c in d['counties'] for x in c['districts']),919)
+  for c in d['counties']:
+   self.assertEqual([x['number'] for x in c['districts']],list(range(1,len(c['districts'])+1)))
+   self.assertEqual(sum(x['seats'] for x in c['districts']),c['seats'])
+  self.assertIn('href="districts.html"',(R/'index.html').read_text())
