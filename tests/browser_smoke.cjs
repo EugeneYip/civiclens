@@ -5,7 +5,8 @@ const assert = require("node:assert/strict");
  const browser=await chromium.launch({executablePath:process.env.CHROME_BIN||"/usr/bin/google-chrome",headless:true,args:["--no-sandbox"]});
  const ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  const page=await ctx.newPage(),errors=[],requests=[];
- page.on("pageerror",e=>errors.push(String(e)));
+ page.on("pageerror",e=>{errors.push(String(e));console.error("pageerror",String(e))});
+ page.on("console",m=>{if(m.type()==="error"&&!m.text().includes("Failed to load resource"))console.log("browser console",m.text())});
  page.on("request",r=>requests.push(r.url()));
  await page.route("**/*",route=>route.request().url().startsWith("http://127.0.0.1:8765/")?route.continue():route.abort());
  try{
@@ -23,8 +24,12 @@ const assert = require("node:assert/strict");
   await page.locator('select[aria-label="政策主題"]').selectOption({label:"治理與安全"});
   await page.locator(".topic-comparison").getByText("提出四年內詐騙案件減少80%的目標。",{exact:true}).waitFor();
   await page.goto("http://127.0.0.1:8765/gazettes.html?county=17&office=chief",{waitUntil:"networkidle"});
-  await page.locator("#original").waitFor();
+  console.log("reader status",await page.locator("#status").textContent());
+  await page.locator("#original").waitFor({timeout:10000});
   assert.ok((await page.locator("#original").getAttribute("href")).startsWith("https://bulletin.cec.gov.tw/"));
+  await page.goto("http://127.0.0.1:8765/?county=06&office=chief&view=video",{waitUntil:"networkidle"});
+  await page.getByText("桃園市長公辦政見發表會",{exact:true}).waitFor();
+  assert.ok(await page.locator("a[href=\"https://www.youtube.com/watch?v=fEEFbC13-U0\"]").count());
   assert.equal(errors.length,0,errors.join("\n"));
   console.log("PASS: council deferred loading; chief deep link and policy summary; topic comparison; Penghu fallback; no page errors");
  }finally{await browser.close()}

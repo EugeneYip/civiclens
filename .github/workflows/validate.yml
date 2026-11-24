@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 -m unittest discover -s tests -v
-      - run: node --check scripts/explorer.js
+      - run: node --check scripts/explorer.js && node --check scripts/reader.js && node --check tests/browser_smoke.cjs
       - run: python3 scripts/audit_coverage.py
       - run: git diff --exit-code -- index.html

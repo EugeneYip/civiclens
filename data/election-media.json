@@ -1,5 +1,5 @@
 {
-  "version": "0.1.12",
+  "version": "0.1.20",
   "national": {
     "media": "https://info.cec.gov.tw/vote2026/media/",
     "schedule": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
@@ -291,6 +291,328 @@
       "kind": "官方日程／影音入口",
       "source": "https://web.cec.gov.tw/khec/article/65510",
       "status": "選委會公告或網站入口；未取得個別影片"
+    },
+    {
+      "county": "06",
+      "office": "chief",
+      "date": "2026-11-17",
+      "title": "桃園市長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "fEEFbC13-U0",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "桃園市選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "04",
+      "office": "chief",
+      "date": "2026-11-17",
+      "title": "臺南市長公辦政見發表會・第一場",
+      "kind": "公辦政見發表",
+      "video": "4UH5YMEWQSs",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "臺南市選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "04",
+      "office": "chief",
+      "date": "2026-11-20",
+      "title": "臺南市長公辦政見發表會・第二場",
+      "kind": "公辦政見發表",
+      "video": "CnvgOoFI-as",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "臺南市選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "05",
+      "office": "chief",
+      "date": "2026-11-14",
+      "title": "高雄市長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "eMff_0PGOUU",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "高雄市選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "19",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "新竹市長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "B4H-IpshZ6k",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "新竹市選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "07",
+      "office": "chief",
+      "date": "2026-11-19",
+      "title": "新竹縣長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "O7M1KovZeqM",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "新竹縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "08",
+      "office": "chief",
+      "date": "2026-11-19",
+      "title": "苗栗縣長公辦政見發表會・第一場",
+      "kind": "公辦政見發表",
+      "video": "9mGf1W371lE",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "苗栗縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "09",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "彰化縣長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "5am7CtkbKt0",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "彰化縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "10",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "南投縣長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "qR_5CcJ4qzQ",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "南投縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "11",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "雲林縣長公辦政見發表會・錄影播出",
+      "kind": "公辦政見發表",
+      "video": "40Aq_HfygTM",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "雲林縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "20",
+      "office": "chief",
+      "date": "2026-11-21",
+      "title": "嘉義市長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "QgjJpPJ3uzQ",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "嘉義市選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "12",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "嘉義縣長公辦政見發表會・影片一",
+      "kind": "公辦政見發表",
+      "video": "eu_wPaTBBvM",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "嘉義縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "12",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "嘉義縣長公辦政見發表會・影片二",
+      "kind": "公辦政見發表",
+      "video": "s2MDbbdYjls",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "嘉義縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "13",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "屏東縣長公辦政見發表會・第一場",
+      "kind": "公辦政見發表",
+      "video": "qyjY8jeuxe8",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "屏東縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "13",
+      "office": "chief",
+      "date": "2026-11-23",
+      "title": "屏東縣長公辦政見發表會・第二場",
+      "kind": "公辦政見發表",
+      "video": "54Qw7mYLWDc",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "屏東縣選舉委員會",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "15",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "花蓮縣長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "QyhsF3jTAPM",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "洄瀾有線電視",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "14",
+      "office": "chief",
+      "date": null,
+      "title": "臺東縣長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "video": "xiKDeAVZGEc",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "publisher": "東台有線",
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+    },
+    {
+      "county": "18",
+      "office": "chief",
+      "date": "2026-11-23",
+      "time": "19:00",
+      "title": "基隆市長公辦政見發表會・19:00",
+      "kind": "官方日程",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "status": "日程已定位；未取得個別影片"
+    },
+    {
+      "county": "22",
+      "office": "chief",
+      "date": "2026-11-18",
+      "time": "14:00",
+      "title": "連江縣長公辦政見發表會・14:00",
+      "kind": "官方日程",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "status": "日程已定位；未取得個別影片"
+    },
+    {
+      "county": "16",
+      "office": "chief",
+      "date": "2026-11-18",
+      "time": null,
+      "title": "宜蘭縣長公辦政見發表會",
+      "kind": "官方日程",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "status": "日程已定位；未取得個別影片"
+    },
+    {
+      "county": "16",
+      "office": "chief",
+      "date": "2026-11-21",
+      "time": null,
+      "title": "宜蘭縣長公辦政見發表會",
+      "kind": "官方日程",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "status": "日程已定位；未取得個別影片"
+    },
+    {
+      "county": "21",
+      "office": "chief",
+      "date": "2026-11-18",
+      "time": "08:30",
+      "title": "金門縣長公辦政見發表會・08:30",
+      "kind": "官方日程",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "status": "日程已定位；未取得個別影片"
+    },
+    {
+      "county": "08",
+      "office": "chief",
+      "date": "2026-11-24",
+      "time": "10:00",
+      "title": "苗栗縣長公辦政見發表會・10:00",
+      "kind": "官方日程",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
+      "status": "日程已定位；未取得個別影片"
+    },
+    {
+      "county": "17",
+      "office": "council",
+      "districts": [
+        1
+      ],
+      "date": "2026-11-22",
+      "time": "14:00",
+      "title": "澎湖縣議員公辦政見發表會・第1選舉區",
+      "kind": "傳統政見發表",
+      "venue": "馬公市公所三樓禮堂",
+      "source": "https://web.cec.gov.tw/phec/article/65787",
+      "status": "官方日程；未取得影音"
+    },
+    {
+      "county": "17",
+      "office": "council",
+      "districts": [
+        1
+      ],
+      "date": "2026-11-23",
+      "time": "14:00",
+      "title": "澎湖縣議員公辦政見發表會・第1選舉區",
+      "kind": "傳統政見發表",
+      "venue": "鎖港社區活動中心",
+      "source": "https://web.cec.gov.tw/phec/article/65787",
+      "status": "官方日程；未取得影音"
+    },
+    {
+      "county": "17",
+      "office": "council",
+      "districts": [
+        2
+      ],
+      "date": "2026-11-21",
+      "time": "10:00",
+      "title": "澎湖縣議員公辦政見發表會・第2選舉區",
+      "kind": "傳統政見發表",
+      "venue": "湖西鄉公所二樓禮堂",
+      "source": "https://web.cec.gov.tw/phec/article/65787",
+      "status": "官方日程；未取得影音"
+    },
+    {
+      "county": "08",
+      "office": "chief",
+      "date": null,
+      "title": "苗栗縣選舉委員會官方影音頻道",
+      "kind": "官方頻道",
+      "channel": "https://www.youtube.com/@MiaoliEC",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "選委會公告指定官方頻道；非單一影片"
     }
   ]
 }
