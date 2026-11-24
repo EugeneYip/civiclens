@@ -1,0 +1,26 @@
+name: Generate chief original policy source index
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/import_chief_sources.py'
+      - '.github/workflows/chief-policy-sources.yml'
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/import_chief_sources.py
+      - run: python3 -m unittest discover -s tests -v
+      - name: Stage generated data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "chief-sources-${GITHUB_RUN_ID}"
+          git add data/chief-policy-sources.json
+          git commit -m 'Generate original policy source link index'
+          git push origin HEAD
