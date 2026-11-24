@@ -1,0 +1,133 @@
+{
+  "version": "0.1.11",
+  "national": {
+    "media": "https://info.cec.gov.tw/vote2026/media/",
+    "schedule": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+    "referendum": "https://web.cec.gov.tw/central/article/65455"
+  },
+  "entries": [
+    {
+      "county": "01",
+      "office": "chief",
+      "date": "2026-11-14",
+      "title": "臺北市長公辦政見發表會・第一場",
+      "kind": "公辦政見發表",
+      "video": "LSUZwnOhq68",
+      "source": "https://web.cec.gov.tw/mect/article/65389",
+      "publisher": "臺北市選舉委員會",
+      "status": "公告連結已定位；播放器未實測"
+    },
+    {
+      "county": "01",
+      "office": "chief",
+      "date": "2026-11-21",
+      "title": "臺北市長公辦政見發表會・第二場",
+      "kind": "公辦政見發表",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "status": "官方公告入口"
+    },
+    {
+      "county": "01",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "臺北市議員公辦政見發表會・各選區",
+      "kind": "公辦政見發表",
+      "source": "https://web.cec.gov.tw/mect/article/65388",
+      "status": "各選區官方影音入口；11/18–25"
+    },
+    {
+      "county": "02",
+      "office": "chief",
+      "date": "2026-11-13",
+      "title": "新北市長公辦辯論式政見發表會",
+      "kind": "公辦辯論",
+      "source": "https://web.cec.gov.tw/tpcec/article/65575",
+      "status": "官方公告入口"
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "新北市議員公辦政見發表會・各選區",
+      "kind": "公辦政見發表",
+      "source": "https://web.cec.gov.tw/tpcec/article/65575",
+      "status": "各選區官方日程；11/18–20"
+    },
+    {
+      "county": "03",
+      "office": "chief",
+      "date": "2026-11-17",
+      "title": "臺中市長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方日程入口"
+    },
+    {
+      "county": "04",
+      "office": "chief",
+      "date": "2026-11-17",
+      "title": "臺南市長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "source": "https://web.cec.gov.tw/tnec/article/65653",
+      "status": "官方日程；11/17、20"
+    },
+    {
+      "county": "05",
+      "office": "chief",
+      "date": "2026-11-14",
+      "title": "高雄市長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "source": "https://web.cec.gov.tw/khec/article/65510",
+      "status": "官方日程入口"
+    },
+    {
+      "county": "06",
+      "office": "chief",
+      "date": null,
+      "title": "桃園市長國語有聲公報",
+      "kind": "有聲公報",
+      "source": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F00%E6%9C%89%E8%81%B2%E5%85%AC%E5%A0%B1%2F01%E5%B8%82%E9%95%B7%2F%E5%9C%8B%E8%AA%9E%E7%89%88",
+      "status": "官方 MP3 目錄"
+    },
+    {
+      "county": "08",
+      "office": "chief",
+      "date": "2026-11-19",
+      "title": "苗栗縣長公辦政見發表會",
+      "kind": "公辦政見發表",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方日程；11/19、24"
+    },
+    {
+      "county": "08",
+      "office": "chief",
+      "date": null,
+      "title": "苗栗縣長臺語有聲公報",
+      "kind": "有聲公報",
+      "source": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F00%E6%9C%89%E8%81%B2%E5%85%AC%E5%A0%B1%2F01%E7%B8%A3%E9%95%B7%2F%E3%80%90%E5%8F%B0%E8%AA%9E%E3%80%91115%E8%8B%97%E6%A0%97%E7%B8%A3%E6%9C%89%E8%81%B2%E5%85%AC%E5%A0%B1",
+      "status": "官方 MP3 目錄搜尋結果；尚未逐檔確認"
+    },
+    {
+      "county": "17",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "澎湖縣長公辦辯論式政見發表會・第一場",
+      "kind": "公辦辯論",
+      "video": "XfFWXsRJbtw",
+      "source": "https://web.cec.gov.tw/phec/article/65787",
+      "publisher": "澎湖有線",
+      "status": "公告連結已定位；播放器未實測"
+    },
+    {
+      "county": "17",
+      "office": "chief",
+      "date": "2026-11-20",
+      "title": "澎湖縣長公辦辯論式政見發表會・第二場",
+      "kind": "公辦辯論",
+      "video": "IX3KWvoG23A",
+      "source": "https://web.cec.gov.tw/phec/article/65787",
+      "publisher": "澎湖有線",
+      "status": "公告連結已定位；播放器未實測"
+    }
+  ]
+}

@@ -1071,7 +1071,9 @@
     "council": 1493,
     "groups": 243,
     "counties": 22,
-    "party": 949,
-    "announcementOnly": 117
+    "party": 953,
+    "announcementOnly": 117,
+    "profileAdded": 4,
+    "profileTextOnly": true
   }
 }
