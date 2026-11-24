@@ -21,3 +21,14 @@ class GazetteTests(unittest.TestCase):
  def test_title_and_links(self):
   p=(R/'index.html').read_text();self.assertIn('<title>11.28｜115年地方公職人員選舉</title>',p);self.assertIn('href="gazettes.html"',p);self.assertIn('id="official-directory"',p)
   self.assertIn('id="pdf"',(R/'gazettes.html').read_text())
+
+ def test_taitung_fallback(self):
+  g=json.loads((R/'data/gazettes.json').read_text())
+  d=next(o for c in g['counties'] if c['code']=='14' for o in c['offices'] if o['id']=='chief')['documents'][0]
+  self.assertEqual(d['status'],'not_found');self.assertEqual(d['fallback']['status'],'fetch_limit')
+  p=urlparse(d['fallback']['url']);self.assertEqual((p.scheme,p.netloc),('https','bulletin.cec.gov.tw'))
+  self.assertEqual(unquote(p.path),'/01選舉公報/04縣市長/115年/臺東縣縣長.pdf')
+ def test_results_no_vote_claim(self):
+  p=(R/'results.html').read_text();self.assertIn('尚未串接即時票數',p);self.assertIn('https://www.cec.gov.tw/',p)
+  self.assertIn('2026-11-28T16:00:00+08:00',(R/'scripts/results.js').read_text())
+  self.assertIn('href="results.html"',(R/'index.html').read_text())
