@@ -1,0 +1,64 @@
+{
+  "version": "0.1.10",
+  "parties": {
+    "中國國民黨": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Emblem_of_the_Kuomintang.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Emblem%20of%20the%20Kuomintang.svg",
+      "credit": "Zscout370、Laurent1979 / Wikimedia Commons",
+      "rights": "PD-self；標誌權利另依適用法律",
+      "role": "政黨標誌",
+      "status": "source_license_documented",
+      "use": "識別資訊；非支持或背書"
+    },
+    "民主進步黨": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Democratic_Progressive_Party_Logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:The%20Democratic%20Progressive%20Party%20Logo.svg",
+      "credit": "民主進步黨、Smallabc / Wikimedia Commons",
+      "rights": "PD-textlogo；可能受商標限制",
+      "role": "政黨標誌",
+      "status": "source_license_documented",
+      "use": "識別資訊；非支持或背書"
+    },
+    "台灣民眾黨": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/CIS_of_Taiwan_People%27s_Party.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:CIS%20of%20Taiwan%20People's%20Party.svg",
+      "credit": "台灣民眾黨 / Wikimedia Commons",
+      "rights": "PD-textlogo；可能受商標限制",
+      "role": "政黨標誌",
+      "status": "source_license_documented",
+      "use": "識別資訊；非支持或背書"
+    }
+  },
+  "photos": {
+    "01-chief-5": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%E8%94%A3%E8%90%AC%E5%AE%89%E5%B8%82%E9%95%B7_%28cropped%29.jpg/250px-%E8%94%A3%E8%90%AC%E5%AE%89%E5%B8%82%E9%95%B7_%28cropped%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E8%94%A3%E8%90%AC%E5%AE%89%E5%B8%82%E9%95%B7%20(cropped).jpg",
+      "credit": "臺北市政府 / Wikimedia Commons",
+      "rights": "政府網站資料開放宣告，須標示來源；原圖已由 Commons 裁切",
+      "role": "2023 市長肖像，非本屆登記照",
+      "status": "source_license_documented",
+      "use": "識別資訊；非支持或背書"
+    },
+    "01-chief-3": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/%E6%B2%88%E4%BC%AF%E6%B4%8B%E8%82%96%E5%83%8F.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E6%B2%88%E4%BC%AF%E6%B4%8B%E8%82%96%E5%83%8F.jpg",
+      "credit": "立法院全球資訊網 / Wikimedia Commons",
+      "rights": "政府網站資料開放宣告，須標示來源",
+      "role": "2024 立法院肖像，非本屆登記照",
+      "status": "source_license_documented",
+      "use": "識別資訊；非支持或背書"
+    }
+  },
+  "pending": [
+    {
+      "id": "01-chief-5",
+      "url": "https://gazette2026.taiwangogo.tw/candidate-photos/6bcd8b7189cf5509d090c6a652728b0d409568e4ee83f70970b664aa7a921506.webp",
+      "reason": "第三方授權排除照片；原始授權及連線待核"
+    },
+    {
+      "party": "中國國民黨",
+      "url": "https://gazette2026.taiwangogo.tw/brand/party-emblems/moi-2-97f33b8360e1.thumb-6084ffcc85b8.webp",
+      "reason": "第三方授權排除標誌；原始授權及連線待核"
+    }
+  ]
+}
