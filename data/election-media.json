@@ -7,33 +7,6 @@
   },
   "entries": [
     {
-      "county": "02",
-      "office": "chief",
-      "date": "2026-11-13",
-      "title": "新北市長公辦辯論式政見發表會",
-      "kind": "公辦辯論",
-      "source": "https://web.cec.gov.tw/tpcec/article/65575",
-      "status": "官方公告入口"
-    },
-    {
-      "county": "02",
-      "office": "council",
-      "date": "2026-11-18",
-      "title": "新北市議員公辦政見發表會・各選區",
-      "kind": "公辦政見發表",
-      "source": "https://web.cec.gov.tw/tpcec/article/65575",
-      "status": "各選區官方日程；11/18–20"
-    },
-    {
-      "county": "03",
-      "office": "chief",
-      "date": "2026-11-17",
-      "title": "臺中市長公辦政見發表會",
-      "kind": "公辦政見發表",
-      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
-      "status": "官方日程入口"
-    },
-    {
       "county": "04",
       "office": "chief",
       "date": "2026-11-17",
@@ -59,15 +32,6 @@
       "kind": "有聲公報",
       "source": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F00%E6%9C%89%E8%81%B2%E5%85%AC%E5%A0%B1%2F01%E5%B8%82%E9%95%B7%2F%E5%9C%8B%E8%AA%9E%E7%89%88",
       "status": "官方 MP3 目錄"
-    },
-    {
-      "county": "08",
-      "office": "chief",
-      "date": "2026-11-19",
-      "title": "苗栗縣長公辦政見發表會",
-      "kind": "公辦政見發表",
-      "source": "https://web.cec.gov.tw/mlec/article/65791",
-      "status": "官方日程；11/19、24"
     },
     {
       "county": "08",
@@ -622,66 +586,11 @@
       }
     },
     {
-      "county": "18",
-      "office": "chief",
-      "date": "2026-11-23",
-      "time": "19:00",
-      "title": "基隆市長公辦政見發表會・19:00",
-      "kind": "官方日程",
-      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
-      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
-      "status": "日程已定位；未取得個別影片"
-    },
-    {
-      "county": "22",
-      "office": "chief",
-      "date": "2026-11-18",
-      "time": "14:00",
-      "title": "連江縣長公辦政見發表會・14:00",
-      "kind": "官方日程",
-      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
-      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
-      "status": "日程已定位；未取得個別影片"
-    },
-    {
-      "county": "16",
-      "office": "chief",
-      "date": "2026-11-18",
-      "time": null,
-      "title": "宜蘭縣長公辦政見發表會",
-      "kind": "官方日程",
-      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
-      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
-      "status": "日程已定位；未取得個別影片"
-    },
-    {
-      "county": "16",
-      "office": "chief",
-      "date": "2026-11-21",
-      "time": null,
-      "title": "宜蘭縣長公辦政見發表會",
-      "kind": "官方日程",
-      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
-      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
-      "status": "日程已定位；未取得個別影片"
-    },
-    {
       "county": "21",
       "office": "chief",
       "date": "2026-11-18",
       "time": "08:30",
       "title": "金門縣長公辦政見發表會・08:30",
-      "kind": "官方日程",
-      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
-      "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
-      "status": "日程已定位；未取得個別影片"
-    },
-    {
-      "county": "08",
-      "office": "chief",
-      "date": "2026-11-24",
-      "time": "10:00",
-      "title": "苗栗縣長公辦政見發表會・10:00",
       "kind": "官方日程",
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
@@ -738,6 +647,880 @@
       "channel": "https://www.youtube.com/@MiaoliEC",
       "source": "https://web.cec.gov.tw/mlec/article/65791",
       "status": "選委會公告指定官方頻道；非單一影片"
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "新北市議員公辦電視政見發表會・第3選舉區（甲組1–6號）",
+      "kind": "公辦政見發表",
+      "video": "TxvM_k4dANs",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        3
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第3選舉區公辦電視政見發表會 甲組1 6號"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "新北市議員公辦電視政見發表會・第3選舉區（乙組7–12號）",
+      "kind": "公辦政見發表",
+      "video": "66NtA1x-wnY",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        3
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第3選舉區公辦電視政見發表會 乙組7 12號"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "新北市議員公辦電視政見發表會・第5選舉區（甲組1–6號）",
+      "kind": "公辦政見發表",
+      "video": "A6I_y6E70hA",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        5
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第5選舉區公辦電視政見發表會上"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "新北市議員公辦電視政見發表會・第5選舉區（乙組7–12號）",
+      "kind": "公辦政見發表",
+      "video": "r9qb5FPDSKw",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        5
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第5選舉區公辦電視政見發表會下"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "新北市議員公辦電視政見發表會・第9選舉區",
+      "kind": "公辦政見發表",
+      "video": "ONKhW-JGZE8",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        9
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第九選舉區公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "新北市議員公辦電視政見發表會・第1選舉區",
+      "kind": "公辦政見發表",
+      "video": "Nsoj-gevYqA",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        1
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第1選舉區公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "新北市議員公辦電視政見發表會・第6選舉區",
+      "kind": "公辦政見發表",
+      "video": "Lo5h_e22pkc",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        6
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆市議員選舉第6選區公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "新北市議員公辦電視政見發表會・第7選舉區",
+      "kind": "公辦政見發表",
+      "video": "OiJyYgUl6pk",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        7
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆市議員選舉第7選區公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "新北市議員公辦電視政見發表會・第12選舉區",
+      "kind": "公辦政見發表",
+      "video": "ZyNPwywW1Q4",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        12
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第12選舉區公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "新北市議員公辦電視政見發表會・第13選舉區",
+      "kind": "公辦政見發表",
+      "video": "66-xpqE2Wo8",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        13
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第13選舉區公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "新北市議員公辦電視政見發表會・第2選舉區",
+      "kind": "公辦政見發表",
+      "video": "T2-4GAqsM3I",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        2
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉第2選舉區公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "新北市議員公辦電視政見發表會・第8選舉區（甲組1–6號）",
+      "kind": "公辦政見發表",
+      "video": "IDK3m_RTcjk",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        8
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆市議員選舉第8選區甲組1 6號公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "新北市議員公辦電視政見發表會・第8選舉區（乙組7–12號）",
+      "kind": "公辦政見發表",
+      "video": "hMwPMQ_mPx8",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        8
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆市議員選舉第8選區乙組7 12號公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "新北市議員公辦電視政見發表會・第11選舉區",
+      "kind": "公辦政見發表",
+      "video": "6bJmY75WkTw",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        11
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉公辦電視政見發表會 第11選舉區"
+      }
+    },
+    {
+      "county": "02",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "新北市議員公辦電視政見發表會・第10選舉區",
+      "kind": "公辦政見發表",
+      "video": "RhHmI98SBdM",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "districts": [
+        10
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆議員選舉公辦電視政見發表會 第10選舉區"
+      }
+    },
+    {
+      "county": "03",
+      "office": "chief",
+      "date": "2026-11-17",
+      "title": "臺中市長公辦電視辯論式政見發表會",
+      "kind": "公辦辯論",
+      "video": "oNCYwDRqOzQ",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市第5屆市長選舉候選人公辦電視政見辯論會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "臺中市議員公辦電視政見發表會・第1選舉區",
+      "kind": "公辦政見發表",
+      "video": "lfeQTTbWxkQ",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        1
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第1選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "臺中市議員公辦電視政見發表會・第2選舉區",
+      "kind": "公辦政見發表",
+      "video": "KkWuG4K-X0M",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        2
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第2選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "臺中市議員公辦電視政見發表會・第3選舉區",
+      "kind": "公辦政見發表",
+      "video": "5TAGwDb9Xb8",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        3
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第3選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "臺中市議員公辦電視政見發表會・第4選舉區",
+      "kind": "公辦政見發表",
+      "video": "aEH2y167CpE",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        4
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第4選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "臺中市議員公辦電視政見發表會・第5選舉區",
+      "kind": "公辦政見發表",
+      "video": "tpx8HL_JVxo",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        5
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第5選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "臺中市議員公辦電視政見發表會・第6選舉區",
+      "kind": "公辦政見發表",
+      "video": "dF0kC4y8PLQ",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        6
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第6選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "臺中市議員公辦電視政見發表會・第7選舉區",
+      "kind": "公辦政見發表",
+      "video": "4begUCfJlec",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        7
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第7選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "臺中市議員公辦電視政見發表會・第8選舉區",
+      "kind": "公辦政見發表",
+      "video": "QlIzkbfRa-g",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        8
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第8選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-21",
+      "title": "臺中市議員公辦電視政見發表會・第9選舉區",
+      "kind": "公辦政見發表",
+      "video": "3-rjx_jTHpU",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        9
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第9選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-21",
+      "title": "臺中市議員公辦電視政見發表會・第10選舉區",
+      "kind": "公辦政見發表",
+      "video": "t3sNn_ievNc",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        10
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第10選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-22",
+      "title": "臺中市議員公辦電視政見發表會・第11選舉區",
+      "kind": "公辦政見發表",
+      "video": "shkg0rFoWss",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        11
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第11選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "臺中市議員公辦電視政見發表會・第12選舉區",
+      "kind": "公辦政見發表",
+      "video": "PkXdgDNJIPI",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        12
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第12選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "臺中市議員公辦電視政見發表會・第13選舉區",
+      "kind": "公辦政見發表",
+      "video": "iNHz-jItCEw",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        13
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第13選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-21",
+      "title": "臺中市議員公辦電視政見發表會・第14選舉區",
+      "kind": "公辦政見發表",
+      "video": "s3ZLlfLwzCA",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        14
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第14選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-21",
+      "title": "臺中市議員公辦電視政見發表會・第15選舉區",
+      "kind": "公辦政見發表",
+      "video": "KccZUc82z1Q",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        15
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第15選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-22",
+      "title": "臺中市議員公辦電視政見發表會・第16選舉區",
+      "kind": "公辦政見發表",
+      "video": "sCnctGkpcqI",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        16
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第16選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "03",
+      "office": "council",
+      "date": "2026-11-22",
+      "title": "臺中市議員公辦電視政見發表會・第17選舉區",
+      "kind": "公辦政見發表",
+      "video": "oVwsa6jaPqM",
+      "source": "https://web.cec.gov.tw/api/file/855e965a-7aed-45e6-9c6a-474bc8dc4e34.pdf",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "臺中市選舉委員會",
+      "districts": [
+        17
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "臺中市選舉委員會",
+        "title": "臺中市議會第5屆議員選舉第17選舉區候選人公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "08",
+      "office": "chief",
+      "date": "2026-11-19",
+      "title": "苗栗縣長公辦電視政見發表會・第一場次",
+      "kind": "公辦政見發表",
+      "video": "pLuVbKZ2YLg",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "苗栗縣選委會",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "苗栗縣選委會",
+        "title": "2026縣長選舉公辦電視政見會第一場次 ( 有字幕 )"
+      }
+    },
+    {
+      "county": "08",
+      "office": "chief",
+      "date": "2026-11-24",
+      "title": "苗栗縣長公辦電視政見發表會・第二場次",
+      "kind": "公辦政見發表",
+      "video": "Je4eFmUP61g",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "苗栗縣選委會",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "苗栗縣選委會",
+        "title": "2026縣長選舉公辦電視政見會第二場次 無字幕"
+      }
+    },
+    {
+      "county": "08",
+      "office": "council",
+      "date": null,
+      "title": "苗栗縣議員公辦電視政見發表會・第1選舉區",
+      "kind": "公辦政見發表",
+      "video": "qruQhh3ft-c",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "苗栗縣選委會",
+      "districts": [
+        1
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "苗栗縣選委會",
+        "title": "苗栗縣第二十一屆縣議員選舉第一選區公辦政見發表會"
+      }
+    },
+    {
+      "county": "08",
+      "office": "council",
+      "date": null,
+      "title": "苗栗縣議員公辦電視政見發表會・第3選舉區",
+      "kind": "公辦政見發表",
+      "video": "qwodRkjvIZw",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "苗栗縣選委會",
+      "districts": [
+        3
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "苗栗縣選委會",
+        "title": "苗栗縣第二十一屆縣議員選舉第三選區公辦政見發表會"
+      }
+    },
+    {
+      "county": "08",
+      "office": "council",
+      "date": null,
+      "title": "苗栗縣議員公辦電視政見發表會・第4選舉區",
+      "kind": "公辦政見發表",
+      "video": "VXOT5Q4AT4U",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "苗栗縣選委會",
+      "districts": [
+        4
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "苗栗縣選委會",
+        "title": "苗栗縣第二十一屆縣議員選舉第四選區公辦政見發表會"
+      }
+    },
+    {
+      "county": "08",
+      "office": "council",
+      "date": null,
+      "title": "苗栗縣議員公辦電視政見發表會・第5選舉區",
+      "kind": "公辦政見發表",
+      "video": "r01X_g5_4Ng",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "苗栗縣選委會",
+      "districts": [
+        5
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "苗栗縣選委會",
+        "title": "苗栗縣第二十一屆縣議員選舉第五選區公辦政見發表會"
+      }
+    },
+    {
+      "county": "08",
+      "office": "council",
+      "date": null,
+      "title": "苗栗縣議員公辦電視政見發表會・第7選舉區",
+      "kind": "公辦政見發表",
+      "video": "vYZDDs75wNs",
+      "source": "https://web.cec.gov.tw/mlec/article/65791",
+      "status": "官方公告指定之選委會YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "苗栗縣選委會",
+      "districts": [
+        7
+      ],
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "苗栗縣選委會",
+        "title": "苗栗縣第二十一屆縣議員選舉第七選區公辦政見發表會"
+      }
+    },
+    {
+      "county": "18",
+      "office": "chief",
+      "date": "2026-11-23",
+      "title": "基隆市長公辦電視辯論式政見發表會",
+      "kind": "公辦辯論",
+      "video": "UrBug9y-7_U",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "中嘉新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "中嘉新聞",
+        "title": "基隆市第20 屆市長選舉候選人公辦電視政見發表會（辯論方式）"
+      }
+    },
+    {
+      "county": "22",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "連江縣長公辦電視政見發表會",
+      "kind": "公辦政見發表",
+      "video": "p5EiXGrqQCk",
+      "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "連江縣選委會",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "連江縣選委會",
+        "title": "連江縣115年縣長選舉公辦政見發表會11/18"
+      }
+    },
+    {
+      "county": "02",
+      "office": "chief",
+      "date": "2026-11-13",
+      "title": "新北市長公辦電視辯論式政見發表會",
+      "kind": "公辦辯論",
+      "video": "36p0RO4hh98",
+      "source": "https://web.cec.gov.tw/tpcec/menu/11450",
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "publisher": "新北市選舉委員會",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "新北市選舉委員會",
+        "title": "新北市第5屆市長選舉公辦電視政見發表會"
+      }
+    },
+    {
+      "county": "16",
+      "office": "chief",
+      "date": "2026-11-18",
+      "title": "宜蘭縣長公辦電視政見發表會・第1場次",
+      "kind": "公辦政見發表",
+      "video": "CqHjkivM8ew",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞"
+      }
+    },
+    {
+      "county": "16",
+      "office": "chief",
+      "date": "2026-11-21",
+      "title": "宜蘭縣長公辦電視政見發表會・第2場次",
+      "kind": "公辦政見發表",
+      "video": "yyPts_aZ6NI",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞"
+      }
     }
   ],
   "national_videos": [
