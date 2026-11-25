@@ -1,0 +1,176 @@
+{
+ "version": "0.1.26",
+ "checked_on": "2026-11-25",
+ "reason": "第三方公報轉錄（正至）在下列選區有推薦政黨與中選會官方資料不符；經核對臺南市第8選區官方公報，確認許至椿與周嘉韋兩人的學經歷及政黨紀錄互換。為避免張冠李戴，整個選區的第三方公報學經歷、政黨、政策字詞及肖像尺寸紀錄暫停顯示，待逐筆核對官方公報後再恢復。",
+ "verified_example": {
+  "race": "04-council-8",
+  "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+  "finding": "官方公報：1號許至椿推薦之政黨為中國國民黨、7號周嘉韋為民主進步黨；第三方轉錄將兩人資料互換。"
+ },
+ "evidence": [
+  {
+   "race": "04-council-1",
+   "mismatches": [
+    {
+     "number": 5,
+     "name": "趙昆原",
+     "transcribed_party": "中國國民黨",
+     "official_party": "無"
+    },
+    {
+     "number": 6,
+     "name": "王宣貿",
+     "transcribed_party": "無",
+     "official_party": "民主進步黨"
+    },
+    {
+     "number": 8,
+     "name": "蔡育輝",
+     "transcribed_party": "民主進步黨",
+     "official_party": "中國國民黨"
+    }
+   ]
+  },
+  {
+   "race": "04-council-8",
+   "mismatches": [
+    {
+     "number": 1,
+     "name": "許至椿",
+     "transcribed_party": "民主進步黨",
+     "official_party": "中國國民黨"
+    },
+    {
+     "number": 7,
+     "name": "周嘉韋",
+     "transcribed_party": "中國國民黨",
+     "official_party": "民主進步黨"
+    }
+   ]
+  },
+  {
+   "race": "04-council-9",
+   "mismatches": [
+    {
+     "number": 4,
+     "name": "蕭漍華",
+     "transcribed_party": "民主進步黨",
+     "official_party": "台灣民眾黨"
+    },
+    {
+     "number": 6,
+     "name": "周麗津",
+     "transcribed_party": "中國國民黨",
+     "official_party": "民主進步黨"
+    },
+    {
+     "number": 7,
+     "name": "盧崑福",
+     "transcribed_party": "台灣民眾黨",
+     "official_party": "中國國民黨"
+    }
+   ]
+  },
+  {
+   "race": "04-council-10",
+   "mismatches": [
+    {
+     "number": 2,
+     "name": "陳金鐘",
+     "transcribed_party": "無",
+     "official_party": "民主進步黨"
+    },
+    {
+     "number": 6,
+     "name": "王家貞",
+     "transcribed_party": "民主進步黨",
+     "official_party": "中國國民黨"
+    }
+   ]
+  },
+  {
+   "race": "04-council-11",
+   "mismatches": [
+    {
+     "number": 3,
+     "name": "翁語含",
+     "transcribed_party": "無",
+     "official_party": "中國國民黨"
+    },
+    {
+     "number": 4,
+     "name": "杜素吟",
+     "transcribed_party": "中國國民黨",
+     "official_party": "無"
+    }
+   ]
+  },
+  {
+   "race": "15-council-8",
+   "mismatches": [
+    {
+     "number": 2,
+     "name": "王沈剛竹",
+     "transcribed_party": "無",
+     "official_party": "中國國民黨"
+    }
+   ]
+  },
+  {
+   "race": "15-council-10",
+   "mismatches": [
+    {
+     "number": 2,
+     "name": "李忠祥",
+     "transcribed_party": "中國國民黨",
+     "official_party": "無"
+    }
+   ]
+  }
+ ],
+ "ids": [
+  "04-council-1-1",
+  "04-council-1-2",
+  "04-council-1-3",
+  "04-council-1-4",
+  "04-council-1-5",
+  "04-council-1-6",
+  "04-council-1-7",
+  "04-council-1-8",
+  "04-council-10-2",
+  "04-council-10-3",
+  "04-council-10-6",
+  "04-council-11-1",
+  "04-council-11-2",
+  "04-council-11-3",
+  "04-council-11-4",
+  "04-council-11-5",
+  "04-council-11-6",
+  "04-council-11-7",
+  "04-council-11-8",
+  "04-council-11-9",
+  "04-council-8-1",
+  "04-council-8-10",
+  "04-council-8-2",
+  "04-council-8-3",
+  "04-council-8-4",
+  "04-council-8-5",
+  "04-council-8-6",
+  "04-council-8-7",
+  "04-council-8-8",
+  "04-council-9-1",
+  "04-council-9-2",
+  "04-council-9-3",
+  "04-council-9-4",
+  "04-council-9-5",
+  "04-council-9-6",
+  "04-council-9-7",
+  "04-council-9-8",
+  "04-council-9-9",
+  "15-council-10-1",
+  "15-council-10-2",
+  "15-council-8-1",
+  "15-council-8-2",
+  "15-council-8-3"
+ ]
+}

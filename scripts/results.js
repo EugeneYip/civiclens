@@ -101,7 +101,7 @@ if(typeof document!=="undefined")(()=>{
  Promise.all([load("election"),load("council-districts"),load("published-roster"),load("national-roster-supplement"),load("results-snapshot").catch(()=>({version:"0.1.22",races:{}})),load("party-summary").catch(()=>null),load("historical-results-2022").catch(()=>null)]).then(([e,d,a,b,s,p,h])=>{
   const groups=[...a.districts,...b.districts];
   if(e.counties.length!==22||d.district_count!==221||groups.length!==243||new Set(groups.map(g=>g.id)).size!==243)throw Error("roster validation");
-  const partiesOk=p?.version==="0.1.25"&&p.national&&p.counties&&p.candidates&&groups.every(g=>g.candidates.every(c=>Array.isArray(p.candidates[c.id])));
+  const partiesOk=p?.version==="0.1.26"&&p.national&&p.counties&&p.candidates&&groups.every(g=>g.candidates.every(c=>Array.isArray(p.candidates[c.id])));
   const historyOk=h?.version==="0.1.25"&&h.national&&e.counties.every(c=>h.counties?.[c.code]?.chief&&h.counties[c.code].council);
   data={election:e,districts:d,groups,parties:partiesOk?p:null,history:historyOk?h:null,snapshot:s?.version==="0.1.22"&&s.races&&typeof s.races==="object"?s:{races:{}}};
   opt(county,e.counties.map(x=>[x.code,x.name]));const q=new URLSearchParams(location.search);if(e.counties.some(c=>c.code===q.get("county")))county.value=q.get("county");office.disabled=false;if(q.get("office")==="council")office.value="council";setDistrict(q.get("district"));render();refresh();

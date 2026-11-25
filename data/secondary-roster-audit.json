@@ -1104,7 +1104,12 @@
       "secondary_party": "無黨籍",
       "official_source": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
       "secondary_source": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80/",
-      "status": "unresolved_recheck_required"
+      "status": "unresolved_recheck_required",
+      "resolution": {
+        "checked_on": "2026-11-25",
+        "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+        "result": "中選會115年選舉專區官方資料與 secondary_name 相同；本站名冊已更正。"
+      }
     },
     {
       "id": "01-council-5-1",
@@ -1114,7 +1119,12 @@
       "secondary_party": "中國國民黨",
       "official_source": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
       "secondary_source": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80/",
-      "status": "unresolved_recheck_required"
+      "status": "unresolved_recheck_required",
+      "resolution": {
+        "checked_on": "2026-11-25",
+        "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+        "result": "中選會115年選舉專區官方資料與 secondary_name 相同；本站名冊已更正。"
+      }
     },
     {
       "id": "01-council-5-14",
@@ -1124,7 +1134,12 @@
       "secondary_party": "無黨籍",
       "official_source": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
       "secondary_source": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80/",
-      "status": "unresolved_recheck_required"
+      "status": "unresolved_recheck_required",
+      "resolution": {
+        "checked_on": "2026-11-25",
+        "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+        "result": "中選會115年選舉專區官方資料與 secondary_name 相同；本站名冊已更正。"
+      }
     },
     {
       "id": "01-council-8-1",
@@ -1134,7 +1149,12 @@
       "secondary_party": "無黨籍",
       "official_source": "https://web.cec.gov.tw/api/file/379f89e0-e972-4a2b-ac67-01e5587591b2.pdf",
       "secondary_source": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E5%85%AB%E9%81%B8%E8%88%89%E5%8D%80/",
-      "status": "unresolved_recheck_required"
+      "status": "unresolved_recheck_required",
+      "resolution": {
+        "checked_on": "2026-11-25",
+        "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+        "result": "中選會115年選舉專區官方資料與 secondary_name 相同；本站名冊已更正。"
+      }
     }
   ]
 }

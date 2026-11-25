@@ -114,7 +114,7 @@
           "id": "01-chief-4",
           "name": "蕭文乾",
           "number": 4,
-          "party": "臺灣 SoR 無法黨",
+          "party": "臺灣SoR無法黨",
           "party_source": {
             "url": "https://eebulletin.cec.gov.tw/115/01%E8%87%BA%E5%8C%97%E5%B8%82/01%E5%B8%82%E9%95%B7/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC9%E5%B1%86%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
             "page": 1,
@@ -382,7 +382,7 @@
         },
         {
           "id": "01-council-1-7",
-          "name": "劉致好",
+          "name": "劉致妤",
           "number": 7,
           "party": "無",
           "party_source": {
@@ -403,13 +403,14 @@
           "secondary_source": {
             "url": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80/",
             "version": "2026-11-02",
-            "name_agrees": false,
+            "name_agrees": true,
             "party_label_agrees": true
           },
-          "source_conflict": {
-            "name": true,
-            "party": false,
-            "secondary_name": "劉致妤"
+          "name_verification": {
+            "previous": "劉致好",
+            "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+            "checked_on": "2026-11-25",
+            "note": "中選會115年選舉專區官方候選人資料確認姓名；原轉錄字形錯誤已更正。"
           }
         },
         {
@@ -1981,7 +1982,7 @@
       "candidates": [
         {
           "id": "01-council-5-1",
-          "name": "張延延",
+          "name": "張延廷",
           "number": 1,
           "party": "中國國民黨",
           "party_source": {
@@ -2002,13 +2003,14 @@
           "secondary_source": {
             "url": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80/",
             "version": "2026-11-02",
-            "name_agrees": false,
+            "name_agrees": true,
             "party_label_agrees": true
           },
-          "source_conflict": {
-            "name": true,
-            "party": false,
-            "secondary_name": "張延廷"
+          "name_verification": {
+            "previous": "張延延",
+            "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+            "checked_on": "2026-11-25",
+            "note": "中選會115年選舉專區官方候選人資料確認姓名；原轉錄字形錯誤已更正。"
           }
         },
         {
@@ -2337,7 +2339,7 @@
         },
         {
           "id": "01-council-5-14",
-          "name": "應佳好",
+          "name": "應佳妤",
           "number": 14,
           "party": "無",
           "party_source": {
@@ -2358,13 +2360,14 @@
           "secondary_source": {
             "url": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80/",
             "version": "2026-11-02",
-            "name_agrees": false,
+            "name_agrees": true,
             "party_label_agrees": true
           },
-          "source_conflict": {
-            "name": true,
-            "party": false,
-            "secondary_name": "應佳妤"
+          "name_verification": {
+            "previous": "應佳好",
+            "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+            "checked_on": "2026-11-25",
+            "note": "中選會115年選舉專區官方候選人資料確認姓名；原轉錄字形錯誤已更正。"
           }
         }
       ]
@@ -2945,7 +2948,7 @@
       "candidates": [
         {
           "id": "01-council-8-1",
-          "name": "孔垂峯 Haisul Islitian",
+          "name": "孔垂崢 Haisul Islituan",
           "number": 1,
           "party": "無",
           "party_source": {
@@ -2966,13 +2969,14 @@
           "secondary_source": {
             "url": "https://gazette2026.taiwangogo.tw/districts/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AC%AC%E5%85%AB%E9%81%B8%E8%88%89%E5%8D%80/",
             "version": "2026-11-02",
-            "name_agrees": false,
+            "name_agrees": true,
             "party_label_agrees": true
           },
-          "source_conflict": {
-            "name": true,
-            "party": false,
-            "secondary_name": "孔垂崢 Haisul Islituan"
+          "name_verification": {
+            "previous": "孔垂峯 Haisul Islitian",
+            "source": "https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json",
+            "checked_on": "2026-11-25",
+            "note": "中選會115年選舉專區官方候選人資料確認姓名；原轉錄字形錯誤已更正。"
           }
         },
         {

@@ -7,7 +7,7 @@ class PartySummaryTests(unittest.TestCase):
     def test_summary_is_current_and_consistent(self):
         subprocess.run([sys.executable, str(ROOT / "scripts/build_party_summary.py"), "--check"], check=True)
         d = json.loads((ROOT / "data/party-summary.json").read_text())
-        self.assertEqual(d["version"], "0.1.25")
+        self.assertEqual(d["version"], "0.1.26")
         groups = [g for f in ("published-roster", "national-roster-supplement") for g in json.loads((ROOT / "data" / (f + ".json")).read_text())["districts"]]
         ids = {c["id"]: g for g in groups for c in g["candidates"]}
         self.assertEqual(set(d["candidates"]), set(ids))

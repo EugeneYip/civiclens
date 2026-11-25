@@ -1,7 +1,7 @@
 """Build the party nomination summary used by the results page.
 
 The precedence mirrors scripts/explorer.js partyLabel():
-official roster party -> bulletin transcription -> registration data -> registration
+official roster party -> CEC 2026 election-site party -> bulletin transcription -> registration data -> registration
 secondary transcription.  Candidates without any of these remain "pending"; they are
 never assigned to a party by inference.  Seats are never estimated here: elected seats
 are computed in the browser only from validated final results.
@@ -14,9 +14,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-VERSION = "0.1.25"
+VERSION = "0.1.26"
 NONE_LABELS = {"無", "無黨籍", "未經政黨推薦", "無黨籍及未經政黨推薦"}
-TIERS = ("official", "bulletin", "registration", "registration_secondary")
+TIERS = ("official", "cec_official", "bulletin", "registration", "registration_secondary")
 OUTPUT = DATA / "party-summary.json"
 
 
@@ -29,7 +29,7 @@ def normalize(party):
     return "無" if party in NONE_LABELS else party
 
 
-def resolve(row, bulletin, supplement):
+def resolve(row, bulletin, supplement, cec):
     b = bulletin.get(row["id"])
     bulletin_party = None
     if b and b.get("name") == row["name"] and b.get("number") == row["number"] and b.get("status") == "secondary_bulletin_transcription":
@@ -39,7 +39,8 @@ def resolve(row, bulletin, supplement):
     if (row.get("party") is None and row.get("registration_party") is None and x
             and x.get("name") == row["name"] and x.get("status") == "registration_secondary_exact_match"):
         secondary = x.get("party")
-    for tier, value in zip(TIERS, (row.get("party"), bulletin_party, row.get("registration_party"), secondary)):
+    cec_party = (cec.get(row["id"]) or {}).get("party")
+    for tier, value in zip(TIERS, (row.get("party"), cec_party, bulletin_party, row.get("registration_party"), secondary)):
         if value is not None and str(value).strip():
             return normalize(str(value)), tier
     return None, "pending"
@@ -47,8 +48,10 @@ def resolve(row, bulletin, supplement):
 
 def build():
     groups = [g for f in ("published-roster.json", "national-roster-supplement.json") for g in load(f)["districts"]]
-    bulletin = load("bulletin-facts.json")["records"]
+    hold = set(load("bulletin-quarantine.json")["ids"])
+    bulletin = {k: v for k, v in load("bulletin-facts.json")["records"].items() if k not in hold}
     supplement = load("candidate-parties.json")["records"]
+    cec = load("cec-official-2026.json")["records"]
     districts = load("council-districts.json")
     seats = {c["code"]: c["seats"] for c in districts["counties"]}
     if len(groups) != 243 or len({g["id"] for g in groups}) != 243:
@@ -58,7 +61,7 @@ def build():
     tiers = defaultdict(lambda: defaultdict(Counter))
     for g in groups:
         for row in g["candidates"]:
-            party, tier = resolve(row, bulletin, supplement)
+            party, tier = resolve(row, bulletin, supplement, cec)
             if row["id"] in candidates:
                 raise SystemExit("duplicate candidate id " + row["id"])
             candidates[row["id"]] = [party, tier]
@@ -78,9 +81,10 @@ def build():
     county_codes = sorted({g["county"] for g in groups})
     summary = {
         "version": VERSION,
-        "method": "依本站候選人頁相同順序取用政黨欄位：名冊推薦政黨、公報推薦政黨轉錄、登記資料、登記資料民間轉錄；皆無者列為待核，不推定政黨。候選人數為提名／推薦或登記標示，不代表當選席次或目前黨籍。",
+        "method": "依本站候選人頁相同順序取用政黨欄位：名冊推薦政黨、中選會115年選舉專區官方資料、公報推薦政黨轉錄、登記資料、登記資料民間轉錄；皆無者列為待核，不推定政黨。候選人數為提名／推薦或登記標示，不代表當選席次或目前黨籍。",
         "tier_labels": {
             "official": "名冊推薦政黨",
+            "cec_official": "中選會選舉專區官方資料",
             "bulletin": "公報推薦政黨轉錄（第三方，未逐筆覆核）",
             "registration": "登記資料",
             "registration_secondary": "登記資料民間轉錄",

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.20",
+  "version": "0.1.26",
   "national": {
     "media": "https://info.cec.gov.tw/vote2026/media/",
     "schedule": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
@@ -84,10 +84,10 @@
       "date": "2026-11-18",
       "title": "澎湖縣長公辦辯論式政見發表會・第一場",
       "kind": "公辦辯論",
-      "video": "XfFWXsRJbtw",
       "source": "https://web.cec.gov.tw/phec/article/65787",
       "publisher": "澎湖有線",
-      "status": "公告連結已定位；播放器未實測"
+      "status": "原列影片網址查無（2026-11-25 YouTube oEmbed 及縮圖均回傳 404），已移除；保留官方公告入口。",
+      "video_removed": "XfFWXsRJbtw"
     },
     {
       "county": "17",
@@ -98,7 +98,12 @@
       "video": "IX3KWvoG23A",
       "source": "https://web.cec.gov.tw/phec/article/65787",
       "publisher": "澎湖有線",
-      "status": "公告連結已定位；播放器未實測"
+      "status": "公告連結已定位；播放器未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "澎湖有線電視"
+      }
     },
     {
       "county": "01",
@@ -109,7 +114,12 @@
       "video": "7tmQWV4wuYY",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺北市選舉委員會"
+      }
     },
     {
       "county": "01",
@@ -120,7 +130,12 @@
       "video": "0aQYBIyBmJM",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺北市選舉委員會"
+      }
     },
     {
       "county": "01",
@@ -133,7 +148,12 @@
       "video": "2ArVvgGTfbs",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺北市選舉委員會"
+      }
     },
     {
       "county": "01",
@@ -146,7 +166,12 @@
       "video": "_Nymob2XDnc",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺北市選舉委員會"
+      }
     },
     {
       "county": "01",
@@ -161,7 +186,12 @@
       "video": "pBhxCe_kyaU",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺北市選舉委員會"
+      }
     },
     {
       "county": "01",
@@ -174,7 +204,12 @@
       "video": "A3qsx8sDcUg",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺北市選舉委員會"
+      }
     },
     {
       "county": "01",
@@ -187,7 +222,12 @@
       "video": "PzgwKGbx8tI",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺北市選舉委員會"
+      }
     },
     {
       "county": "01",
@@ -200,7 +240,12 @@
       "video": "a9UXubbYmdQ",
       "source": "https://web.cec.gov.tw/mect/article/65388",
       "publisher": "臺北市選舉委員會",
-      "status": "官方公告列有影片連結；播放狀態未實測"
+      "status": "官方公告列有影片連結；播放狀態未實測",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": null
+      }
     },
     {
       "county": "06",
@@ -302,7 +347,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "桃園市選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "桃園市選舉委員會"
+      }
     },
     {
       "county": "04",
@@ -314,7 +364,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "臺南市選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺南市選舉委員會"
+      }
     },
     {
       "county": "04",
@@ -326,7 +381,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "臺南市選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "臺南市選舉委員會"
+      }
     },
     {
       "county": "05",
@@ -338,7 +398,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "高雄市選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "高雄市選舉委員會"
+      }
     },
     {
       "county": "19",
@@ -350,7 +415,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "新竹市選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "新竹市選舉委員會"
+      }
     },
     {
       "county": "07",
@@ -362,7 +432,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "新竹縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "新竹縣選舉委員會公辦電視說明會"
+      }
     },
     {
       "county": "08",
@@ -370,11 +445,11 @@
       "date": "2026-11-19",
       "title": "苗栗縣長公辦政見發表會・第一場",
       "kind": "公辦政見發表",
-      "video": "9mGf1W371lE",
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "苗栗縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "原列影片網址查無（2026-11-25 YouTube oEmbed 及縮圖均回傳 404），已移除；保留官方公告入口。",
+      "video_removed": "9mGf1W371lE"
     },
     {
       "county": "09",
@@ -386,7 +461,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "彰化縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "彰化縣選舉委員會"
+      }
     },
     {
       "county": "10",
@@ -398,7 +478,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "南投縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "南投縣選舉委員會"
+      }
     },
     {
       "county": "11",
@@ -410,7 +495,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "雲林縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "雲林縣選舉委員會"
+      }
     },
     {
       "county": "20",
@@ -422,7 +512,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "嘉義市選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "選委會嘉義市"
+      }
     },
     {
       "county": "12",
@@ -434,7 +529,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "嘉義縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "嘉義縣選舉委員會"
+      }
     },
     {
       "county": "12",
@@ -446,7 +546,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "嘉義縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "嘉義縣選舉委員會"
+      }
     },
     {
       "county": "13",
@@ -458,7 +563,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "屏東縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "屏東縣選舉委員會公辦政見發表會"
+      }
     },
     {
       "county": "13",
@@ -470,7 +580,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "屏東縣選舉委員會",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "屏東縣選舉委員會公辦政見發表會"
+      }
     },
     {
       "county": "15",
@@ -482,7 +597,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "洄瀾有線電視",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "洄瀾有線電視"
+      }
     },
     {
       "county": "14",
@@ -494,7 +614,12 @@
       "source": "https://info.cec.gov.tw/vote2026/article/content/?target=%2Farticle%2FA0094",
       "evidence": "https://www.cna.com.tw/news/aipl/202611125002.aspx",
       "publisher": "東台有線",
-      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性"
+      "status": "中央社嵌入之原始影片網址已定位；尚未驗證播放或場次完整性",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "東台有線"
+      }
     },
     {
       "county": "18",
@@ -613,6 +738,68 @@
       "channel": "https://www.youtube.com/@MiaoliEC",
       "source": "https://web.cec.gov.tw/mlec/article/65791",
       "status": "選委會公告指定官方頻道；非單一影片"
+    }
+  ],
+  "national_videos": [
+    {
+      "video": "-_5M7gAlFFM",
+      "title": "全國性公民投票案第22案意見發表會・第1場",
+      "kind": "公投意見發表會",
+      "publisher": "民視新聞網 Formosa TV News network",
+      "source": "https://info.cec.gov.tw/vote2026/media/",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "民視新聞網 Formosa TV News network"
+      }
+    },
+    {
+      "video": "guXroDxi-es",
+      "title": "全國性公民投票案第22案意見發表會・第2場",
+      "kind": "公投意見發表會",
+      "publisher": "TTV LIVE 台視直播",
+      "source": "https://info.cec.gov.tw/vote2026/media/",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "TTV LIVE 台視直播"
+      }
+    },
+    {
+      "video": "uz_lwCxcSiI",
+      "title": "全國性公民投票案第22案意見發表會・第3場",
+      "kind": "公投意見發表會",
+      "publisher": "中視新聞",
+      "source": "https://info.cec.gov.tw/vote2026/media/",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "中視新聞"
+      }
+    },
+    {
+      "video": "oIdriL8OZ9U",
+      "title": "全國性公民投票案第22案意見發表會・第4場",
+      "kind": "公投意見發表會",
+      "publisher": "華視新聞 CH52",
+      "source": "https://info.cec.gov.tw/vote2026/media/",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "華視新聞 CH52"
+      }
+    },
+    {
+      "video": "zxICLMc8k7E",
+      "title": "全國性公民投票案第22案意見發表會・第5場",
+      "kind": "公投意見發表會",
+      "publisher": "公視 網路直播頻道",
+      "source": "https://info.cec.gov.tw/vote2026/media/",
+      "verified": {
+        "checked_on": "2026-11-25",
+        "method": "YouTube oEmbed",
+        "channel": "公視 網路直播頻道"
+      }
     }
   ]
 }
