@@ -23,8 +23,9 @@ function validateRace(r,group,seats,now){
 if(typeof module!=="undefined")module.exports={resultPhase,officialSource,validateRace,opening};
 if(typeof document!=="undefined")(()=>{
  const $=id=>document.getElementById(id),county=$("result-county"),office=$("result-office"),district=$("result-district"),rows=$("result-rows"),status=$("result-data-status"),summary=$("result-summary"),src=$("result-source"),headline=$("result-heading");
- const fmt=new Intl.NumberFormat("zh-TW");let data=null;
+ const fmt=new Intl.NumberFormat("zh-TW");let data=null,refreshing=false;
  function update(){ $("phase").textContent=resultPhase(Date.now());if(data)render() }
+ async function refresh(){if(!data||refreshing||Date.now()<opening)return;refreshing=true;try{const s=await load("results-snapshot",true);if(s?.version==="0.1.22"&&s.election_date==="2026-11-28"&&s.races&&typeof s.races==="object"&&!Array.isArray(s.races)){const valid={};for(const [k,r] of Object.entries(s.races)){const g=data.groups.find(x=>x.id===k);if(!g)continue;const seats=g.office==="chief"?1:data.districts.counties.find(x=>x.code===g.county)?.districts.find(d=>d.id===k)?.seats;if(validateRace(r,g,seats,Date.now()))valid[k]=r}const previous=data.snapshot.races;for(const [k,r] of Object.entries(previous)){if(!valid[k]||Date.parse(valid[k].published_at)<Date.parse(r.published_at)||r.status==="final"&&valid[k].status!=="final")valid[k]=r}data.snapshot={...s,races:valid};render();$("result-refresh-status").textContent="已檢查本站快照："+new Date().toLocaleTimeString("zh-TW",{timeZone:"Asia/Taipei",hour12:false})+"（臺灣時間）"}else throw Error("snapshot")}catch{$("result-refresh-status").textContent="更新未成功，保留先前有效資料。"}finally{refreshing=false}}
  function el(tag,txt){const x=document.createElement(tag);if(txt!==undefined)x.textContent=txt;return x}
  function opt(select,items){select.replaceChildren(...items.map(([k,v])=>{const x=el("option",v);x.value=k;return x}));select.disabled=!items.length}
  function setDistrict(preferred){const c=data.districts.counties.find(x=>x.code===county.value);opt(district,c.districts.map(d=>[String(d.number),"第"+d.number+"選區｜"+d.scope]));if(c.districts.some(d=>String(d.number)===preferred))district.value=preferred;$("result-district-label").hidden=office.value!=="council"}
@@ -46,13 +47,13 @@ if(typeof document!=="undefined")(()=>{
   }
   const u=new URL(location.href);u.searchParams.set("county",county.value);u.searchParams.set("office",role);if(role==="council")u.searchParams.set("district",district.value);else u.searchParams.delete("district");history.replaceState(null,"",u.pathname+u.search+u.hash)
  }
- const load=async p=>{const r=await fetch("data/"+p+".json");if(!r.ok)throw Error(p);return r.json()};
+ const load=async (p,fresh=false)=>{const r=await fetch("data/"+p+".json",fresh?{cache:"no-cache"}:{});if(!r.ok)throw Error(p);return r.json()};
  Promise.all([load("election"),load("council-districts"),load("published-roster"),load("national-roster-supplement"),load("results-snapshot").catch(()=>({version:"0.1.22",races:{}}))]).then(([e,d,a,b,s])=>{
   const groups=[...a.districts,...b.districts];
   if(e.counties.length!==22||d.district_count!==221||groups.length!==243||new Set(groups.map(g=>g.id)).size!==243)throw Error("roster validation");
   data={election:e,districts:d,groups,snapshot:s?.version==="0.1.22"&&s.races&&typeof s.races==="object"?s:{races:{}}};
-  opt(county,e.counties.map(x=>[x.code,x.name]));const q=new URLSearchParams(location.search);if(e.counties.some(c=>c.code===q.get("county")))county.value=q.get("county");office.disabled=false;if(q.get("office")==="council")office.value="council";setDistrict(q.get("district"));render();
+  opt(county,e.counties.map(x=>[x.code,x.name]));const q=new URLSearchParams(location.search);if(e.counties.some(c=>c.code===q.get("county")))county.value=q.get("county");office.disabled=false;if(q.get("office")==="council")office.value="council";setDistrict(q.get("district"));render();refresh();
  }).catch(()=>{status.textContent="名冊載入失敗，請使用中選會官方入口。";county.disabled=office.disabled=district.disabled=true});
  county.addEventListener("change",()=>{setDistrict();render()});office.addEventListener("change",()=>{setDistrict(district.value);render()});district.addEventListener("change",render);
- update();setInterval(update,30000);document.addEventListener("visibilitychange",()=>{if(!document.hidden)update()});
+ $("result-refresh").addEventListener("click",()=>{if(Date.now()<opening){$("result-refresh-status").textContent="尚未達預定開票時間。";return}refresh()});update();setInterval(()=>{update();if(!document.hidden)refresh()},60000);document.addEventListener("visibilitychange",()=>{if(!document.hidden){update();refresh()}});
 })();

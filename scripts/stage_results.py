@@ -66,6 +66,23 @@ def merge(old,new):
         if prev and timestamp(r["published_at"])==timestamp(prev["published_at"]) and prev!=r:raise ValueError("conflicting same-time result: "+k)
         out[k]=r
     return out
+def validate_snapshot(snapshot,groups,seats,now):
+    if snapshot.get("version")!="0.1.22" or snapshot.get("election_date")!="2026-11-28" or not isinstance(snapshot.get("races"),dict):raise ValueError("snapshot metadata")
+    if snapshot.get("status")!=("published_data_available" if snapshot["races"] else "not_published"):raise ValueError("snapshot status")
+    for k,r in snapshot["races"].items():
+        g=groups.get(k)
+        if not g or not isinstance(r.get("candidates"),list):raise ValueError("unknown race")
+        rows=[]
+        for v in r["candidates"]:
+            if type(v.get("votes")) is not int or type(v.get("number")) is not int:raise ValueError("integer fields")
+            elected=v.get("elected")
+            if elected is not None and type(elected) is not bool:raise ValueError("invalid elected field")
+            valid=r.get("valid_votes")
+            if valid is not None and type(valid) is not int:raise ValueError("invalid valid votes")
+            rows.append(dict(county=g["county"],office=g["office"],district=k.split("-")[-1] if g["office"]=="council" else "",number=str(v["number"]),name=v["name"],votes=str(v["votes"]),elected="" if elected is None else str(elected).lower(),valid_votes="" if valid is None else str(valid)))
+        rebuilt=build(rows,groups,seats,r["source"],r["published_at"],r["status"],r["source_sha256"],now)
+        if rebuilt.get(k)!=r:raise ValueError("noncanonical or mismatched result: "+k)
+    return True
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("csv",type=Path);p.add_argument("--source-file",type=Path,required=True);p.add_argument("--source-url",required=True);p.add_argument("--published-at",required=True);p.add_argument("--status",choices=["preliminary","final"],required=True);p.add_argument("--output",type=Path,required=True);p.add_argument("--reviewed-transcription",action="store_true",required=True)
@@ -80,6 +97,7 @@ def main():
     g,s=maps();new=build(rows,g,s,a.source_url,a.published_at,a.status,sha,dt.datetime.now(dt.timezone.utc))
     old=load("results-snapshot");races=merge(old["races"],new)
     out={**old,"status":"published_data_available","races":races,"notice":"人工核對之中選會資料轉錄；非即時 API。每選區保留原始來源及發布時間。"}
+    validate_snapshot(out,g,s,dt.datetime.now(dt.timezone.utc))
     a.output.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps({"staged_races":len(new),"total_races":len(races),"source_sha256":sha}))
 if __name__=="__main__":main()

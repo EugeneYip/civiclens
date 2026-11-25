@@ -37,10 +37,12 @@ const assert = require("node:assert/strict");
   await portrait.getByText("內政部公職資料 ↗",{exact:true}).waitFor();
   assert.ok(requests.includes("https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6601518f-d5f4-473d-b5bf-ad1889929a9e.jpg"));
   await portrait.locator(".portrait-slot").getByText("無照片",{exact:true}).waitFor();
+  await page.clock.setFixedTime(new Date("2026-11-27T12:00:00+08:00"));
   await page.goto("http://127.0.0.1:8765/results.html?county=17&office=chief",{waitUntil:"networkidle"});
   await page.locator("#result-rows tr").first().waitFor();
   assert.equal(await page.locator("#result-county").inputValue(),"17");
   assert.ok((await page.locator("#result-data-status").textContent()).includes("尚未取得"));
+  await page.locator("#result-refresh").click();assert.ok((await page.locator("#result-refresh-status").textContent()).includes("尚未達"))
   assert.ok((await page.locator("#result-rows tr td:nth-child(3)").allTextContents()).every(x=>x==="—"));
   await page.locator("#result-office").selectOption("council");await page.locator("#result-district").selectOption("2");
   assert.ok((await page.locator("#result-heading").textContent()).includes("第2選區"));
