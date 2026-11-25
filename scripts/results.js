@@ -92,8 +92,9 @@ if(typeof document!=="undefined")(()=>{
   const votes=new Map((race?.candidates||[]).map(x=>[x.id,x]));
   for(const c of group?.candidates||[]){
    const tr=el("tr"),v=votes.get(c.id),name=el("td"),a=el("a",c.name);
-   a.href="./?county="+county.value+"&office="+role+(role==="council"?"&district="+number:"")+"&candidate="+encodeURIComponent(c.id)+"#directory";name.append(a);
-   tr.append(el("td",String(c.number)),name,el("td",v?fmt.format(v.votes):"—"),el("td",v&&race.status==="final"?(v.elected?"當選":"未當選"):"—"));rows.append(tr)
+   a.href="./?county="+county.value+"&office="+role+(role==="council"?"&district="+number:"")+"&candidate="+encodeURIComponent(c.id)+"#directory";name.append(a);const pt=data.parties?.candidates?.[c.id]?.[0];if(pt!==undefined){const ps=el("span",partyName(pt));ps.className="party-sub";name.append(ps)}
+   const pct=v&&validCount(race.valid_votes)&&race.valid_votes>0?(v.votes/race.valid_votes*100).toFixed(2)+"%":"—";
+   tr.append(el("td",String(c.number)),name,el("td",v?fmt.format(v.votes):"—"),el("td",pct),el("td",v&&race.status==="final"?(v.elected?"當選":"未當選"):"—"));if(v&&race.status==="final"&&v.elected)tr.className="elected";rows.append(tr)
   }
   const u=new URL(location.href);u.searchParams.set("county",county.value);u.searchParams.set("office",role);if(role==="council")u.searchParams.set("district",district.value);else u.searchParams.delete("district");history.replaceState(null,"",u.pathname+u.search+u.hash);renderParty();renderHistory(c,role)
  }

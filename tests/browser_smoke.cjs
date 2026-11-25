@@ -101,6 +101,22 @@ const assert = require("node:assert/strict");
   assert.ok((await page.locator("#history-status").textContent()).includes("本屆應選"));
   assert.ok((await page.locator("#result-heading").textContent()).includes("第2選區"));
   assert.equal(errors.length,0,errors.join("\n"));
-  console.log("PASS: council deferred loading; chief deep link and policy summary; topic comparison; Penghu fallback; no page errors");
+    // Election-night rehearsal with a fixture snapshot served by interception (the real file is untouched).
+  const rp=await ctx.newPage();await rp.clock.install({time:new Date("2026-11-28T20:00:00+08:00")});
+  await rp.route("**/*",route=>{const u=route.request().url();if(u.includes("/data/results-snapshot.json"))return route.fulfill({contentType:"application/json",body:JSON.stringify({version:"0.1.22",races:{"22-chief":{status:"final",source:"https://info.cec.gov.tw/vote2026/test",published_at:"2026-11-28T19:00:00+08:00",valid_votes:3000,candidates:[{id:"22-chief-1",name:"王忠銘",number:1,votes:1000,elected:false},{id:"22-chief-2",name:"曹爾元",number:2,votes:2000,elected:true}]}}})});return u.startsWith("http://127.0.0.1:8765/")?route.continue():route.abort()});
+  rp.on("pageerror",e=>errors.push(String(e)));
+  await rp.goto("http://127.0.0.1:8765/results.html?county=22&office=chief",{waitUntil:"networkidle"});
+  await rp.locator("#result-rows tr.elected").getByText("66.67%",{exact:true}).waitFor();
+  assert.match(await rp.locator("#result-data-status").textContent(),/正式公告結果/);
+  assert.equal(await rp.locator("#result-rows .party-sub").count(),2);
+  await rp.close();
+  // Before the polls close the same fixture must be ignored.
+  const rq=await ctx.newPage();await rq.clock.install({time:new Date("2026-11-27T12:00:00+08:00")});
+  await rq.route("**/*",route=>{const u=route.request().url();if(u.includes("/data/results-snapshot.json"))return route.fulfill({contentType:"application/json",body:JSON.stringify({version:"0.1.22",races:{"22-chief":{status:"final",source:"https://info.cec.gov.tw/vote2026/test",published_at:"2026-11-28T19:00:00+08:00",valid_votes:3000,candidates:[{id:"22-chief-1",name:"王忠銘",number:1,votes:1000,elected:false},{id:"22-chief-2",name:"曹爾元",number:2,votes:2000,elected:true}]}}})});return u.startsWith("http://127.0.0.1:8765/")?route.continue():route.abort()});
+  await rq.goto("http://127.0.0.1:8765/results.html?county=22&office=chief",{waitUntil:"networkidle"});
+  assert.equal(await rq.locator("#result-rows tr.elected").count(),0);
+  assert.match(await rq.locator("#result-data-status").textContent(),/尚未取得可驗證官方票數/);
+  await rq.close();
+console.log("PASS: council deferred loading; chief deep link and policy summary; topic comparison; Penghu fallback; no page errors");
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exit(1)});
