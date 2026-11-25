@@ -67,3 +67,5 @@
 @media(min-width:900px){.compare-grid{grid-template-columns:repeat(var(--n),minmax(0,1fr))}}
 .note{font-size:12px;color:var(--muted);margin:4px 0}
 .compare-card a,.topic-row a{font-size:13px}
+
+.list-more{margin:0}.list-more>summary{cursor:pointer;font-size:14px;color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:44px;display:flex;align-items:center;padding-left:1.15em}.list-more[open]>summary{display:none}
