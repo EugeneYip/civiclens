@@ -25,7 +25,7 @@ class ReviewedCouncilTests(unittest.TestCase):
             self.assertTrue(x["items"] or "不推定" in x["status"], k)
             for fld in ("education", "experience"):
                 if fld in x:
-                    self.assertTrue(x[fld] and all(isinstance(v, str) and v.strip() == v and v for v in x[fld]), k)
+                    self.assertTrue(isinstance(x[fld], list) and all(isinstance(v, str) and v.strip() == v and v for v in x[fld]), k)
                     self.assertLessEqual(len(x[fld]), 8 if fld == "education" else 16, k)
             for i, it in enumerate(x["items"], 1):
                 self.assertEqual(it["id"], f"{k}-p{i}")

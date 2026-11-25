@@ -53,13 +53,13 @@ else if(!r.platform)s.append(el("p","尚未整理政見摘要","muted"));
 const extras=[b?.text_available?policyMeasureDetails(r):null,enrichmentFor(r)?.policy?.length?policyDetails(r):null,chiefEvidenceDetails(r),externalChiefComparison(r),baselineDetails(r,"政策承諾")].filter(x=>x&&x.childNodes.length);
 if(extras.length){const more=el("details",undefined,"profile-more");more.append(el("summary","更多政見索引與原始發言"),...extras);s.append(more)}return s}
 function profileEducation(r){const s=profileSection("學歷"),b=bulletinFor(r);
-const rv=reviewedFor(r);if(rv?.education?.length)s.append(profileList(rv.education),el("p","本屆官方公報（本站判讀）","note"));else if(r.education)s.append(el("p",r.education),el("p","公報自述","note"));
+const rv=reviewedFor(r);if(rv?.education?.length)s.append(profileList(rv.education),el("p","本屆官方公報（本站判讀）","note"));else if(Array.isArray(rv?.education))s.append(el("p","本屆公報學歷欄未刊載","muted"));else if(r.education)s.append(el("p",r.education),el("p","公報自述","note"));
 else if(b?.education?.length)s.append(profileList(b.education),el("p","民間轉錄，可能缺漏；以公報原文為準","note"));
 else if(r.supplemental_education)s.append(el("p",r.supplemental_education.value),el("p","民間整理，待官方核對","note"));
 else if(supplementalEducation(r).length)s.append(educationDetails(r));
 else s.append(el("p","尚未整理","muted"));return s}
 function profileExperience(r){const s=profileSection("經歷"),b=bulletinFor(r);
-const rv=reviewedFor(r);if(rv?.experience?.length)s.append(profileList(rv.experience),el("p","本屆官方公報（本站判讀）","note"));else if(r.experience)s.append(el("p",r.experience),el("p","公報自述","note"));
+const rv=reviewedFor(r);if(rv?.experience?.length)s.append(profileList(rv.experience),el("p","本屆官方公報（本站判讀）","note"));else if(Array.isArray(rv?.experience))s.append(el("p","本屆公報經歷欄未刊載","muted"));else if(r.experience)s.append(el("p",r.experience),el("p","公報自述","note"));
 else if(b?.career?.length)s.append(profileList(b.career),el("p","民間轉錄，可能缺漏；以公報原文為準","note"));
 else s.append(el("p","尚未整理","muted"));
 if(careerEnrichment.records[r.id]?.name===r.name&&careerEnrichment.records[r.id].items?.length)s.append(careerDetails(r));return s}
