@@ -27,6 +27,24 @@
       "role": "政黨標誌",
       "status": "source_license_documented",
       "use": "識別資訊；非支持或背書"
+    },
+    "新黨": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Np_logo.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Np_logo.svg",
+      "credit": "新黨／孫中山字樣 / Wikimedia Commons",
+      "rights": "PD-textlogo；標誌及商標限制另計",
+      "role": "政黨識別圖案（歷史版本）",
+      "status": "source_license_documented",
+      "use": "識別資訊；非支持或背書"
+    },
+    "台灣基進": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Taiwan_Statebuilding_Party_Logo.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Taiwan_Statebuilding_Party_Logo.png",
+      "credit": "中華民國立法院 / Wikimedia Commons",
+      "rights": "PD-shape；2020年來源，標誌及商標限制另計",
+      "role": "政黨識別圖案（歷史版本）",
+      "status": "source_license_documented",
+      "use": "識別資訊；非支持或背書"
     }
   },
   "photos": {
