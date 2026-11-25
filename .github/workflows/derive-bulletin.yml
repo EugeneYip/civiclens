@@ -14,6 +14,7 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+      - run: pip install beautifulsoup4==4.13.4
       - name: Stage source and generate restricted public data
         run: |
           python3 scripts/stage_bulletin.py --output "$RUNNER_TEMP/bulletin-review.json"
@@ -25,5 +26,6 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git switch -c "bulletin-facts-${GITHUB_RUN_ID}"
           git add data/bulletin-facts.json
+          if git diff --cached --quiet; then echo 'Generated data unchanged'; exit 0; fi
           git commit -m 'Generate restricted public bulletin fact index'
           git push origin HEAD
