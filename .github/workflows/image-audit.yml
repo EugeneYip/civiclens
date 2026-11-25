@@ -1,0 +1,31 @@
+name: Audit public image availability
+on:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Full inventory (slow, one request per host at a time)'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit_image_availability.py'
+      - '.github/workflows/image-audit.yml'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install Pillow==11.3.0
+      - run: python3 scripts/audit_image_availability.py ${{ inputs.full && '--all' || '' }}
+      - name: Stage audit report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "image-audit-${GITHUB_RUN_ID}"
+          git add data/image-availability-audit.json
+          git commit -m 'Record bounded image link audit'
+          git push origin HEAD
