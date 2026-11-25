@@ -11,3 +11,7 @@ python3 scripts/stage_results.py reviewed.csv --source-file official-original.pd
 4. 人工獨立核對原件、快照差異及發布資格後，才可另行提交 data/results-snapshot.json。若名冊衝突、補選、同時間不同值、正式結果更正或席次異常，停止並另行核對，禁止猜測。
 
 正式快照由 CI 重建逐筆檢驗；不再將空快照當作永久斷言。開票後頁面每分鐘（可見頁面）重新讀取本站已發布快照，並提供手動更新；保留先前有效資料，並非直接輪詢中選會。
+## 前屆正式結果（V0.1.25）
+`scripts/import_historical_results.py --cache DIR` 自中選會選舉資料庫靜態 JSON（`https://db.cec.gov.tw/static/elections/data/`）下載111年直轄市長、縣市長、嘉義市長重行選舉及直轄市／縣市議員（區域、平地及山地原住民）結果，產生 `data/historical-results-2022.json`；`--offline` 僅使用快取重建。每個原始檔保留網址及 SHA-256，並核對首長得票加總等於有效票、議員各選區當選人數與候選人數。資料庫當選標記「*」與「!」均以當選計。
+
+中選會說明選舉資料庫於投票後7日內更新。本屆正式結果上架後，可依相同資料結構另行確認115年主題代碼，再經人工核對才能轉入 `results-snapshot.json`；不得在主題代碼或欄位未經確認前自動匯入。

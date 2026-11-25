@@ -1,7 +1,7 @@
 {
-  "version": "0.1.24",
+  "version": "0.1.25",
   "reviewed_on": "2026-11-25",
-  "notice": "12縣市首長公報第一頁圖文檢視；選擇性摘要（含概括方向），並非完整政見、可行性或履行查核。",
+  "notice": "22縣市首長公報圖文檢視；選擇性摘要（含概括方向），並非完整政見、可行性或履行查核。",
   "records": {
     "01-chief-1": {
       "name": "郭璽",
@@ -497,6 +497,326 @@
         }
       ]
     },
+    "07-chief-1": {
+      "name": "鄭朝方",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-chief-1-p1",
+          "topic": "交通",
+          "summary": "將竹北及新竹縣交通建設列入施政方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-chief-1-p2",
+          "topic": "經濟與就業",
+          "summary": "提出智慧治理及產業發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-chief-2": {
+      "name": "徐欣瑩",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-chief-2-p1",
+          "topic": "交通",
+          "summary": "將交通改善列入施政方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-chief-2-p2",
+          "topic": "經濟與就業",
+          "summary": "提出科技城市與產業發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-chief-3": {
+      "name": "朱定瑀",
+      "number": 3,
+      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報姓名與號次相符；原名冊另有來源歧異標記，仍保留原標記。",
+      "items": [
+        {
+          "id": "07-chief-3-p1",
+          "topic": "交通",
+          "summary": "主張取消機車兩段式左轉。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-chief-3-p2",
+          "topic": "居住與都市",
+          "summary": "提出土地使用及道路拓寬相關改革。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "08-chief-1": {
+      "name": "陳品安",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%8B%97%E6%A0%97%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "08-chief-1-p1",
+          "topic": "育兒與社福",
+          "summary": "生育津貼最高發給10萬元。",
+          "target": "最高10萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "08-chief-1-p2",
+          "topic": "醫療與健康",
+          "summary": "65歲以上長者免自付健保費。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "08-chief-1-p3",
+          "topic": "治理與安全",
+          "summary": "落實財政紀律與零基預算，杜絕資源浪費。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "08-chief-2": {
+      "name": "鍾東錦",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%8B%97%E6%A0%97%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "08-chief-2-p1",
+          "topic": "經濟與就業",
+          "summary": "承接桃竹苗大矽谷產業紅利，推動苗栗成為中臺灣半導體重鎮。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "08-chief-2-p2",
+          "topic": "交通",
+          "summary": "逐步擴增高速與快速道路路網及交流道。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "08-chief-2-p3",
+          "topic": "教育與青年",
+          "summary": "持續推進陽明交通大學、科學園區實驗中學相關計畫。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-1": {
+      "name": "陳素月",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-1-p1",
+          "topic": "交通",
+          "summary": "主張推動臺中捷運延伸彰化及交通路網。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-1-p2",
+          "topic": "經濟與就業",
+          "summary": "提出智慧產業發展及在地就業方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-2": {
+      "name": "魏平政",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-2-p1",
+          "topic": "育兒與社福",
+          "summary": "第一胎生育補助由3萬元提高至5萬元，托育津貼每月另增1,500元並設排富條件。",
+          "target": "第一胎5萬元；每月另增1,500元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p2",
+          "topic": "育兒與社福",
+          "summary": "提出65歲以上健保費全免及每鄉鎮設置失智日照中心。",
+          "target": "65歲以上；每鄉鎮一處",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p3",
+          "topic": "教育與青年",
+          "summary": "縣府負擔營養午餐及代收代辦費用。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p4",
+          "topic": "交通",
+          "summary": "成立專案小組推動中捷南延、和美線及鹿港線。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p5",
+          "topic": "經濟與就業",
+          "summary": "擴大招商辦公室，整合專業服務處理企業用地及行政程序。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-3": {
+      "name": "邱建富",
+      "number": 3,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-3-p1",
+          "topic": "經濟與就業",
+          "summary": "提出在地產業及創業發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-3-p2",
+          "topic": "文化與觀光",
+          "summary": "將文化傳承及觀光發展列入施政架構。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-4": {
+      "name": "陳重嘉",
+      "number": 4,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-4-p1",
+          "topic": "治理與安全",
+          "summary": "提出電子印鑑證明與線上公投方向。",
+          "target": null,
+          "scope": "涉及法制及行政權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-4-p2",
+          "topic": "居住與都市",
+          "summary": "主張媒合閒置公有房地，推動青年居住方案。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "10-chief-1": {
+      "name": "許淑華",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%8D%97%E6%8A%95%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "10-chief-1-p1",
+          "topic": "教育與青年",
+          "summary": "免費營養午餐每餐再加10元。",
+          "target": "每餐再加10元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "10-chief-1-p2",
+          "topic": "育兒與社福",
+          "summary": "推出「好孕卡」，並提供未滿一歲幼兒免費定點臨托。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "10-chief-1-p3",
+          "topic": "交通",
+          "summary": "佈建全縣「幸福巴士」，完善偏鄉及社區交通服務。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "10-chief-2": {
+      "name": "温世政",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%8D%97%E6%8A%95%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "10-chief-2-p1",
+          "topic": "醫療與健康",
+          "summary": "65歲以上長者假牙補助最高8萬元，5年內可申請單顆、部分假牙及維修。",
+          "target": "最高8萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "10-chief-2-p2",
+          "topic": "育兒與社福",
+          "summary": "0至5歲幼兒每年發給1萬元育兒津貼。",
+          "target": "每年1萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "10-chief-2-p3",
+          "topic": "教育與青年",
+          "summary": "發給青年返鄉獎勵金3萬元，支持回南投就業、創業及生活。",
+          "target": "3萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
     "11-chief-1": {
       "name": "吳炳輝",
       "number": 1,
@@ -673,6 +993,198 @@
         }
       ]
     },
+    "13-chief-1": {
+      "name": "蘇清泉",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "13-chief-1-p1",
+          "topic": "育兒與社福",
+          "summary": "0至18歲每月發給5,000元成長津貼。",
+          "target": "每月5,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "13-chief-1-p2",
+          "topic": "育兒與社福",
+          "summary": "生育補助每胎縣府10萬元，加計中央10萬元共20萬元。",
+          "target": "共20萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "13-chief-1-p3",
+          "topic": "醫療與健康",
+          "summary": "50歲以上糖尿病、洗腎等高風險者免費施打帶狀疱疹疫苗。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "13-chief-2": {
+      "name": "周春米",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "13-chief-2-p1",
+          "topic": "居住與都市",
+          "summary": "以高鐵特定區與屏東科學園區為核心啟動周邊都市更新，打造新都心。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "13-chief-2-p2",
+          "topic": "交通",
+          "summary": "加速高鐵延伸、高屏二快進度，推動屏南快道及捷運延伸工程。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "13-chief-2-p3",
+          "topic": "醫療與健康",
+          "summary": "建構「全縣急重症跨鄉鎮支援網絡」，強化縣內醫療量能。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "14-chief-1": {
+      "name": "李吳穎智",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "14-chief-1-p1",
+          "topic": "醫療與健康",
+          "summary": "縣民假牙全額補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-1-p2",
+          "topic": "教育與青年",
+          "summary": "學生免費鮮乳，營養午餐全縣營養品質一致。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-1-p3",
+          "topic": "交通",
+          "summary": "爭取臺9線拓寬為四線道。",
+          "target": "四線道",
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "14-chief-2": {
+      "name": "陳瑩",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "14-chief-2-p1",
+          "topic": "醫療與健康",
+          "summary": "於南迴線與蘭嶼設立醫院，老舊衛生所全面翻修。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-2-p2",
+          "topic": "育兒與社福",
+          "summary": "長輩裝假牙、助聽器、智慧手環全面補助，不排富。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-2-p3",
+          "topic": "交通",
+          "summary": "增加火車票補助、改善機場港口設施，拓寬臺11線。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "14-chief-3": {
+      "name": "王志偉",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "14-chief-3-p1",
+          "topic": "教育與青年",
+          "summary": "成立1億元勵學基金，設進步獎，總分進步1分獎勵100元。",
+          "target": "1億元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-3-p2",
+          "topic": "育兒與社福",
+          "summary": "出地以BOT由廠商興建5星級安養院，設籍30年縣民半價。",
+          "target": "設籍30年縣民半價",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-3-p3",
+          "topic": "交通",
+          "summary": "停車費每小時100元，縣民每月配給1萬元停車券，限當月使用。",
+          "target": "每月配給1萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "14-chief-4": {
+      "name": "吳秀華",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "14-chief-4-p1",
+          "topic": "醫療與健康",
+          "summary": "分階段擴大65至69歲長者健保補助。",
+          "target": "65至69歲",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-4-p2",
+          "topic": "育兒與社福",
+          "summary": "推動一鄉鎮一公托，完善托育及親子支持。",
+          "target": "一鄉鎮一公托",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "14-chief-4-p3",
+          "topic": "居住與都市",
+          "summary": "太平溪整治美化並活化鯉魚山，打造休閒親水新亮點。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
     "15-chief-1": {
       "name": "魏嘉賢",
       "number": 1,
@@ -759,6 +1271,422 @@
       "source": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
       "status": "公報文字密集，未能可靠逐項辨讀；保留公報入口，不推定沒有政見。",
       "items": []
+    },
+    "16-chief-1": {
+      "name": "林國漳",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "16-chief-1-p1",
+          "topic": "育兒與社福",
+          "summary": "生育補助加碼，每胎3萬元；補助0至6歲掛號費及疫苗。",
+          "target": "每胎3萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-1-p2",
+          "topic": "交通",
+          "summary": "補助TPASS月票，每年最高3千6百元。",
+          "target": "每年最高3千6百元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-1-p3",
+          "topic": "經濟與就業",
+          "summary": "八年12億助農漁業轉型，並引進AI、無人載具、生醫等低污染產業。",
+          "target": "八年12億",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "16-chief-2": {
+      "name": "陳宏毅",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "16-chief-2-p1",
+          "topic": "治理與安全",
+          "summary": "上任第一個月完成財政、交通、產業土地、防災水環境、人口生活服務五大盤點。",
+          "target": "第一個月",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-2-p2",
+          "topic": "治理與安全",
+          "summary": "百日內提出交通生活網第一階段方案等，並建立縣政進度公開制度。",
+          "target": "百日內",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-2-p3",
+          "topic": "交通",
+          "summary": "整合宜蘭、羅東雙核心與各鄉鎮交通，串聯鐵路、客運、公車與接駁。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "16-chief-3": {
+      "name": "吳宗憲",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "16-chief-3-p1",
+          "topic": "育兒與社福",
+          "summary": "每月發放1,000元育兒消費券。",
+          "target": "每月1,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-3-p2",
+          "topic": "醫療與健康",
+          "summary": "羊膜穿刺或NIPT抽血檢查全齡補助5,000元。",
+          "target": "5,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-3-p3",
+          "topic": "經濟與就業",
+          "summary": "推動宜科AI園區，結合北士科引進矽光子封裝測試，創造2萬個5萬元以上職缺。",
+          "target": "2萬個5萬元以上職缺",
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "16-chief-4": {
+      "name": "劉燦輝",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "16-chief-4-p1",
+          "topic": "交通",
+          "summary": "員山鄉復興路延伸至嵐峰路，紓解員山街塞車。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-4-p2",
+          "topic": "經濟與就業",
+          "summary": "協助縣民申請設施栽培，不收取任何費用。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-4-p3",
+          "topic": "教育與青年",
+          "summary": "主張高中、高職及補校再延伸三年義務教育；未立法前增加班次。",
+          "target": "三年",
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "16-chief-5": {
+      "name": "楊鉯婷",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "16-chief-5-p1",
+          "topic": "治理與安全",
+          "summary": "組建獨立AI團隊監控縣府預算與工程，並成立「宜蘭全民主權共享基金」。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-5-p2",
+          "topic": "經濟與就業",
+          "summary": "於轉運站周邊打造「宜蘭國際科技貿展中心（WTC）」，引進高薪產業。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "16-chief-5-p3",
+          "topic": "醫療與健康",
+          "summary": "將AI復健機器人等先進輔具導入鄉鎮市衛生所與長照機構。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "17-chief-1": {
+      "name": "許智富",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "17-chief-1-p1",
+          "topic": "經濟與就業",
+          "summary": "推動勞工20萬元低利率急難周轉貸款。",
+          "target": "20萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-1-p2",
+          "topic": "教育與青年",
+          "summary": "學校100萬元以上工程由縣府統一發包。",
+          "target": "100萬元以上",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-1-p3",
+          "topic": "交通",
+          "summary": "馬公市南北向單行道改為雙向道。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "17-chief-2": {
+      "name": "周倪安",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "17-chief-2-p1",
+          "topic": "交通",
+          "summary": "在地居民保留位，旅客票價自由化。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-2-p2",
+          "topic": "交通",
+          "summary": "強化離島交通與醫療接駁。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "17-chief-3": {
+      "name": "葉竹林",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "17-chief-3-p1",
+          "topic": "經濟與就業",
+          "summary": "符合資格縣民普發1萬元振興金。",
+          "target": "1萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-3-p2",
+          "topic": "育兒與社福",
+          "summary": "65歲以上長者每月1,000元計程車津貼，中秋敬老禮金加發5,000元。",
+          "target": "每月1,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-3-p3",
+          "topic": "醫療與健康",
+          "summary": "西嶼設置緊急救護站，強化二級離島急重症後送。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "17-chief-4": {
+      "name": "吳淑瑾",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "17-chief-4-p1",
+          "topic": "交通",
+          "summary": "十八歲以下機票優惠三五折。",
+          "target": "三五折",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-4-p2",
+          "topic": "教育與青年",
+          "summary": "澎湖科大免學費，促進青年留駐。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-4-p3",
+          "topic": "醫療與健康",
+          "summary": "設立億元級醫療基金，調整醫護待遇。",
+          "target": "億元級",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "17-chief-5": {
+      "name": "陳振中",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "17-chief-5-p1",
+          "topic": "醫療與健康",
+          "summary": "服務滿三年醫護人員每月5,000元留任津貼。",
+          "target": "每月5,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-5-p2",
+          "topic": "育兒與社福",
+          "summary": "外籍看護家庭每月補助10,000元。",
+          "target": "每月補助10,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-5-p3",
+          "topic": "交通",
+          "summary": "地下停車場免計費時間延長至60分鐘。",
+          "target": "60分鐘",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "17-chief-6": {
+      "name": "陳盡川",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "17-chief-6-p1",
+          "topic": "治理與安全",
+          "summary": "成立治縣委員會，縣長薪資及一切津貼全數捐作運作基金。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "17-chief-6-p2",
+          "topic": "經濟與就業",
+          "summary": "活化土地發展鹹水煙特色農業，推動銀合歡全面性資源化開發。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "18-chief-1": {
+      "name": "童子瑋",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%9F%BA%E9%9A%86%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "18-chief-1-p1",
+          "topic": "育兒與社福",
+          "summary": "基隆敬老卡每月600點，可用於購物、交通工具及掛號費。",
+          "target": "每月600點",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "18-chief-1-p2",
+          "topic": "育兒與社福",
+          "summary": "0至3歲幼兒每月發給1,000元育兒禮金。",
+          "target": "每月1,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "18-chief-1-p3",
+          "topic": "教育與青年",
+          "summary": "國小、國中、高中入學各發給1萬元入學禮金。",
+          "target": "各1萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "18-chief-2": {
+      "name": "魏造文",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%9F%BA%E9%9A%86%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報政見欄以標語為主；僅摘錄一項可辨識方向，不推定沒有其他政見。",
+      "items": [
+        {
+          "id": "18-chief-2-p1",
+          "topic": "環境與能源",
+          "summary": "主張使基隆住宅免受海水倒灌。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "18-chief-3": {
+      "name": "謝國樑",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%9F%BA%E9%9A%86%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "18-chief-3-p1",
+          "topic": "交通",
+          "summary": "全面汰換老舊公車為電動公車，並設置全市11座公私協力特色候車亭。",
+          "target": "11座",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "18-chief-3-p2",
+          "topic": "居住與都市",
+          "summary": "以都更專案辦公室推動安樂一期六號基地、聯宏社區都市更新。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "18-chief-3-p3",
+          "topic": "育兒與社福",
+          "summary": "推動「長樂65專案」，加碼敬老三節慰問金並增加住宿式長照床位。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
     },
     "19-chief-1": {
       "name": "高虹安",
@@ -856,194 +1784,393 @@
         }
       ]
     },
-    "07-chief-1": {
-      "name": "鄭朝方",
+    "20-chief-1": {
+      "name": "王義成",
       "number": 1,
-      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
       "status": "公報圖文部分檢視；選擇性摘要",
       "items": [
         {
-          "id": "07-chief-1-p1",
-          "topic": "交通",
-          "summary": "將竹北及新竹縣交通建設列入施政方向。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        },
-        {
-          "id": "07-chief-1-p2",
+          "id": "20-chief-1-p1",
           "topic": "經濟與就業",
-          "summary": "提出智慧治理及產業發展方向。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        }
-      ]
-    },
-    "07-chief-2": {
-      "name": "徐欣瑩",
-      "number": 2,
-      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
-      "status": "公報圖文部分檢視；選擇性摘要",
-      "items": [
-        {
-          "id": "07-chief-2-p1",
-          "topic": "交通",
-          "summary": "將交通改善列入施政方向。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        },
-        {
-          "id": "07-chief-2-p2",
-          "topic": "經濟與就業",
-          "summary": "提出科技城市與產業發展方向。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        }
-      ]
-    },
-    "07-chief-3": {
-      "name": "朱定瑀",
-      "number": 3,
-      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
-      "status": "公報姓名與號次相符；原名冊另有來源歧異標記，仍保留原標記。",
-      "items": [
-        {
-          "id": "07-chief-3-p1",
-          "topic": "交通",
-          "summary": "主張取消機車兩段式左轉。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        },
-        {
-          "id": "07-chief-3-p2",
-          "topic": "居住與都市",
-          "summary": "提出土地使用及道路拓寬相關改革。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        }
-      ]
-    },
-    "09-chief-1": {
-      "name": "陳素月",
-      "number": 1,
-      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
-      "status": "公報圖文部分檢視；選擇性摘要",
-      "items": [
-        {
-          "id": "09-chief-1-p1",
-          "topic": "交通",
-          "summary": "主張推動臺中捷運延伸彰化及交通路網。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        },
-        {
-          "id": "09-chief-1-p2",
-          "topic": "經濟與就業",
-          "summary": "提出智慧產業發展及在地就業方向。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        }
-      ]
-    },
-    "09-chief-2": {
-      "name": "魏平政",
-      "number": 2,
-      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
-      "status": "公報圖文部分檢視；選擇性摘要",
-      "items": [
-        {
-          "id": "09-chief-2-p1",
-          "topic": "育兒與社福",
-          "summary": "第一胎生育補助由3萬元提高至5萬元，托育津貼每月另增1,500元並設排富條件。",
-          "target": "第一胎5萬元；每月另增1,500元",
+          "summary": "市府每年輔導提供300名創業名額，並設置柒仟萬創業貸款利息補貼。",
+          "target": "每年300名",
           "scope": "地方政策主張",
           "status": "原文主張已定位；履行尚未查核"
         },
         {
-          "id": "09-chief-2-p2",
-          "topic": "育兒與社福",
-          "summary": "提出65歲以上健保費全免及每鄉鎮設置失智日照中心。",
-          "target": "65歲以上；每鄉鎮一處",
+          "id": "20-chief-1-p2",
+          "topic": "經濟與就業",
+          "summary": "設置特色夜市，初期規劃啟明路、嘉義大學旁、北港路等5處地點。",
+          "target": null,
           "scope": "地方政策主張",
           "status": "原文主張已定位；履行尚未查核"
         },
         {
-          "id": "09-chief-2-p3",
-          "topic": "教育與青年",
-          "summary": "縣府負擔營養午餐及代收代辦費用。",
+          "id": "20-chief-1-p3",
+          "topic": "育兒與社福",
+          "summary": "全市增闢公立托兒所與合格安全遊樂園地，並增設24小時公立托顧中心。",
           "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        },
-        {
-          "id": "09-chief-2-p4",
-          "topic": "交通",
-          "summary": "成立專案小組推動中捷南延、和美線及鹿港線。",
-          "target": null,
-          "scope": "地方政策主張／方向",
-          "status": "原文主張已定位；履行尚未查核"
-        },
-        {
-          "id": "09-chief-2-p5",
-          "topic": "經濟與就業",
-          "summary": "擴大招商辦公室，整合專業服務處理企業用地及行政程序。",
-          "target": null,
-          "scope": "地方政策主張／方向",
+          "scope": "地方政策主張",
           "status": "原文主張已定位；履行尚未查核"
         }
       ]
     },
-    "09-chief-3": {
-      "name": "邱建富",
-      "number": 3,
-      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+    "20-chief-2": {
+      "name": "陳愷璜",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
       "status": "公報圖文部分檢視；選擇性摘要",
       "items": [
         {
-          "id": "09-chief-3-p1",
-          "topic": "經濟與就業",
-          "summary": "提出在地產業及創業發展方向。",
-          "target": null,
-          "scope": "地方政策主張／方向",
+          "id": "20-chief-2-p1",
+          "topic": "交通",
+          "summary": "導入低底盤電動公車，BRT升級為智慧BRT，市區至太保高鐵站20分鐘。",
+          "target": "20分鐘",
+          "scope": "涉及跨機關權責",
           "status": "原文主張已定位；履行尚未查核"
         },
         {
-          "id": "09-chief-3-p2",
-          "topic": "文化與觀光",
-          "summary": "將文化傳承及觀光發展列入施政架構。",
-          "target": null,
-          "scope": "地方政策主張／方向",
+          "id": "20-chief-2-p2",
+          "topic": "育兒與社福",
+          "summary": "企業雇用產後重返職場女性最高補助6萬元，公幼課後延托覆蓋至晚間7點。",
+          "target": "最高補助6萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "20-chief-2-p3",
+          "topic": "醫療與健康",
+          "summary": "產後年享6次免費心理諮商與睡眠指導，並提供120小時彈性到府臨托。",
+          "target": "年享6次",
+          "scope": "地方政策主張",
           "status": "原文主張已定位；履行尚未查核"
         }
       ]
     },
-    "09-chief-4": {
-      "name": "陳重嘉",
+    "20-chief-3": {
+      "name": "張啓楷",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "20-chief-3-p1",
+          "topic": "育兒與社福",
+          "summary": "生育獎勵金第一胎5萬、第二胎10萬、第三胎20萬，0至6歲每年2萬生日禮金。",
+          "target": "第一胎5萬，第二胎10萬，第三胎20萬",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "20-chief-3-p2",
+          "topic": "育兒與社福",
+          "summary": "每月1200點敬老卡放寬使用，可搭計程車、抵掛號費及特約超商消費。",
+          "target": "每月1200點",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "20-chief-3-p3",
+          "topic": "交通",
+          "summary": "四年內科技執法紅單減半、車禍死傷減半，並保護通學安全。",
+          "target": "四年內",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "20-chief-4": {
+      "name": "王美惠",
       "number": 4,
-      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
       "status": "公報圖文部分檢視；選擇性摘要",
       "items": [
         {
-          "id": "09-chief-4-p1",
-          "topic": "治理與安全",
-          "summary": "提出電子印鑑證明與線上公投方向。",
+          "id": "20-chief-4-p1",
+          "topic": "經濟與就業",
+          "summary": "推動北港路沿線開發，擴大後湖工業區及周邊發展。",
           "target": null,
-          "scope": "涉及法制及行政權責",
+          "scope": "地方政策主張",
           "status": "原文主張已定位；履行尚未查核"
         },
         {
-          "id": "09-chief-4-p2",
-          "topic": "居住與都市",
-          "summary": "主張媒合閒置公有房地，推動青年居住方案。",
+          "id": "20-chief-4-p2",
+          "topic": "教育與青年",
+          "summary": "補助學童全民英檢報名費，並增加國中小外語學習能量。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "20-chief-4-p3",
+          "topic": "交通",
+          "summary": "加強高鐵站直達市區便利性，擴大公車及公共自行車路網。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "20-chief-5": {
+      "name": "黃宏成台灣阿成世界偉人財神總統",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "20-chief-5-p1",
+          "topic": "醫療與健康",
+          "summary": "主張50歲健保免費（補助）及健身房運動免費（補助）。",
           "target": null,
           "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "20-chief-5-p2",
+          "topic": "治理與安全",
+          "summary": "市長每月薪資僅保留最低工資29500元，其餘及選舉補助款全數捐出。",
+          "target": "29500元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-chief-1": {
+      "name": "張國威",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-chief-1-p1",
+          "topic": "居住與都市",
+          "summary": "全面活化閒置營區，作為青年返鄉發展場域。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-1-p2",
+          "topic": "治理與安全",
+          "summary": "建立府會溝通管道與平台。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-chief-2": {
+      "name": "李文良",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-chief-2-p1",
+          "topic": "交通",
+          "summary": "推動郵輪式台金輪，兼顧交通備援與觀光體驗。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-2-p2",
+          "topic": "教育與青年",
+          "summary": "建置青少年藝文中心，整合電競、傳統文化、文學及展演。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-2-p3",
+          "topic": "經濟與就業",
+          "summary": "擴大SBIR及創業支持，整合資金、輔導與市場資源協助青年創業。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-chief-3": {
+      "name": "洪和成",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-chief-3-p1",
+          "topic": "醫療與健康",
+          "summary": "整合東西半島醫療量能，減少重症往返奔波。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-3-p2",
+          "topic": "交通",
+          "summary": "提升空海運疏運效率，改善候補機位困境。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-chief-4": {
+      "name": "張火木",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-chief-4-p1",
+          "topic": "文化與觀光",
+          "summary": "以每年吸引500萬人次為基礎，力拚任期四年累計2,000萬觀光人次。",
+          "target": "2,000萬觀光人次",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-4-p2",
+          "topic": "治理與安全",
+          "summary": "宣誓任滿不再競選連任，任內縣長薪資等所得全數捐作縣政智庫專款。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-4-p3",
+          "topic": "交通",
+          "summary": "推動兩岸就同翔金廈大橋工程銜接、交通安全等議題建立制度化協商機制。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-chief-5": {
+      "name": "陳玉珍",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-chief-5-p1",
+          "topic": "育兒與社福",
+          "summary": "籌建金門第一座坐月子中心及一站式育兒智慧平台。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-5-p2",
+          "topic": "交通",
+          "summary": "建造一艘「台金客輪」，並包一定比例機位供金門縣民優先使用。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-5-p3",
+          "topic": "醫療與健康",
+          "summary": "提升醫事人員福利待遇，興建醫事人員宿舍大樓以加強在地醫療。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-chief-6": {
+      "name": "梁文韜",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-chief-6-p1",
+          "topic": "治理與安全",
+          "summary": "主張金廈和平撤軍，並先簽訂終止福建內戰及金廈撤軍協議。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-chief-6-p2",
+          "topic": "教育與青年",
+          "summary": "因應少子化構建混級教育，落實因材施教。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-chief-7": {
+      "name": "黃世團",
+      "number": 7,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=2",
+      "status": "公報政見欄僅列標語，未能辨讀具體政策；不推定沒有政見。",
+      "items": []
+    },
+    "22-chief-1": {
+      "name": "王忠銘",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%80%A3%E6%B1%9F%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-chief-1-p1",
+          "topic": "交通",
+          "summary": "規劃新建「新新臺馬輪」，改善離島交通。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-chief-1-p2",
+          "topic": "醫療與健康",
+          "summary": "推動免費肺癌篩檢。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-chief-1-p3",
+          "topic": "居住與都市",
+          "summary": "賡續推動四鄉五島社會住宅。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-chief-2": {
+      "name": "曹爾元",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%80%A3%E6%B1%9F%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-chief-2-p1",
+          "topic": "育兒與社福",
+          "summary": "推動敬老卡每月1000點（元）福利額度，小三通敬老票恢復原有優惠。",
+          "target": "每月1000點",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-chief-2-p2",
+          "topic": "育兒與社福",
+          "summary": "提高生育補助：第一胎5萬元、第二胎10萬元、第三胎以上15萬元。",
+          "target": "第一胎5萬元、第二胎10萬元、第三胎以上15萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-chief-2-p3",
+          "topic": "教育與青年",
+          "summary": "就讀大學助學貸款利息補助50%，補助期限最長10年。",
+          "target": "利息補助50%",
+          "scope": "地方政策主張",
           "status": "原文主張已定位；履行尚未查核"
         }
       ]
@@ -1057,10 +2184,72 @@
     "05",
     "06",
     "07",
+    "08",
     "09",
+    "10",
     "11",
     "12",
+    "13",
+    "14",
     "15",
-    "19"
-  ]
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22"
+  ],
+  "source_files": {
+    "08": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%8B%97%E6%A0%97%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "cc4843740b16d3096041f6dc88f14e34ccde488a984088861a780f02271f9f9e",
+      "retrieved_on": "2026-11-25"
+    },
+    "10": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%8D%97%E6%8A%95%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "fa2c4ff6bfc1f9ede318c6cdad89ff4dd9be161990259a6c998bab53439bc9e8",
+      "retrieved_on": "2026-11-25"
+    },
+    "13": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "fcc3df8f080100c817f2290ab29af56d7a1e049b4c9d6052913402280dc5e25a",
+      "retrieved_on": "2026-11-25"
+    },
+    "14": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E8%87%BA%E6%9D%B1%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "e1b19112ba2875f32074c94600e0f0f88fc14fc3744fbe30dbb0c39fcd6ddd61",
+      "retrieved_on": "2026-11-25"
+    },
+    "16": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "f50fc5b56b0af0f1120e0141de46d72678020440daf8ef8359068e41f0346706",
+      "retrieved_on": "2026-11-25"
+    },
+    "17": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E6%BE%8E%E6%B9%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "e69ced25fe3672bbfde0f6566b080ef16b405ad1bb31f98c616775de41a9112e",
+      "retrieved_on": "2026-11-25"
+    },
+    "18": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%9F%BA%E9%9A%86%E5%B8%82%E5%B8%82%E9%95%B7.pdf",
+      "sha256": "61e9d93725c34c9dc162ede66b0ba87d4db0f82f16f28510946eecde8fb14ac8",
+      "retrieved_on": "2026-11-25"
+    },
+    "20": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E5%98%89%E7%BE%A9%E5%B8%82%E5%B8%82%E9%95%B7.pdf",
+      "sha256": "c3a632373a4b077f24dbc818cc53ea6c3a448475a983f6eaf01f753e5ccad938",
+      "retrieved_on": "2026-11-25"
+    },
+    "21": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%87%91%E9%96%80%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "ad758ce1debdbb897bfa2f64457f5e7193ff198fad0f00a4db6aed760c7956d1",
+      "retrieved_on": "2026-11-25"
+    },
+    "22": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/04%E7%B8%A3%E5%B8%82%E9%95%B7/115%E5%B9%B4/%E9%80%A3%E6%B1%9F%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf",
+      "sha256": "1905a2596ef2b29b1806d37033ec85eb77bbbcad03bbf69074d38faa2fa04902",
+      "retrieved_on": "2026-11-25"
+    }
+  }
 }

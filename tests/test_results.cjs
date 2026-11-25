@@ -1,4 +1,4 @@
-const assert=require("node:assert/strict"),{validateRace,opening,officialSource}=require("../scripts/results.js");
+const assert=require("node:assert/strict"),{validateRace,opening,officialSource,partySeats,partyName,priorSeats}=require("../scripts/results.js");
 const g={candidates:[{id:"a",name:"甲",number:1},{id:"b",name:"乙",number:2}]},now=opening+3600000;
 const p={status:"preliminary",source:"https://web.cec.gov.tw/central/article/123",published_at:new Date(opening+60000).toISOString(),valid_votes:10,candidates:[{id:"a",name:"甲",number:1,votes:5}]};
 assert.ok(validateRace(p,g,1,now));assert.equal(validateRace(p,g,1,opening-1),null);
@@ -11,3 +11,14 @@ const f={...p,status:"final",candidates:[{...p.candidates[0],elected:true},{id:"
 assert.ok(validateRace(f,g,1,now));assert.equal(validateRace({...f,valid_votes:11},g,1,now),null);
 assert.equal(validateRace({...f,candidates:f.candidates.map(c=>({...c,elected:true}))},g,1,now),null);
 console.log("PASS: results release, source, candidate identity, numeric and official final status gates");
+const G=[{id:"r1",...g},{id:"r2",candidates:[{id:"c",name:"丙",number:1}]}],pm={a:["甲黨","official"],b:["無","bulletin"],c:[null,"pending"]};
+let s=partySeats(G,{r1:p},()=>1,pm,now);assert.equal(s.finalRaces,0);assert.equal(s.byParty.size,0);assert.equal(s.seats,2);
+s=partySeats(G,{r1:f},()=>1,pm,now);assert.equal(s.finalRaces,1);assert.equal(s.finalSeats,1);assert.equal(s.byParty.get("甲黨"),1);assert.equal(s.byParty.has("無推薦政黨"),false);
+const f2={...f,source:"https://web.cec.gov.tw/x",candidates:[{id:"c",name:"丙",number:1,votes:10,elected:true}]};
+s=partySeats(G,{r1:f,r2:f2},()=>1,pm,now);assert.equal(s.finalRaces,2);assert.equal(s.byParty.get("政黨欄位待核"),1);
+assert.equal(partySeats(G,{r1:f},()=>1,pm,opening-1).finalRaces,0);assert.equal(partyName("無"),"無推薦政黨");
+console.log("PASS: party seats count only validated final results and never infer missing party labels");
+const H={national:{chief_seats:[{party:"甲黨",seats:2}],council_parties:[{party:"無",seats:3}]},counties:{"01":{chief:{candidates:[{party:"甲黨",elected:true},{party:"乙黨",elected:false}]},council:{parties:[{party:"乙黨",seats:4}]}}}};
+assert.equal(priorSeats(H,"all","chief").get("甲黨"),2);assert.equal(priorSeats(H,"all","council").get("無推薦政黨"),3);
+assert.equal(priorSeats(H,"county","chief","01").get("乙黨"),undefined);assert.equal(priorSeats(H,"county","council","01").get("乙黨"),4);assert.equal(priorSeats(null,"all","chief").size,0);
+console.log("PASS: prior-term seats come only from the official historical dataset");
