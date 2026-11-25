@@ -15,4 +15,4 @@ class MoiPortraitTests(unittest.TestCase):
   self.assertEqual(d["stats"]["matched"],len(d["records"]))
   for k,x in d["records"].items():
    g,y=r[k];self.assertEqual((x["name"],x["number"],x["county"]),(y["name"],y["number"],g["county"]))
-   self.assertTrue(photo_ok(x["src"]));self.assertIn("非本屆登記照",x["role"])
+   self.assertEqual(x["source_name"],"".join(y["name"].split()));self.assertTrue(photo_ok(x["src"]));self.assertIn("非本屆登記照",x["role"])
