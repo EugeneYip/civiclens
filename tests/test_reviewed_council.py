@@ -43,6 +43,11 @@ class ReviewedCouncilTests(unittest.TestCase):
             shard_ids |= set(json.loads(f.read_text())["councilReviews"]["records"])
         self.assertEqual(shard_ids, set(d["records"]))
 
+    def test_no_identification_numbers_published(self):
+        # A bulletin may print a certificate number that embeds a national ID; it must be masked.
+        for f in sorted((ROOT / "data").rglob("*.json")):
+            self.assertIsNone(re.search(r"[A-Z][12][0-9]{8}", f.read_text()), f.name)
+
 
 if __name__ == "__main__":
     unittest.main()
