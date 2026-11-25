@@ -1,6 +1,6 @@
 "use strict";
 const opening=Date.parse("2026-11-28T16:00:00+08:00");
-const officialHosts=new Set(["www.cec.gov.tw","web.cec.gov.tw","info.cec.gov.tw","db.cec.gov.tw"]);
+const officialHosts=new Set(["www.cec.gov.tw","web.cec.gov.tw","info.cec.gov.tw","db.cec.gov.tw","vote.cec.gov.tw","data.cec.gov.tw"]);
 function resultPhase(now){return now<opening?"投票截止後開放官方開票查詢｜11/28 16:00（臺灣時間）":"已達預定開票時間；請查閱中選會實際發布狀態。"}
 function officialSource(s){try{const u=new URL(s);return u.protocol==="https:"&&officialHosts.has(u.hostname)&&!u.username&&!u.password&&!u.port}catch{return false}}
 function validCount(n){return Number.isSafeInteger(n)&&n>=0}

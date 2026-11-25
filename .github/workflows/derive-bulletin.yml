@@ -7,7 +7,7 @@ on:
       - 'scripts/derive_bulletin.py'
       - '.github/workflows/derive-bulletin.yml'
 permissions:
-  contents: write
+  contents: read
 jobs:
   derive:
     runs-on: ubuntu-latest
@@ -18,14 +18,11 @@ jobs:
       - name: Stage source and generate restricted public data
         run: |
           python3 scripts/stage_bulletin.py --output "$RUNNER_TEMP/bulletin-review.json"
-          python3 scripts/derive_bulletin.py "$RUNNER_TEMP/bulletin-review.json" data/bulletin-facts.json
+          python3 scripts/derive_bulletin.py "$RUNNER_TEMP/bulletin-review.json" "$RUNNER_TEMP/bulletin-exact-facts.json"
+          python3 -c 'import json,sys; from pathlib import Path; old=json.loads(Path("data/bulletin-facts.json").read_text())["records"]; exact=json.loads(Path(sys.argv[1]).read_text())["records"]; assert len(exact)>=1414 and all(old.get(k)==v for k,v in exact.items()), "exact-pass regression"; print("Exact-pass subset verified:",len(exact))' "$RUNNER_TEMP/bulletin-exact-facts.json"
           python3 -m unittest discover -s tests -v
-      - name: Commit generated file to isolated branch
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git switch -c "bulletin-facts-${GITHUB_RUN_ID}"
-          git add data/bulletin-facts.json
-          if git diff --cached --quiet; then echo 'Generated data unchanged'; exit 0; fi
-          git commit -m 'Generate restricted public bulletin fact index'
-          git push origin HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bulletin-exact-facts-review
+          path: ${{ runner.temp }}/bulletin-exact-facts.json
+          retention-days: 7
