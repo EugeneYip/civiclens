@@ -31,6 +31,11 @@ const assert = require("node:assert/strict");
   await page.goto("http://127.0.0.1:8765/?county=06&office=chief&view=video",{waitUntil:"networkidle"});
   await page.getByText("桃園市長公辦政見發表會",{exact:true}).waitFor();
   assert.ok(await page.locator("a[href=\"https://www.youtube.com/watch?v=fEEFbC13-U0\"]").count());
+  await page.goto("http://127.0.0.1:8765/?county=01&office=council&district=3&candidate=01-council-3-8",{waitUntil:"networkidle"});
+  const portrait=page.locator("#person-01-council-3-8");await portrait.waitFor();
+  if(await portrait.locator(".profile-fields").count()===0)await portrait.locator(".person-open").click();
+  await portrait.getByText("內政部公職資料 ↗",{exact:true}).waitFor();
+  assert.ok(requests.includes("https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6601518f-d5f4-473d-b5bf-ad1889929a9e.jpg"));
   assert.equal(errors.length,0,errors.join("\n"));
   console.log("PASS: council deferred loading; chief deep link and policy summary; topic comparison; Penghu fallback; no page errors");
  }finally{await browser.close()}
