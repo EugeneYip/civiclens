@@ -15,6 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/build_policy_baseline.py
+      - run: pip install beautifulsoup4==4.13.4
       - run: python3 -m unittest discover -s tests -v
       - name: Stage generated baseline
         run: |
