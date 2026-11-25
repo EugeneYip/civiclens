@@ -1,0 +1,13 @@
+const assert=require("node:assert/strict"),{validateRace,opening,officialSource}=require("../scripts/results.js");
+const g={candidates:[{id:"a",name:"甲",number:1},{id:"b",name:"乙",number:2}]},now=opening+3600000;
+const p={status:"preliminary",source:"https://web.cec.gov.tw/central/article/123",published_at:new Date(opening+60000).toISOString(),valid_votes:10,candidates:[{id:"a",name:"甲",number:1,votes:5}]};
+assert.ok(validateRace(p,g,1,now));assert.equal(validateRace(p,g,1,opening-1),null);
+assert.equal(validateRace({...p,source:"https://cec.gov.tw.evil.test/"},g,1,now),null);
+assert.equal(validateRace({...p,candidates:[{...p.candidates[0],elected:true}]},g,1,now),null);
+assert.equal(validateRace({...p,candidates:[{...p.candidates[0],votes:-1}]},g,1,now),null);
+assert.equal(validateRace({...p,candidates:[{...p.candidates[0],name:"乙"}]},g,1,now),null);
+assert.equal(validateRace({...p,status:"final"},g,1,now),null);
+const f={...p,status:"final",candidates:[{...p.candidates[0],elected:true},{id:"b",name:"乙",number:2,votes:5,elected:false}]};
+assert.ok(validateRace(f,g,1,now));assert.equal(validateRace({...f,valid_votes:11},g,1,now),null);
+assert.equal(validateRace({...f,candidates:f.candidates.map(c=>({...c,elected:true}))},g,1,now),null);
+console.log("PASS: results release, source, candidate identity, numeric and official final status gates");

@@ -1,0 +1,8 @@
+{
+  "version": "0.1.22",
+  "election_date": "2026-11-28",
+  "source": "https://info.cec.gov.tw/vote2026/question/",
+  "status": "not_published",
+  "races": {},
+  "notice": "尚無官方結果資料；不得以零票代替空值。"
+}

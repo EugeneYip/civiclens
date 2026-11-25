@@ -36,6 +36,13 @@ const assert = require("node:assert/strict");
   if(await portrait.locator(".profile-fields").count()===0)await portrait.locator(".person-open").click();
   await portrait.getByText("內政部公職資料 ↗",{exact:true}).waitFor();
   assert.ok(requests.includes("https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6601518f-d5f4-473d-b5bf-ad1889929a9e.jpg"));
+  await page.goto("http://127.0.0.1:8765/results.html?county=17&office=chief",{waitUntil:"networkidle"});
+  await page.locator("#result-rows tr").first().waitFor();
+  assert.equal(await page.locator("#result-county").inputValue(),"17");
+  assert.ok((await page.locator("#result-data-status").textContent()).includes("尚未取得"));
+  assert.ok((await page.locator("#result-rows tr td:nth-child(3)").allTextContents()).every(x=>x==="—"));
+  await page.locator("#result-office").selectOption("council");await page.locator("#result-district").selectOption("2");
+  assert.ok((await page.locator("#result-heading").textContent()).includes("第2選區"));
   assert.equal(errors.length,0,errors.join("\n"));
   console.log("PASS: council deferred loading; chief deep link and policy summary; topic comparison; Penghu fallback; no page errors");
  }finally{await browser.close()}
