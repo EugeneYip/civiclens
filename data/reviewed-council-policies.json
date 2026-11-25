@@ -931,6 +931,930 @@
         }
       ]
     },
+    "21-council-1-1": {
+      "name": "唐麗輝",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-1-p1",
+          "topic": "文化與觀光",
+          "summary": "建構體育運動專區，以運動結合文化觀光發展目的性旅遊。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-1-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取青年社會住宅補貼、托嬰中心及完善養老福利。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-1-p3",
+          "topic": "醫療與健康",
+          "summary": "要求提升金門在地醫療品質與常駐醫護資源。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-2": {
+      "name": "許玉仙",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=2",
+      "status": "公報政見欄僅列標語，未能辨讀具體政策；不推定沒有政見。",
+      "items": []
+    },
+    "21-council-1-3": {
+      "name": "許大鴻",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-3-p1",
+          "topic": "醫療與健康",
+          "summary": "醫療設備升級、醫師穩定駐點，並推動遠距看診與智慧醫療。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-3-p2",
+          "topic": "育兒與社福",
+          "summary": "推動長輩在地老化、提升照顧品質，並落實育兒補助。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-3-p3",
+          "topic": "經濟與就業",
+          "summary": "支持青年留金創業與就業。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-4": {
+      "name": "蔡其雍",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-4-p1",
+          "topic": "醫療與健康",
+          "summary": "推動設立癌症醫療中心。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-4-p2",
+          "topic": "醫療與健康",
+          "summary": "爭取第二醫療大樓。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-5": {
+      "name": "尚文凱",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-5-p1",
+          "topic": "育兒與社福",
+          "summary": "擴大育兒津貼與托育資源。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-5-p2",
+          "topic": "育兒與社福",
+          "summary": "增設長照據點與關懷服務，讓長輩在地安老。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-5-p3",
+          "topic": "經濟與就業",
+          "summary": "提升在地品牌價值、推廣金門特色美食並拓展多元行銷通路。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-6": {
+      "name": "傅蒼松",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-6-p1",
+          "topic": "教育與青年",
+          "summary": "從小三生開始推廣理財夏令營，推展理財、防詐教育及青年創業機制。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-6-p2",
+          "topic": "居住與都市",
+          "summary": "加速西半島都更建設。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-6-p3",
+          "topic": "治理與安全",
+          "summary": "監督財政紀律，提升金酒治理效能。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-7": {
+      "name": "黃世丞",
+      "number": 7,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-7-p1",
+          "topic": "教育與青年",
+          "summary": "任期內建立全天候線上／線下青年意見反應窗口，公開追蹤進度。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-7-p2",
+          "topic": "經濟與就業",
+          "summary": "推動跨區域招商，活化產業園區、改善投資環境並爭取企業來金投資。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-7-p3",
+          "topic": "育兒與社福",
+          "summary": "爭取強化戰地政務世代長期照護，整合長照、居家照護及交通接送資源。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-8": {
+      "name": "楊霈璿",
+      "number": 8,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-8-p1",
+          "topic": "交通",
+          "summary": "推動小三通行李手提與託運限重比照航空運輸標準。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-8-p2",
+          "topic": "醫療與健康",
+          "summary": "增設設籍孕婦NIPT與SMA等必要篩檢補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-8-p3",
+          "topic": "環境與能源",
+          "summary": "建立新世代環保熱處理設施，提升垃圾自主處理量能、降低外運依賴。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-9": {
+      "name": "洪允典",
+      "number": 9,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-9-p1",
+          "topic": "育兒與社福",
+          "summary": "堅持老人年金繼續現金發放。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-9-p2",
+          "topic": "交通",
+          "summary": "爭取擴大小三通航能，推動「兩岸生活圈常態化」。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-9-p3",
+          "topic": "交通",
+          "summary": "增加空運量能保障居民往返臺金機位，建構霧季常態化疏運備案。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-10": {
+      "name": "林鑫一",
+      "number": 10,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-10-p1",
+          "topic": "育兒與社福",
+          "summary": "推動0至12歲「親子養育券」，補助學費、課後照顧、才藝等育兒支出。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-10-p2",
+          "topic": "環境與能源",
+          "summary": "爭取各社區設置資源回收站，由政府協助場地、設備及補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-10-p3",
+          "topic": "醫療與健康",
+          "summary": "提供符合資格孕婦產檢及必要就醫之計程車或指定交通免費補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-11": {
+      "name": "倪于媃",
+      "number": 11,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=4",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-11-p1",
+          "topic": "經濟與就業",
+          "summary": "推動企業媒合就業獎勵，深化產學合作與人才留鄉。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-11-p2",
+          "topic": "育兒與社福",
+          "summary": "完善長者接送與共餐據點。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-11-p3",
+          "topic": "教育與青年",
+          "summary": "舉辦兒童／青少年品格營及年長者身心靈健康講座。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-12": {
+      "name": "董森堡",
+      "number": 12,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=4",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-12-p1",
+          "topic": "教育與青年",
+          "summary": "加碼青年返鄉與移居補助，協助傳統產業轉型。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-12-p2",
+          "topic": "醫療與健康",
+          "summary": "強化基層醫療與遠距專科照護，獎助長照與醫療人員留任。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-12-p3",
+          "topic": "治理與安全",
+          "summary": "詳實審議浮濫預算，節制控管公帑浪擲。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-13": {
+      "name": "董家瑋",
+      "number": 13,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=4",
+      "status": "公報政見欄僅列標語，未能辨讀具體政策；不推定沒有政見。",
+      "items": []
+    },
+    "21-council-1-14": {
+      "name": "陳子芸",
+      "number": 14,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=4",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-14-p1",
+          "topic": "經濟與就業",
+          "summary": "引進AI產業至金門，輔導青年就業。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-14-p2",
+          "topic": "經濟與就業",
+          "summary": "扶持返鄉青農，落實農工商業就業補助與優惠貸款。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-14-p3",
+          "topic": "育兒與社福",
+          "summary": "推動大同之家二館與托幼服務。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-15": {
+      "name": "莊勝騏",
+      "number": 15,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=4",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-15-p1",
+          "topic": "交通",
+          "summary": "推動金城、金寧停車空間盤點與增設，改善市場、商圈及學校周邊停車。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-15-p2",
+          "topic": "治理與安全",
+          "summary": "全面盤點巷道、公園及聚落照明，提升夜間行走安全。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-15-p3",
+          "topic": "經濟與就業",
+          "summary": "爭取物流、冷鏈、倉儲與產業通路建設，降低離島產業成本。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-16": {
+      "name": "李慧艷",
+      "number": 16,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=4",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-16-p1",
+          "topic": "經濟與就業",
+          "summary": "推動「金門國際經貿融合試驗區」。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-16-p2",
+          "topic": "教育與青年",
+          "summary": "整合中央「青年國際圓夢」，成立金門青年國際圓夢服務機制。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-16-p3",
+          "topic": "育兒與社福",
+          "summary": "爭取金門版「全齡風雨樂活館」。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-17": {
+      "name": "陳泱瑚",
+      "number": 17,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=5",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-17-p1",
+          "topic": "交通",
+          "summary": "支持推動興建金廈大橋。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-17-p2",
+          "topic": "居住與都市",
+          "summary": "推動全面檢討都市計畫。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-17-p3",
+          "topic": "治理與安全",
+          "summary": "強力監督金酒營運。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-18": {
+      "name": "戴德滿",
+      "number": 18,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=5",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-18-p1",
+          "topic": "居住與都市",
+          "summary": "修正國家公園範圍，還地與民並開發海岸線。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-18-p2",
+          "topic": "環境與能源",
+          "summary": "推動通水、通橋、通電、通氣之「新四通」工作計畫。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-18-p3",
+          "topic": "治理與安全",
+          "summary": "爭取制定專屬「離島基本法」，比照「原住民族基本法」規格。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-1-19": {
+      "name": "楊忠俊",
+      "number": 19,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf#page=5",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-1-19-p1",
+          "topic": "醫療與健康",
+          "summary": "爭取西區醫療園區，強化金城、金寧、烈嶼地區醫療服務。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-19-p2",
+          "topic": "育兒與社福",
+          "summary": "逐步推動一社區一活動中心，提供長者休閒與照顧服務。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-1-19-p3",
+          "topic": "交通",
+          "summary": "爭取興建「台金輪」，改善臺金航班、船班與交通運能。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-1": {
+      "name": "蔡水游",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=2",
+      "status": "公報政見欄僅列標語，未能辨讀具體政策；不推定沒有政見。",
+      "items": []
+    },
+    "21-council-2-2": {
+      "name": "李文益",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-2-p1",
+          "topic": "環境與能源",
+          "summary": "推動山外溪整治，重現水岸新貌。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-2-p2",
+          "topic": "居住與都市",
+          "summary": "活化榮湖水岸，建置親水休憩公園。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-2-p3",
+          "topic": "治理與安全",
+          "summary": "檢視全縣路燈，點亮安全回家路。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-3": {
+      "name": "周子傑",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-3-p1",
+          "topic": "交通",
+          "summary": "爭取金廈大橋，打造金門和平新門戶。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-3-p2",
+          "topic": "醫療與健康",
+          "summary": "醫療升級，讓鄉親不再為就醫往返臺金奔波。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-4": {
+      "name": "黃萱萱",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-4-p1",
+          "topic": "文化與觀光",
+          "summary": "促整合宮廟節慶，聚焦發展觀光。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-4-p2",
+          "topic": "經濟與就業",
+          "summary": "促金酒提高經營效能與營收。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-5": {
+      "name": "吳佩雯",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-5-p1",
+          "topic": "治理與安全",
+          "summary": "嚴格監督縣府預算及金酒治理。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-5-p2",
+          "topic": "文化與觀光",
+          "summary": "促進建設東半島海岸線，振興觀光景點。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-5-p3",
+          "topic": "醫療與健康",
+          "summary": "完善醫療與急重症照護，保障鄉親就醫權益。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-6": {
+      "name": "王秀玉",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-6-p1",
+          "topic": "育兒與社福",
+          "summary": "加碼托育補助（第二胎免月費）、推動好孕專車並於東半島廣設公托。",
+          "target": "第二胎免月費",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-6-p2",
+          "topic": "居住與都市",
+          "summary": "加速金沙、金湖土地重劃，興建公有住宅。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-6-p3",
+          "topic": "醫療與健康",
+          "summary": "推動公立坐月子中心、高齡暨失智共照中心及中西醫整合復健門診。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-7": {
+      "name": "陳錦偉",
+      "number": 7,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-7-p1",
+          "topic": "居住與都市",
+          "summary": "推動金東游泳池、溫水、SPA館與高職游泳池活化。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-7-p2",
+          "topic": "文化與觀光",
+          "summary": "活化運用金湖及金沙地區文化資產，創造觀光價值。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-7-p3",
+          "topic": "育兒與社福",
+          "summary": "推動長者照護系統，建構社區連結服務網路。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-8": {
+      "name": "陳麒翔",
+      "number": 8,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=3",
+      "status": "公報政見欄僅列標語，未能辨讀具體政策；不推定沒有政見。",
+      "items": []
+    },
+    "21-council-2-9": {
+      "name": "李應文",
+      "number": 9,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-9-p1",
+          "topic": "交通",
+          "summary": "推動停滯中的馬山港建設，舒緩水頭碼頭人流並帶動金東經濟。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-9-p2",
+          "topic": "居住與都市",
+          "summary": "推動金沙地區市地重劃。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-9-p3",
+          "topic": "經濟與就業",
+          "summary": "推動設立金門農產公司，集中管理銷售農產品。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-10": {
+      "name": "王國代",
+      "number": 10,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-10-p1",
+          "topic": "育兒與社福",
+          "summary": "推動大同二館設立，完善老人福利。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-10-p2",
+          "topic": "居住與都市",
+          "summary": "推動自然村細部計畫，規劃各鄉鎮停車位及公園。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-10-p3",
+          "topic": "醫療與健康",
+          "summary": "加強醫療服務，培養在地醫療人員常駐金門。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-2-11": {
+      "name": "楊育菡",
+      "number": 11,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf#page=4",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-2-11-p1",
+          "topic": "居住與都市",
+          "summary": "爭取金東建設，促進區域均衡發展。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-2-11-p2",
+          "topic": "醫療與健康",
+          "summary": "完善醫療照護，打造友善高齡社會。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-3-1": {
+      "name": "洪和興",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-3-1-p1",
+          "topic": "居住與都市",
+          "summary": "爭取在游泳池內加設蒸氣室設備。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-3-2": {
+      "name": "洪長享",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-3-2-p1",
+          "topic": "經濟與就業",
+          "summary": "爭取評估金門酒廠第三廠設置於烈嶼的可行性。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-3-2-p2",
+          "topic": "醫療與健康",
+          "summary": "成立北醫、萬芳、雙和三院烈嶼鄉親醫療服務窗口。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-3-2-p3",
+          "topic": "育兒與社福",
+          "summary": "推動烈嶼設置大同之家、護理之家等長照機構之可行性。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-3-3": {
+      "name": "洪若珊",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-3-3-p1",
+          "topic": "治理與安全",
+          "summary": "監督縣政、把關預算。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-3-3-p2",
+          "topic": "文化與觀光",
+          "summary": "完善旅遊環境、優化景點設施並串聯交通接駁。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "21-council-3-4": {
+      "name": "洪毓壕",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "21-council-3-4-p1",
+          "topic": "醫療與健康",
+          "summary": "爭取在地醫療及專科服務，優化長照資源。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "21-council-3-4-p2",
+          "topic": "經濟與就業",
+          "summary": "協助青年返鄉創業，扶植地方產業發展。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
     "22-council-1-1": {
       "name": "曹丞君",
       "number": 1,
@@ -1366,6 +2290,7 @@
   },
   "reviewed_counties": [
     "17",
+    "21",
     "22"
   ],
   "source_files": {
@@ -1417,6 +2342,21 @@
     "17澎湖縣_06.澎湖縣議會第21屆議員選舉第6選舉區選舉公報.pdf": {
       "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/06.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
       "sha256": "9931a366a44d33f516fa6d82a20481c4e964d74322724cfe096c6eeeb5ec7453",
+      "retrieved_on": "2026-11-25"
+    },
+    "21金門縣_金門縣第9屆縣長、縣議員選舉公報正面-第一區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf",
+      "sha256": "ad758ce1debdbb897bfa2f64457f5e7193ff198fad0f00a4db6aed760c7956d1",
+      "retrieved_on": "2026-11-25"
+    },
+    "21金門縣_金門縣第9屆縣長、縣議員選舉公報正面-第二區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf",
+      "sha256": "0b74df2c47f3ff5d8467e1ea8f0e8893cd2f3984ec0e3b48a208b9ef72a0878a",
+      "retrieved_on": "2026-11-25"
+    },
+    "21金門縣_金門縣第9屆縣長、縣議員選舉公報正面-第三區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf",
+      "sha256": "e6f15d1fbed48c260f2995a95eb9981ce9b3d26c27a821228830f8b5033937b6",
       "retrieved_on": "2026-11-25"
     }
   },
