@@ -30,7 +30,7 @@ function portraitReference(r){const x=bulletinDetailFor(r),box=el("div"),m=moiPo
 function bulletinFor(r){const b=bulletinFacts.records[r.id];return b?.name===r.name&&b.number===r.number&&b.status==="secondary_bulletin_transcription"?b:null}
 function bulletinLink(b){return official(b.source.split("#")[0]+"#page="+b.page,"官方公報第 "+b.page+" 頁 ↗")}
 function bulletinParty(r){const p=bulletinFor(r)?.party;return ["無","無黨籍","未經政黨推薦","無黨籍及未經政黨推薦"].includes(p)?"無":p}
-function bulletinDetails(r,k){const b=bulletinFor(r),box=el("div",undefined,"bulletin-detail");if(!b)return box;const a=k==="education"?b.education:k==="experience"?b.career:[];if(a.length){box.append(el("p","本屆公報自述（民間轉錄）","small"));const ul=el("ul");for(const item of a)ul.append(el("li",item));box.append(ul,bulletinLink(b));}else if(k==="platform"){const topics=Object.keys(b.topics||{});if(topics.length)box.append(el("p","本屆公報政策主題："+topics.join("、")));if(b.text_available)box.append(el("p","已定位文字政見；按下方連結閱覽公報原文。主題由字詞自動索引，不代表立場。","small"),policyMeasureDetails(r));else box.append(el("p","文字政見尚未取得；請直接查閱原件，可能為圖片政見。","small"));box.append(bulletinLink(b));}if(box.childNodes.length)box.append(el("p","正至／中選會公報；轉錄未經本站逐筆人工覆核。","small"));return box}
+function bulletinDetails(r,k){const b=bulletinFor(r),box=el("div",undefined,"bulletin-detail");if(!b)return box;const a=k==="education"?b.education:k==="experience"?b.career:[];if(a.length){box.append(el("p","民間轉錄，可能缺漏；以公報原文為準","small"));const ul=el("ul");for(const item of a)ul.append(el("li",item));box.append(ul,bulletinLink(b));}else if(k==="platform"){const topics=Object.keys(b.topics||{});if(topics.length)box.append(el("p","本屆公報政策主題："+topics.join("、")));if(b.text_available)box.append(el("p","已定位文字政見；按下方連結閱覽公報原文。主題由字詞自動索引，不代表立場。","small"),policyMeasureDetails(r));else box.append(el("p","文字政見尚未取得；請直接查閱原件，可能為圖片政見。","small"));box.append(bulletinLink(b));}if(box.childNodes.length)box.append(el("p","正至／中選會公報；轉錄未經本站逐筆人工覆核。","small"));return box}
 function partyLabel(r){const label=el("span",undefined,"person-party");const extra=supplementalParty(r),bp=bulletinParty(r),op=officialFor(r)?.party,party=r.party??op??bp??r.registration_party??extra?.party;const img=emblemImage(party);if(img)label.append(img);const name=party==="無"?"無推薦政黨":party;label.append(document.createTextNode(r.party!=null||op?name:bp?"公報轉錄："+name:r.registration_party!=null?"登記："+name:extra?"登記轉錄："+name:"推薦政黨待核"));return label}
 function button(label,fn,pressed,cls){const b=el("button",label,cls);b.type="button";if(pressed!==undefined)b.setAttribute("aria-pressed",String(pressed));b.addEventListener("click",fn);return b}
 function activeOffice(){return catalog.counties.find(c=>c.code===county)?.offices.find(o=>o.id===role)}
@@ -54,13 +54,13 @@ const extras=[b?.text_available?policyMeasureDetails(r):null,enrichmentFor(r)?.p
 if(extras.length){const more=el("details",undefined,"profile-more");more.append(el("summary","更多政見索引與原始發言"),...extras);s.append(more)}return s}
 function profileEducation(r){const s=profileSection("學歷"),b=bulletinFor(r);
 const rv=reviewedFor(r);if(rv?.education?.length)s.append(profileList(rv.education),el("p","本屆官方公報（本站判讀）","note"));else if(r.education)s.append(el("p",r.education),el("p","公報自述","note"));
-else if(b?.education?.length)s.append(profileList(b.education),el("p","本屆公報自述（民間轉錄）","note"));
+else if(b?.education?.length)s.append(profileList(b.education),el("p","民間轉錄，可能缺漏；以公報原文為準","note"));
 else if(r.supplemental_education)s.append(el("p",r.supplemental_education.value),el("p","民間整理，待官方核對","note"));
 else if(supplementalEducation(r).length)s.append(educationDetails(r));
 else s.append(el("p","尚未整理","muted"));return s}
 function profileExperience(r){const s=profileSection("經歷"),b=bulletinFor(r);
 const rv=reviewedFor(r);if(rv?.experience?.length)s.append(profileList(rv.experience),el("p","本屆官方公報（本站判讀）","note"));else if(r.experience)s.append(el("p",r.experience),el("p","公報自述","note"));
-else if(b?.career?.length)s.append(profileList(b.career),el("p","本屆公報自述（民間轉錄）","note"));
+else if(b?.career?.length)s.append(profileList(b.career),el("p","民間轉錄，可能缺漏；以公報原文為準","note"));
 else s.append(el("p","尚未整理","muted"));
 if(careerEnrichment.records[r.id]?.name===r.name&&careerEnrichment.records[r.id].items?.length)s.append(careerDetails(r));return s}
 function profileRecord(r){const s=profileSection("政績與政見履行"),parts=[historicalDetails(r),baselineDetails(r,"成果陳述")].filter(x=>x.childNodes.length);

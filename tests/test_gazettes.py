@@ -13,9 +13,14 @@ class GazetteTests(unittest.TestCase):
     u=urlparse(o['directory']);self.assertEqual((u.scheme,u.netloc),('https','eebulletin.cec.gov.tw'))
     self.assertTrue(parse_qs(u.query)['dir'][0].startswith('115/'+c['code']+c['name']+'/'))
     for d in o['documents']:
-     p=urlparse(d['url']);self.assertEqual((p.scheme,p.netloc),('https','eebulletin.cec.gov.tw'));self.assertTrue(unquote(p.path).startswith('/'+parse_qs(u.query)['dir'][0]+'/')); self.assertIn(d['status'],['retrieved_pdf','fetch_limit','not_found']);docs.append(d)
-  self.assertEqual(len(docs),49);self.assertEqual(len({d['id'] for d in docs}),49)
-  self.assertEqual(sum(d['status']=='retrieved_pdf' for d in docs),40)
+     p=urlparse(d['url'])
+     if d.get('source_host')=='archive':
+      self.assertEqual(o['id'],'council');self.assertEqual((p.scheme,p.netloc),('https','bulletin.cec.gov.tw'));self.assertRegex(unquote(p.path),r'^/01選舉公報/0[56](直轄市議員|縣市議員)/115年/'+c['code']+c['name']+r'/[^/]+\.pdf$');self.assertRegex(d['sha256'],'^[0-9a-f]{64}$')
+     else:
+      self.assertEqual((p.scheme,p.netloc),('https','eebulletin.cec.gov.tw'));self.assertTrue(unquote(p.path).startswith('/'+parse_qs(u.query)['dir'][0]+'/'))
+     self.assertIn(d['status'],['retrieved_pdf','fetch_limit','not_found']);docs.append(d)
+  self.assertEqual(len(docs),200);self.assertEqual(len({d['id'] for d in docs}),200)
+  self.assertEqual(sum(d['status']=='retrieved_pdf' for d in docs),191)
   self.assertEqual(sum(d['status']=='fetch_limit' for d in docs),8)
   self.assertEqual(sum(d['status']=='not_found' for d in docs),1)
  def test_title_and_links(self):
@@ -48,6 +53,16 @@ class GazetteTests(unittest.TestCase):
   r=(R/'scripts/reader.js').read_text();self.assertIn('function selectDocument(auto=true)',r);self.assertIn('if(auto&&!load.disabled)openPDF()',r);self.assertIn("selectCounty(p.get('office'),p.get('doc'),true)",r)
   self.assertNotIn('>站內閱讀</button>',(R/'gazettes.html').read_text())
 
+ def test_every_council_district_has_a_pdf(self):
+  g=json.loads((R/'data/gazettes.json').read_text());d=json.loads((R/'data/council-districts.json').read_text())
+  rv=json.loads((R/'data/reviewed-council-policies.json').read_text())['source_files']
+  for c in d['counties']:
+   docs=next(o for x in g['counties'] if x['code']==c['code'] for o in x['offices'] if o['id']=='council')['documents']
+   nums=[n for x in docs for n in x['district_numbers']]
+   self.assertEqual(sorted(nums),[x['number'] for x in c['districts']],c['code'])
+   for x in docs:
+    if x.get('source_host')=='archive':self.assertTrue(any(m['url']==x['url'] and m['sha256']==x['sha256'] for m in rv.values()),x['id'])
+  self.assertIn('councilArchiveURL(x.url)',(R/'scripts/reader.js').read_text())
  def test_national_districts(self):
   d=json.loads((R/'data/council-districts.json').read_text());self.assertEqual(len(d['counties']),22);self.assertEqual(d['district_count'],221);self.assertEqual(d['seats'],919)
   self.assertEqual(sum(x['seats'] for c in d['counties'] for x in c['districts']),919)

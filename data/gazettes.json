@@ -415,7 +415,205 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F03%E8%87%BA%E4%B8%AD%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "03-council-1",
+              "label": "第1選舉區｜大甲區、大安區、外埔區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "bd72d3e75f3c0c474e3180cb932a6ca0290fc7d618054a2bf4ed6cd8b7339d94",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "大甲區、大安區、外埔區",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "03-council-2",
+              "label": "第2選舉區｜清水區、梧棲區、沙鹿區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7c39dbbbc3ea5bc6c17c3e04f3defc78af9412041ed012eb9ccdf541095c34cf",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "清水區、梧棲區、沙鹿區",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "03-council-3",
+              "label": "第3選舉區｜龍井區、大肚區、烏日區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "9f7134c61bdb004112e74fd4f1de7890b292b352d7b4c25ee1502108ca07e84a",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "龍井區、大肚區、烏日區",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "03-council-4",
+              "label": "第4選舉區｜后里區、豐原區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "28aa2503eb488463706f6fb5c7027fefb70b59d94b931984845df8bf3d349a49",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "后里區、豐原區",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "03-council-5",
+              "label": "第5選舉區｜神岡區、大雅區、潭子區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "246fade002583c17acfcef63a145cab16b2550676530391ab224b3c4989c84b6",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "神岡區、大雅區、潭子區",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "03-council-6",
+              "label": "第6選舉區｜西屯區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a2d6e05ef67bce57a998222945f902b58d6359cd3e6b674ff30f547cedc9ca3c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "西屯區",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "03-council-7",
+              "label": "第7選舉區｜南屯區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "82f24a22ce3ed9ac8a6a295735a72d9f00d167920c54a3848c79b81f6ad3bc67",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "南屯區",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "03-council-8",
+              "label": "第8選舉區｜北屯區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "dbf6b4bbfaa3d7cbc03c55616092b055fec12569b90b5eae0c11b08c45f187db",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北屯區",
+              "district_numbers": [
+                8
+              ]
+            },
+            {
+              "id": "03-council-9",
+              "label": "第9選舉區｜北區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "07d0380589e71766328858212c2b3f49e5eec6e66cfe25b845e165db614f79bc",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北區",
+              "district_numbers": [
+                9
+              ]
+            },
+            {
+              "id": "03-council-10",
+              "label": "第10選舉區｜中區、西區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "2c70245bb5930c2fcc13961f68ca64247f72b4e8f4185e61ee1780b3c954da00",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "中區、西區",
+              "district_numbers": [
+                10
+              ]
+            },
+            {
+              "id": "03-council-11",
+              "label": "第11選舉區｜東區、南區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "755662500ffa142ae719bb2f6b34091ab5896e7da98f00c3aebc3de64fea1573",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "東區、南區",
+              "district_numbers": [
+                11
+              ]
+            },
+            {
+              "id": "03-council-12",
+              "label": "第12選舉區｜太平區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC12%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1b0f520edf47479f51a3083954aa495454a3756a52f8b06c587199e6f85ad4b1",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "太平區",
+              "district_numbers": [
+                12
+              ]
+            },
+            {
+              "id": "03-council-13",
+              "label": "第13選舉區｜大里區、霧峰區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1296565d8f04b932071976203315f2adb2aa2d54cb957fef8ca64601cb6180f0",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "大里區、霧峰區",
+              "district_numbers": [
+                13
+              ]
+            },
+            {
+              "id": "03-council-14",
+              "label": "第14選舉區｜東勢區、石岡區、新社區、和平區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC14%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "586184de354a587d0d1f41171af20a151721e892bc53923e7bd18430a7d2707c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "東勢區、石岡區、新社區、和平區",
+              "district_numbers": [
+                14
+              ]
+            },
+            {
+              "id": "03-council-15",
+              "label": "第15、16、17選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/03%E8%87%BA%E4%B8%AD%E5%B8%82/%E8%87%BA%E4%B8%AD%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC15.16.17%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "cc0a713fc310abd7ec3e11d62c6ffbba364f622f73373cc62261e4c71cdf746b",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第15選舉區　臺中市之平地原住民\n第16選舉區　和平區及大甲區、大安區、外埔區、清水區、后里區、豐原區、神岡區、大雅區、潭子區、東勢區、石岡區、新社區之山地原住民\n第17選舉區　梧棲區、沙鹿區、龍井區、大肚區、烏日區、西屯區、南屯區、北屯區、北區、中區、西區、東區、南區、太平區、大里區、霧峰區之山地原住民",
+              "district_numbers": [
+                15,
+                16,
+                17
+              ]
+            }
+          ]
         },
         {
           "id": "village",
@@ -459,7 +657,165 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F04%E8%87%BA%E5%8D%97%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "04-council-1",
+              "label": "第1選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "f6c188e650fe586c74c070d9ba9de763c847b2c9e839d4ceb73449141cc486c7",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "後壁區、白河區、東山區、鹽水區、新營區、柳營區",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "04-council-2",
+              "label": "第2選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "06f4f7b83c48671d9e9bbba9b28e6e6044d969452f430c3ec1e4f8f267a46367",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北門區、學甲區、將軍區、七股區、佳里區、西港區",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "04-council-3",
+              "label": "第3選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "73f3b24d2f8220b59862cd5c62144d6d90b8e0d90f578d75b7ba221760a01448",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "下營區、六甲區、麻豆區、官田區、大內區",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "04-council-4",
+              "label": "第4選舉區｜楠西區、南化區、玉井區、左鎮區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "b5b61d1cb352e2f1890745a25c5b6dc094bdcad3ac2717849b1a6de8b9276760",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "楠西區、南化區、玉井區、左鎮區",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "04-council-5",
+              "label": "第5選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "60f8baf7b4e603c1772ff9e48befa11b66d0e66e677472fc72a3f0e83981a755",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "善化區、安定區、新市區、山上區、新化區",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "04-council-6",
+              "label": "第6選舉區｜安南區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC06%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "8137785c7c41495927d112a1c91d58f2436c2d6bd99baf9d73dbccfe31539b3c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "安南區",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "04-council-7",
+              "label": "第7選舉區｜永康區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "3641b417ad02dbf2c0274e6c73a3fd1a31171d490ef2ee1d2246469dcec0617c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "永康區",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "04-council-8",
+              "label": "第8選舉區｜北區、中西區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "01e07187dc7f63780c66d51ce1283af6f5303bc5a69d5f2180d2d33e6c5df16c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北區、中西區",
+              "district_numbers": [
+                8
+              ]
+            },
+            {
+              "id": "04-council-9",
+              "label": "第9選舉區｜安平區、南區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "f078e6c4aa5b8e26fd46e442e420c6655869f38de15292883bc5bfc0b956959b",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "安平區、南區",
+              "district_numbers": [
+                9
+              ]
+            },
+            {
+              "id": "04-council-10",
+              "label": "第10選舉區｜東區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "68a334b401723dcf3eeaa0bc2d9dcad0333d86903e86950b9c46cfc06b69360e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "東區",
+              "district_numbers": [
+                10
+              ]
+            },
+            {
+              "id": "04-council-11",
+              "label": "第11選舉區｜仁德區、歸仁區、關廟區、龍崎區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "3e4f261e1e92032e9606092fdb13f755206f1ae18e577077ad599917e64eae14",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "仁德區、歸仁區、關廟區、龍崎區",
+              "district_numbers": [
+                11
+              ]
+            },
+            {
+              "id": "04-council-12",
+              "label": "第12、13選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/04%E8%87%BA%E5%8D%97%E5%B8%82/%E8%87%BA%E5%8D%97%E5%B8%82%E7%AC%AC12%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "8c58eac474f355f25b5b2562a934862233e3dd3c5e9381e9a8110093b668343c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第12選舉區　臺南市之平地原住民\n第13選舉區　臺南市之山地原住民",
+              "district_numbers": [
+                12,
+                13
+              ]
+            }
+          ]
         },
         {
           "id": "village",
@@ -491,7 +847,167 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F05%E9%AB%98%E9%9B%84%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "05-council-1",
+              "label": "第1選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "2fce3321b63a91a9f824c0d03d0b59e2e58706c445bb5124033e96e5fb1db252",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "桃源區、那瑪夏區、甲仙區、六龜區、杉林區、內門區、旗山區、美濃區、茂林區",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "05-council-2",
+              "label": "第2選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "d548e3425e77e74d09085bd6540339860bb32a2790ecf877115c1e801379bf74",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "茄萣區、湖內區、路竹區、阿蓮區、田寮區",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "05-council-3",
+              "label": "第3選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0f5e811c241e1adaaa833a3d33caaf3173c2007098fcee1df5029f3dd6e04e8e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "永安區、岡山區、燕巢區、彌陀區、梓官區、橋頭區",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "05-council-4",
+              "label": "第4選舉區｜楠梓區、左營區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7944c21bf88a788b60f98e31df61f578d0fb1c47736e1c4a96bbb0de36d42855",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "楠梓區、左營區",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "05-council-5",
+              "label": "第5選舉區｜大社區、仁武區、鳥松區、大樹區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1302cb2a088085933cd85c522166585beaf91129a0f57fa7e0ec69d485416073",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "大社區、仁武區、鳥松區、大樹區",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "05-council-6",
+              "label": "第6選舉區｜鼓山區、鹽埕區、旗津區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC06%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "ad109902c1491bb49d9101ca2cb375341dd1d32500dcfcff05eb780774905a37",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "鼓山區、鹽埕區、旗津區",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "05-council-7",
+              "label": "第7選舉區｜三民區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "8ece62b1514d8416281b0b0f332ccee701b545018c74c398ce7b458f5d00cfd6",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "三民區",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "05-council-8",
+              "label": "第8選舉區｜前金區、新興區、苓雅區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "b2b3623d6afe0277df2c45664828eb76935cb1fe88f27f31b0dc45192f45cafd",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "前金區、新興區、苓雅區",
+              "district_numbers": [
+                8
+              ]
+            },
+            {
+              "id": "05-council-9",
+              "label": "第9選舉區｜鳳山區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "ccefee8d9c9ee2982087c88f3128da55f5e45f104ca659311029f32ad7f1b433",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "鳳山區",
+              "district_numbers": [
+                9
+              ]
+            },
+            {
+              "id": "05-council-10",
+              "label": "第10選舉區｜前鎮區、小港區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7a7c88b6e74fe21a98c9e5d89e4a2c7dd40406aa6cb5180e5988a7455e5802dd",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "前鎮區、小港區",
+              "district_numbers": [
+                10
+              ]
+            },
+            {
+              "id": "05-council-11",
+              "label": "第11選舉區｜大寮區、林園區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7f5b6a3da9374bd12a0955a875cbaa722fb1b3345abd2c6024cbcd9ba68b9ce4",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "大寮區、林園區",
+              "district_numbers": [
+                11
+              ]
+            },
+            {
+              "id": "05-council-12",
+              "label": "第12、13、14、15選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/05%E9%AB%98%E9%9B%84%E5%B8%82/%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC12%E3%80%8113%E3%80%8114%E3%80%8115%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "6e4e6d9fd21646714b863f52810099e2d447ece22d1dea2b4c9c2da40d024585",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第12選舉區　高雄市之平地原住民\n第13選舉區　那瑪夏區及甲仙區、杉林區、內門區、旗山區、茄萣區、湖內區、路竹區、永安區、彌陀區、梓官區、楠梓區、左營區、三民區之山地原住民\n第14選舉區　桃源區及六龜區、美濃區、阿蓮區、田寮區、岡山區、燕巢區、橋頭區、鼓山區、鹽埕區、前金區、新興區之山地原住民\n第15選舉區　茂林區及大社區、大樹區、仁武區、鳥松區、鳳山區、大寮區、旗津區、苓雅區、前鎮區、小港區、林園區之山地原住民",
+              "district_numbers": [
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ]
         },
         {
           "id": "district-chief",
@@ -535,7 +1051,190 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F06%E6%A1%83%E5%9C%92%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "06-council-1",
+              "label": "第1選舉區｜桃園區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a9ac443f539dc66463fb1d117a3a21e9f7bf1d0ed8a6cc1ca7edf5b1bd487951",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "桃園區",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "06-council-2",
+              "label": "第2選舉區｜龜山區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7c81f82f8099d9d94fb296cedd3f4f452674afb142cfa48b3f3154dfb38c654a",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "龜山區",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "06-council-3",
+              "label": "第3選舉區｜八德區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a78b75f88d7fa41d73ce6a8c61a5dd4f8d1d891e888b2f0eb79c0846279991fc",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "八德區",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "06-council-4",
+              "label": "第4選舉區｜蘆竹區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0d54406b17b78291562b56b49498164c0ed65a5d12d38a6222ccb90180efeaa3",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "蘆竹區",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "06-council-5",
+              "label": "第5選舉區｜大園區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0ee50f375f8560140db3aa7cdf5711be5d062c1f82cb22cef8d8166da6dfb8f0",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "大園區",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "06-council-6",
+              "label": "第6選舉區｜大溪區、復興區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC06%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "d1ad0daab798d8882c1481a368544c1fc97238773af2566f073750707e5b43cd",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "大溪區、復興區",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "06-council-7",
+              "label": "第7選舉區｜中壢區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "28c1adbade64c4ee7cc086706336db9404c1844c3f1b3cab099f999629a3f2a4",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "中壢區",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "06-council-8",
+              "label": "第8選舉區｜平鎮區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a1877d68a4a622802a58f650f326c1b6226a53962b301cabaa8c8722d86ec336",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "平鎮區",
+              "district_numbers": [
+                8
+              ]
+            },
+            {
+              "id": "06-council-9",
+              "label": "第9選舉區｜楊梅區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "53c4991a390ce35a749b7d6f2bdd5f430b305d3efb480da9520ef5cf105a68af",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "楊梅區",
+              "district_numbers": [
+                9
+              ]
+            },
+            {
+              "id": "06-council-10",
+              "label": "第10選舉區｜龍潭區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "435df6b2dba4bb58915b75d7b341f3711cf4201e392e9bd46b6a949f7fa051ec",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "龍潭區",
+              "district_numbers": [
+                10
+              ]
+            },
+            {
+              "id": "06-council-11",
+              "label": "第11選舉區｜新屋區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "925fafccf71ba30fc21e5986437f62544955052816b412c703e3341e033b4f03",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "新屋區",
+              "district_numbers": [
+                11
+              ]
+            },
+            {
+              "id": "06-council-12",
+              "label": "第12選舉區｜觀音區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC12%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a55edbfc8d45a24f406ddf43f55963c01a3260a36bb05b75f3f50e8f8a10708a",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "觀音區",
+              "district_numbers": [
+                12
+              ]
+            },
+            {
+              "id": "06-council-13",
+              "label": "第13選舉區｜桃園市之平地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC13%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "2916bcaa9ddc64c01f309f4eedbe1aba5b6c79fe33a95c4e5dd966e1aa970b9b",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "桃園市之平地原住民",
+              "district_numbers": [
+                13
+              ]
+            },
+            {
+              "id": "06-council-14",
+              "label": "第14選舉區｜桃園市之山地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/05%E7%9B%B4%E8%BD%84%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/06%E6%A1%83%E5%9C%92%E5%B8%82/115-%E6%A1%83%E5%9C%92%E5%B8%82%E8%AD%B0%E6%9C%83%E7%AC%AC4%E5%B1%86%E7%AC%AC14%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "fda10b8dc4f6b5179264bcbb7538907cea76629d92719efc0cb4010accd8fd98",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "桃園市之山地原住民",
+              "district_numbers": [
+                14
+              ]
+            }
+          ]
         },
         {
           "id": "village",
@@ -579,7 +1278,154 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F07%E6%96%B0%E7%AB%B9%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "07-council-1",
+              "label": "第1、2選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0dcdb243df478eb3609252919659320e4330eb975cee28e5784f0f2ce43af8d5",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第1選舉區　竹北市尚義里、崇義里、新港里、大義里、白地里、大眉里、麻園里、溪州里、新庄里、聯興里、泰和里、新社里、新國里、竹義里、新崙里\n第2選舉區　竹北市竹北里、竹仁里、福德里、北崙里、中崙里、文化里、興安里、斗崙里、北興里、十興里、鹿場里、東興里、中興里、東平里、東海里、隘口里",
+              "district_numbers": [
+                1,
+                2
+              ]
+            },
+            {
+              "id": "07-council-3",
+              "label": "第3選舉區｜湖口鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "098b192dc8237f5782ecdbe179dd0dc53db5a978d0c126cb397ab7354dbb9b91",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "湖口鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "07-council-4",
+              "label": "第4選舉區｜新豐鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "82136425384b48d3c11c5c315a00788910d1b2398a8a21887dbf1194618d2deb",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "新豐鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "07-council-5",
+              "label": "第5選舉區｜關西鎮",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/04%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a03eb9cc272a2e9423f2fc3ba81e1e5850ed40f1ab7e840b0f4b2737ca3ecdd9",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "關西鎮",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "07-council-6",
+              "label": "第6選舉區｜新埔鎮",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/05%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "87d17373282ed7e7668edfb7d91d2f0e3e330696a3d8c1dfa7154636c38a4d2c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "新埔鎮",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "07-council-7",
+              "label": "第7選舉區｜橫山鄉、尖石鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/06%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1157a2296dfe72066d82e17f720d29ac0928103c51d32b40dac851c78488f089",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "橫山鄉、尖石鄉",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "07-council-8",
+              "label": "第8選舉區｜芎林鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/07%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "8009c5246471ed96072693acb551b48cd5d20101ef74bebc3e29f38bcab8a40a",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "芎林鄉",
+              "district_numbers": [
+                8
+              ]
+            },
+            {
+              "id": "07-council-9",
+              "label": "第9選舉區｜竹東鎮、五峰鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "738ab2092859293125c0267bb36507ff3cefcf3cad1c43ab1b27f2c491651cc6",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "竹東鎮、五峰鄉",
+              "district_numbers": [
+                9
+              ]
+            },
+            {
+              "id": "07-council-10",
+              "label": "第10選舉區｜寶山鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/09%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "e9b2932676e65f5ac241faa0767e0cac3a5828b05ef47e958f06e397dded1caf",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "寶山鄉",
+              "district_numbers": [
+                10
+              ]
+            },
+            {
+              "id": "07-council-11",
+              "label": "第11選舉區｜北埔鄉、峨眉鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/10%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "68ebd0db1152915b59cbae0ed28c1500b5ef99f4e97a884465a4a02bf8147937",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北埔鄉、峨眉鄉",
+              "district_numbers": [
+                11
+              ]
+            },
+            {
+              "id": "07-council-12",
+              "label": "第12、13、14選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7acd4b119989f285eb42746f3c38388be946864173c20a3778faeb871dabf5ca",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第12選舉區　新竹縣之平地原住民\n第13選舉區　尖石鄉及竹北市、湖口鄉、新豐鄉、關西鎮、新埔鎮、橫山鄉之山地原住民\n第14選舉區　五峰鄉及芎林鄉、竹東鎮、寶山鄉、北埔鄉、峨眉鄉之山地原住民",
+              "district_numbers": [
+                12,
+                13,
+                14
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -623,7 +1469,64 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F08%E8%8B%97%E6%A0%97%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "08-council-1",
+              "label": "第1選舉區｜苗栗市、公館鄉、頭屋鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "cc4843740b16d3096041f6dc88f14e34ccde488a984088861a780f02271f9f9e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "苗栗市、公館鄉、頭屋鄉",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "08-council-2",
+              "label": "第2、3、6選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC2.3.6%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "2048b0b8fa91ebb60f369c2fdaf17827bd97e31b6d718b2e56dbb8fc36b64917",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第2選舉區　銅鑼鄉、三義鄉、西湖鄉\n第3選舉區　通霄鎮、苑裡鎮\n第6選舉區　大湖鄉、獅潭鄉、卓蘭鎮、泰安鄉",
+              "district_numbers": [
+                2,
+                3,
+                6
+              ]
+            },
+            {
+              "id": "08-council-4",
+              "label": "第4選舉區｜後龍鎮、造橋鄉、竹南鎮",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "ce7a659843a22d5dac588003430ce541c88d35884c01e65c569e8fe934280cf8",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "後龍鎮、造橋鄉、竹南鎮",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "08-council-5",
+              "label": "第5、7、8選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/08%E8%8B%97%E6%A0%97%E7%B8%A3/%E8%8B%97%E6%A0%97%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5.7.8%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "49eb7061e8e79371c0a9f0b8f94576e2623281e78c85bec3e64cf1322ea439e2",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第5選舉區　頭份市、三灣鄉、南庄鄉\n第7選舉區　苗栗縣之平地原住民\n第8選舉區　苗栗縣之山地原住民",
+              "district_numbers": [
+                5,
+                7,
+                8
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -667,7 +1570,138 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F09%E5%BD%B0%E5%8C%96%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "09-council-1",
+              "label": "第1選舉區｜彰化市、花壇鄉、芬園鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a2f04829b9c5a854cd5d6c5d48e80dc0c5684c30f554374fc4b55fe3f3b86d4d",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "彰化市、花壇鄉、芬園鄉",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "09-council-2",
+              "label": "第2選舉區｜鹿港鎮、福興鄉、秀水鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "77ef6f0537c93b535221f88dd41ca5df9d40871828090f3d55e90bfd31cbbeb6",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "鹿港鎮、福興鄉、秀水鄉",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "09-council-3",
+              "label": "第3選舉區｜和美鎮、伸港鄉、線西鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "6a0d6d5aba4517358e51f87ccdd6d8bc2b52527692709e7f22736ee359872097",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "和美鎮、伸港鄉、線西鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "09-council-4",
+              "label": "第4選舉區｜員林市、大村鄉、永靖鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "5fa443f1446405d3c6861da8a69f3794e91788ab023fc41e11d83918f8255724",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "員林市、大村鄉、永靖鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "09-council-5",
+              "label": "第5選舉區｜溪湖鎮、埔鹽鄉、埔心鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "81af3d3cbf29dbc337737c7c605b3d33507a7f57ca2ad4560dc8991950475716",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "溪湖鎮、埔鹽鄉、埔心鄉",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "09-council-6",
+              "label": "第6選舉區｜田中鎮、社頭鄉、二水鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC06%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "cfcaf21986735b3e6122044404fc40667292da32c94dbdb680b1127aa6109046",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "田中鎮、社頭鄉、二水鄉",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "09-council-7",
+              "label": "第7選舉區｜北斗鎮、田尾鄉、埤頭鄉、溪州鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC07%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "d6be87ec79fa6427882d827b621b07e2c382d11c9852a948edc68c77b264bde6",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北斗鎮、田尾鄉、埤頭鄉、溪州鄉",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "09-council-8",
+              "label": "第8選舉區｜二林鎮、大城鄉、芳苑鄉、竹塘鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC08%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "773dcc920f0580d16cf74ed4e4cc63a17270a3f099dad0447e5825713dfe8d0d",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "二林鎮、大城鄉、芳苑鄉、竹塘鄉",
+              "district_numbers": [
+                8
+              ]
+            },
+            {
+              "id": "09-council-9",
+              "label": "第9選舉區｜彰化縣之平地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC09%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1b92e61c67e907748cad7158eb0bcf5500abec7b02cd8fd3b76a27622427efab",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "彰化縣之平地原住民",
+              "district_numbers": [
+                9
+              ]
+            },
+            {
+              "id": "09-council-10",
+              "label": "第10選舉區｜彰化縣之山地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/09%E5%BD%B0%E5%8C%96%E7%B8%A3/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1b92e61c67e907748cad7158eb0bcf5500abec7b02cd8fd3b76a27622427efab",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "彰化縣之山地原住民",
+              "district_numbers": [
+                10
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -711,7 +1745,88 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F10%E5%8D%97%E6%8A%95%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "10-council-1",
+              "label": "第1選舉區｜南投市、名間鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/10%E5%8D%97%E6%8A%95%E7%B8%A3/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "479dc145f30eac3940a3bf1501d24365cdca69187307bab7f9055ecbb8e7a565",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "南投市、名間鄉",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "10-council-2",
+              "label": "第2選舉區｜草屯鎮、中寮鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/10%E5%8D%97%E6%8A%95%E7%B8%A3/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC2%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a5e46d447ed54497404f8c48da834aa82c3e261576222b1efe47212f9727f742",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "草屯鎮、中寮鄉",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "10-council-3",
+              "label": "第3選舉區｜集集鎮、水里鄉、魚池鄉、信義鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/10%E5%8D%97%E6%8A%95%E7%B8%A3/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC3%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "f718f438aff6fd5fef975f4a8fa439014783b7e041570ceaaf86e0ef82bd3a87",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "集集鎮、水里鄉、魚池鄉、信義鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "10-council-4",
+              "label": "第4選舉區｜竹山鎮、鹿谷鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/10%E5%8D%97%E6%8A%95%E7%B8%A3/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC4%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "5cf5d632ca03089f59a54c377abbc9f2f35c99c243576534473bff0b14cba32c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "竹山鎮、鹿谷鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "10-council-5",
+              "label": "第5選舉區｜埔里鎮、國姓鄉、仁愛鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/10%E5%8D%97%E6%8A%95%E7%B8%A3/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC5%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "9e90fb4dc4dd014cbf46d9d677972f3b70dbe69d5f906294d763ff3728715f27",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "埔里鎮、國姓鄉、仁愛鄉",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "10-council-6",
+              "label": "第6、7、8選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/10%E5%8D%97%E6%8A%95%E7%B8%A3/%E8%87%BA%E7%81%A3%E7%9C%81%E5%8D%97%E6%8A%95%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC6%E3%80%817%E3%80%818%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "01098418c19153f9cf4ac1524bd6828aab55b87fbdc4fdb60396b32ac80ef013",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第6選舉區　南投縣之平地原住民\n第7選舉區　信義鄉及南投市、竹山鎮、集集鎮、名間鄉、鹿谷鄉、水里鄉之山地原住民\n第8選舉區　仁愛鄉及草屯鎮、中寮鄉、魚池鄉、國姓鄉、埔里鎮之山地原住民",
+              "district_numbers": [
+                6,
+                7,
+                8
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -755,7 +1870,100 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F11%E9%9B%B2%E6%9E%97%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "11-council-1",
+              "label": "第1選舉區｜斗六市、莿桐鄉、林內鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC01%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a097b8e9a7d39feb7f25a02f998401b084cbccfe46fdc7cb03406509bc7886c8",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "斗六市、莿桐鄉、林內鄉",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "11-council-2",
+              "label": "第2選舉區｜斗南鎮、古坑鄉、大埤鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC02%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "d9b4e9806ac2b1defbef6aa126033b1cc5327812e155dd7c159f6d974a21780f",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "斗南鎮、古坑鄉、大埤鄉",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "11-council-3",
+              "label": "第3選舉區｜虎尾鎮、土庫鎮、褒忠鄉、元長鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "a7880022fbc0fd1fbbbe1168313f9b47c674007d502f40199cbf7c3c15de9f8f",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "虎尾鎮、土庫鎮、褒忠鄉、元長鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "11-council-4",
+              "label": "第4選舉區｜西螺鎮、二崙鄉、崙背鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7576e8c7f026e03f3b401274dc583dd59eee6bb5820bceaa6e06f0496af22165",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "西螺鎮、二崙鄉、崙背鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "11-council-5",
+              "label": "第5選舉區｜臺西鄉、麥寮鄉、東勢鄉、四湖鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC05%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "574e63d36e61f7944744df659f2dd07854a0688125060a0d46ae291d5a752b13",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "臺西鄉、麥寮鄉、東勢鄉、四湖鄉",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "11-council-6",
+              "label": "第6選舉區｜北港鎮、口湖鄉、水林鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC06%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "cc30e08aa201fd848855eb59f6c2c725b5bcd8d9609728c468d2a90fe9e6b4e2",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北港鎮、口湖鄉、水林鄉",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "11-council-7",
+              "label": "第7、8選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/11%E9%9B%B2%E6%9E%97%E7%B8%A3/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC07%E3%80%8108%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "4371f88b98d37e3dd6e99d2ba6133f3fb1741876655de749f51b80f7e8733a21",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第7選舉區　雲林縣之平地原住民\n第8選舉區　雲林縣之山地原住民",
+              "district_numbers": [
+                7,
+                8
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -799,7 +2007,99 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F12%E5%98%89%E7%BE%A9%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "12-council-1",
+              "label": "第1選舉區｜鹿草鄉、太保市、水上鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "d68368fe9c3c542bbb9a8df0185cddeb42664584bb3e53c04987c25eb234f4b6",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "鹿草鄉、太保市、水上鄉",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "12-council-2",
+              "label": "第2選舉區｜民雄鄉、新港鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "b27945e64073222c7448d0c2b831d9e7a5820bad9d444f1511b98843d34840f7",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "民雄鄉、新港鄉",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "12-council-3",
+              "label": "第3選舉區｜大林鎮、溪口鄉、梅山鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "669b59a0a98c6193d187b6b1aebd5a5d702e1a60be690f4839bf3b222d0d4584",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "大林鎮、溪口鄉、梅山鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "12-council-4",
+              "label": "第4選舉區｜朴子市、六腳鄉、東石鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "27f691aa58da858da1800b07ddab79cd213470e64d183b0beff0bfd94751cc8c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "朴子市、六腳鄉、東石鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "12-council-5",
+              "label": "第5選舉區｜布袋鎮、義竹鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "f52866758375c83286b1f5ac9026b14f3513ae2f979960b2e01a923c8636fced",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "布袋鎮、義竹鄉",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "12-council-6",
+              "label": "第6選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "58f862e965deb80555345bf9d8d36decf99a1393b110d4fadbe50d8c8ac3f0e5",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "中埔鄉、竹崎鄉、番路鄉、大埔鄉、阿里山鄉",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "12-council-7",
+              "label": "第7選舉區｜嘉義縣之山地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/12%E5%98%89%E7%BE%A9%E7%B8%A3/%E5%98%89%E7%BE%A9%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC7%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "bcc5035ba00b2c44538f72197fccb293f0ad787dde3a56cf05cc625b961d5a54",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "嘉義縣之山地原住民",
+              "district_numbers": [
+                7
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -843,7 +2143,108 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F13%E5%B1%8F%E6%9D%B1%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "13-council-1",
+              "label": "第1選舉區｜屏東市",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "733f51b6d66f6cd7bb37002bf8d6c9d20caa0b66b8e21fc3753599e66af3d351",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "屏東市",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "13-council-2",
+              "label": "第2選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "351a6b26bd4fb10dcc9afe4c925fa1a3eb2a30e4190aafdae01f7f1206e18e4e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "長治鄉、麟洛鄉、九如鄉、里港鄉、鹽埔鄉、高樹鄉、三地門鄉、霧臺鄉、瑪家鄉",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "13-council-3",
+              "label": "第3選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%B8%89%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "f8a2c70e559c635d0cf7667100bca5619cbfdbaa88a61b297658c5e18a7aca10",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "潮州鎮、萬巒鄉、內埔鄉、竹田鄉、新埤鄉、枋寮鄉、泰武鄉、來義鄉、春日鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "13-council-4",
+              "label": "第4選舉區｜東港鎮、新園鄉、萬丹鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E5%9B%9B%E9%81%B8%E8%88%89%E5%8D%80%28%E5%96%AE%E9%9D%A2%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "bff72d205ed0d0296752956f551676cf9a312c4a73cc8ba105a91b704feef04e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "東港鎮、新園鄉、萬丹鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "13-council-5",
+              "label": "第5、6、7選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E4%BA%94%E3%80%81%E5%85%AD%E3%80%81%E4%B8%83%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "439f2de550ec73a0750835137b6b1b46614d818c02a75125bdfd0710de523c65",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第5選舉區　崁頂鄉、林邊鄉、南州鄉、佳冬鄉\n第6選舉區　恆春鎮、車城鄉、滿州鄉、枋山鄉、獅子鄉、牡丹鄉\n第7選舉區　琉球鄉",
+              "district_numbers": [
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "id": "13-council-8",
+              "label": "第8、9、10、11、12選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E5%85%AB%E3%80%81%E4%B9%9D%E3%80%81%E5%8D%81%E3%80%81%E5%8D%81%E4%B8%80%E3%80%81%E5%8D%81%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80%28%E5%96%AE%E9%9D%A2%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "5ff6d114ecb590baecf60418c108e4abca176a71d95aa63c2cc61ee59aac2e5e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第8選舉區　屏東縣之平地原住民\n第9選舉區　三地門鄉及九如鄉、里港鄉、鹽埔鄉、高樹鄉之山地原住民\n第10選舉區　瑪家鄉及屏東市、長治鄉、麟洛鄉、內埔鄉之山地原住民\n第11選舉區　泰武鄉及萬丹鄉、萬巒鄉、竹田鄉之山地原住民\n第12選舉區　來義鄉及潮州鎮、新埤鄉、新園鄉、崁頂鄉、南州鄉之山地原住民",
+              "district_numbers": [
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            },
+            {
+              "id": "13-council-13",
+              "label": "第13、14、15、16選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E5%85%AB%E3%80%81%E5%8D%81%E4%B8%89%E3%80%81%E5%8D%81%E5%9B%9B%E3%80%81%E5%8D%81%E4%BA%94%E3%80%81%E5%8D%81%E5%85%AD%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "cb72279d91278986062375842298bec7daced70864b1b0111161724724c8cb3c",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第13選舉區　春日鄉及東港鎮、枋寮鄉、林邊鄉、佳冬鄉、琉球鄉之山地原住民\n第14選舉區　獅子鄉及枋山鄉之山地原住民\n第15選舉區　牡丹鄉及恆春鎮、車城鄉、滿州鄉之山地原住民\n第16選舉區　霧臺鄉之山地原住民",
+              "district_numbers": [
+                13,
+                14,
+                15,
+                16
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -893,7 +2294,120 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F14%E8%87%BA%E6%9D%B1%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "14-council-1",
+              "label": "第1、7、14選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/02-%E8%87%BA%E6%9D%B1%E5%B8%82%281%E3%80%817%E3%80%8114%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "220c742686044da4b4b7fb047ac2e1b8a3903ad0c70c6acaa29aef1bf1153607",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第1選舉區　臺東市、蘭嶼鄉\n第7選舉區　臺東市之平地原住民\n第14選舉區　金峰鄉及太麻里鄉、臺東市、綠島鄉之山地原住民",
+              "district_numbers": [
+                1,
+                7,
+                14
+              ]
+            },
+            {
+              "id": "14-council-2",
+              "label": "第2、8、12選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/04-%E5%8D%91%E5%8D%97%E9%84%89%282%E3%80%818%E3%80%8112%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7dac0d8f707e1cf492609ec0e1f94afd86de21c3bef52a54770267b9fd7ee8a5",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第2選舉區　卑南鄉、延平鄉\n第8選舉區　卑南鄉、蘭嶼鄉之平地原住民\n第12選舉區　延平鄉及卑南鄉、東河鄉、成功鎮、長濱鄉之山地原住民",
+              "district_numbers": [
+                2,
+                8,
+                12
+              ]
+            },
+            {
+              "id": "14-council-3",
+              "label": "第3選舉區｜東河鄉、成功鎮、長濱鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/06-%E6%88%90%E5%8A%9F%E9%8E%AE%E3%80%81%E6%9D%B1%E6%B2%B3%E9%84%89%E3%80%81%E9%95%B7%E6%BF%B1%E9%84%89%283%E3%80%8111%E3%80%8112%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0bf968b10fc15c7909e9eae703ea3914a52e144e4249c75add8d83e986c485f8",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "東河鄉、成功鎮、長濱鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "14-council-4",
+              "label": "第4、10、13選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/07-%E9%97%9C%E5%B1%B1%E9%8E%AE%E3%80%81%E9%B9%BF%E9%87%8E%E9%84%89%E3%80%81%E6%B1%A0%E4%B8%8A%E9%84%89%E3%80%81%E6%B5%B7%E7%AB%AF%E9%84%89%284%E3%80%8110%E3%80%8113%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "e378ed03a02f27db85940665b50ea22028ce2b9d7d89c49afa816022af7cb5d3",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第4選舉區　鹿野鄉、關山鎮、海端鄉、池上鄉\n第10選舉區　鹿野鄉、延平鄉、關山鎮、海端鄉、池上鄉之平地原住民\n第13選舉區　海端鄉及鹿野鄉、關山鎮、池上鄉之山地原住民",
+              "district_numbers": [
+                4,
+                10,
+                13
+              ]
+            },
+            {
+              "id": "14-council-5",
+              "label": "第5、9選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/08-%E5%A4%AA%E9%BA%BB%E9%87%8C%E9%84%89%E3%80%81%E9%87%91%E5%B3%B0%E9%84%89%285%E3%80%819%E3%80%8114%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "f5d1729af1ec3bd62534d00ed80a91d970c0b63babe03670b17fc289c20d19d0",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第5選舉區　太麻里鄉、金峰鄉、達仁鄉、大武鄉\n第9選舉區　太麻里鄉、金峰鄉、達仁鄉、大武鄉之平地原住民",
+              "district_numbers": [
+                5,
+                9
+              ]
+            },
+            {
+              "id": "14-council-6",
+              "label": "第6、11選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/010-%E7%B6%A0%E5%B3%B6%E9%84%89%286%E3%80%8111%E3%80%8114%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "ec4bd8540faa995cfdb8c751fe46464c590445f0da765108a0b6629c3e1b0c8e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第6選舉區　綠島鄉\n第11選舉區　東河鄉、綠島鄉、成功鎮、長濱鄉之平地原住民",
+              "district_numbers": [
+                6,
+                11
+              ]
+            },
+            {
+              "id": "14-council-15",
+              "label": "第15選舉區｜達仁鄉及大武鄉之山地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/09-%E5%A4%A7%E6%AD%A6%E9%84%89%E3%80%81%E9%81%94%E4%BB%81%E9%84%89%285%E3%80%819%E3%80%8115%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "313366054b3d98cb07e6ca30b1cf54a9314e4f787e05b280fa01b105060dd055",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "達仁鄉及大武鄉之山地原住民",
+              "district_numbers": [
+                15
+              ]
+            },
+            {
+              "id": "14-council-16",
+              "label": "第16選舉區｜蘭嶼鄉之山地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/14%E8%87%BA%E6%9D%B1%E7%B8%A3/03-%E8%98%AD%E5%B6%BC%E9%84%89%281%E3%80%818%E3%80%8116%E9%81%B8%E5%8D%80%29.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1e3017ed57ab80a6103d0f1ab801ce59bca9857101f416195ba23c7e15a9acb8",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "蘭嶼鄉之山地原住民",
+              "district_numbers": [
+                16
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -937,7 +2451,66 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F15%E8%8A%B1%E8%93%AE%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "15-council-1",
+              "label": "第1、2、3、4選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC1%E3%80%812%E3%80%813%E3%80%814%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "15ed25a195f07965ab243837db0fc16a9f1d7211d14aa986b1ccffc886971e5e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第1選舉區　花蓮市\n第2選舉區　新城鄉、秀林鄉\n第3選舉區　吉安鄉、壽豐鄉、鳳林鎮、光復鄉、豐濱鄉、萬榮鄉\n第4選舉區　瑞穗鄉、玉里鎮、富里鄉、卓溪鄉",
+              "district_numbers": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "id": "15-council-5",
+              "label": "第5選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC5%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "beb5424f663f0fc7a3a7f4362442e966f5dff89fdf13dfe6d1609402f7bae8fd",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "花蓮市、新城鄉、秀林鄉、吉安鄉之平地原住民",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "15-council-6",
+              "label": "第6、7選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC6%E3%80%817%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "9992532814610bb1281bee4894806c13037cd5c3a586d00bb2fe782e7d725c8d",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第6選舉區　壽豐鄉、鳳林鎮、萬榮鄉、光復鄉、豐濱鄉之平地原住民\n第7選舉區　瑞穗鄉、玉里鎮、富里鄉、卓溪鄉之平地原住民",
+              "district_numbers": [
+                6,
+                7
+              ]
+            },
+            {
+              "id": "15-council-8",
+              "label": "第8、9、10選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/15%E8%8A%B1%E8%93%AE%E7%B8%A3/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E8%AD%B0%E5%93%A1%E7%AC%AC8%E3%80%819%E3%80%8110%E9%81%B8%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "eaac1bb6a9d8f848fa92df9dbed1fa59ce0e9b34be6be050d64dd82b49c59218",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第8選舉區　秀林鄉及花蓮市、新城鄉、吉安鄉、壽豐鄉之山地原住民\n第9選舉區　萬榮鄉及鳳林鎮、光復鄉、豐濱鄉、瑞穗鄉之山地原住民\n第10選舉區　卓溪鄉及玉里鎮、富里鄉之山地原住民",
+              "district_numbers": [
+                8,
+                9,
+                10
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -981,7 +2554,141 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F16%E5%AE%9C%E8%98%AD%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "16-council-1",
+              "label": "第1選舉區｜宜蘭市",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%201%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "f50fc5b56b0af0f1120e0141de46d72678020440daf8ef8359068e41f0346706",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "宜蘭市",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "16-council-2",
+              "label": "第2、11、12選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%202%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "114fd3dc3d578e7b902a237cbf58e1f09e04be6bb3ade31374f7655bc18fc444",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第2選舉區　頭城鎮\n第11選舉區　宜蘭縣之平地原住民\n第12選舉區　大同鄉及宜蘭市、頭城鎮、礁溪鄉、員山鄉、壯圍鄉、三星鄉之山地原住民",
+              "district_numbers": [
+                2,
+                11,
+                12
+              ]
+            },
+            {
+              "id": "16-council-3",
+              "label": "第3選舉區｜礁溪鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%203%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "40cf6841497c8660374da673efa5d88e97754371fa59d25312345e38c23d3049",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "礁溪鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "16-council-4",
+              "label": "第4選舉區｜員山鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%204%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "d86a5bf427b1788077bc621d301f92a526b9acbed8abe8f38548a8f703fef652",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "員山鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "16-council-5",
+              "label": "第5選舉區｜壯圍鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%205%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "736a700892d9d5bfc824f985643329491c12bb5625dc7d2bab2ad7db54e405a9",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "壯圍鄉",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "16-council-6",
+              "label": "第6選舉區｜羅東鎮",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%206%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1d0a6566a2d0b7b39aa8f041f8ffdd97a860fc4ac802ce510b4861c232f67cfc",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "羅東鎮",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "16-council-7",
+              "label": "第7選舉區｜五結鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%207%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "5e7b59047fd70af8a8d1cae64c0d04b80e6d42efc16f49af574d57a185214d7e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "五結鄉",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "16-council-8",
+              "label": "第8選舉區｜冬山鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%208%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1d5893f3c087f75848805d89ee0f6d6f260e711726079ccdb846be7a58890b2b",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "冬山鄉",
+              "district_numbers": [
+                8
+              ]
+            },
+            {
+              "id": "16-council-9",
+              "label": "第9選舉區｜三星鄉、大同鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC%209%E3%80%8111%E3%80%8112%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "4385b53cf879aa7d8cc45515bb2ed08abcac1c52872f4f2b5b2a0496828e77f2",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "三星鄉、大同鄉",
+              "district_numbers": [
+                9
+              ]
+            },
+            {
+              "id": "16-council-10",
+              "label": "第10、13選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/16%E5%AE%9C%E8%98%AD%E7%B8%A3/%E5%AE%9C%E8%98%AD%E7%B8%A3%E8%AD%B0%E6%9C%83%E8%AD%B0%E5%93%A1%E7%AC%AC10%E3%80%8111%E3%80%8113%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "b78924d23634af3323e7a8954a8c7d68a9b64473630cf9d74ea3bdd1cba02711",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第10選舉區　蘇澳鎮、南澳鄉\n第13選舉區　南澳鄉及羅東鎮、五結鄉、冬山鄉、蘇澳鎮之山地原住民",
+              "district_numbers": [
+                10,
+                13
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -1030,7 +2737,86 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F17%E6%BE%8E%E6%B9%96%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "17-council-1",
+              "label": "第1選舉區｜馬公市",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/01.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "cb3c1a7da8642fad6200aebff2c6eef6277cabb83a9c517c421e4d9ec496d0d3",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "馬公市",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "17-council-2",
+              "label": "第2選舉區｜湖西鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/02.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "33af32cb6faac98fd84737673ba0168dd66e2245ad3c4a2a36ddbcbf60112c06",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "湖西鄉",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "17-council-3",
+              "label": "第3選舉區｜白沙鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/03.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0a430b5d470df02af0924ebfaba866154302b4d5e9fbbb13834668fccc98ad89",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "白沙鄉",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "17-council-4",
+              "label": "第4選舉區｜西嶼鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/04.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "674f68223d510511cc6382de3da215b44cb0a641d0d8ffd62db7d66e9c4ff8b0",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "西嶼鄉",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "17-council-5",
+              "label": "第5選舉區｜望安鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/05.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "13101b8858848dc39e3a25bb22184cdbf002b4170132d84a4a3e0a89933b8126",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "望安鄉",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "17-council-6",
+              "label": "第6選舉區｜七美鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/17%E6%BE%8E%E6%B9%96%E7%B8%A3/06.%E6%BE%8E%E6%B9%96%E7%B8%A3%E8%AD%B0%E6%9C%83%E7%AC%AC21%E5%B1%86%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "9931a366a44d33f516fa6d82a20481c4e964d74322724cfe096c6eeeb5ec7453",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "七美鄉",
+              "district_numbers": [
+                6
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
@@ -1074,7 +2860,113 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F18%E5%9F%BA%E9%9A%86%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "18-council-1",
+              "label": "第1選舉區｜中正區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/01%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%80%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "7bd9efb65bed6af772a982421709358fd2b59b3470d4f77268649fa9b2fc0178",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "中正區",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "18-council-2",
+              "label": "第2選舉區｜信義區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/02%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%8C%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "815bcfec7cbf4faf4474c36c4e5bea78578517503afc21895a5b731171c11d8b",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "信義區",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "18-council-3",
+              "label": "第3選舉區｜仁愛區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/03%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%89%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "26594b414dcfb83992350789f94665d32325511ce30c36132a2d8cd2291a2a07",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "仁愛區",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "18-council-4",
+              "label": "第4選舉區｜中山區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/04%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E5%9B%9B%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "5bd641e199271f9a00bc8caeafb378fad91387b13a0b3709feb1d070fc882a4f",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "中山區",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "18-council-5",
+              "label": "第5選舉區｜安樂區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/05%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%BA%94%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "6b23f28f3c565bd58fcf48abcb69b30646e5822726cf260d3d1763cc54ab2f71",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "安樂區",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "18-council-6",
+              "label": "第6選舉區｜暖暖區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/06%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E5%85%AD%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0c8421a6c216ed6efaaa78db277c5bf94ad8a50678e3ac3487902a2fe9ba553e",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "暖暖區",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "18-council-7",
+              "label": "第7選舉區｜七堵區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/07%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E4%B8%83%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "18abc13223f14fe4469edf52abf7234f72d2779b77b662bbb3030ee98790df48",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "七堵區",
+              "district_numbers": [
+                7
+              ]
+            },
+            {
+              "id": "18-council-8",
+              "label": "第8、9選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/18%E5%9F%BA%E9%9A%86%E5%B8%82/0809%E5%9F%BA%E9%9A%86%E5%B8%82%E7%AC%AC%E5%85%AB%E7%AC%AC%E4%B9%9D%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "1c9de9c02fca9f0bbf66aa9e571f821c162c60121295db9d7335fe5737c69187",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "第8選舉區　基隆市之平地原住民\n第9選舉區　基隆市之山地原住民",
+              "district_numbers": [
+                8,
+                9
+              ]
+            }
+          ]
         },
         {
           "id": "village",
@@ -1106,7 +2998,99 @@
           "id": "council",
           "label": "市議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F19%E6%96%B0%E7%AB%B9%E5%B8%82%2F02%E5%B8%82%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "19-council-1",
+              "label": "第1選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC1%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "e98660bdc60afc9efc268b7006d616c7433f0cd2ffe03f22d30606a528ab24a5",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "東門里、榮光里、成功里、育賢里、中正里、親仁里、文華里、復中里、三民里、公園里、東園里、東山里、東勢里、光復里、前溪里、水源里、千甲里、綠水里、埔頂里、仙宮里、龍山里、新莊里、關新里、仙水里、金山里、建功里、光明里、立功里、軍功里、武功里、豐功里、科園里、關東里、建華里、錦華里、復興里",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "19-council-2",
+              "label": "第2選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E4%BF%AE%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC2%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "76b67fbc4f4bb1151baae0e423950966cbef1709558e06a3ffb52a5bca585ade",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "南門里、關帝里、南市里、福德里、振興里、新興里、竹蓮里、南大里、寺前里、下竹里、頂竹里、光鎮里、高峰里、柴橋里、新光里、湖濱里、明湖里",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "19-council-3",
+              "label": "第3選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "02a0f7b719e16d42a101a4c925f199a849e52438dbb48f6f56ad3699c6553e10",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "客雅里、中雅里、育英里、曲溪里、西雅里、南勢里、大鵬里、西門里、仁德里、潛園里、中央里、崇禮里、石坊里、興南里、台溪里",
+              "district_numbers": [
+                3
+              ]
+            },
+            {
+              "id": "19-council-4",
+              "label": "第4選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "e7251c50ca4a112fd7fa3398b931010e04cfba3c12cc484d06f62dda0883fc85",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "北門里、中興里、大同里、中山里、長和里、新民里、民富里、水田里、文雅里、光田里、士林里、福林里、古賢里、湳雅里、舊社里、武陵里、南寮里、舊港里、康樂里、港北里、中寮里、海濱里、磐石里、新雅里、光華里、金華里、境福里、金竹里、湳中里、金雅里",
+              "district_numbers": [
+                4
+              ]
+            },
+            {
+              "id": "19-council-5",
+              "label": "第5選舉區",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0184ace9d27a6c3c2514bf35aa27dbf5ad70cc1d7dab05c8971fd3d79ebbf9bb",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "頂埔里、中埔里、埔前里、牛埔里、樹下里、浸水里、虎林里、虎山里、港南里、大庄里、美山里、朝山里、東香里、香山里、香村里、海山里、鹽水里、內湖里、南港里、中隘里、南隘里、大湖里、茄苳里、頂福里",
+              "district_numbers": [
+                5
+              ]
+            },
+            {
+              "id": "19-council-6",
+              "label": "第6選舉區｜新竹市之平地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "85ec4bbfe359633e3ceeae7e4957d283084631e9e1a212f22bc6e829d2aa3b6d",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "新竹市之平地原住民",
+              "district_numbers": [
+                6
+              ]
+            },
+            {
+              "id": "19-council-7",
+              "label": "第7選舉區｜新竹市之山地原住民",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/19%E6%96%B0%E7%AB%B9%E5%B8%82/%E6%96%B0%E7%AB%B9%E5%B8%82%E8%AD%B0%E5%93%A1%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "85ec4bbfe359633e3ceeae7e4957d283084631e9e1a212f22bc6e829d2aa3b6d",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "新竹市之山地原住民",
+              "district_numbers": [
+                7
+              ]
+            }
+          ]
         },
         {
           "id": "village",
@@ -1231,7 +3215,47 @@
           "id": "council",
           "label": "縣議員",
           "directory": "https://eebulletin.cec.gov.tw/?dir=115%2F21%E9%87%91%E9%96%80%E7%B8%A3%2F02%E7%B8%A3%E8%AD%B0%E5%93%A1",
-          "documents": []
+          "documents": [
+            {
+              "id": "21-council-1",
+              "label": "第1選舉區｜金城鎮、金寧鄉、烏坵鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%80%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "ad758ce1debdbb897bfa2f64457f5e7193ff198fad0f00a4db6aed760c7956d1",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "金城鎮、金寧鄉、烏坵鄉",
+              "district_numbers": [
+                1
+              ]
+            },
+            {
+              "id": "21-council-2",
+              "label": "第2選舉區｜金湖鎮、金沙鎮",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%BA%8C%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "0b74df2c47f3ff5d8467e1ea8f0e8893cd2f3984ec0e3b48a208b9ef72a0878a",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "金湖鎮、金沙鎮",
+              "district_numbers": [
+                2
+              ]
+            },
+            {
+              "id": "21-council-3",
+              "label": "第3選舉區｜烈嶼鄉",
+              "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/21%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E7%AC%AC9%E5%B1%86%E7%B8%A3%E9%95%B7%E3%80%81%E7%B8%A3%E8%AD%B0%E5%93%A1%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1%E6%AD%A3%E9%9D%A2-%E7%AC%AC%E4%B8%89%E5%8D%80.pdf",
+              "status": "retrieved_pdf",
+              "source_host": "archive",
+              "sha256": "e6f15d1fbed48c260f2995a95eb9981ce9b3d26c27a821228830f8b5033937b6",
+              "retrieved_on": "2026-11-25",
+              "district_scope": "烈嶼鄉",
+              "district_numbers": [
+                3
+              ]
+            }
+          ]
         },
         {
           "id": "town-chief",
