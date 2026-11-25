@@ -14,3 +14,7 @@ def present(k,r,old=True):
  "policy_text_source":bool(y.get("text_available"))}
 extra=load("bulletin-details")
 print(json.dumps({"before":{f:sum(present(k,r,True)[f] for k,r in rows.items()) for f in present(next(iter(rows)),next(iter(rows.values())))}, "after":{f:sum(present(k,r,False)[f] for k,r in rows.items()) for f in present(next(iter(rows)),next(iter(rows.values())))}, "bulletin":b["stats"],"details":extra["stats"]},ensure_ascii=False))
+
+moi=load("moi-portrait-references"); images=load("image-availability-audit")
+portraits=set(m["photos"])|set(e["photos"])|set(moi["records"])
+print(json.dumps({"portraits":len(portraits),"emblems":len(m["parties"]),"image_audit":{"checked":images["checked"],"inventory":images["inventory"],"counts":images["counts"]}},ensure_ascii=False))

@@ -36,6 +36,7 @@ const assert = require("node:assert/strict");
   if(await portrait.locator(".profile-fields").count()===0)await portrait.locator(".person-open").click();
   await portrait.getByText("內政部公職資料 ↗",{exact:true}).waitFor();
   assert.ok(requests.includes("https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6601518f-d5f4-473d-b5bf-ad1889929a9e.jpg"));
+  await portrait.locator(".portrait-slot").getByText("無照片",{exact:true}).waitFor();
   await page.goto("http://127.0.0.1:8765/results.html?county=17&office=chief",{waitUntil:"networkidle"});
   await page.locator("#result-rows tr").first().waitFor();
   assert.equal(await page.locator("#result-county").inputValue(),"17");
