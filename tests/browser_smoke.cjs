@@ -23,6 +23,8 @@ const assert = require("node:assert/strict");
   await page.locator('[data-view="compare"]').click();
   await page.locator('select[aria-label="政策主題"]').selectOption({label:"治理與安全"});
   await page.locator(".topic-comparison").getByText("提出四年內詐騙案件減少80%的目標。",{exact:true}).waitFor();
+  await page.goto("http://127.0.0.1:8765/?county=09&office=chief&candidate=09-chief-2",{waitUntil:"networkidle"});
+  const z=page.locator("#person-09-chief-2");await z.waitFor();if(await z.locator(".profile-fields").count()===0)await z.locator(".person-open").click();await z.getByText("第一胎生育補助由3萬元提高至5萬元，托育津貼每月另增1,500元並設排富條件。",{exact:true}).waitFor();
   await page.goto("http://127.0.0.1:8765/gazettes.html?county=17&office=chief",{waitUntil:"networkidle"});
   console.log("reader status",await page.locator("#status").textContent());
   await page.locator("#original").waitFor({timeout:10000});

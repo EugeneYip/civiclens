@@ -1,7 +1,7 @@
 {
-  "version": "0.1.19",
+  "version": "0.1.24",
   "reviewed_on": "2026-11-25",
-  "notice": "六都首長候選人公報第一頁圖文檢視；選擇性摘要，含概括政策方向，非完整政見、可行性或履行查核。",
+  "notice": "12縣市首長公報第一頁圖文檢視；選擇性摘要（含概括方向），並非完整政見、可行性或履行查核。",
   "records": {
     "01-chief-1": {
       "name": "郭璽",
@@ -496,6 +496,571 @@
           "status": "原文主張已定位；履行尚未查核"
         }
       ]
+    },
+    "11-chief-1": {
+      "name": "吳炳輝",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "11-chief-1-p1",
+          "topic": "經濟與就業",
+          "summary": "提出農業升級與農民保障方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "11-chief-1-p2",
+          "topic": "育兒與社福",
+          "summary": "提出弱勢照顧及社會福利方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "11-chief-2": {
+      "name": "張嘉郡",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "11-chief-2-p1",
+          "topic": "育兒與社福",
+          "summary": "提出0至6歲育兒補貼及65歲以上免費健保。",
+          "target": "育兒補貼每年12,000元；65歲以上",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "11-chief-2-p2",
+          "topic": "教育與青年",
+          "summary": "提出中小學生營養午餐免費及小一導入英語教學。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "11-chief-2-p3",
+          "topic": "經濟與就業",
+          "summary": "提出產業園區招商及AI相關產業發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "11-chief-3": {
+      "name": "劉建國",
+      "number": 3,
+      "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "11-chief-3-p1",
+          "topic": "育兒與社福",
+          "summary": "提出65歲以上健保費及假牙相關補助。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "11-chief-3-p2",
+          "topic": "交通",
+          "summary": "提出幸福公車2.0及公共自行車2.0。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "11-chief-3-p3",
+          "topic": "醫療與健康",
+          "summary": "推動急重症醫療與長照資源建設。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "11-chief-4": {
+      "name": "林佳瑜",
+      "number": 4,
+      "source": "https://eebulletin.cec.gov.tw/115/11%E9%9B%B2%E6%9E%97%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AC%AC20%E5%B1%86%E7%B8%A3%E9%95%B7%E9%81%B8%E8%88%89.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "11-chief-4-p1",
+          "topic": "治理與安全",
+          "summary": "提出司法改革及司法相關議題。",
+          "target": null,
+          "scope": "涉及非縣府專屬權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "11-chief-4-p2",
+          "topic": "教育與青年",
+          "summary": "提出青年創業方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "12-chief-1": {
+      "name": "吳品叡",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/12%E5%98%89%E7%BE%A9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%98%89%E7%BE%A9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "12-chief-1-p1",
+          "topic": "環境與能源",
+          "summary": "將智慧防災與生態預防列入施政方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "12-chief-1-p2",
+          "topic": "醫療與健康",
+          "summary": "提出醫療資源、健康照顧及長者支持方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "12-chief-1-p3",
+          "topic": "經濟與就業",
+          "summary": "提出科技農業與人才留鄉方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "12-chief-2": {
+      "name": "蔡易餘",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/12%E5%98%89%E7%BE%A9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%98%89%E7%BE%A9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "12-chief-2-p1",
+          "topic": "經濟與就業",
+          "summary": "提出產業轉型、地方經濟及智慧農業方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "12-chief-2-p2",
+          "topic": "交通",
+          "summary": "提出交通與基礎建設改善方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "12-chief-2-p3",
+          "topic": "教育與青年",
+          "summary": "提出教育與人才培育方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "15-chief-1": {
+      "name": "魏嘉賢",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "15-chief-1-p1",
+          "topic": "育兒與社福",
+          "summary": "以全齡照顧及生育支持為政策方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "15-chief-1-p2",
+          "topic": "交通",
+          "summary": "提出改善交通及公共運輸服務。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "15-chief-1-p3",
+          "topic": "經濟與就業",
+          "summary": "提出產業升級與在地創業方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "15-chief-2": {
+      "name": "張峻",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "15-chief-2-p1",
+          "topic": "經濟與就業",
+          "summary": "提出地方產業及經濟發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "15-chief-2-p2",
+          "topic": "育兒與社福",
+          "summary": "提出社會照顧及福利方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "15-chief-3": {
+      "name": "游淑貞",
+      "number": 3,
+      "source": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "15-chief-3-p1",
+          "topic": "交通",
+          "summary": "將交通建設與運輸改善列為施政方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "15-chief-3-p2",
+          "topic": "文化與觀光",
+          "summary": "提出觀光與文化發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "15-chief-4": {
+      "name": "羅佩秦",
+      "number": 4,
+      "source": "https://eebulletin.cec.gov.tw/115/15%E8%8A%B1%E8%93%AE%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報文字密集，未能可靠逐項辨讀；保留公報入口，不推定沒有政見。",
+      "items": []
+    },
+    "19-chief-1": {
+      "name": "高虹安",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/19%E6%96%B0%E7%AB%B9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "19-chief-1-p1",
+          "topic": "居住與都市",
+          "summary": "提出都市更新及居住支持方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "19-chief-1-p2",
+          "topic": "交通",
+          "summary": "提出交通建設與通學環境改善方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "19-chief-1-p3",
+          "topic": "育兒與社福",
+          "summary": "提出托育、長照及家庭支持方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "19-chief-2": {
+      "name": "何志勇",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/19%E6%96%B0%E7%AB%B9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "19-chief-2-p1",
+          "topic": "交通",
+          "summary": "提出智慧交通與步行環境改善方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "19-chief-2-p2",
+          "topic": "經濟與就業",
+          "summary": "提出科技產業及城市經濟發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "19-chief-2-p3",
+          "topic": "文化與觀光",
+          "summary": "提出文化升級及城市品牌方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "19-chief-3": {
+      "name": "莊競程",
+      "number": 3,
+      "source": "https://eebulletin.cec.gov.tw/115/19%E6%96%B0%E7%AB%B9%E5%B8%82/01%E5%B8%82%E9%95%B7/%E6%96%B0%E7%AB%B9%E5%B8%82%E5%B8%82%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "19-chief-3-p1",
+          "topic": "交通",
+          "summary": "提出大眾運輸升級與通勤改善方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "19-chief-3-p2",
+          "topic": "育兒與社福",
+          "summary": "提出65歲以上長者健保費全額補助及長者照顧政策。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "19-chief-3-p3",
+          "topic": "教育與青年",
+          "summary": "提出智慧教育及校園設施改善方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-chief-1": {
+      "name": "鄭朝方",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-chief-1-p1",
+          "topic": "交通",
+          "summary": "將竹北及新竹縣交通建設列入施政方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-chief-1-p2",
+          "topic": "經濟與就業",
+          "summary": "提出智慧治理及產業發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-chief-2": {
+      "name": "徐欣瑩",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-chief-2-p1",
+          "topic": "交通",
+          "summary": "將交通改善列入施政方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-chief-2-p2",
+          "topic": "經濟與就業",
+          "summary": "提出科技城市與產業發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-chief-3": {
+      "name": "朱定瑀",
+      "number": 3,
+      "source": "https://eebulletin.cec.gov.tw/115/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報姓名與號次相符；原名冊另有來源歧異標記，仍保留原標記。",
+      "items": [
+        {
+          "id": "07-chief-3-p1",
+          "topic": "交通",
+          "summary": "主張取消機車兩段式左轉。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-chief-3-p2",
+          "topic": "居住與都市",
+          "summary": "提出土地使用及道路拓寬相關改革。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-1": {
+      "name": "陳素月",
+      "number": 1,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-1-p1",
+          "topic": "交通",
+          "summary": "主張推動臺中捷運延伸彰化及交通路網。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-1-p2",
+          "topic": "經濟與就業",
+          "summary": "提出智慧產業發展及在地就業方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-2": {
+      "name": "魏平政",
+      "number": 2,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-2-p1",
+          "topic": "育兒與社福",
+          "summary": "第一胎生育補助由3萬元提高至5萬元，托育津貼每月另增1,500元並設排富條件。",
+          "target": "第一胎5萬元；每月另增1,500元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p2",
+          "topic": "育兒與社福",
+          "summary": "提出65歲以上健保費全免及每鄉鎮設置失智日照中心。",
+          "target": "65歲以上；每鄉鎮一處",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p3",
+          "topic": "教育與青年",
+          "summary": "縣府負擔營養午餐及代收代辦費用。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p4",
+          "topic": "交通",
+          "summary": "成立專案小組推動中捷南延、和美線及鹿港線。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-2-p5",
+          "topic": "經濟與就業",
+          "summary": "擴大招商辦公室，整合專業服務處理企業用地及行政程序。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-3": {
+      "name": "邱建富",
+      "number": 3,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-3-p1",
+          "topic": "經濟與就業",
+          "summary": "提出在地產業及創業發展方向。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-3-p2",
+          "topic": "文化與觀光",
+          "summary": "將文化傳承及觀光發展列入施政架構。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "09-chief-4": {
+      "name": "陳重嘉",
+      "number": 4,
+      "source": "https://eebulletin.cec.gov.tw/115/09%E5%BD%B0%E5%8C%96%E7%B8%A3/01%E7%B8%A3%E9%95%B7/%E5%BD%B0%E5%8C%96%E7%B8%A3%E7%B8%A3%E9%95%B7.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "09-chief-4-p1",
+          "topic": "治理與安全",
+          "summary": "提出電子印鑑證明與線上公投方向。",
+          "target": null,
+          "scope": "涉及法制及行政權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "09-chief-4-p2",
+          "topic": "居住與都市",
+          "summary": "主張媒合閒置公有房地，推動青年居住方案。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
     }
-  }
+  },
+  "reviewed_counties": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "09",
+    "11",
+    "12",
+    "15",
+    "19"
+  ]
 }
