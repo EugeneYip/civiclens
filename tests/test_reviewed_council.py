@@ -21,6 +21,9 @@ class ReviewedCouncilTests(unittest.TestCase):
             self.assertRegex(x["source"], r"#page=[1-9]\d*$")
             self.assertTrue(any(x["source"].startswith(f["url"] + "#") for f in d["source_files"].values()), k)
             self.assertTrue(x["items"] or "不推定" in x["status"], k)
+            for fld in ("education", "experience"):
+                if fld in x:
+                    self.assertTrue(x[fld] and all(isinstance(v, str) and v.strip() == v and v for v in x[fld]), k)
             for i, it in enumerate(x["items"], 1):
                 self.assertEqual(it["id"], f"{k}-p{i}")
                 self.assertIn(it["topic"], TOPICS)
