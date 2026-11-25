@@ -43,6 +43,20 @@ class ReviewedCouncilTests(unittest.TestCase):
             shard_ids |= set(json.loads(f.read_text())["councilReviews"]["records"])
         self.assertEqual(shard_ids, set(d["records"]))
 
+    def test_every_candidate_has_official_education_and_experience(self):
+        # Since V0.1.39 every candidate's 學歷/經歷 is read from the official bulletin ([] = printed blank);
+        # the third-party transcription is no longer shown for them.
+        council = json.loads((ROOT / "data/reviewed-council-policies.json").read_text())["records"]
+        chief = json.loads((ROOT / "data/reviewed-policy-pilot.json").read_text())["records"]
+        roster = {c["id"] for f in ("published-roster", "national-roster-supplement") for g in json.loads((ROOT / "data" / (f + ".json")).read_text())["districts"] for c in g["candidates"]}
+        self.assertEqual(set(council) | set(chief), roster)
+        for k, r in {**council, **chief}.items():
+            self.assertIsInstance(r.get("education"), list, k)
+            self.assertIsInstance(r.get("experience"), list, k)
+            self.assertTrue(r["education"] or r["experience"], k)
+        for k, r in chief.items():
+            self.assertRegex(r["profile_source"], r"^https://(ee)?bulletin\.cec\.gov\.tw/.+\.pdf#page=[1-9]\d*$", k)
+
     def test_no_identification_numbers_published(self):
         # A bulletin may print a certificate number that embeds a national ID; it must be masked.
         for f in sorted((ROOT / "data").rglob("*.json")):
