@@ -33,6 +33,8 @@ CEC = "https://info.cec.gov.tw/vote2026/static"
 GAZ = "https://gazette2026.taiwangogo.tw"
 NUM = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
 NONE_PARTY = {"無", "無黨籍", "無黨籍及未經政黨推薦", "未經政黨推薦"}
+AUDIT = ROOT / "data" / "photo-identity-audit.json"  # scripts/audit_photo_identity.py
+REJECTED = json.loads(AUDIT.read_text())["rejected"] if AUDIT.exists() else {}
 
 
 def zh_number(s):
@@ -211,7 +213,12 @@ def main():
             r = by_no[c["number"]]
             ph = urlparse(c["photo"] or "")
             if ph.hostname == "gazette2026.taiwangogo.tw" and re.fullmatch(r"/candidate-photos/[0-9a-f]{64}\.webp", ph.path or ""):
-                photos[r["id"]] = {"photo": ph.path.rsplit("/", 1)[1][:-5], "page": c["page"]}
+                h = ph.path.rsplit("/", 1)[1][:-5]
+                if (REJECTED.get(r["id"]) or {}).get("photo") == h:
+                    problems.append({"source": "photo_audit", "id": r["id"], "reason": "displayed_image_is_not_registration_photo"})
+                    photos[r["id"]] = {"page": c["page"]}
+                else:
+                    photos[r["id"]] = {"photo": h, "page": c["page"]}
             em = urlparse(c["emblem"] or "")
             if c["party"] and em.hostname == "gazette2026.taiwangogo.tw" and re.fullmatch(r"/brand/party-emblems/[A-Za-z0-9._-]+\.webp", em.path or ""):
                 emblem_votes.setdefault(party_norm(c["party"]), Counter())[em.path] += 1
@@ -236,7 +243,8 @@ def main():
         if o and rows[cid].get("party") is not None and party_norm(rows[cid]["party"]) != o["party"]:
             conflicts.append({"id": cid, "roster": rows[cid]["party"], "cec": o["party"]})
     stats = {
-        "candidates": len(all_ids), "official_matched": len(official), "photos": len(photos),
+        "candidates": len(all_ids), "official_matched": len(official), "photos": sum(1 for p in photos.values() if "photo" in p),
+        "photos_rejected_by_audit": sum(1 for p in photos.values() if "photo" not in p),
         "emblems": len(emblems), "party_conflicts_with_roster": len(conflicts),
         "official_party": dict(Counter(r["party"] for r in official.values()).most_common()),
     }

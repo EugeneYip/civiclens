@@ -16,19 +16,32 @@ class CecOfficialTests(unittest.TestCase):
     def test_complete_official_coverage(self):
         self.assertEqual(self.d["version"], "0.1.26")
         self.assertEqual(set(self.d["records"]), set(self.rows))
-        self.assertEqual(self.d["problems"], [])
+        audit = load("photo-identity-audit")
+        self.assertEqual(self.d["problems"], [{"source": "photo_audit", "id": k, "reason": "displayed_image_is_not_registration_photo"} for k in sorted(audit["rejected"])])
         self.assertEqual(self.d["party_conflicts"], [])
         for f in self.d["sources"]["cec"]["files"]:
             u = urlparse(f["url"])
             self.assertEqual((u.scheme, u.hostname), ("https", "info.cec.gov.tw"))
             self.assertRegex(f["sha256"], "^[0-9a-f]{64}$")
 
+    def test_photo_identity_audit(self):
+        audit = load("photo-identity-audit")
+        self.assertEqual(audit["stats"]["checked"], len(self.d["records"]))
+        self.assertEqual(audit["stats"]["unreadable"], 0)
+        self.assertGreaterEqual(audit["stats"]["min_accepted"], audit["threshold"])
+        for k, x in audit["rejected"].items():
+            self.assertLess(x["similarity"], audit["threshold"])
+            self.assertNotIn("photo", self.d["records"][k], k)  # a rejected image is never displayed
+        self.assertIn("02-council-4-12", audit["rejected"])  # gazette showed a party emblem for this candidate
+        self.assertEqual(sum("photo" in x for x in self.d["records"].values()), len(self.d["records"]) - len(audit["rejected"]))
+
     def test_fields(self):
         for k, x in self.d["records"].items():
             r = self.rows[k]
             self.assertIn(x["gender"], ("男", "女"), k)
             self.assertTrue(1920 <= x["birth_year"] <= 2006, k)  # at least 20 years old on 2026-11-28
-            self.assertRegex(x["photo"], "^[0-9a-f]{64}$")
+            if "photo" in x:
+                self.assertRegex(x["photo"], "^[0-9a-f]{64}$")
             self.assertTrue(x["cec_photo"].startswith("/json/portrait/cand/"))
             self.assertRegex(x["page"], r"^https://gazette2026\.taiwangogo\.tw/candidates/[0-9a-f-]{36}/$")
             self.assertTrue(x["party"])

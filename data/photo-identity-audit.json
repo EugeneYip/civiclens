@@ -1,0 +1,20 @@
+{
+ "version": "0.1.36",
+ "checked_at": "2026-11-25T17:23:51+00:00",
+ "method": "將顯示用WebP與中選會登記照縮為24×32灰階後計算正規化相關係數；低於門檻者不採用。僅檢查是否為同一張登記照，不判讀人像。",
+ "threshold": 0.9,
+ "stats": {
+  "checked": 1574,
+  "rejected": 1,
+  "unreadable": 0,
+  "min_accepted": 0.9831
+ },
+ "unreadable": [],
+ "rejected": {
+  "02-council-4-12": {
+   "photo": "267802c06cadbe5e92567aebaee75b99f4fd752db3655e9de29972fd293f677b",
+   "similarity": 0.0945,
+   "reason": "顯示圖檔與中選會登記照不符（相似度低於門檻）"
+  }
+ }
+}
