@@ -72,4 +72,4 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
  for(const card of cards){const a=card.querySelector('a'),url=a.href;const b=document.createElement('button');b.type='button';b.textContent=card.dataset.name;b.setAttribute('aria-pressed','false');b.setAttribute('aria-controls','county-panel');card.replaceChildren(b);b.addEventListener('click',()=>selectCounty(card,b,url));}
  office.addEventListener('change',show);byId('clear-county').addEventListener('click',()=>clearSelection(true));
 }
-</script><script src="scripts/explorer.js?v=026" defer></script></body></html>
+</script><script src="scripts/explorer.js?v=027" defer></script></body></html>
