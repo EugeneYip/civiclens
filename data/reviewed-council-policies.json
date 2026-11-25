@@ -1,6 +1,2068 @@
 {
   "version": "0.1.27",
   "records": {
+    "07-council-1-1": {
+      "name": "王炳漢",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-1-1-p1",
+          "topic": "交通",
+          "summary": "改善交通瓶頸路段，檢討易塞車路口號誌與動線規劃。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-1-p2",
+          "topic": "環境與能源",
+          "summary": "改善易淹水地區排水系統，加速治水工程設施更新。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-1-2": {
+      "name": "陳凱榮",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-1-2-p1",
+          "topic": "治理與安全",
+          "summary": "爭取增設監視器，強化治安。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-2-p2",
+          "topic": "交通",
+          "summary": "學區限速嚴格執行，並實施大貨車禁行時段。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-2-p3",
+          "topic": "育兒與社福",
+          "summary": "提高生育補助，減輕年輕父母負擔。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-1-3": {
+      "name": "陳秀玲",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-1-3-p1",
+          "topic": "交通",
+          "summary": "爭取設立竹北大眾運輸轉運中心，完善公車大眾運輸。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-3-p2",
+          "topic": "教育與青年",
+          "summary": "監督縣府因應人口增長，提早規劃學校興建與中小學班級數。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-3-p3",
+          "topic": "醫療與健康",
+          "summary": "推動樂齡教育與健康促進活動。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-1-4": {
+      "name": "李雅芬",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-1-4-p1",
+          "topic": "居住與都市",
+          "summary": "爭取西區國民運動中心及圖書親子館。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-4-p2",
+          "topic": "教育與青年",
+          "summary": "推動校校心理師，減輕孩子成長心理壓力。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-4-p3",
+          "topic": "醫療與健康",
+          "summary": "推動在宅醫療整合，讓醫療走進家。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-1-5": {
+      "name": "鄭美琴",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-1-5-p1",
+          "topic": "經濟與就業",
+          "summary": "推動「竹北西區農漁創生園區」，促進青農返鄉。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-5-p2",
+          "topic": "居住與都市",
+          "summary": "打通東西交通，爭取西區全民休閒生活綠廊。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-5-p3",
+          "topic": "育兒與社福",
+          "summary": "推動長者生活支援中心。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-1-6": {
+      "name": "張珈源",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-1-6-p1",
+          "topic": "交通",
+          "summary": "爭取光明六路底開闢計畫道路直達西濱公路。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-6-p2",
+          "topic": "醫療與健康",
+          "summary": "爭取65歲以上長者健保免費，推動「一里一長照供餐據點」。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-1-6-p3",
+          "topic": "居住與都市",
+          "summary": "爭取設立竹北西區國民運動中心，增設寵物公園。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-1": {
+      "name": "林禹佑",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-1-p1",
+          "topic": "醫療與健康",
+          "summary": "孕婦健康補助加碼，納入百日咳、RSV疫苗及NIPT檢測補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-1-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取育兒諮商「3+2」增加至五次，納入愛丁堡產後憂鬱量表。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-1-p3",
+          "topic": "醫療與健康",
+          "summary": "成人健檢免費加測糖化血色素（HbA1c）。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-2": {
+      "name": "范揚琪",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-2-p1",
+          "topic": "經濟與就業",
+          "summary": "推動台灣知識經濟旗艦園區，落實璞玉計畫。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-2-p2",
+          "topic": "居住與都市",
+          "summary": "推動青年居住政策，讓青年安心成家。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-3": {
+      "name": "戴佩如",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-3-p1",
+          "topic": "交通",
+          "summary": "爭取便利市區公車網，串聯高鐵、火車與社區、學校。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-3-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取增加公共托嬰中心，擴充臨時托育服務。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-3-p3",
+          "topic": "教育與青年",
+          "summary": "推動校園情緒教育（SEL），建立霸凌預防與輔導支持機制。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-4": {
+      "name": "杜文中",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-4-p1",
+          "topic": "交通",
+          "summary": "推動竹北至竹科主路廊AI智慧動態控訊與車流分流。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-4-p2",
+          "topic": "育兒與社福",
+          "summary": "導入AI防跌倒與即時通報，整合醫療、日照與喘息單一窗口。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-4-p3",
+          "topic": "居住與都市",
+          "summary": "盤點公有閒置空間，轉型為社區共享中心與照護據點。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-5": {
+      "name": "邱靖雅",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-5-p1",
+          "topic": "交通",
+          "summary": "重新檢討、優化並整併現有公車路線。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-5-p2",
+          "topic": "育兒與社福",
+          "summary": "整合1966長照與社區資源，減輕家庭照顧壓力。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-5-p3",
+          "topic": "醫療與健康",
+          "summary": "推動PFA心理急救，建立安心社會安全網。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-6": {
+      "name": "歐陽霆",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-6-p1",
+          "topic": "居住與都市",
+          "summary": "爭取天幕球場，支持電競發展。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-6-p2",
+          "topic": "育兒與社福",
+          "summary": "推動喘息育兒，打造親子休閒空間。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-6-p3",
+          "topic": "居住與都市",
+          "summary": "推動共融公園、水岸活化與公費疫苗接種。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-7": {
+      "name": "游雅婷",
+      "number": 7,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-7-p1",
+          "topic": "育兒與社福",
+          "summary": "推動2-12歲「生生有牛奶」。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-7-p2",
+          "topic": "教育與青年",
+          "summary": "早療補助擴大至18歲。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-7-p3",
+          "topic": "交通",
+          "summary": "停車場前三十分鐘免費，減少臨停車輛。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-8": {
+      "name": "朱健銘",
+      "number": 8,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-8-p1",
+          "topic": "經濟與就業",
+          "summary": "爭取因公死亡勞工慰問金由現行5萬元提高至10萬元。",
+          "target": "10萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-8-p2",
+          "topic": "經濟與就業",
+          "summary": "推動身心障礙勞工再就業計畫，每月5000元、最長3個月補助。",
+          "target": "每月5000元、最長3個月",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-8-p3",
+          "topic": "環境與能源",
+          "summary": "爭取成立動物生命教育園區及免費動保法律諮詢服務中心。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-9": {
+      "name": "蔡志環",
+      "number": 9,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-9-p1",
+          "topic": "交通",
+          "summary": "推動竹竹高架輕軌交通路廊，強化高鐵、台鐵、公車接駁。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-9-p2",
+          "topic": "文化與觀光",
+          "summary": "爭取打造「新竹百老匯」藝文展演空間。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-9-p3",
+          "topic": "居住與都市",
+          "summary": "推動竹北都會型溫馨追思會館，結合環保自然葬。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-10": {
+      "name": "邵啟月",
+      "number": 10,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-10-p1",
+          "topic": "居住與都市",
+          "summary": "爭取適合各年齡層的多元運動場域。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-10-p2",
+          "topic": "文化與觀光",
+          "summary": "拓展公共藝文據點，讓文化成為日常。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-11": {
+      "name": "蔡蕥鍹",
+      "number": 11,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-11-p1",
+          "topic": "居住與都市",
+          "summary": "推動竹北興建社會住宅，落實居住正義。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-11-p2",
+          "topic": "居住與都市",
+          "summary": "爭取高鐵特區設置郵局（隘興段415-2地號）。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-11-p3",
+          "topic": "醫療與健康",
+          "summary": "爭取補助65歲以上長者肺部低劑量電腦斷層（LDCT）。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-12": {
+      "name": "范格菱",
+      "number": 12,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-12-p1",
+          "topic": "交通",
+          "summary": "爭取通學及通勤專車，盤點高風險路口並推動改善工程。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-12-p2",
+          "topic": "交通",
+          "summary": "推動智慧停車與停車資訊整合。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-12-p3",
+          "topic": "教育與青年",
+          "summary": "提升營養午餐品質並增加在地綠色蔬菜。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-13": {
+      "name": "張育慈",
+      "number": 13,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-13-p1",
+          "topic": "治理與安全",
+          "summary": "要求縣府重大政策訂出成效標準，以數據檢驗避免浪費。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-13-p2",
+          "topic": "教育與青年",
+          "summary": "追蹤增班擴校，要求縣府向中央爭取高中名額。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-13-p3",
+          "topic": "環境與能源",
+          "summary": "持續追蹤收容、絕育等動保量能，推動完善動保配套。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-2-14": {
+      "name": "林碩彥",
+      "number": 14,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=3",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-2-14-p1",
+          "topic": "育兒與社福",
+          "summary": "敬老愛心卡升級1000點，推動65歲以上健保免費。",
+          "target": "1000點",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-14-p2",
+          "topic": "交通",
+          "summary": "推動楊頭高架、台一線替代道路及環北路替代道路。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-2-14-p3",
+          "topic": "交通",
+          "summary": "莊敬北路向北打通連接義民路，縫合區域道路。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-1": {
+      "name": "余筱菁",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-1-p1",
+          "topic": "育兒與社福",
+          "summary": "增加湖口非營利與公立幼兒園，爭取湖口親子館。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-1-p2",
+          "topic": "交通",
+          "summary": "全面檢討台一線交通交織問題。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-1-p3",
+          "topic": "育兒與社福",
+          "summary": "爭取新竹縣兒童日照中心，改善特教助理員待遇。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-2": {
+      "name": "羅美文",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-2-p1",
+          "topic": "教育與青年",
+          "summary": "國中小書籍費全免並提供課後輔導。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-2-p2",
+          "topic": "育兒與社福",
+          "summary": "推動產後護理及老幼日托公共化。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-2-p3",
+          "topic": "交通",
+          "summary": "增加路外公共停車空間。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-3": {
+      "name": "陳栢誠",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-3-p1",
+          "topic": "交通",
+          "summary": "爭取台31線向南延伸新埔、竹北，分流台1線及117線車流。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-3-p2",
+          "topic": "交通",
+          "summary": "持續推動湖口第二交流道及聯絡道路建設。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-3-p3",
+          "topic": "醫療與健康",
+          "summary": "爭取65歲以上長者就醫掛號費補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-4": {
+      "name": "賴寶鈺",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-4-p1",
+          "topic": "交通",
+          "summary": "爭取在新舊湖口重要節點廣設u-bike。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-4-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取公托（0-2歲）與幼兒園名額與孩童人口成長成正比。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-4-p3",
+          "topic": "經濟與就業",
+          "summary": "改善活化湖口鄉公有市場，打造安全、衛生、舒適環境。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-5": {
+      "name": "戴翊如",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-5-p1",
+          "topic": "經濟與就業",
+          "summary": "推動新湖口市場改建，爭取中央及縣府經費。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-5-p2",
+          "topic": "文化與觀光",
+          "summary": "打造大湖口鐵道文化園區與綠廊道，規劃鐵道故事館。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-5-p3",
+          "topic": "醫療與健康",
+          "summary": "支持65歲以上健保費全免，爭取長者假牙及女性凍卵補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-6": {
+      "name": "楊勝馭",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-6-p1",
+          "topic": "交通",
+          "summary": "爭取改善交流道及道路瓶頸，關心行人安全與停車需求。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-6-p2",
+          "topic": "醫療與健康",
+          "summary": "爭取基層醫療及健康照護資源。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-7": {
+      "name": "吳菊花",
+      "number": 7,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-7-p1",
+          "topic": "交通",
+          "summary": "要求縣府儘速完成鐵騎路通往光復路連絡道路。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-7-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取老人年金恢復發放6,000元，設籍滿10年即可領取。",
+          "target": "6,000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-7-p3",
+          "topic": "育兒與社福",
+          "summary": "爭取加碼托育補助，減輕年輕家庭育兒負擔。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-8": {
+      "name": "陳岫玫",
+      "number": 8,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-8-p1",
+          "topic": "居住與都市",
+          "summary": "建立「環境與基建容受力動態資料庫」，落實「公共設施先行」SOP。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-8-p2",
+          "topic": "教育與青年",
+          "summary": "建立學區動態預警系統，提前預判學區飽和度。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-8-p3",
+          "topic": "居住與都市",
+          "summary": "成立「國土功能分區與農民權益保障」地方監督小組。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-9": {
+      "name": "何建樺",
+      "number": 9,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報政見欄僅列標語，未能辨讀具體政策；不推定沒有政見。",
+      "items": []
+    },
+    "07-council-3-10": {
+      "name": "翁紹軒",
+      "number": 10,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-3-10-p1",
+          "topic": "交通",
+          "summary": "全力爭取湖口第二交流道增設。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-10-p2",
+          "topic": "交通",
+          "summary": "爭取台31線延伸至竹北，推動新竹工業區環狀道路系統。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-3-10-p3",
+          "topic": "教育與青年",
+          "summary": "監督湖口高中二期校舍如期完工，並爭取後續設備經費。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-3-11": {
+      "name": "甄克堅",
+      "number": 11,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報政見欄僅列標語，未能辨讀具體政策；不推定沒有政見。",
+      "items": []
+    },
+    "07-council-4-1": {
+      "name": "徐勝凌",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-4-1-p1",
+          "topic": "交通",
+          "summary": "加速國1湖口第二交流道時效與聯絡道優化。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-1-p2",
+          "topic": "交通",
+          "summary": "智慧整合路網，推動微型／幸福巴士深入各鄰里。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-1-p3",
+          "topic": "育兒與社福",
+          "summary": "大山崎地區爭取婦幼館，提供完整育兒據點。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-4-2": {
+      "name": "林茂青",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-4-2-p1",
+          "topic": "育兒與社福",
+          "summary": "建請縣府解除須94年前設籍本縣方得申領敬老津貼之規定。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-2-p2",
+          "topic": "居住與都市",
+          "summary": "反對標售光星重劃區縣有代用地（1500坪），建請興建公用場館。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-2-p3",
+          "topic": "交通",
+          "summary": "力促新豐鄉幸福巴士明年開辦上路。",
+          "target": "明年開辦上路",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-4-3": {
+      "name": "吳傳地",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-4-3-p1",
+          "topic": "交通",
+          "summary": "督促加速台一線替代道路第二期（竹北－新豐段）新闢工程。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-3-p2",
+          "topic": "教育與青年",
+          "summary": "嚴格監督松林國小擴建工程如期、如質完工。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-3-p3",
+          "topic": "醫療與健康",
+          "summary": "推動縣府編列預算補助65歲以上長者健保費。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-4-4": {
+      "name": "張以聖",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-4-4-p1",
+          "topic": "交通",
+          "summary": "打通新豐鄉「新庄子-竹1線」拓寬案，督促縣府加速設計動工。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-4-p2",
+          "topic": "育兒與社福",
+          "summary": "設立新豐鄉2歲專班公立幼兒園及親子館。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-4-p3",
+          "topic": "交通",
+          "summary": "新豐台61線與台15線銜接道路拓寬工程如期如質完工。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-4-5": {
+      "name": "何昌臨",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-4-5-p1",
+          "topic": "醫療與健康",
+          "summary": "支持並推動65歲以上免繳健保費（不排富）。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-5-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取居住15年滿六十五歲者發放老人年金。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-5-p3",
+          "topic": "教育與青年",
+          "summary": "監督縣府續辦國中小免費營養午餐。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-4-6": {
+      "name": "徐源發",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-4-6-p1",
+          "topic": "醫療與健康",
+          "summary": "爭取65歲以上長者及55歲以上原住民長者免繳健保費，由縣府補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-6-p2",
+          "topic": "育兒與社福",
+          "summary": "敬老福利津貼每月3000元、敬老禮金每年10000元繼續發放。",
+          "target": "每月3000元、每年10000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-4-6-p3",
+          "topic": "經濟與就業",
+          "summary": "補助65歲以上老農農保保費，並全額補助農民職業災害保險保費。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-5-1": {
+      "name": "徐瑜新",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/04%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-5-1-p1",
+          "topic": "育兒與社福",
+          "summary": "配合長照3.0計畫推動社區關懷據點，提升老人共餐服務。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-5-1-p2",
+          "topic": "經濟與就業",
+          "summary": "推動社區農村再生計畫，並行銷關西農特產品以增加農民收入。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-5-1-p3",
+          "topic": "教育與青年",
+          "summary": "爭取教育資源推動各校特色教學，提升英文學習。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-5-2": {
+      "name": "蔡澄均",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/04%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-5-2-p1",
+          "topic": "居住與都市",
+          "summary": "推動牛欄河兩岸行水區依都市計畫重新規劃，確保土地開發符合需求。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-5-2-p2",
+          "topic": "交通",
+          "summary": "興建地下立體停車場與活動中心，加強蛋白區建設。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-5-2-p3",
+          "topic": "經濟與就業",
+          "summary": "完成休閒農業區規劃，推廣仙草、草莓、柑橘等關西特色農產。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-5-3": {
+      "name": "羅仕琦",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/04%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-5-3-p1",
+          "topic": "交通",
+          "summary": "主張興建關西外環道，改善交通問題。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-5-3-p2",
+          "topic": "居住與都市",
+          "summary": "督促縣府加速迎風館拆除並興建綜合行政大樓。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-5-3-p3",
+          "topic": "居住與都市",
+          "summary": "督促縣府協助關西鎮都市計畫第四次通盤檢討，加速牛欄河周邊土地開發。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-6-1": {
+      "name": "呂宛庭",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/05%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-6-1-p1",
+          "topic": "育兒與社福",
+          "summary": "加碼生育補助、充實托嬰資源。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-6-1-p2",
+          "topic": "交通",
+          "summary": "改善行人空間與行車動線，打造人車安心通行環境。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-6-1-p3",
+          "topic": "居住與都市",
+          "summary": "增設多元運動設施與運動場域。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-6-2": {
+      "name": "黃路加",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/05%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-6-2-p1",
+          "topic": "醫療與健康",
+          "summary": "提出智慧醫療服務站、串聯竹北醫療資源及建立轉診管道，改善新埔夜間就醫。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-6-2-p2",
+          "topic": "育兒與社福",
+          "summary": "提出增加公共托育、親子共學空間、室內兒童活動空間及滑步車公園。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-6-2-p3",
+          "topic": "交通",
+          "summary": "改善複雜路口，提出智慧號誌等科技應用以提升道路安全。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-6-3": {
+      "name": "陳新源",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/05%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-6-3-p1",
+          "topic": "交通",
+          "summary": "加速埔東大道、新湖路接河堤道路、褒忠路拓寬及寶石橋改建。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-6-3-p2",
+          "topic": "經濟與就業",
+          "summary": "增加勞工處人力，提升勞動檢查與勞資爭議處理品質。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-6-3-p3",
+          "topic": "經濟與就業",
+          "summary": "提高農損保險補助，協助照門及大墩山休閒農業區發展。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-7-1": {
+      "name": "張良印",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/06%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-7-1-p1",
+          "topic": "交通",
+          "summary": "加速台68線延伸工程，健全城鄉路網連結。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-7-1-p2",
+          "topic": "文化與觀光",
+          "summary": "爭取內灣吊橋、老街公共設施改建，帶動尖石、橫山觀光。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-7-1-p3",
+          "topic": "交通",
+          "summary": "推動橫山鄉幸福巴士與幸福小黃，照顧學生就學與長者就醫。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-8-1": {
+      "name": "黃正彪",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/07%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-8-1-p1",
+          "topic": "育兒與社福",
+          "summary": "設立0-2歲托育服務，增加2-3歲專班名額。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-8-1-p2",
+          "topic": "交通",
+          "summary": "推動頭前溪沿岸環狀自行車道串連計畫。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-8-1-p3",
+          "topic": "文化與觀光",
+          "summary": "推動飛鳳山步道維護與公廁改善計畫。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-1": {
+      "name": "鍾心渝",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-1-p1",
+          "topic": "教育與青年",
+          "summary": "10歲以上學生生生有平板，壯壯卡擴大至2歲到國中生。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-1-p2",
+          "topic": "交通",
+          "summary": "盤點校園週邊500公尺人行步道，建置東科路地下道積水自動化感應系統。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-1-p3",
+          "topic": "育兒與社福",
+          "summary": "65歲以上健保費不排富全額補助。",
+          "target": "65歲以上健保費全額補助",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-2": {
+      "name": "林昭錡",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-2-p1",
+          "topic": "交通",
+          "summary": "爭取國道3號增設二重交流道，並加速銜接台68東西向快速道路。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-2-p2",
+          "topic": "交通",
+          "summary": "爭取「科技大橋」由公道路起跨越台68及頭前溪至竹北台灣知識科技園區。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-2-p3",
+          "topic": "教育與青年",
+          "summary": "爭取興建竹東鎮二重國中學生活動中心。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-3": {
+      "name": "羅俊傑",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-3-p1",
+          "topic": "醫療與健康",
+          "summary": "爭取提升竹東地區急重症及兒童醫療量能，強化夜間、假日醫療。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-3-p2",
+          "topic": "居住與都市",
+          "summary": "爭取青年及社會住宅，建立租屋資訊與服務平台。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-3-p3",
+          "topic": "交通",
+          "summary": "改善危險路口、行人空間及通學環境。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-4": {
+      "name": "彭余美玲",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-4-p1",
+          "topic": "育兒與社福",
+          "summary": "全力推動65歲以上免健保費。",
+          "target": "65歲以上免健保費",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-4-p2",
+          "topic": "交通",
+          "summary": "全力推動科學園區三期計畫，加速興建二重交流道。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-4-p3",
+          "topic": "環境與能源",
+          "summary": "竹東龍鳳公園銜接河濱公園，推動環境綠美化。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-5": {
+      "name": "黃豪杰",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-5-p1",
+          "topic": "交通",
+          "summary": "推動台68線接東峰路工程延伸至軟橋，改善122線交通瓶頸。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-5-p2",
+          "topic": "育兒與社福",
+          "summary": "推動65歲以上長者健保費全額補助。",
+          "target": "65歲以上健保費全額補助",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-5-p3",
+          "topic": "醫療與健康",
+          "summary": "爭取60歲以上長者帶狀疱疹（皮蛇）疫苗補助。",
+          "target": "60歲以上疫苗補助",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-6": {
+      "name": "上官秋燕",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-6-p1",
+          "topic": "育兒與社福",
+          "summary": "全縣民平安保險加碼為40萬元。",
+          "target": "40萬元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-6-p2",
+          "topic": "交通",
+          "summary": "積極爭取二重交流道，改善交通壅塞。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-6-p3",
+          "topic": "醫療與健康",
+          "summary": "爭取提升長輩假牙補助金額與品質。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-7": {
+      "name": "鄭朝鐘",
+      "number": 7,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-7-p1",
+          "topic": "環境與能源",
+          "summary": "敦促縣府邀集中央與鄉鎮制定「城市防水韌性協力方針」。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-7-p2",
+          "topic": "居住與都市",
+          "summary": "推動竹東頭、二、三重地區污水下水道實施計畫，監督縣府提報中央。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-7-p3",
+          "topic": "居住與都市",
+          "summary": "竹東河濱公園再升級，爭取軟橋至水資中心帶狀空間整體規劃。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-8": {
+      "name": "林裙靜",
+      "number": 8,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-8-p1",
+          "topic": "教育與青年",
+          "summary": "外五里推動增班增校，補足教師缺額。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-8-p2",
+          "topic": "交通",
+          "summary": "興建竹東拖吊場改善違停，完善透明拖吊申訴制度。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-8-p3",
+          "topic": "居住與都市",
+          "summary": "增設圖書藝文空間，規劃頭前溪運動公園。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-9-9": {
+      "name": "楊昌德",
+      "number": 9,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-9-9-p1",
+          "topic": "育兒與社福",
+          "summary": "爭取普發幸福現金6000元。",
+          "target": "6000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-9-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取65歲老人年金6000元及長者健保免費，均不排富。",
+          "target": "6000元",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-9-9-p3",
+          "topic": "教育與青年",
+          "summary": "爭取設置高中、高職、公托、公幼、臨托及托嬰中心。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-10-1": {
+      "name": "邱坤桶",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/09%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-10-1-p1",
+          "topic": "育兒與社福",
+          "summary": "推動幼兒及年長者健保費免負擔，全額由縣府編列預算支應。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-10-1-p2",
+          "topic": "醫療與健康",
+          "summary": "監督縣府加速完成寶山衛生所辦公大樓興建，並推動寶山分駐所改建。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-10-1-p3",
+          "topic": "環境與能源",
+          "summary": "監督縣府推動寶山鄉污水處理廠興建及雨水、污水下水道工程。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-10-2": {
+      "name": "何時名",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/09%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-10-2-p1",
+          "topic": "交通",
+          "summary": "爭取拓寬環北路、竹43線、大雅路，導入智慧號誌緩解竹科通勤壅塞。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-10-2-p2",
+          "topic": "育兒與社福",
+          "summary": "爭取興建「旗艦型共融親子公園」與「多功能室內親子館」。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-10-2-p3",
+          "topic": "居住與都市",
+          "summary": "籌建「寶山室內全民運動中心」，規劃溫水泳池與羽球場。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-11-1": {
+      "name": "王辰翔",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/10%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-11-1-p1",
+          "topic": "育兒與社福",
+          "summary": "爭取65歲以上老人健保免費。",
+          "target": "65歲以上健保免費",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-11-1-p2",
+          "topic": "醫療與健康",
+          "summary": "爭取帶狀性皰疹疫苗施打補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-11-1-p3",
+          "topic": "育兒與社福",
+          "summary": "爭取提升育兒補助津貼，縮小照顧與公托的落差。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-11-2": {
+      "name": "范文鴻",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/10%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-11-2-p1",
+          "topic": "育兒與社福",
+          "summary": "推動一鄉一公托，放寬北埔、峨眉偏鄉使用敬老卡的限制。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-11-2-p2",
+          "topic": "交通",
+          "summary": "改善北埔、峨眉往科學園區道路暢通，提高路燈照明率。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-11-2-p3",
+          "topic": "治理與安全",
+          "summary": "均勻分配議員補助款，北埔與峨眉議員助理各聘用2名。",
+          "target": "各聘用2名",
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-12-1": {
+      "name": "法隆伊佑",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-12-1-p1",
+          "topic": "居住與都市",
+          "summary": "爭取每年社會住宅原住民族優先配租比例。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-12-1-p2",
+          "topic": "教育與青年",
+          "summary": "爭取原住民族升學獎勵金。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-12-1-p3",
+          "topic": "經濟與就業",
+          "summary": "推動產銷班品牌化與數位化。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-12-2": {
+      "name": "林秉君kaying‧kuying‧kalang",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-12-2-p1",
+          "topic": "教育與青年",
+          "summary": "未來爭取加碼AI學習補助金。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-12-2-p2",
+          "topic": "文化與觀光",
+          "summary": "未來爭取歲時祭儀返鄉交通津貼補助。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-13-1": {
+      "name": "曾國大Masaw‧Moto",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-13-1-p1",
+          "topic": "教育與青年",
+          "summary": "爭取在國中階段導入AI課程。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-1-p2",
+          "topic": "治理與安全",
+          "summary": "結合縣內原民議員共籌新竹縣原住民法律扶助專屬服務窗口。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-1-p3",
+          "topic": "醫療與健康",
+          "summary": "爭取提升偏鄉醫療資源，如洗腎中心建置、復健醫療設備擴充。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-13-2": {
+      "name": "范經生",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-13-2-p1",
+          "topic": "醫療與健康",
+          "summary": "爭取山區巡迴醫療、緊急後送與長照資源。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-2-p2",
+          "topic": "交通",
+          "summary": "改善危險路段、照明與警示設施。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-13-3": {
+      "name": "林世偉",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-13-3-p1",
+          "topic": "經濟與就業",
+          "summary": "協助失業族人回鄉就近就業，例如林業署巡山員工作。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-3-p2",
+          "topic": "教育與青年",
+          "summary": "支持泰雅族民族教育，積極推廣族語復興。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-3-p3",
+          "topic": "文化與觀光",
+          "summary": "全力發展尖石鄉生態文化觀光旅遊業。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-13-4": {
+      "name": "羅恩加",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-13-4-p1",
+          "topic": "經濟與就業",
+          "summary": "舉辦新竹縣青創競賽與輔導計畫，健全青創扶植機制。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-4-p2",
+          "topic": "居住與都市",
+          "summary": "設立土地專責處理機制，加速建物合法化。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-4-p3",
+          "topic": "教育與青年",
+          "summary": "深耕族語沉浸式教學與語言巢，編列傳統祭儀獎勵。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-13-5": {
+      "name": "高忠正",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-13-5-p1",
+          "topic": "醫療與健康",
+          "summary": "尖石鄉成立第一個拿互依醫療輔具站，協助生病弱勢家庭。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-5-p2",
+          "topic": "文化與觀光",
+          "summary": "推動尖石鄉油羅溪泰雅文化永續希望園區，並尊重部落會議決議。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-13-5-p3",
+          "topic": "環境與能源",
+          "summary": "爭取油羅溪上游前山五村水資源回饋費。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-14-1": {
+      "name": "張益生",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-14-1-p1",
+          "topic": "醫療與健康",
+          "summary": "推動原鄉醫療升級，讓山區居民享有安心醫療。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-14-1-p2",
+          "topic": "育兒與社福",
+          "summary": "推動長者照顧升級。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-14-2": {
+      "name": "張雁萍",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-14-2-p1",
+          "topic": "經濟與就業",
+          "summary": "積極推動部落產業。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-14-2-p2",
+          "topic": "育兒與社福",
+          "summary": "推動幼托與長照照護。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "07-council-14-3": {
+      "name": "LalingYumin",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "07-council-14-3-p1",
+          "topic": "教育與青年",
+          "summary": "推動族語幼兒園、城鄉姊妹校與課後部落學堂。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-14-3-p2",
+          "topic": "經濟與就業",
+          "summary": "扶植部落創新產業，搭建青年返鄉平台。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "07-council-14-3-p3",
+          "topic": "育兒與社福",
+          "summary": "升級文健站並導入智慧醫療，尊聘長輩擔任文化導師。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
     "08-council-1-1": {
       "name": "彭賢淳",
       "number": 1,
@@ -23866,6 +25928,7 @@
     }
   },
   "reviewed_counties": [
+    "07",
     "08",
     "09",
     "10",
@@ -24346,6 +26409,61 @@
     "13/議員--第八、十三、十四、十五、十六選舉區.pdf": {
       "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/13%E5%B1%8F%E6%9D%B1%E7%B8%A3/%E8%AD%B0%E5%93%A1--%E7%AC%AC%E5%85%AB%E3%80%81%E5%8D%81%E4%B8%89%E3%80%81%E5%8D%81%E5%9B%9B%E3%80%81%E5%8D%81%E4%BA%94%E3%80%81%E5%8D%81%E5%85%AD%E9%81%B8%E8%88%89%E5%8D%80.pdf",
       "sha256": "cb72279d91278986062375842298bec7daced70864b1b0111161724724c8cb3c",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/01新竹縣第1、2選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/01%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC1%E3%80%812%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "0dcdb243df478eb3609252919659320e4330eb975cee28e5784f0f2ce43af8d5",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/02新竹縣第3選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/02%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC3%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "098b192dc8237f5782ecdbe179dd0dc53db5a978d0c126cb397ab7354dbb9b91",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/03新竹縣第4選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/03%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC4%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "82136425384b48d3c11c5c315a00788910d1b2398a8a21887dbf1194618d2deb",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/04新竹縣第5選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/04%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC5%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "a03eb9cc272a2e9423f2fc3ba81e1e5850ed40f1ab7e840b0f4b2737ca3ecdd9",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/05新竹縣第6選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/05%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC6%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "87d17373282ed7e7668edfb7d91d2f0e3e330696a3d8c1dfa7154636c38a4d2c",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/06新竹縣第7選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/06%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC7%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "1157a2296dfe72066d82e17f720d29ac0928103c51d32b40dac851c78488f089",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/07新竹縣第8選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/07%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC8%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "8009c5246471ed96072693acb551b48cd5d20101ef74bebc3e29f38bcab8a40a",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/08新竹縣第9選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/08%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC9%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "738ab2092859293125c0267bb36507ff3cefcf3cad1c43ab1b27f2c491651cc6",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/09新竹縣第10選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/09%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC10%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "e9b2932676e65f5ac241faa0767e0cac3a5828b05ef47e958f06e397dded1caf",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/10新竹縣第11選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/10%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "68ebd0db1152915b59cbae0ed28c1500b5ef99f4e97a884465a4a02bf8147937",
+      "retrieved_on": "2026-11-25"
+    },
+    "07/11新竹縣第12、13、14選舉區.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/07%E6%96%B0%E7%AB%B9%E7%B8%A3/11%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AC%AC12%E3%80%8113%E3%80%8114%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+      "sha256": "7acd4b119989f285eb42746f3c38388be946864173c20a3778faeb871dabf5ca",
       "retrieved_on": "2026-11-25"
     }
   },
