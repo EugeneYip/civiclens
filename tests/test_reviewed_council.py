@@ -11,7 +11,9 @@ class ReviewedCouncilTests(unittest.TestCase):
         d = json.loads((ROOT / "data/reviewed-council-policies.json").read_text())
         self.assertEqual(d["version"], "0.1.27")
         roster = {c["id"]: c for f in ("published-roster", "national-roster-supplement") for g in json.loads((ROOT / "data" / (f + ".json")).read_text())["districts"] if g["office"] == "council" for c in g["candidates"]}
+        self.assertEqual(len(d["reviewed_counties"]), 22)
         expected = {k for k in roster if k.split("-")[0] in d["reviewed_counties"]}
+        self.assertEqual(expected, set(roster))
         self.assertEqual(set(d["records"]), expected)
         ids = set()
         for k, x in d["records"].items():
@@ -24,6 +26,7 @@ class ReviewedCouncilTests(unittest.TestCase):
             for fld in ("education", "experience"):
                 if fld in x:
                     self.assertTrue(x[fld] and all(isinstance(v, str) and v.strip() == v and v for v in x[fld]), k)
+                    self.assertLessEqual(len(x[fld]), 8 if fld == "education" else 16, k)
             for i, it in enumerate(x["items"], 1):
                 self.assertEqual(it["id"], f"{k}-p{i}")
                 self.assertIn(it["topic"], TOPICS)
