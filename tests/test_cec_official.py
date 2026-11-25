@@ -24,6 +24,16 @@ class CecOfficialTests(unittest.TestCase):
             self.assertEqual((u.scheme, u.hostname), ("https", "info.cec.gov.tw"))
             self.assertRegex(f["sha256"], "^[0-9a-f]{64}$")
 
+    def test_every_party_has_emblem_or_documented_gap(self):
+        gaps = load("party-emblem-gaps")["parties"]
+        parties = {x["party"] for x in self.d["records"].values()} - {"無"}
+        media = load("media-assets").get("parties", {})
+        missing = {p for p in parties if p not in self.d["emblems"] and p not in media}
+        self.assertEqual(missing, set(gaps))
+        for g in gaps.values():
+            self.assertEqual(urlparse(g["moi_page"]).hostname, "party.moi.gov.tw")
+            self.assertEqual(g["status"], "未上傳黨徽")
+
     def test_photo_identity_audit(self):
         audit = load("photo-identity-audit")
         self.assertEqual(audit["stats"]["checked"], len(self.d["records"]))

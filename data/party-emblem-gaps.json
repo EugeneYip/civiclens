@@ -1,0 +1,11 @@
+{
+ "version": "0.1.40",
+ "checked_on": "2026-11-26",
+ "notice": "以下政黨於內政部政黨名冊頁面標示「未上傳黨徽」，查無官方登記黨徽，故不顯示標誌；非資料缺漏。",
+ "source": "https://party.moi.gov.tw/PartyMain.aspx?gs=P01&n=16100&sms=13073",
+ "parties": {
+  "台灣工黨": {"moi_page": "https://party.moi.gov.tw/PartyMainContent.aspx?n=16100&sms=13073&s=160", "status": "未上傳黨徽"},
+  "天宙和平統一家庭黨": {"moi_page": "https://party.moi.gov.tw/PartyMainContent.aspx?n=16100&sms=13073&s=316", "status": "未上傳黨徽"},
+  "台灣麻將最大黨": {"moi_page": "https://party.moi.gov.tw/PartyMainContent.aspx?n=16100&sms=13073&s=517", "status": "未上傳黨徽"}
+ }
+}
