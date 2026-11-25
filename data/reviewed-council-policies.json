@@ -1,0 +1,464 @@
+{
+  "version": "0.1.27",
+  "records": {
+    "22-council-1-1": {
+      "name": "曹丞君",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-1-1-p1",
+          "topic": "交通",
+          "summary": "爭取海空交通旺季加班機制，改善小三通一票難求與連假疏運問題。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-1-p2",
+          "topic": "育兒與社福",
+          "summary": "推動敬老卡福利升級及跨縣市便利使用，強化長照交通與生活支持。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-1-p3",
+          "topic": "居住與都市",
+          "summary": "持續推動公有地返還及未登記土地清理，要求審查透明、加速處理。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-1-2": {
+      "name": "吳軾子",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-1-2-p1",
+          "topic": "交通",
+          "summary": "推動機船票再優惠。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-2-p2",
+          "topic": "育兒與社福",
+          "summary": "增加生育津貼。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-2-p3",
+          "topic": "治理與安全",
+          "summary": "補滿實編警力。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-1-3": {
+      "name": "陳書建",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-1-3-p1",
+          "topic": "居住與都市",
+          "summary": "爭取介壽商圈改造經費，推動人車分流與友善步行空間。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-3-p2",
+          "topic": "經濟與就業",
+          "summary": "爭取放寬外籍勞工申請條件，補足產業與服務業勞動力缺口。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-3-p3",
+          "topic": "育兒與社福",
+          "summary": "建立婦幼緊急安置機構，照顧遭遇家庭變故或危機的婦女及兒童。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-1-4": {
+      "name": "林惠萍",
+      "number": 4,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-1-4-p1",
+          "topic": "育兒與社福",
+          "summary": "爭取擴大幼托臨時照顧及安置服務，保障幼托安全。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-4-p2",
+          "topic": "經濟與就業",
+          "summary": "爭取放寬觀光產業移工申請門檻，減緩觀光產業缺工。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-4-p3",
+          "topic": "文化與觀光",
+          "summary": "爭取定期舉辦長天期運動觀光賽，振興淡季觀光。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-1-5": {
+      "name": "曹以標",
+      "number": 5,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-1-5-p1",
+          "topic": "醫療與健康",
+          "summary": "強化醫療品質與長者照顧。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-5-p2",
+          "topic": "教育與青年",
+          "summary": "推動教育升級。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-1-6": {
+      "name": "林明揚",
+      "number": 6,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-1-6-p1",
+          "topic": "醫療與健康",
+          "summary": "擴大優化健檢項目。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-6-p2",
+          "topic": "交通",
+          "summary": "推進港埠建設，保障海運作業安全。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-6-p3",
+          "topic": "環境與能源",
+          "summary": "整治各村海岸防護，兼顧觀光景緻。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-1-7": {
+      "name": "曹爾章",
+      "number": 7,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=2",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-1-7-p1",
+          "topic": "醫療與健康",
+          "summary": "爭取設立離島部立醫院，保障基本醫療品質。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-7-p2",
+          "topic": "交通",
+          "summary": "興建復興村入村道路，改善入村交通。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-1-7-p3",
+          "topic": "居住與都市",
+          "summary": "推動老舊住宅都市更新，提升居住品質。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-2-1": {
+      "name": "陳玉發",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%BA%8C%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-2-1-p1",
+          "topic": "交通",
+          "summary": "全力推動跨海大橋，南北連成生活圈。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-2-1-p2",
+          "topic": "醫療與健康",
+          "summary": "推動縣立醫院改制為部立醫院。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-2-1-p3",
+          "topic": "育兒與社福",
+          "summary": "爭取北竿設置老人安（就）養中心，比照南竿成立大同之家。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-2-2": {
+      "name": "周瑞國",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%BA%8C%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-2-2-p1",
+          "topic": "交通",
+          "summary": "推動北竿機場擴建工程，提升馬祖對外航空運輸。",
+          "target": null,
+          "scope": "涉及中央權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-2-2-p2",
+          "topic": "居住與都市",
+          "summary": "推動北竿鄉合宜住宅興建計畫。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-2-2-p3",
+          "topic": "交通",
+          "summary": "推動坂里40到37據點、得天泉到馬鼻灣、88據點到塘岐道路興建。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-2-3": {
+      "name": "謝秉軒",
+      "number": 3,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%BA%8C%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-2-3-p1",
+          "topic": "交通",
+          "summary": "推動白沙港整體升級，將機場施工衝擊降到最低。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-2-3-p2",
+          "topic": "居住與都市",
+          "summary": "推動可購公宅，讓年輕人租得到、買得起。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-2-3-p3",
+          "topic": "治理與安全",
+          "summary": "要求重大工程每季公開進度。",
+          "target": "每季公開進度",
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-3-1": {
+      "name": "陳貽斌",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%89%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-3-1-p1",
+          "topic": "交通",
+          "summary": "加速浮動碼頭、旅運大樓建置。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-3-1-p2",
+          "topic": "交通",
+          "summary": "爭取增購幸福巴士、旅遊中巴車輛。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-3-1-p3",
+          "topic": "教育與青年",
+          "summary": "爭取東西兩島室內場館，提升休閒運動風氣。",
+          "target": null,
+          "scope": "地方政策主張",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-3-2": {
+      "name": "王孝榛",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%89%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-3-2-p1",
+          "topic": "居住與都市",
+          "summary": "推動東西莒建設均衡，避免建設落差。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-3-2-p2",
+          "topic": "文化與觀光",
+          "summary": "保存老屋，延續莒光文化。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-4-1": {
+      "name": "馮印才",
+      "number": 1,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E5%9B%9B%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-4-1-p1",
+          "topic": "經濟與就業",
+          "summary": "爭取將東引酒廠還給東引，收益回饋長者照顧、醫療及青年發展。",
+          "target": null,
+          "scope": "涉及跨機關權責",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-4-1-p2",
+          "topic": "交通",
+          "summary": "爭取符合居民需求的船班，重視東引短程交通安全舒適。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-4-1-p3",
+          "topic": "居住與都市",
+          "summary": "爭取觀光建設與國宅的規劃和建設。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    },
+    "22-council-4-2": {
+      "name": "林德建",
+      "number": 2,
+      "source": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E5%9B%9B%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf#page=1",
+      "status": "公報圖文部分檢視；選擇性摘要",
+      "items": [
+        {
+          "id": "22-council-4-2-p1",
+          "topic": "交通",
+          "summary": "爭取穩定臺馬及島際航線運能，完善船舶故障、天候等突發備援機制。",
+          "target": null,
+          "scope": "地方政策主張／方向",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-4-2-p2",
+          "topic": "居住與都市",
+          "summary": "持續監督東引社會住宅規劃及興建進度，爭取合理社宅入住與租賃配套。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        },
+        {
+          "id": "22-council-4-2-p3",
+          "topic": "醫療與健康",
+          "summary": "爭取東引基礎醫療量能，監督緊急醫療後送與轉診機制。",
+          "target": null,
+          "scope": "議會監督",
+          "status": "原文主張已定位；履行尚未查核"
+        }
+      ]
+    }
+  },
+  "reviewed_counties": [
+    "22"
+  ],
+  "source_files": {
+    "22連江縣_115年連江縣-第一選區選舉公報.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%80%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "sha256": "1905a2596ef2b29b1806d37033ec85eb77bbbcad03bbf69074d38faa2fa04902",
+      "retrieved_on": "2026-11-25"
+    },
+    "22連江縣_115年連江縣-第二選區選舉公報.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%BA%8C%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "sha256": "18a6fcb6921aab5c5354ba1f3835c425ed8df37c198c5d69fe8a5b7a14fe14ca",
+      "retrieved_on": "2026-11-25"
+    },
+    "22連江縣_115年連江縣-第三選區選舉公報.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E4%B8%89%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "sha256": "658f3dbadca1032b31f5fb807372a2eb59847736637b29bccd18fb15a0264c91",
+      "retrieved_on": "2026-11-25"
+    },
+    "22連江縣_115年連江縣-第四選區選舉公報.pdf": {
+      "url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/06%E7%B8%A3%E5%B8%82%E8%AD%B0%E5%93%A1/115%E5%B9%B4/22%E9%80%A3%E6%B1%9F%E7%B8%A3/115%E5%B9%B4%E9%80%A3%E6%B1%9F%E7%B8%A3-%E7%AC%AC%E5%9B%9B%E9%81%B8%E5%8D%80%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1.pdf",
+      "sha256": "711a20d1a1092ba67458e419926b41099ccc87dc4915b50ce3ee1cd58a7adf9f",
+      "retrieved_on": "2026-11-25"
+    }
+  },
+  "reviewed_on": "2026-11-25",
+  "notice": "議員候選人官方公報政見欄圖文檢視；選擇性摘要（含概括方向），並非完整政見、可行性或履行查核。"
+}

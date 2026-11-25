@@ -27,6 +27,8 @@ const assert = require("node:assert/strict");
   const z=page.locator("#person-09-chief-2");await z.waitFor();if(await z.locator(".profile-fields").count()===0)await z.locator(".person-open").click();await z.getByText("第一胎生育補助由3萬元提高至5萬元，托育津貼每月另增1,500元並設排富條件。",{exact:true}).waitFor();
   await page.goto("http://127.0.0.1:8765/?county=13&office=chief&candidate=13-chief-1",{waitUntil:"networkidle"});
   const pt=page.locator("#person-13-chief-1");await pt.waitFor();if(await pt.locator(".profile-fields").count()===0)await pt.locator(".person-open").click();await pt.getByText("0至18歲每月發給5,000元成長津貼。",{exact:true}).waitFor();
+  await page.goto("http://127.0.0.1:8765/?county=22&office=council&district=2&candidate=22-council-2-3",{waitUntil:"networkidle"});
+  const lc=page.locator("#person-22-council-2-3");await lc.waitFor();if(await lc.locator(".profile-fields").count()===0)await lc.locator(".person-open").click();await lc.getByText("要求重大工程每季公開進度。",{exact:true}).waitFor();
   await page.goto("http://127.0.0.1:8765/gazettes.html?county=17&office=chief",{waitUntil:"networkidle"});
   console.log("reader status",await page.locator("#status").textContent());
   await page.locator("#original").waitFor({timeout:10000});
