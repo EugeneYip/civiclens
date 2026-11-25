@@ -54,6 +54,7 @@ const assert = require("node:assert/strict");
   const tn=page.locator("#person-04-council-8-1");await tn.waitFor();if(await tn.locator(".profile-fields").count()===0)await tn.locator(".person-open").click();
   await tn.locator(".profile-fields").waitFor();assert.ok((await tn.locator(".person-party").first().textContent()).includes("中國國民黨"));
   assert.equal(await tn.getByText(/民進黨團總召/).count(),0,"quarantined transcription must not be shown");
+  await tn.getByText("臺南市北區小康里長",{exact:true}).waitFor();
   await page.clock.setFixedTime(new Date("2026-11-27T12:00:00+08:00"));
   await page.goto("http://127.0.0.1:8765/results.html?county=17&office=chief",{waitUntil:"networkidle"});
   await page.locator("#result-rows tr").first().waitFor();
