@@ -1521,6 +1521,186 @@
         "method": "YouTube oEmbed",
         "channel": "宜蘭新聞"
       }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "宜蘭縣議員公辦電視政見發表會・第1選舉區（上午場）",
+      "kind": "公辦政見發表",
+      "districts": [
+        1
+      ],
+      "video": "cNuEdMZdY7U",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/20（五） 第1選舉區（宜蘭市)上午場"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "宜蘭縣議員公辦電視政見發表會・第1選舉區（下午場）",
+      "kind": "公辦政見發表",
+      "districts": [
+        1
+      ],
+      "video": "UkSxOAo4Up8",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/20（五） 第1選舉區（宜蘭市)下午場"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-20",
+      "title": "宜蘭縣議員公辦電視政見發表會・第2選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        2
+      ],
+      "video": "xMb_eawHms8",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/20（五）第2選舉區（頭城鎮）"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "宜蘭縣議員公辦電視政見發表會・第3選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        3
+      ],
+      "video": "Yvyb2FR0pm4",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/18（三）09:00 第3選舉區（礁溪鄉）"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-18",
+      "title": "宜蘭縣議員公辦電視政見發表會・第4選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        4
+      ],
+      "video": "rRZELXxyF1M",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/18（三）10:30 第4選舉區（員山鄉）"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "宜蘭縣議員公辦電視政見發表會・第5選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        5
+      ],
+      "video": "9HG7P2mT_9c",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/19（四） 第5選舉區（壯圍鄉）"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "宜蘭縣議員公辦電視政見發表會・第6選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        6
+      ],
+      "video": "DUx4IUUOgXg",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/19（四）14:00 第6選舉區（羅東鎮）"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "宜蘭縣議員公辦電視政見發表會・第9選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        9
+      ],
+      "video": "1gmqBUhEMxE",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/19（四）11:00 第9選舉區（三星鄉）"
+      }
+    },
+    {
+      "county": "16",
+      "office": "council",
+      "date": "2026-11-19",
+      "title": "宜蘭縣議員公辦電視政見發表會・第12選舉區",
+      "kind": "公辦政見發表",
+      "districts": [
+        12
+      ],
+      "video": "Iv_Tp0_PDdE",
+      "source": "https://web.cec.gov.tw/ilec/article/65502",
+      "status": "官方公告指定之宜蘭新聞YouTube頻道；影片標題與場次相符；播放狀態未實測",
+      "publisher": "宜蘭新聞",
+      "verified": {
+        "checked_on": "2026-11-26",
+        "method": "YouTube oEmbed",
+        "channel": "宜蘭新聞",
+        "title": "115年宜蘭縣第21屆縣議員選舉公辦電視政見發表會11/19（四）16:00 第12選舉區（大同鄉等山地原住民）"
+      }
     }
   ],
   "national_videos": [

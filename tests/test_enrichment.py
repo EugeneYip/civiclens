@@ -12,8 +12,8 @@ class EnrichmentTests(unittest.TestCase):
   for r in p['records']:
    self.assertTrue(rows[r['id']]['platform']);self.assertTrue(r['source']);self.assertTrue(all(x in rows[r['id']]['platform'] for t in r['topics'] for x in t['excerpts']))
  def test_media(self):
-  d=json.loads((R/'data/election-media.json').read_text());self.assertEqual(sum(bool(x.get("video")) for x in d["entries"]),70);self.assertTrue(all(x["verified"]["checked_on"] in ("2026-11-25","2026-11-26") for x in d["entries"] if x.get("video")));self.assertEqual(len(d["national_videos"]),5)
-  self.assertEqual(len({x['video'] for x in d['entries'] if x.get('video')}),70)
+  d=json.loads((R/'data/election-media.json').read_text());self.assertEqual(sum(bool(x.get("video")) for x in d["entries"]),79);self.assertTrue(all(x["verified"]["checked_on"] in ("2026-11-25","2026-11-26") for x in d["entries"] if x.get("video")));self.assertEqual(len(d["national_videos"]),5)
+  self.assertEqual(len({x["video"] for x in d["entries"] if x.get("video")}),79)
   self.assertEqual(len({x['county'] for x in d['entries'] if x.get('video')}),21)
   self.assertEqual(sorted(n for x in d['entries'] if x['county']=='03' and x['office']=='council' and x.get('video') for n in x['districts']),list(range(1,18)))
   self.assertTrue(all(x['source'].startswith(('https://web.cec.gov.tw/','https://info.cec.gov.tw/')) for x in d['entries'] if x.get('video')))
