@@ -1,0 +1,26 @@
+name: Stage MOI official public office portraits
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/stage_moi_portraits.py'
+      - '.github/workflows/moi-portraits.yml'
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install beautifulsoup4==4.13.4
+      - run: python3 scripts/stage_moi_portraits.py
+      - run: python3 -m unittest discover -s tests -v
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "moi-portraits-${GITHUB_RUN_ID}"
+          git add data/moi-portrait-references.json
+          git commit -m 'Stage official office portrait references'
+          git push origin HEAD
