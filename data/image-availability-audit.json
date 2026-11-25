@@ -1,0 +1,510 @@
+{
+  "version": "0.1.22",
+  "checked_at": "2026-11-25T00:24:53.927204+00:00",
+  "scope": "all non-MOI sources and one MOI candidate per county",
+  "inventory": 724,
+  "checked": 56,
+  "counts": {
+    "readable_svg": 4,
+    "readable_raster": 52
+  },
+  "records": {
+    "party:中國國民黨": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Emblem_of_the_Kuomintang.svg",
+      "state": "readable_svg",
+      "mime": "image/svg+xml",
+      "bytes": 613,
+      "sha256": "2389ca9d7932ba421a4f51ae60281e02055f4ca1465031cede111b00ca7563fb"
+    },
+    "party:台灣基進": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Taiwan_Statebuilding_Party_Logo.png",
+      "state": "readable_raster",
+      "mime": "image/png",
+      "width": 150,
+      "height": 150,
+      "bytes": 11113,
+      "sha256": "a1732936a236a7a2c8ebbc150e477be616e550fbb28f4eb4dade650a3a6d0cb4"
+    },
+    "party:台灣民眾黨": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/CIS_of_Taiwan_People%27s_Party.svg",
+      "state": "readable_svg",
+      "mime": "image/svg+xml",
+      "bytes": 106863,
+      "sha256": "4c8fe75207907891e0055713fe1644f5522996fbad427c5b1cad4e5fa99de257"
+    },
+    "party:新黨": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Np_logo.svg",
+      "state": "readable_svg",
+      "mime": "image/svg+xml",
+      "bytes": 4954,
+      "sha256": "fd2c234925a861664c22ca524a6613c497dbdd7cc9b85243aa66ddfa515f5cf3"
+    },
+    "party:民主進步黨": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Democratic_Progressive_Party_Logo.svg",
+      "state": "readable_svg",
+      "mime": "image/svg+xml",
+      "bytes": 17584,
+      "sha256": "c6a59f46692ad71efe6aa353f3dda5790d6f69b04a601a504e3bb96f6b3ecd8a"
+    },
+    "portrait:01-chief-3": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/%E6%B2%88%E4%BC%AF%E6%B4%8B%E8%82%96%E5%83%8F.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 826,
+      "height": 1062,
+      "bytes": 217115,
+      "sha256": "2629c7693cb08984ec105d70b309972b7c92c904b35bbda4b6f283d2adac0c60"
+    },
+    "portrait:02-chief-3": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%E6%9D%8E%E5%9B%9B%E5%B7%9D%E5%89%AF%E5%B8%82%E9%95%B7.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 150,
+      "height": 200,
+      "bytes": 16656,
+      "sha256": "65c190feae21b8211b62ce18fb01bf1677d9642c3fd81d17fb1bbbab4e0cca81"
+    },
+    "portrait:01-chief-5": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/%E8%94%A3%E8%90%AC%E5%AE%89%E5%B8%82%E9%95%B7_%28cropped%29.jpg/250px-%E8%94%A3%E8%90%AC%E5%AE%89%E5%B8%82%E9%95%B7_%28cropped%29.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 250,
+      "height": 333,
+      "bytes": 14750,
+      "sha256": "72c758e3a6b6165a6cec17051fb5f399ea43c8847f3cb7e6b8246cd22e1d3b0d"
+    },
+    "portrait:06-chief-2": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/%E6%A1%83%E5%9C%92%E5%B8%82%E9%95%B7%E5%BC%B5%E5%96%84%E6%94%BF.jpg/250px-%E6%A1%83%E5%9C%92%E5%B8%82%E9%95%B7%E5%BC%B5%E5%96%84%E6%94%BF.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 250,
+      "height": 321,
+      "bytes": 578387,
+      "sha256": "17e57edf3cd061621858a4509fecdb499c912120b9a9bfcdf855355154b6f419"
+    },
+    "portrait:07-chief-1": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E9%84%AD%E6%9C%9D%E6%96%B9.jpg/250px-%E7%AB%B9%E5%8C%97%E5%B8%82%E5%B8%82%E9%95%B7%E9%84%AD%E6%9C%9D%E6%96%B9.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 250,
+      "height": 347,
+      "bytes": 11206,
+      "sha256": "ecc6e85f289663c054e3822f82ee935571c9dcef8dece2649b91ee8b835e75dc"
+    },
+    "portrait:08-chief-2": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Chung_Tung-chin.jpg/250px-Chung_Tung-chin.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 250,
+      "height": 333,
+      "bytes": 15229,
+      "sha256": "5a713c12e48a35cd2c804c2a8cf48aa8f72a5b9bdc7bb2673bec5f05b3cc3e09"
+    },
+    "portrait:18-chief-3": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E8%AC%9D%E5%9C%8B%E6%A8%91%E5%B8%82%E9%95%B7.jpg/250px-%E8%AC%9D%E5%9C%8B%E6%A8%91%E5%B8%82%E9%95%B7.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 250,
+      "height": 321,
+      "bytes": 14344,
+      "sha256": "a19e8f1c0280fd7cb7c37727d4cb5d62fd5b56aa01e33ba91fa5f50cfbb618b2"
+    },
+    "portrait:19-chief-1": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%E6%96%B0%E7%AB%B9%E5%B8%82%E9%95%B7%E9%AB%98%E8%99%B9%E5%AE%89.jpg/250px-%E6%96%B0%E7%AB%B9%E5%B8%82%E9%95%B7%E9%AB%98%E8%99%B9%E5%AE%89.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 250,
+      "height": 349,
+      "bytes": 19028,
+      "sha256": "a423c59df16d16b7b8984f7c1be8b2f4962ff2e32bd507218ee6dab5ca7a63f4"
+    },
+    "portrait:19-chief-3": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E8%8E%8A%E7%AB%B6%E7%A8%8B.jpg/250px-%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E8%8E%8A%E7%AB%B6%E7%A8%8B.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 250,
+      "height": 321,
+      "bytes": 20092,
+      "sha256": "5e63c681c704c320e6fb6a9415f01e7ea66144f8af85ca4d15d9bd965e3976b6"
+    },
+    "portrait:02-chief-1": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/suchiao-hui.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 13241,
+      "sha256": "814328b61690956153ac05ffec169dc928074ed2184910e577b6c264c409f315"
+    },
+    "portrait:03-chief-1": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/ho-hsin-chun.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 10477,
+      "sha256": "089c99a0325525a0fdbc10252f551a91537efa6e43c35ac0d0e410f375441418"
+    },
+    "portrait:03-chief-3": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/chiang-chi-chen.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 11336,
+      "sha256": "804a3ef6b9b7fe12d4b386db84ab3b197f1679f8d4d5c758acc615c6434388eb"
+    },
+    "portrait:04-chief-2": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/hsieh-lung-chieh.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 426,
+      "bytes": 12408,
+      "sha256": "3e3b398bc0a747669fabe72017003ebce0f777adcae5cb663fa657802b853ed2"
+    },
+    "portrait:04-chief-3": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/chen-ting-fei.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 13976,
+      "sha256": "61c247faee82cbb091aad729326e0a5e493eab0a0fce43e6d940f1001f3a8155"
+    },
+    "portrait:05-chief-3": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/ko-chih-en.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 14560,
+      "sha256": "6f79f48cd52e190ac8bf89785934eb67e8949f7a411f21f1ab99c179692c6c0e"
+    },
+    "portrait:05-chief-5": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/laijui-lung.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 14408,
+      "sha256": "72e905a0f1b1d4c23d4b12f4a1b6fe7604fa1fdc82a6da7d8bb142f8a7d1e711"
+    },
+    "portrait:07-chief-2": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/hsu-hsin-ying.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 13987,
+      "sha256": "7b7ce304e21857f3700536fe30f2e2eb1e1544fe7ea1df05067daeb9dc752891"
+    },
+    "portrait:09-chief-1": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/chensu-yueh.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 410,
+      "bytes": 11799,
+      "sha256": "b7fed4d120902c5e3e5de51deea5477c9c59c22316ab941962c993356f4c00b2"
+    },
+    "portrait:10-chief-1": {
+      "url": "https://raw.githubusercontent.com/g0v/ly-tel/34d2ce9ffe400d55ca86787e227fa2da829f9e4a/web/images/legislators/1811.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 160,
+      "height": 214,
+      "bytes": 11794,
+      "sha256": "e0e873b6a443fc1545625a608ba1af726c818a3f747e6da76398717ed3d3f67d"
+    },
+    "portrait:11-chief-2": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/chang-chia-chun.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 12974,
+      "sha256": "c720205e114390023902d2a5e13a130d8b078708160e48166846493c61658999"
+    },
+    "portrait:11-chief-3": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/liu-chien-kuo.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 15305,
+      "sha256": "e66de02753e02a3db26c65c0125706c7bf4a85e093cd2e5fbafe1c29036dcd9f"
+    },
+    "portrait:12-chief-2": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/tsai-yi-yu.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 14838,
+      "sha256": "a6e706fdc530ded003d43a5bbebdc53827cd96b653b8aad94830c94f7108144d"
+    },
+    "portrait:13-chief-1": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/su-ching-chuan.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 426,
+      "bytes": 12592,
+      "sha256": "3413865ebbdb9d700a43e5860ffaca1ccfed65f5a1c02e707e7cdebe8c8c408c"
+    },
+    "portrait:13-chief-2": {
+      "url": "https://raw.githubusercontent.com/g0v/ly-tel/34d2ce9ffe400d55ca86787e227fa2da829f9e4a/web/images/legislators/1823.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 160,
+      "height": 214,
+      "bytes": 15105,
+      "sha256": "428e31199042ccf3ab13b13e71f49bfdf45ca9602e08166100e20f7348664144"
+    },
+    "portrait:14-chief-2": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/chen-ying.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 15548,
+      "sha256": "eecdd7cc92b0900be39346e70a66197f9ef899d6896add97a018604040980ae1"
+    },
+    "portrait:16-chief-3": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/wutsung-hsien.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 13928,
+      "sha256": "a0a7fde50ec6ca99949060abe087832be4f027f898fd327f94c84a598e0389fe"
+    },
+    "portrait:20-chief-3": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/%E5%BC%B5%E5%95%93%E6%A5%B7-%E4%B8%8D%E5%88%86%E5%8D%80.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 13771,
+      "sha256": "9fb91de1d2d9c69588edd49ef070c7311b4b2eff5396390737d6b6dd4a4ae4e5"
+    },
+    "portrait:20-chief-4": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/wangmei-hui.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 15539,
+      "sha256": "ad7f954afdc82826ab4a9617a63f67b1a4c70c9941b4327bacd687d02420cbd5"
+    },
+    "portrait:21-chief-5": {
+      "url": "https://raw.githubusercontent.com/weryk153/legislator-background/86538dd3e67867b2cf372615fc59b01d9c6c0654/public/photos/legislators/chenyu-jen.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 320,
+      "height": 411,
+      "bytes": 15531,
+      "sha256": "25849fe3e18b487932f97affad1b842b25bfd92a80cf28af41b230a0d28312c6"
+    },
+    "portrait:01-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ace6177d-2d41-4a05-b85c-57bf8f74d06d.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 142,
+      "height": 199,
+      "bytes": 618945,
+      "sha256": "472337cfc3e8e86bc080aea8e4e79a085c11b6ecb92d23a0dfc3694a41db60cd"
+    },
+    "portrait:02-council-1-3": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/72bec61d-527e-4c2d-b3bf-3a2d82e706db.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 1577,
+      "height": 1919,
+      "bytes": 732453,
+      "sha256": "939763bcfc26af468dda367e400b3b20df2a0af3531693f2541ef04b43ff3e7b"
+    },
+    "portrait:03-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6c00ed12-7e24-4703-8898-a648cc6cd152.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 138,
+      "height": 192,
+      "bytes": 19670,
+      "sha256": "99ec31dbf9d76a0ee286c46101b2bf6aaf5d6631f7856a3ce978a9383ef4beb4"
+    },
+    "portrait:04-council-1-4": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/595e9edd-deb9-4d82-a7c3-ac93f111f72b.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 546,
+      "height": 714,
+      "bytes": 83883,
+      "sha256": "c5d3614feb9702586e7e626f5d617efae46c83dad4412322353fd19f5eb92f44"
+    },
+    "portrait:05-council-1-2": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5ced8ba9-aa98-45c6-84c4-a808322d4d63.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 1080,
+      "height": 1419,
+      "bytes": 629737,
+      "sha256": "73516dcadb2f63dff46ed39dc903d9897b2cc94fbb3e557c0532006d299eeae6"
+    },
+    "portrait:06-council-1-10": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c808631b-10e7-40f9-a4d3-e64d73554ae3.png",
+      "state": "readable_raster",
+      "mime": "image/x-png",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 4597733,
+      "sha256": "9bbc77d773f346262916307cb289f61fae736c781bb14adc5b5b59559810b44c"
+    },
+    "portrait:07-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b7d27ef6-5397-4d21-b4b8-a0bf9ac63f3f.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 2127,
+      "height": 2820,
+      "bytes": 2921649,
+      "sha256": "dae672ef95e30ccc9274eddce3a357ef9d06180b51790e3397f76d3336bdb2a3"
+    },
+    "portrait:08-chief-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7d8060d7-1f17-41e9-bc3c-15a0560fe325.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 219,
+      "height": 270,
+      "bytes": 10823,
+      "sha256": "8cbe17ecbc819e4a16d2d0829d388a7ce599fa4b5fd29dd2d30acae96eaf36ca"
+    },
+    "portrait:09-chief-4": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7f558b87-562f-43f0-8076-3966902a8092.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 280,
+      "height": 354,
+      "bytes": 17147,
+      "sha256": "b0a65277f2b4d91f0ea8c8ea26707d4e7d9ba20f35cde3ce3f4eacd5e04656c5"
+    },
+    "portrait:10-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c2e12183-a65a-4542-b117-473cab977f34.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 805,
+      "height": 1040,
+      "bytes": 61317,
+      "sha256": "3ff87686eece4b7cf15e812c40599d6849f9f8e86a81031c75a3b059ac4c0cd9"
+    },
+    "portrait:11-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f49cdd3a-0fd4-48d2-a1fa-ea2a59b23b45.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 535,
+      "height": 724,
+      "bytes": 26612,
+      "sha256": "fd279f1ea04277c4d5a2cf6fddf3636a63a9b840d2b9e7555a22280b4f5cc843"
+    },
+    "portrait:12-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f08a4c69-43db-48f4-96e2-fe9e84e2e8e6.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 1387,
+      "height": 1626,
+      "bytes": 414397,
+      "sha256": "346fdc643cc28b1cb2e1411b66703b0cf90961168c215a6c2cce4a54cd4a2a7b"
+    },
+    "portrait:13-council-1-10": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/83e886ed-fcb1-4e64-8886-5d27dd24ae7c.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 828,
+      "height": 1114,
+      "bytes": 851883,
+      "sha256": "e1ad8bb38684394afd018851abad7285009388752f9ed831d5afd621cfececc4"
+    },
+    "portrait:14-chief-4": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/780e7265-2ed0-4812-bf22-23e8a66a96d3.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 429,
+      "height": 558,
+      "bytes": 38417,
+      "sha256": "145707794154d68dbd2f81cdaad115e6c8d54f297ed68b8b0e82a3e26a627c2b"
+    },
+    "portrait:15-chief-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/42df6810-f77a-4b7e-a678-8a170c6cd25f.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 944,
+      "height": 1180,
+      "bytes": 429737,
+      "sha256": "b72c92353a8ec0592cad9edfa058ba6f1835cb5d751b27e6febe5c8008b9414b"
+    },
+    "portrait:16-council-1-11": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/879db463-23e2-4ed6-a550-e23d60301936.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 539,
+      "height": 748,
+      "bytes": 95878,
+      "sha256": "0189b9d0d6542de52a5415e0239391872188ae9d587501cce3fc35f82219c26d"
+    },
+    "portrait:17-council-1-10": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/03a0f38f-df38-4ceb-b314-5c562546ca60.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 2692,
+      "height": 3816,
+      "bytes": 784749,
+      "sha256": "4be6bc91c524841a82c220c7a8d592670d8c53f4c8b3102f34b0fd1cfb32ed53"
+    },
+    "portrait:18-chief-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4b334cc4-ad53-43db-8edb-3de6c42a87a6.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 2030,
+      "height": 2842,
+      "bytes": 3367610,
+      "sha256": "6e490918cd47348746f4941fdcb653a78e6c453ccabae788d66ee4ec86ee6053"
+    },
+    "portrait:19-council-1-11": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b05ac5b9-a5ea-4237-826f-9facf8c7c565.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 619,
+      "height": 709,
+      "bytes": 45031,
+      "sha256": "530aab5e9cdde1bbac9297edf10b4e5560e60a789bc878c44035e7e434caaa31"
+    },
+    "portrait:20-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b96ecb09-7507-499f-bbd4-bf4539afe840.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 502,
+      "height": 670,
+      "bytes": 46752,
+      "sha256": "c7fcca722d01960c00193b941b9866490802e384d036dc712accdd8a384fdf5a"
+    },
+    "portrait:21-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7922ce46-2440-4e83-91ae-faf30841683e.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 494,
+      "height": 615,
+      "bytes": 99707,
+      "sha256": "7b14b2681dd35ecad3d2ce9497b34ee75f9cd341c29cd1975067e5a29fe8a43a"
+    },
+    "portrait:22-council-1-1": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/81c86c43-bdb1-4141-a7b4-50741b4364cd.jpg",
+      "state": "readable_raster",
+      "mime": "image/jpeg",
+      "width": 413,
+      "height": 531,
+      "bytes": 45108,
+      "sha256": "fd6a52900121ba2fe8c49f91ea8eab9bf7cf4ea911c29dfe17d893155cefe4f7"
+    }
+  },
+  "notice": "HTTP及影像格式檢查，不代表人像身分、授權或前端載入確認。未檢查不代表失效。"
+}
