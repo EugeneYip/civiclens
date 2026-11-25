@@ -66,8 +66,9 @@ class BulletinQuarantineTests(unittest.TestCase):
                 self.assertNotEqual(m["transcribed_party"], m["official_party"])
                 cid = groups[e["race"]]["id"] + "-" + str(m["number"])
                 self.assertEqual(official[cid]["party"], m["official_party"])
-        js = (ROOT / "scripts/explorer.js").read_text()
-        self.assertIn('"bulletin-quarantine"', js)
+        for shard in (ROOT / "data/county").glob("*.json"):
+            x = json.loads(shard.read_text())
+            self.assertFalse(set(x["bulletin"]["records"]) & set(q["ids"]), shard.name)
 
 
 if __name__ == "__main__":

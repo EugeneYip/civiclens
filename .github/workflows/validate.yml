@@ -12,5 +12,6 @@ jobs:
       - run: node --check scripts/explorer.js && node --check scripts/reader.js && node --check tests/browser_smoke.cjs
       - run: node --check scripts/results.js && node tests/test_results.cjs
       - run: python3 scripts/build_party_summary.py --check
+      - run: python3 scripts/build_county_shards.py --check
       - run: python3 scripts/audit_coverage.py
       - run: git diff --exit-code -- index.html

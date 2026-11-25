@@ -32,7 +32,10 @@ class ReviewedCouncilTests(unittest.TestCase):
                 ids.add(it["id"])
         for f in d["source_files"].values():
             self.assertRegex(f["sha256"], "^[0-9a-f]{64}$")
-        self.assertIn('"data/reviewed-council-policies.json"', (ROOT / "scripts/explorer.js").read_text())
+        shard_ids = set()
+        for f in (ROOT / "data/county").glob("*.json"):
+            shard_ids |= set(json.loads(f.read_text())["councilReviews"]["records"])
+        self.assertEqual(shard_ids, set(d["records"]))
 
 
 if __name__ == "__main__":
