@@ -2,6 +2,8 @@ import json, re, unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# Council platforms that print the street address of a public facility (not a private home).
+PUBLIC_SITE_ADDRESS = {"05-council-4-4"}  # 左楠路2號: CPC refinery site
 TOPICS = {"交通", "居住與都市", "教育與青年", "育兒與社福", "醫療與健康", "經濟與就業", "環境與能源", "文化與觀光", "治理與安全"}
 
 
@@ -44,7 +46,7 @@ class ChiefBulletinPolicyTests(unittest.TestCase):
                     self.assertTrue(it["text"] and it["text"] == it["text"].strip())
                     self.assertTrue(1 <= len(it["topics"]) <= 2 and set(it["topics"]) <= TOPICS, it)
                     self.assertNotIn("□", it["text"], k)
-                    self.assertIsNone(re.search(r"09\d{2}-?\d{3}-?\d{3}|0\d-?\d{7,8}|[路街巷弄]\d+號|[A-Z][12]\d{8}", it["text"]), (k, it["text"]))
+                    self.assertIsNone(re.search(r"09\d{2}-?\d{3}-?\d{3}|0\d-?\d{7,8}|[A-Z][12]\d{8}" + ("" if k in PUBLIC_SITE_ADDRESS else r"|[路街巷弄]\d+號"), it["text"]), (k, it["text"]))
 
 
 if __name__ == "__main__":
