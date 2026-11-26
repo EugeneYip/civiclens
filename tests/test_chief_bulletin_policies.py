@@ -10,6 +10,7 @@ class ChiefBulletinPolicyTests(unittest.TestCase):
         d = json.loads((ROOT / "data/chief-bulletin-policies.json").read_text())
         self.assertEqual(d["version"], "0.1.50")
         pilot = json.loads((ROOT / "data/reviewed-policy-pilot.json").read_text())["records"]
+        self.assertEqual(set(d["records"]), set(pilot))  # every mayor/magistrate candidate
         for k, r in d["records"].items():
             self.assertEqual((r["name"], r["number"]), (pilot[k]["name"], pilot[k]["number"]), k)
             self.assertTrue(r["source"].startswith(pilot[k]["source"].split("#")[0] + "#page="), k)
