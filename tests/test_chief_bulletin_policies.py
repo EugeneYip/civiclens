@@ -24,5 +24,24 @@ class ChiefBulletinPolicyTests(unittest.TestCase):
                     self.assertTrue(1 <= len(it["topics"]) <= 2 and set(it["topics"]) <= TOPICS, it)
 
 
+    def test_council_structure(self):
+        d = json.loads((ROOT / "data/council-bulletin-policies.json").read_text())
+        self.assertEqual(d["version"], "0.1.53")
+        rv = json.loads((ROOT / "data/reviewed-council-policies.json").read_text())["records"]
+        shard = set()
+        for f in (ROOT / "data/county").glob("*.json"):
+            shard |= set(json.loads(f.read_text())["councilFull"]["records"])
+        self.assertEqual(shard, set(d["records"]))
+        for k, r in d["records"].items():
+            self.assertEqual((r["name"], r["number"]), (rv[k]["name"], rv[k]["number"]), k)
+            self.assertTrue(r["source"].startswith(rv[k]["source"].split("#")[0] + "#page="), k)
+            self.assertTrue(any(s["kind"] in ("policy", "intro") for s in r["sections"]), k)
+            for s in r["sections"]:
+                self.assertIn(s["kind"], ("policy", "record", "intro"))
+                for it in s["items"]:
+                    self.assertTrue(it["text"] and it["text"] == it["text"].strip())
+                    self.assertTrue(1 <= len(it["topics"]) <= 2 and set(it["topics"]) <= TOPICS, it)
+
+
 if __name__ == "__main__":
     unittest.main()

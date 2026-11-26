@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "county"
-VERSION = "0.1.44"
+VERSION = "0.1.53"
 LAYERS = {  # key in shard: (file, expected version, keys that are per-candidate maps)
     "enrichment": ("candidate-enrichment.json", "0.1.13", ("records", "photos")),
     "careers": ("candidate-careers.json", "0.1.13", ("records",)),
@@ -23,6 +23,7 @@ LAYERS = {  # key in shard: (file, expected version, keys that are per-candidate
     "moi": ("moi-portrait-references.json", "0.1.21", ("records",)),
     "councilReviews": ("reviewed-council-policies.json", "0.1.27", ("records",)),
     "prior": ("prior-candidacies-2022.json", "0.1.44", ("records",)),
+    "councilFull": ("council-bulletin-policies.json", "0.1.53", ("records",)),
 }
 
 

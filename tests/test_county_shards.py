@@ -11,7 +11,7 @@ class CountyShardTests(unittest.TestCase):
         seen = {}
         for f in sorted((ROOT / "data/county").glob("*.json")):
             x = json.loads(f.read_text())
-            self.assertEqual(x["version"], "0.1.44")
+            self.assertEqual(x["version"], "0.1.53")
             self.assertEqual(x["county"], f.stem)
             for k, v in x["official"]["records"].items():
                 self.assertTrue(k.startswith(f.stem + "-"))
