@@ -37,7 +37,7 @@ class ChiefBulletinPolicyTests(unittest.TestCase):
         for k, r in d["records"].items():
             self.assertEqual((r["name"], r["number"]), (rv[k]["name"], rv[k]["number"]), k)
             self.assertTrue(r["source"].startswith(rv[k]["source"].split("#")[0] + "#page="), k)
-            self.assertTrue(any(s["kind"] in ("policy", "intro") for s in r["sections"]), k)
+            self.assertTrue(r["sections"] and all(s["items"] for s in r["sections"]), k)  # record-only platforms are allowed
             for s in r["sections"]:
                 self.assertIn(s["kind"], ("policy", "record", "intro"))
                 for it in s["items"]:
