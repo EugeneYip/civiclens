@@ -72,3 +72,4 @@
 @media(max-width:430px){.tablewrap table{min-width:0;table-layout:auto}.tablewrap th,.tablewrap td{padding:7px 4px}.tablewrap th[scope=row]{white-space:normal;overflow-wrap:anywhere}}
 .prior-run{margin:0 0 8px}.prior-run p{margin:0}.prior-result{font-variant-numeric:tabular-nums}
 .bp-heading{font-size:15px;font-weight:700;margin:14px 0 4px}.bp-group{font-size:13px;font-weight:650;color:var(--accent);margin:8px 0 2px}
+@media(min-width:900px){.topic-grid{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:0 24px}.topic-grid .topic-row{border-top:0}}
