@@ -22,6 +22,8 @@ class ChiefBulletinPolicyTests(unittest.TestCase):
                     self.assertTrue(it["text"] and it["text"] == it["text"].strip())
                     self.assertNotRegex(it["text"], "[０-９]")
                     self.assertTrue(1 <= len(it["topics"]) <= 2 and set(it["topics"]) <= TOPICS, it)
+                    self.assertNotIn("□", it["text"], k)
+                    self.assertIsNone(re.search(r"09\d{2}-?\d{3}-?\d{3}|0\d-?\d{7,8}|[A-Z][12]\d{8}", it["text"]), (k, it["text"]))
 
 
     def test_council_structure(self):
@@ -41,6 +43,8 @@ class ChiefBulletinPolicyTests(unittest.TestCase):
                 for it in s["items"]:
                     self.assertTrue(it["text"] and it["text"] == it["text"].strip())
                     self.assertTrue(1 <= len(it["topics"]) <= 2 and set(it["topics"]) <= TOPICS, it)
+                    self.assertNotIn("□", it["text"], k)
+                    self.assertIsNone(re.search(r"09\d{2}-?\d{3}-?\d{3}|0\d-?\d{7,8}|[路街巷弄]\d+號|[A-Z][12]\d{8}", it["text"]), (k, it["text"]))
 
 
 if __name__ == "__main__":
