@@ -37,6 +37,16 @@ class ReferendumTests(unittest.TestCase):
             self.assertRegex(x["video"], r"^[A-Za-z0-9_-]{11}$")
             self.assertTrue(x["pro"] and x["con"] and x["host"])
 
+    def test_voting_notes_follow_gazette(self):
+        self.assertIn("投票當日，戶政事務所不受理換補發國民身分證", self.r["bring"])
+        notes = self.r["notes"]
+        self.assertEqual(len(notes), 4)
+        self.assertIn("公民投票法第43條", notes[2]["text"])
+        self.assertEqual(len(notes[2]["items"]), 3)
+        self.assertTrue(notes[3].endswith("依公民投票法第41條規定，處1年以下有期徒刑、拘役或科新臺幣1萬5千元以下罰金。"))
+        self.assertEqual([p["law"] for p in self.r["penalties"]], ["公民投票法第42條", "公民投票法第44條", "刑法第143條"])
+        self.assertEqual(len(self.r["invalid"]), 9)
+
     def test_sources_are_official(self):
         for s in self.r["sources"]:
             self.assertRegex(s["url"], r"^https://(web\.cec\.gov\.tw|bulletin\.cec\.gov\.tw|law\.moj\.gov\.tw)/")

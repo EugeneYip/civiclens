@@ -63,5 +63,19 @@ class ReviewedCouncilTests(unittest.TestCase):
             self.assertIsNone(re.search(r"[A-Z][12][0-9]{8}", f.read_text()), f.name)
 
 
+    def test_untranscribed_statuses_describe_the_gazette(self):
+        rc = json.loads((ROOT / "data/reviewed-council-policies.json").read_text())["records"]
+        full = json.loads((ROOT / "data/council-bulletin-policies.json").read_text())["records"]
+        empty = [k for k, x in rc.items() if k not in full and not x["items"]]
+        self.assertEqual(len(empty), 10)
+        self.assertIn("未能可靠逐項辨讀", rc["01-council-3-10"]["status"])  # blurry scan, kept as unreadable
+        for k in set(empty) - {"01-council-3-10"}:
+            self.assertNotIn("未能辨讀", rc[k]["status"], k)
+            self.assertTrue(rc[k]["status"].startswith("公報政見欄"), k)
+        self.assertIn("「人民的請託就是釋瑩的政見」", rc["11-council-1-4"]["status"])
+        self.assertIn("僅刊「無」字", rc["13-council-1-14"]["status"])
+        self.assertEqual(full["03-council-4-7"]["sections"][0]["kind"], "policy")
+
+
 if __name__ == "__main__":
     unittest.main()
