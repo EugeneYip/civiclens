@@ -3,7 +3,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 # Council platforms that print the street address of a public facility (not a private home).
-PUBLIC_SITE_ADDRESS = {"05-council-4-4", "04-council-3-1"}  # 左楠路2號: CPC refinery site; 內郭里53號水門: water gate No. 53
+PUBLIC_SITE_ADDRESS = {"05-council-4-4", "04-council-3-1", "19-council-4-3"}  # 左楠路2號: CPC refinery site; 內郭里53號水門: water gate No. 53; 武陵路300號: idle public dormitory
 TOPICS = {"交通", "居住與都市", "教育與青年", "育兒與社福", "醫療與健康", "經濟與就業", "環境與能源", "文化與觀光", "治理與安全"}
 
 
