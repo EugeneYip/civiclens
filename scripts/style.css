@@ -123,3 +123,5 @@
 .ref-label{margin:6px 0 2px;font-size:14px}
 .ref-sub{margin:4px 0 2px;padding-left:1.3em}
 .ref-main .eyebrow{color:var(--muted)}
+.ref-ballot-row{display:grid;gap:0 28px}
+@media(min-width:700px){.ref-ballot-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}.ref-ballot-row .ref-label{margin-top:6px}}
