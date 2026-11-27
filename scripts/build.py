@@ -15,12 +15,16 @@ chief_json=json.dumps(chief,ensure_ascii=False,separators=(',',':')).replace('<'
 ref=json.loads((root/'data/referendum.json').read_text())
 def render_ref(r):
     E=lambda x:esc(str(x))
+    import re as _re
+    def C(x):  # keep each clause together: break preferably after ，；
+        parts=[p for p in _re.split(r'(?<=[，；。])(?=.)',str(x)) if p]
+        return E(x) if len(parts)<2 else ''.join('<span class="clause">'+E(p)+'</span>' for p in parts)
     o=['<div class="sectionhead"><h2>全國性公投 · 第'+E(r['case'])+'案</h2></div>']
-    o.append('<div class="ref-main"><p class="eyebrow">主文</p><p class="ref-question">'+E(r['question'])+'</p>')
+    o.append('<div class="ref-main"><p class="eyebrow">主文</p><p class="ref-question">'+C(r['question'])+'</p>')
     o.append('<dl class="ref-facts">')
-    facts=[('投票日',r['vote']['date']+' '+r['vote']['time']),('公投票',r['vote']['ballot_color']+'，於「同意」或「不同意」上方圈選欄擇一圈選'),('提案',r['proposer']['body']+'（'+r['proposer']['basis']+'）'),('投票權人',f"{r['electorate']['count']:,} 人"),('通過門檻',f"有效同意票多於不同意票，且達 {r['threshold']['votes_needed']:,} 票以上")]
-    for k,v in facts: o.append('<div><dt>'+E(k)+'</dt><dd>'+E(v)+'</dd></div>')
-    o.append('</dl><p class="small">'+E(r['age_note'])+'</p></div>')
+    facts=[('投票日',r['vote']['date']+' '+r['vote']['time']),('公投票',r['vote']['ballot_color']+'，於「同意」或「不同意」上方圈選欄擇一圈選'),('提案',r['proposer']['body']+'（'+r['proposer']['basis']+'）'),('投票權人',f"{r['electorate']['count']:,}\u00a0人"),('通過門檻',f"有效同意票多於不同意票，且達 {r['threshold']['votes_needed']:,}\u00a0票以上")]
+    for k,v in facts: o.append('<div><dt>'+E(k)+'</dt><dd>'+C(v)+'</dd></div>')
+    o.append('</dl><p class="small">'+C(r['age_note'])+'</p></div>')
     def note(x):
         if isinstance(x,str): return '<li>'+E(x)+'</li>'
         return '<li>'+E(x['text'])+'<ol class="ref-sub">'+''.join('<li>'+E(i)+'</li>' for i in x['items'])+'</ol></li>'
@@ -29,9 +33,9 @@ def render_ref(r):
     for p in r['reason']['paragraphs']:
         tag={'heading':'h3','item':'p','para':'p'}[p['kind']]; cls={'heading':'ref-h','item':'ref-item','para':''}[p['kind']]
         o.append(f'<{tag}'+(f' class="{cls}"' if cls else '')+'>'+E(p['text'])+f'</{tag}>')
-    o.append('<p class="small">出處：'+E(r['reason']['source'])+'。本案由立法院提案，公投公報刊載主文、理由書與投票注意事項；正反雙方意見見意見發表會。</p></div></details>')
+    o.append('<p class="small">出處：中選會'+E(r['announcement']['date'])+'公告（'+E(r['announcement']['no'])+'）</p></div></details>')
     # hearings
-    o.append('<details class="ref-block" open><summary>正反方意見發表會（'+str(len(r['hearings']))+' 場）</summary><p class="small">'+E(r['hearings_note'])+'</p><div class="ref-hearings">')
+    o.append('<details class="ref-block" open><summary>正反方意見發表會（'+str(len(r['hearings']))+' 場）</summary><p class="small">'+C(r['hearings_note'])+'</p><div class="ref-hearings">')
     for h in r['hearings']:
         o.append('<article class="ref-hearing"><div class="ref-hmeta"><strong>第'+E(h['no'])+'場</strong><span>'+E(h['date'])+'・'+E(h['channel'])+'</span></div>')
         o.append('<dl class="ref-sides"><div><dt>正方</dt><dd>'+E(h['pro'])+'</dd></div><div><dt>反方</dt><dd>'+E(h['con'])+'</dd></div><div><dt>主持</dt><dd>'+E(h['host'])+'</dd></div></dl>')
@@ -49,8 +53,8 @@ def render_ref(r):
     o.append('<div><p class="ref-label">下列情形之一者，公投票無效：</p><ul class="profile-list">'+''.join('<li>'+E(x)+'</li>' for x in r['invalid'])+'</ul></div></div>')
     o.append('<h3 class="ref-h">投票所內注意事項</h3><ul class="profile-list">'+''.join(note(x) for x in r['notes'])+'</ul>')
     o.append('<h3 class="ref-h">罰則摘錄</h3><ul class="profile-list">'+''.join('<li><strong>'+E(x['law'])+'</strong>：'+E(x['text'])+'</li>' for x in r['penalties'])+'</ul><p class="small">'+E(r['penalties_note'])+'</p></details>')
-    o.append('<p class="small ref-sources">資料來源：'+'・'.join('<a href="'+esc(s['url'],quote=True)+'" target="_blank" rel="noopener noreferrer">'+E(s['title'])+' ↗</a>' for s in r['sources'])+f"（{E(r['checked_on'])} 核對）</p>")
+    o.append('<div class="ref-sources"><p class="small">資料來源（'+E(r['checked_on'])+' 核對）</p><ul>'+''.join('<li><a href="'+esc(s['url'],quote=True)+'" target="_blank" rel="noopener noreferrer">'+E(s['title'])+'\u00a0↗</a></li>' for s in r['sources'])+'</ul></div>')
     return ''.join(o)
 referendum_html=render_ref(ref)
-page=(root/'scripts/template.html').read_text().replace('<!--COUNTIES-->',cards).replace('<!--ROWS-->',rows).replace('<!--SOURCES-->',sources).replace('<!--ELECTORS-->',elector_json).replace('<!--NATIONAL-->',national).replace('<!--REFERENDUM-->',referendum_html).replace('<!--CHIEF_SOURCES-->',chief_json).replace('<!--CSS-->',(root/'scripts/style.css').read_text()).replace('<!--JS-->',(root/'scripts/app.js').read_text()).replace('<!--VERSION-->',(root/'VERSION').read_text().strip())
+page=(root/'scripts/template.html').read_text().replace('<!--COUNTIES-->',cards).replace('<!--ROWS-->',rows).replace('<!--SOURCES-->',sources).replace('<!--ELECTORS-->',elector_json).replace('<!--NATIONAL-->',national).replace('<!--REFERENDUM-->',referendum_html).replace('<!--CHIEF_SOURCES-->',chief_json).replace('<!--CSS-->',(root/'scripts/style.css').read_text()).replace('<!--JS-->',(root/'scripts/app.js').read_text()+'\n'+(root/'scripts/phrase.js').read_text()).replace('<!--VERSION-->',(root/'VERSION').read_text().strip())
 (root/'index.html').write_text(page)

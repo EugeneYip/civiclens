@@ -125,3 +125,17 @@
 .ref-main .eyebrow{color:var(--muted)}
 .ref-ballot-row{display:grid;gap:0 28px}
 @media(min-width:700px){.ref-ballot-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}.ref-ballot-row .ref-label{margin-top:6px}}
+html.phrase body{word-break:keep-all;overflow-wrap:break-word}
+html.phrase :is(p,li,dd,figcaption,td){text-wrap:pretty}
+:is(h1,h2,h3,h4,summary,.ref-question,.person-name,.compare-name,.bp-heading,.bp-group,.ref-label){text-wrap:balance}
+.clause{display:inline-block}
+.ref-sources ul{margin:2px 0 0;padding:0;list-style:none}
+.ref-sources li{font-size:13px;line-height:1.5}
+.ref-sources a{display:inline-flex;align-items:center;min-height:32px}
+details>summary{list-style:none;display:flex;align-items:center;gap:8px}
+details>summary::-webkit-details-marker{display:none}
+details>summary::after{content:"";flex:none;margin-left:auto;width:7px;height:7px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:translateY(-2px) rotate(45deg);transition:transform .15s}
+details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
+.compare-fold>summary::after,.compare-fold[open]>summary::after{content:""}
+.list-more>summary::after{content:none}
+@media(prefers-reduced-motion:reduce){details>summary::after{transition:none}}
