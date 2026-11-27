@@ -139,3 +139,4 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .compare-fold>summary::after,.compare-fold[open]>summary::after{content:""}
 .list-more>summary::after{content:none}
 @media(prefers-reduced-motion:reduce){details>summary::after{transition:none}}
+.nw{white-space:nowrap}

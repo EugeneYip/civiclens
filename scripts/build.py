@@ -33,7 +33,7 @@ def render_ref(r):
     for p in r['reason']['paragraphs']:
         tag={'heading':'h3','item':'p','para':'p'}[p['kind']]; cls={'heading':'ref-h','item':'ref-item','para':''}[p['kind']]
         o.append(f'<{tag}'+(f' class="{cls}"' if cls else '')+'>'+E(p['text'])+f'</{tag}>')
-    o.append('<p class="small">出處：中選會'+E(r['announcement']['date'])+'公告（'+E(r['announcement']['no'])+'）</p></div></details>')
+    o.append('<p class="small">出處：<span class="nw">中選會'+E(r['announcement']['date'])+'公告</span><span class="nw">（'+E(r['announcement']['no'])+'）</span></p></div></details>')
     # hearings
     o.append('<details class="ref-block" open><summary>正反方意見發表會（'+str(len(r['hearings']))+' 場）</summary><p class="small">'+C(r['hearings_note'])+'</p><div class="ref-hearings">')
     for h in r['hearings']:
