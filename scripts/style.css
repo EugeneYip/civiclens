@@ -160,3 +160,30 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .rl-fill{display:block;height:100%;background:#4f6b76;border-radius:999px}
 .rl-threshold .rl-fill{background:#8aa1a9}
 .ref-live .small{margin:6px 0 0}
+.results-map{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px}
+.rm-head{margin:0 0 8px;font-size:13px;color:var(--muted)}
+.rm-head strong{font-size:15px;color:var(--accent);margin-right:4px}
+.rm-grid{display:grid;gap:12px}
+@media(min-width:760px){.rm-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start}}
+.rm-map{margin:0}
+.rm-map svg{display:block;width:100%;max-width:420px;max-height:62vh;margin:0 auto}
+.rm-county{fill:#dfe5e3;stroke:#fff;stroke-width:.7;transition:opacity .15s}
+.rm-map a:hover .rm-county,.rm-map a:focus .rm-county{opacity:.8;stroke:#1f2b31;stroke-width:1.2}
+.rm-inset{fill:none;stroke:#b9c4c1;stroke-width:.7}
+.rm-inset-label{font-size:8px;fill:var(--muted)}
+.rm-legend{display:flex;flex-wrap:wrap;gap:4px 12px;margin:8px 0 0;padding:0;list-style:none;font-size:13px}
+.rm-legend li{display:flex;align-items:center;gap:5px}
+.rm-sw,.rm-dot{display:inline-block;width:11px;height:11px;border-radius:3px;flex:none}
+.rm-dot{border-radius:50%;width:9px;height:9px;margin-right:4px}
+.rm-key{margin:4px 0 0}
+.rm-list{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px}
+.rm-list li{border-bottom:1px solid var(--line)}
+.rm-list a{display:grid;grid-template-columns:auto 1fr;grid-template-areas:"cn st" "who who" "pr pr";gap:0 6px;padding:7px 2px;text-decoration:none;color:var(--ink);min-height:44px}
+.rm-cn{grid-area:cn;font-size:12px;color:var(--muted)}
+.rm-who{grid-area:who;display:flex;align-items:center;flex-wrap:wrap;font-weight:700;font-size:15px}
+.rm-party{font-weight:400;font-size:11px;color:var(--muted);margin-left:5px}
+.rm-st{grid-area:st;justify-self:end;font-size:12px;font-variant-numeric:tabular-nums;color:var(--ink)}
+.rm-pr{grid-area:pr;font-size:11px;color:var(--muted)}
+.rm-note{margin:10px 0 0}
+.rm-st{font-weight:700;font-size:14px}
+.rm-list a{padding:6px 2px}

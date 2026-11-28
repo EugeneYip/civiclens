@@ -174,6 +174,7 @@ const assert = require("node:assert/strict");
   await ref.locator(".ref-play").first().click();
   assert.ok(/^https:\/\/www\.youtube-nocookie\.com\/embed\/-_5M7gAlFFM/.test(await ref.locator("iframe.video-frame").first().getAttribute("src")),"referendum hearing plays in-site");
   assert.equal(await ref.locator(".ref-question .clause").count(),2,"question keeps each clause together");
+  if(Date.now()>=Date.parse("2026-11-28T16:00:00+08:00")){await page.locator("#results-map svg").waitFor();assert.equal(await page.locator("#results-map path.rm-county").count(),22);assert.equal(await page.locator(".rm-list li").count(),22);assert.ok(await page.locator("#results-map path.rm-county").evaluateAll(ps=>ps.filter(p=>p.style.fill).length)>=20,"counties coloured by leading party");assert.ok((await page.locator(".rm-note").textContent()).includes("不代表當選"))}
   if(Date.now()>=Date.parse("2026-11-28T16:00:00+08:00")){await ref.locator("#ref-live").waitFor({state:"visible"});assert.ok(/已送投票所 [\d,]+／18,248/.test(await ref.locator("#ref-live").innerText()),"official referendum count shown after polls close")}
   assert.ok(await page.evaluate(()=>document.documentElement.classList.contains("phrase")&&document.querySelectorAll("#referendum .ref-reason wbr").length>100),"phrase-aware line breaks applied");
   assert.equal(await page.locator(".source a wbr").count(),0,"nowrap links are not given break points");
@@ -196,7 +197,7 @@ const assert = require("node:assert/strict");
   await page.goto("http://127.0.0.1:8765/?county=02&office=council&district=4&candidate=02-council-4-12",{waitUntil:"networkidle"});
   await page.locator("#person-02-council-4-12").waitFor();
   assert.equal(await page.locator('#person-02-council-4-12 img[src*="/candidate-photos/"]').count(),0);
-  assert.ok(await page.locator('#person-02-council-4-11 img[src*="/candidate-photos/"]').count()>0);
+  {const h=JSON.parse(require("fs").readFileSync(require("path").join(__dirname,"../data/county/02.json"),"utf8")).official.records["02-council-4-11"].photo;await page.locator("#person-02-council-4-11").scrollIntoViewIfNeeded();for(let i=0;i<20&&!requests.some(u=>u.includes(h));i++)await page.waitForTimeout(150);assert.ok(requests.some(u=>u.endsWith("/candidate-photos/"+h+".webp")),"neighbouring candidate's official photo requested")}
   await page.goto("http://127.0.0.1:8765/gazettes.html?county=14&office=council&doc=14-council-1",{waitUntil:"networkidle"});
   await page.locator("#original").waitFor({timeout:10000});
   assert.equal(decodeURIComponent(await page.locator("#original").getAttribute("href")),"https://bulletin.cec.gov.tw/01選舉公報/06縣市議員/115年/14臺東縣/02-臺東市(1、7、14選區).pdf");

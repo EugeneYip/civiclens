@@ -39,3 +39,4 @@
 
 官方原始資料（確認官方公告內容）／本人正式聲明（僅確認其陳述）／第三方來源（注明來源及核實狀態）／方法公開的推估（不得當成事實）。同為官方資料也可能是依法刊登的候選人自述，必須依欄位性質標記。
 - 開票結果：取自中選會計票網站 vote.cec.gov.tw 各選區頁面（首長 TC、議員 T1，原住民選區 T2／T3），由 scripts/adapt_cec_vote.py 轉為正規格式，再經 scripts/build_results_snapshot.py 逐筆比對名冊號次與姓名後寫入 data/results-snapshot.json。有效票為候選人得票合計並核對中選會得票率；未送達之投票所不推估；全部投票所送達且中選會標示當選才列為開票完成。正式當選以中選會審定公告為準。
+- 開票地圖：data/results-map.json 由 scripts/build_results_map.py 自開票快照產生，每縣市僅列中選會票數最高者（同票不列），中選會標示當選前不稱「當選」。縣市界線取自內政部國土測繪中心開放資料（經 taiwan-atlas 2021.9.20 版 TopoJSON），由 scripts/build_map_geometry.py 簡化為 data/taiwan-counties-map.json。

@@ -38,3 +38,32 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
   const p=el('p','small rl-note',note+' ');const a=el('a',null,'中選會原文 ↗');a.href=r.source;a.target='_blank';a.rel='noopener noreferrer';p.append(a);box.append(p);box.hidden=false}
  function load(){if(Date.now()<opening)return;fetch('data/referendum-result.json?t='+Date.now(),{cache:'no-store'}).then(x=>x.ok?x.json():null).then(r=>{if(r&&ok(r))draw(r)}).catch(()=>{})}
  load();setInterval(()=>{if(!document.hidden)load()},120000);})();
+// Home-page county map of mayor/magistrate races (data/results-map.json + data/taiwan-counties-map.json).
+(()=>{const host=document.getElementById('results-map');if(!host)return;const opening=Date.parse('2026-11-28T16:00:00+08:00'),nf=new Intl.NumberFormat('zh-TW'),NS='http://www.w3.org/2000/svg';
+ const PC={'中國國民黨':'#2f5ea8','民主進步黨':'#2e9a5a','台灣民眾黨':'#23a3a6','無':'#7b848b'},OTHER='#9c7f55',col=p=>PC[p]||OTHER,pname=p=>p==='無'?'無推薦政黨':p;
+ const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e},sv=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e};
+ const time=s=>new Date(s).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false,month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+ const okSrc=s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname==='vote.cec.gov.tw'}catch{return false}};
+ function word(c){if(!c.leader)return c.status==='none'?'尚無票數':'同票';return c.status==='final'?'當選':c.status==='all_reported'?'得票最高':'領先'}
+ function draw(geo,m){host.replaceChildren();const rows=m.counties.filter(c=>c.status==='none'||(okSrc(c.source)&&Date.parse(c.published_at)>=opening));
+  const allFinal=rows.length===22&&rows.every(c=>c.status==='final');
+  const head=el('p','rm-head');head.append(el('strong',null,allFinal?'開票完成':'開票中'),document.createTextNode(' 縣市長｜已送投票所 '+nf.format(m.stations.reported)+'／'+nf.format(m.stations.total)+'｜更新 '+time(m.published_at)+' 臺灣時間'));
+  const grid=el('div','rm-grid'),fig=el('figure','rm-map'),svg=sv('svg',{viewBox:geo.viewBox,role:'img','aria-labelledby':'rm-title'});svg.append(Object.assign(sv('title',{id:'rm-title'}),{textContent:'各縣市長目前得票最高者地圖（文字版見右側清單）'}));
+  for(const b of geo.insets){const [x,y,w,h]=b.box;svg.append(sv('rect',{x,y,width:w,height:h,rx:3,class:'rm-inset'}));const t=sv('text',{x:x+4,y:y+10,class:'rm-inset-label'});t.textContent=geo.counties[b.code].name;svg.append(t)}
+  const by=new Map(rows.map(c=>[c.cec,c]));
+  for(const [code,g] of Object.entries(geo.counties)){const c=by.get(code),a=sv('a',{href:c?'results.html?county='+c.code+'&office=chief':'results.html'}),p=sv('path',{d:g.d,class:'rm-county'});
+   if(c&&c.leader){const f=col(c.leader.party);p.style.fill=f;if(c.status==='counting')p.style.fillOpacity='.5';if(['09007','09020','10016'].includes(code)){p.style.stroke=f;p.style.strokeWidth='1.6';p.style.strokeOpacity=c.status==='counting'?'.5':'1'}}
+   const tt=sv('title');tt.textContent=g.name+'：'+(c&&c.leader?c.leader.name+'（'+pname(c.leader.party)+'）'+word(c)+' '+c.leader.share.toFixed(2)+'%':'尚無票數')+(c&&c.stations?.total?'，已送投票所 '+c.stations.reported+'／'+c.stations.total:'');a.append(tt,p);svg.append(a)}
+  fig.append(svg);
+  const counts=new Map();for(const c of rows)if(c.leader){const k=c.leader.party;counts.set(k,(counts.get(k)||0)+1)}
+  const lg=el('ul','rm-legend');for(const [k,n] of [...counts].sort((a,b)=>b[1]-a[1])){const li=el('li');const sw=el('span','rm-sw');sw.style.background=col(k);li.append(sw,document.createTextNode(pname(k)+' '+n));lg.append(li)}
+  const key=el('p','small rm-key','淺色：開票中目前領先；深色：投票所全數送達之得票最高者'+(rows.some(c=>c.status==='final')?'；標示「當選」者為中選會已標示當選':'')+'。');
+  fig.append(lg,key);
+  const list=el('ol','rm-list');for(const c of rows){const li=el('li'),a=el('a');a.href='results.html?county='+c.code+'&office=chief';const nm=el('span','rm-cn',c.name);
+   const who=el('span','rm-who');if(c.leader){const d=el('span','rm-dot');d.style.background=col(c.leader.party);who.append(d,document.createTextNode(c.leader.name));const pt=el('span','rm-party',pname(c.leader.party));who.append(pt)}else who.append(document.createTextNode(word(c)));
+   const st=el('span','rm-st',c.leader?c.leader.share.toFixed(1)+'%':''),pr=el('span','rm-pr',(c.leader?word(c):'')+(c.stations?.total?(c.leader?'・':'')+(c.status==='counting'?'開票 '+Math.floor(c.stations.reported/c.stations.total*100)+'%':'投票所全數送達'):''));a.append(nm,st,who,pr);li.append(a);list.append(li)}
+  grid.append(fig,list);
+  const note=el('p','small rm-note','依中選會計票網站各縣市長得票數；中選會未標示當選前，僅顯示目前得票最高者，不代表當選。當選以中選會公告為準。地圖依內政部國土測繪中心縣市界線（經 taiwan-atlas 轉製）簡化繪製，金門縣、連江縣以插圖表示。');
+  host.append(head,grid,note)}
+ function load(){if(Date.now()<opening)return;Promise.all(['data/taiwan-counties-map.json','data/results-map.json?t='+Date.now()].map(u=>fetch(u,{cache:u.includes('?t=')?'no-store':'default'}).then(r=>r.ok?r.json():Promise.reject()))).then(([g,m])=>{if(Object.keys(g.counties||{}).length===22&&Array.isArray(m.counties)&&m.counties.length===22)draw(g,m)}).catch(()=>{})}
+ load();setInterval(()=>{if(!document.hidden)load()},180000);})();
