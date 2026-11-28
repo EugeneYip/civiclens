@@ -1,4 +1,6 @@
 # 結果資料匯入（V0.1.23）
+
+> 2026-11-28 開票夜實際採用之作法（中選會計票網站 vote.cec.gov.tw 自動匯入、檢核、定時更新與部署）見 [ELECTION_PLAYBOOK.md](ELECTION_PLAYBOOK.md) 第五節；本文以下之人工 CSV 流程（scripts/stage_results.py）保留為備援。
 官方入口：https://www.cec.gov.tw/ 、https://vote.cec.gov.tw/zh-TW/index.html 、https://db.cec.gov.tw/ 、https://data.cec.gov.tw/ 。
 2026 原生資料格式、即時介接及權限未確認；不得假設歷屆網址或將媒體預測列入。
 1. 開票後取得具明確發布時間的官方原件，保存於本機，不將原件中的不必要資料上傳。
