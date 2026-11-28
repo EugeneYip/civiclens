@@ -12,6 +12,7 @@ flags must equal the seat count and the votes must add up to the valid votes.
   "races": [
     {"county": "臺北市", "office": "chief" | "council", "district": null | 1,
      "valid_votes": 1234567 | null,
+     "stations": {"reported": 12, "total": 1790},      # optional: polling stations counted so far
      "candidates": [{"number": 1, "name": "…", "votes": 123, "elected": true | false | null}]}
   ]
 }
@@ -38,7 +39,30 @@ class ResultError(ValueError):
 
 
 def norm(name):
-    return re.sub(r"[‧．·•・･.]", "‧", re.sub(r"\s+", "", name)).replace("台", "臺")
+    return re.sub(r"[‧．·•・･.]", "‧", re.sub(r"\s+", "", name)).replace("台", "臺").replace("黄", "黃")
+
+
+HAN = re.compile(r"[\u3400-\u9fff\uf900-\ufaff]")
+# Reviewed exceptions where CEC systems spell a name differently. Key: (race id, number).
+# 09-council-8 No. 9: the CEC candidate registry and the printed gazette read 洪建興;
+# the CEC vote-count site reads 洪健興. Number, district and gender agree.
+ALIASES = {("09-council-8", 9): ("洪建興", "洪健興")}
+
+
+def same_person(gid, number, roster_name, source_name):
+    """True when a CEC count-page name denotes the roster candidate with that number."""
+    a, b = norm(roster_name), norm(source_name)
+    if a == b:
+        return True
+    if ALIASES.get((gid, number)) == (roster_name, source_name):
+        return True
+    # Indigenous candidates: one source may append the romanized name; the Han part must match
+    # exactly and the remainder must be Latin letters, spaces, dots or apostrophes only.
+    ha, hb = "".join(HAN.findall(a)), "".join(HAN.findall(b))
+    rest = lambda n, h: n[len(h):] if n.startswith(h) else None
+    ra, rb = rest(a, ha), rest(b, hb)
+    latin = re.compile(r"^[A-Za-z‧'’ʼ\-]*$")
+    return bool(ha) and ha == hb and ra is not None and rb is not None and latin.match(ra) and latin.match(rb)
 
 
 def load(name):
@@ -82,13 +106,15 @@ def build_races(doc, groups, codes, now=None):
         rows, seen, total, winners = [], set(), 0, 0
         for v in race["candidates"]:
             c = by_number.get(v["number"])
-            if not c or norm(v["name"]) != norm(c["name"]):
+            if not c or not same_person(gid, v["number"], c["name"], v["name"]):
                 raise ResultError(f"{gid}: number/name {v['number']} {v['name']} not in roster")
             if c["id"] in seen:
                 raise ResultError(f"{gid}: duplicate candidate {c['id']}")
             if not isinstance(v["votes"], int) or isinstance(v["votes"], bool) or v["votes"] < 0:
                 raise ResultError(f"{gid}: invalid votes for {c['id']}")
             row = {"id": c["id"], "name": c["name"], "number": c["number"], "votes": v["votes"]}
+            if (gid, v["number"]) in ALIASES:
+                row["source_name"] = v["name"]  # shown beside the roster name on the results page
             if final:
                 if not isinstance(v.get("elected"), bool):
                     raise ResultError(f"{gid}: final results need an elected flag for {c['id']}")
@@ -102,8 +128,18 @@ def build_races(doc, groups, codes, now=None):
             raise ResultError(f"{gid}: candidate votes exceed valid votes")
         if final and (len(seen) != len(by_number) or winners != g["seats"] or valid != total):
             raise ResultError(f"{gid}: final race incomplete or inconsistent (candidates {len(seen)}/{len(by_number)}, elected {winners}/{g['seats']}, votes {total}/{valid})")
+        st = race.get("stations")
+        if st is not None:
+            rep, tot = st.get("reported"), st.get("total")
+            if not all(isinstance(x, int) and not isinstance(x, bool) and x >= 0 for x in (rep, tot)) or rep > tot or tot == 0:
+                raise ResultError(f"{gid}: invalid station counts {st!r}")
+            if final and rep != tot:
+                raise ResultError(f"{gid}: final race with stations still uncounted ({rep}/{tot})")
+            st = {"reported": rep, "total": tot}
         out[gid] = {"status": doc["status"], "source": doc["source"], "published_at": doc["published_at"],
                     "valid_votes": valid, "candidates": sorted(rows, key=lambda r: r["number"])}
+        if st is not None:
+            out[gid]["stations"] = st
     return out
 
 

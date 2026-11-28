@@ -1,7 +1,7 @@
 "use strict";
 const opening=Date.parse("2026-11-28T16:00:00+08:00");
 const officialHosts=new Set(["www.cec.gov.tw","web.cec.gov.tw","info.cec.gov.tw","db.cec.gov.tw","vote.cec.gov.tw","data.cec.gov.tw"]);
-function resultPhase(now){return now<opening?"投票截止後開放官方開票查詢｜11/28 16:00（臺灣時間）":"已達預定開票時間；請查閱中選會實際發布狀態。"}
+function resultPhase(now){return now<opening?"投票截止後開放官方開票查詢｜11/28 16:00（臺灣時間）":"開票中：票數取自中選會計票網站，正式當選以中選會審定公告為準。"}
 function officialSource(s){try{const u=new URL(s);return u.protocol==="https:"&&officialHosts.has(u.hostname)&&!u.username&&!u.password&&!u.port}catch{return false}}
 function validCount(n){return Number.isSafeInteger(n)&&n>=0}
 function validateRace(r,group,seats,now){
@@ -57,7 +57,7 @@ if(typeof document!=="undefined")(()=>{
   const s=partySeats(groups,data.snapshot.races,seatsFor,data.parties.candidates,Date.now());
   const label=(scope==="all"?"全國":c.name)+"｜"+(role==="chief"?"縣市長":"縣市議員");
   $("party-heading").textContent="政黨提名與當選席次｜"+label;
-  st.textContent=fmt.format(t.candidates)+" 位候選人 · 應選 "+fmt.format(s.seats)+" 席 · "+(s.finalRaces?"已取得正式公告結果 "+s.finalRaces+"／"+s.races+" 場（"+s.finalSeats+" 席）":"尚無正式公告結果，當選席次不推估");
+  st.textContent=fmt.format(t.candidates)+" 位候選人 · 應選 "+fmt.format(s.seats)+" 席 · "+(s.finalRaces?"已開票完成並標示當選 "+s.finalRaces+"／"+s.races+" 場（"+s.finalSeats+" 席）":"尚無開票完成之選區，當選席次不推估");
   const prior=priorSeats(data.history,scope,role,c.code);
   for(const x of t.parties){
    const tr=el("tr"),share=el("td"),bar=el("span",undefined),pct=x.candidates/t.candidates*100,name=partyName(x.party);
@@ -87,12 +87,13 @@ if(typeof document!=="undefined")(()=>{
   summary.textContent=group?group.candidates.length+" 位候選人 · "+seats+" 席（選前名冊）":"尚無本選區候選人名冊";
   rows.replaceChildren();src.hidden=true;src.removeAttribute("href");
   const race=group&&validateRace(data.snapshot.races[group.id],group,seats,Date.now());
-  status.textContent=race?(race.status==="final"?"正式公告結果":"官方開票資料（尚非正式公告）")+"｜"+new Date(race.published_at).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false})+" 臺灣時間":"尚未取得可驗證官方票數；下方僅為選前候選人名冊。";
+  const st=race?.stations,stOk=st&&validCount(st.reported)&&validCount(st.total)&&st.total>0&&st.reported<=st.total;
+  status.textContent=race?(race.status==="final"?"開票完成（中選會計票網站已標示當選；正式當選以審定公告為準）":"開票中（中選會計票網站累計，尚非最終結果）")+"｜"+(stOk?"已送投票所 "+fmt.format(st.reported)+"／"+fmt.format(st.total)+"｜":"")+"更新 "+new Date(race.published_at).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false,month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})+" 臺灣時間":"尚未取得可驗證官方票數；下方僅為選前候選人名冊。";
   if(race){src.hidden=false;src.href=race.source}
   const votes=new Map((race?.candidates||[]).map(x=>[x.id,x]));
   for(const c of group?.candidates||[]){
    const tr=el("tr"),v=votes.get(c.id),name=el("td"),a=el("a",c.name);
-   a.href="./?county="+county.value+"&office="+role+(role==="council"?"&district="+number:"")+"&candidate="+encodeURIComponent(c.id)+"#directory";name.append(a);const pt=data.parties?.candidates?.[c.id]?.[0];if(pt!==undefined){const ps=el("span",partyName(pt));ps.className="party-sub";name.append(ps)}
+   a.href="./?county="+county.value+"&office="+role+(role==="council"?"&district="+number:"")+"&candidate="+encodeURIComponent(c.id)+"#directory";name.append(a);if(v?.source_name&&v.source_name!==c.name){const sn=el("span","計票網站作「"+v.source_name+"」");sn.className="party-sub";name.append(sn)}const pt=data.parties?.candidates?.[c.id]?.[0];if(pt!==undefined){const ps=el("span",partyName(pt));ps.className="party-sub";name.append(ps)}
    const pct=v&&validCount(race.valid_votes)&&race.valid_votes>0?(v.votes/race.valid_votes*100).toFixed(2)+"%":"—";
    tr.append(el("td",String(c.number)),name,el("td",v?fmt.format(v.votes):"—"),el("td",pct),el("td",v&&race.status==="final"?(v.elected?"當選":"未當選"):"—"));if(v&&race.status==="final"&&v.elected)tr.className="elected";rows.append(tr)
   }

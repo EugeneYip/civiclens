@@ -22,6 +22,23 @@ class ResultsSnapshotTests(unittest.TestCase):
             self.assertIn(gid, self.groups)
             self.assertTrue(b.official(r["source"]))
 
+    def test_name_matching_rules(self):
+        self.assertTrue(b.same_person("03-council-12", 4, "黃佳恬", "黄佳恬"))  # variant form of 黃
+        self.assertTrue(b.same_person("08-council-7", 1, "朱仲一", "朱仲一 Kalih．Tahes．Didiyun"))  # romanized name appended
+        self.assertTrue(b.same_person("11-council-7", 1, "周志祥Kacaw‧Kaco", "周志祥 Kacaw Kaco"))
+        self.assertTrue(b.same_person("09-council-8", 9, "洪建興", "洪健興"))  # reviewed alias only
+        self.assertFalse(b.same_person("09-council-8", 8, "洪建興", "洪健興"))  # alias is tied to race and number
+        self.assertFalse(b.same_person("01-chief", 1, "郭璽", "郭玺"))
+        self.assertFalse(b.same_person("01-chief", 1, "朱仲一", "朱仲二 Kalih"))
+
+    def test_station_counts(self):
+        row = [{"number": 1, "name": "王忠銘", "votes": 10, "elected": None}, {"number": 2, "name": "曹爾元", "votes": 20, "elected": None}]
+        d = doc("preliminary", row, 30); d["races"][0]["stations"] = {"reported": 3, "total": 9}
+        self.assertEqual(b.build_races(d, self.groups, self.codes)["22-chief"]["stations"], {"reported": 3, "total": 9})
+        d["races"][0]["stations"] = {"reported": 10, "total": 9}
+        with self.assertRaises(b.ResultError):
+            b.build_races(d, self.groups, self.codes)
+
     def test_final_race_is_strictly_checked(self):
         ok = [{"number": 1, "name": "王忠銘", "votes": 10, "elected": False}, {"number": 2, "name": "曹爾元", "votes": 20, "elected": True}]
         races = b.build_races(doc("final", ok, 30), self.groups, self.codes)

@@ -12,6 +12,18 @@ class ImageAuditTests(unittest.TestCase):
   for k,x in a["records"].items():self.assertEqual(x["url"],inv[k])
   self.assertEqual(len({o["records"][k[9:]]["county"] for k in a["records"] if k.startswith("portrait:") and k[9:] in o["records"]}),22)
  def test_results_snapshot(self):
+  # The published snapshot is produced by scripts/build_results_snapshot.py from the CEC count pages.
   sys.path.insert(0,str(R.parent/"scripts"))
-  from stage_results import maps,validate_snapshot
-  g,s=maps();self.assertTrue(validate_snapshot(load("results-snapshot"),g,s,dt.datetime.now(dt.timezone.utc)))
+  import build_results_snapshot as b
+  groups,codes=b.roster();s=load("results-snapshot")
+  self.assertEqual((s["version"],s["election_date"]),("0.1.22","2026-11-28"))
+  self.assertEqual(s["status"],("final" if s["races"] and all(r["status"]=="final" for r in s["races"].values()) and len(s["races"])==len(groups) else "partial") if s["races"] else "not_published")
+  for k,r in s["races"].items():
+   g=groups[k];by={c["id"]:c for c in g["candidates"]}
+   self.assertTrue(b.official(r["source"]),k);self.assertGreaterEqual(dt.datetime.fromisoformat(r["published_at"]),b.OPENING)
+   total=0
+   for v in r["candidates"]:
+    c=by[v["id"]];self.assertEqual((v["name"],v["number"]),(c["name"],c["number"]));self.assertIs(type(v["votes"]),int);total+=v["votes"]
+    self.assertEqual("elected" in v,r["status"]=="final",k)
+   if r["valid_votes"] is not None:self.assertGreaterEqual(r["valid_votes"],total,k)
+   if "stations" in r:self.assertLessEqual(r["stations"]["reported"],r["stations"]["total"],k)

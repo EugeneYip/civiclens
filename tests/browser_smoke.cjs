@@ -232,7 +232,7 @@ const assert = require("node:assert/strict");
   await page.locator("#result-refresh").click();assert.ok((await page.locator("#result-refresh-status").textContent()).includes("尚未達"))
   assert.ok((await page.locator("#result-rows tr td:nth-child(3)").allTextContents()).every(x=>x==="—"));
   await page.locator("#party-rows tr").first().waitFor();
-  assert.ok((await page.locator("#party-status").textContent()).includes("尚無正式公告結果"));
+  assert.ok((await page.locator("#party-status").textContent()).includes("尚無開票完成之選區"));
   assert.ok((await page.locator("#party-rows tr td:nth-child(4)").allTextContents()).every(x=>x==="—"));
   await page.locator("#party-scope").selectOption("county");await page.locator("#party-office").selectOption("chief");
   assert.ok((await page.locator("#party-heading").textContent()).includes("澎湖縣｜縣市長"));
@@ -243,6 +243,13 @@ const assert = require("node:assert/strict");
   await page.locator("#result-office").selectOption("council");await page.locator("#result-district").selectOption("2");
   assert.ok((await page.locator("#history-status").textContent()).includes("本屆應選"));
   assert.ok((await page.locator("#result-heading").textContent()).includes("第2選區"));
+  await page.clock.setFixedTime(new Date("2026-11-29T12:00:00+08:00"));
+  await page.goto("http://127.0.0.1:8765/results.html?county=01&office=chief",{waitUntil:"networkidle"});
+  await page.locator("#result-rows tr").first().waitFor();
+  const liveStatus=await page.locator("#result-data-status").textContent();
+  assert.ok(/^開票(中|完成)/.test(liveStatus)&&/已送投票所 [\d,]+／1,790/.test(liveStatus),"official count status and station progress shown: "+liveStatus);
+  assert.ok((await page.locator("#result-rows tr td:nth-child(3)").allTextContents()).every(x=>/^[\d,]+$/.test(x)),"every Taipei mayor row has an official count");
+  assert.ok(/^https:\/\/vote\.cec\.gov\.tw\/2026-local\/zh-TW\/TC\/63000000000000000\.html$/.test(await page.locator("#result-source").getAttribute("href")));
   assert.equal(errors.length,0,errors.join("\n"));
     // Election-night rehearsal with a fixture snapshot served by interception (the real file is untouched).
   const rp=await ctx.newPage();await rp.clock.install({time:new Date("2026-11-28T20:00:00+08:00")});
@@ -250,7 +257,7 @@ const assert = require("node:assert/strict");
   rp.on("pageerror",e=>errors.push(String(e)));
   await rp.goto("http://127.0.0.1:8765/results.html?county=22&office=chief",{waitUntil:"networkidle"});
   await rp.locator("#result-rows tr.elected").getByText("66.67%",{exact:true}).waitFor();
-  assert.match(await rp.locator("#result-data-status").textContent(),/正式公告結果/);
+  assert.match(await rp.locator("#result-data-status").textContent(),/^開票完成（中選會計票網站已標示當選；正式當選以審定公告為準）/);
   assert.equal(await rp.locator("#result-rows .party-sub").count(),2);
   await rp.close();
   // Before the polls close the same fixture must be ignored.
