@@ -1,8 +1,8 @@
 {
  "version": "0.1.82",
- "published_at": "2026-11-28T21:10:00+08:00",
+ "published_at": "2026-11-28T21:22:00+08:00",
  "stations": {
-  "reported": 17704,
+  "reported": 17875,
   "total": 18248
  },
  "note": "依中選會計票網站各縣市長得票數；未標示當選前僅顯示目前得票最高者，當選以中選會公告為準。",
@@ -13,25 +13,25 @@
    "name": "臺北市",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/63000000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:22:00+08:00",
    "stations": {
-    "reported": 1771,
+    "reported": 1781,
     "total": 1790
    },
-   "valid": 1436663,
+   "valid": 1445388,
    "leader": {
     "id": "01-chief-5",
     "name": "蔣萬安",
     "party": "中國國民黨",
-    "votes": 772103,
+    "votes": 776736,
     "share": 53.74
    },
    "runner_up": {
     "id": "01-chief-3",
     "name": "沈伯洋",
     "party": "民主進步黨",
-    "votes": 656167,
-    "share": 45.67
+    "votes": 660210,
+    "share": 45.68
    }
   },
   {
@@ -40,25 +40,25 @@
    "name": "新北市",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/65000000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 2676,
+    "reported": 2696,
     "total": 2728
    },
-   "valid": 2134268,
+   "valid": 2154054,
    "leader": {
     "id": "02-chief-3",
     "name": "李四川",
     "party": "中國國民黨",
-    "votes": 1092050,
-    "share": 51.17
+    "votes": 1102854,
+    "share": 51.2
    },
    "runner_up": {
     "id": "02-chief-1",
     "name": "蘇巧慧",
     "party": "民主進步黨",
-    "votes": 1030664,
-    "share": 48.29
+    "votes": 1039552,
+    "share": 48.26
    }
   },
   {
@@ -67,24 +67,24 @@
    "name": "臺中市",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/66000000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 1976,
+    "reported": 1978,
     "total": 1980
    },
-   "valid": 1527658,
+   "valid": 1529799,
    "leader": {
     "id": "03-chief-1",
     "name": "何欣純",
     "party": "民主進步黨",
-    "votes": 774303,
+    "votes": 775397,
     "share": 50.69
    },
    "runner_up": {
     "id": "03-chief-3",
     "name": "江啟臣",
     "party": "中國國民黨",
-    "votes": 739269,
+    "votes": 740303,
     "share": 48.39
    }
   },
@@ -94,24 +94,24 @@
    "name": "臺南市",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/67000000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:22:00+08:00",
    "stations": {
     "reported": 1562,
     "total": 1563
    },
-   "valid": 992360,
+   "valid": 992902,
    "leader": {
     "id": "04-chief-3",
     "name": "陳亭妃",
     "party": "民主進步黨",
-    "votes": 520866,
+    "votes": 521146,
     "share": 52.49
    },
    "runner_up": {
     "id": "04-chief-2",
     "name": "謝龍介",
     "party": "中國國民黨",
-    "votes": 443602,
+    "votes": 443840,
     "share": 44.7
    }
   },
@@ -121,7 +121,7 @@
    "name": "高雄市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/64000000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
     "reported": 2089,
     "total": 2089
@@ -146,27 +146,27 @@
    "code": "06",
    "cec": "68000",
    "name": "桃園市",
-   "status": "counting",
+   "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/68000000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 1474,
+    "reported": 1479,
     "total": 1479
    },
-   "valid": 1158595,
+   "valid": 1162951,
    "leader": {
     "id": "06-chief-2",
     "name": "張善政",
     "party": "中國國民黨",
-    "votes": 644935,
-    "share": 55.67
+    "votes": 647498,
+    "share": 55.68
    },
    "runner_up": {
     "id": "06-chief-1",
     "name": "黃世杰",
     "party": "民主進步黨",
-    "votes": 513660,
-    "share": 44.33
+    "votes": 515453,
+    "share": 44.32
    }
   },
   {
@@ -175,25 +175,25 @@
    "name": "新竹縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10004000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 381,
+    "reported": 398,
     "total": 492
    },
-   "valid": 224092,
+   "valid": 235040,
    "leader": {
     "id": "07-chief-1",
     "name": "鄭朝方",
     "party": "民主進步黨",
-    "votes": 124782,
-    "share": 55.68
+    "votes": 131274,
+    "share": 55.85
    },
    "runner_up": {
     "id": "07-chief-2",
     "name": "徐欣瑩",
     "party": "中國國民黨",
-    "votes": 94278,
-    "share": 42.07
+    "votes": 98460,
+    "share": 41.89
    }
   },
   {
@@ -202,25 +202,25 @@
    "name": "苗栗縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10005000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 486,
+    "reported": 495,
     "total": 508
    },
-   "valid": 269755,
+   "valid": 275487,
    "leader": {
     "id": "08-chief-2",
     "name": "鍾東錦",
     "party": "中國國民黨",
-    "votes": 168225,
-    "share": 62.36
+    "votes": 171757,
+    "share": 62.35
    },
    "runner_up": {
     "id": "08-chief-1",
     "name": "陳品安",
     "party": "民主進步黨",
-    "votes": 101530,
-    "share": 37.64
+    "votes": 103730,
+    "share": 37.65
    }
   },
   {
@@ -229,25 +229,25 @@
    "name": "彰化縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10007000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 961,
+    "reported": 993,
     "total": 1087
    },
-   "valid": 564831,
+   "valid": 586955,
    "leader": {
     "id": "09-chief-1",
     "name": "陳素月",
     "party": "民主進步黨",
-    "votes": 263289,
-    "share": 46.61
+    "votes": 273472,
+    "share": 46.59
    },
    "runner_up": {
     "id": "09-chief-2",
     "name": "魏平政",
     "party": "中國國民黨",
-    "votes": 232825,
-    "share": 41.22
+    "votes": 241448,
+    "share": 41.14
    }
   },
   {
@@ -256,25 +256,25 @@
    "name": "南投縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10008000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 462,
+    "reported": 472,
     "total": 496
    },
-   "valid": 247494,
+   "valid": 254247,
    "leader": {
     "id": "10-chief-1",
     "name": "許淑華",
     "party": "中國國民黨",
-    "votes": 155072,
-    "share": 62.66
+    "votes": 158835,
+    "share": 62.47
    },
    "runner_up": {
     "id": "10-chief-2",
     "name": "温世政",
     "party": "民主進步黨",
-    "votes": 92422,
-    "share": 37.34
+    "votes": 95412,
+    "share": 37.53
    }
   },
   {
@@ -283,25 +283,25 @@
    "name": "雲林縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10009000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:22:00+08:00",
    "stations": {
-    "reported": 599,
+    "reported": 613,
     "total": 638
    },
-   "valid": 332071,
+   "valid": 342792,
    "leader": {
     "id": "11-chief-2",
     "name": "張嘉郡",
     "party": "中國國民黨",
-    "votes": 163739,
-    "share": 49.31
+    "votes": 168914,
+    "share": 49.28
    },
    "runner_up": {
     "id": "11-chief-3",
     "name": "劉建國",
     "party": "民主進步黨",
-    "votes": 162889,
-    "share": 49.05
+    "votes": 168250,
+    "share": 49.08
    }
   },
   {
@@ -310,25 +310,25 @@
    "name": "嘉義縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10010000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 522,
+    "reported": 527,
     "total": 540
    },
-   "valid": 251972,
+   "valid": 256148,
    "leader": {
     "id": "12-chief-2",
     "name": "蔡易餘",
     "party": "民主進步黨",
-    "votes": 141042,
-    "share": 55.98
+    "votes": 143274,
+    "share": 55.93
    },
    "runner_up": {
     "id": "12-chief-1",
     "name": "吳品叡",
     "party": "無",
-    "votes": 110930,
-    "share": 44.02
+    "votes": 112874,
+    "share": 44.07
    }
   },
   {
@@ -337,25 +337,25 @@
    "name": "屏東縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10013000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:22:00+08:00",
    "stations": {
-    "reported": 704,
+    "reported": 723,
     "total": 740
    },
-   "valid": 413437,
+   "valid": 428308,
    "leader": {
     "id": "13-chief-2",
     "name": "周春米",
     "party": "民主進步黨",
-    "votes": 254059,
-    "share": 61.45
+    "votes": 263766,
+    "share": 61.58
    },
    "runner_up": {
     "id": "13-chief-1",
     "name": "蘇清泉",
     "party": "中國國民黨",
-    "votes": 159378,
-    "share": 38.55
+    "votes": 164542,
+    "share": 38.42
    }
   },
   {
@@ -364,25 +364,25 @@
    "name": "臺東縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10014000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 209,
+    "reported": 219,
     "total": 236
    },
-   "valid": 93383,
+   "valid": 100356,
    "leader": {
     "id": "14-chief-4",
     "name": "吳秀華",
     "party": "中國國民黨",
-    "votes": 57428,
-    "share": 61.5
+    "votes": 61643,
+    "share": 61.42
    },
    "runner_up": {
     "id": "14-chief-2",
     "name": "陳瑩",
     "party": "民主進步黨",
-    "votes": 33879,
-    "share": 36.28
+    "votes": 36453,
+    "share": 36.32
    }
   },
   {
@@ -391,25 +391,25 @@
    "name": "花蓮縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10015000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:22:00+08:00",
    "stations": {
-    "reported": 322,
+    "reported": 327,
     "total": 344
    },
-   "valid": 153620,
+   "valid": 156787,
    "leader": {
     "id": "15-chief-3",
     "name": "游淑貞",
     "party": "中國國民黨",
-    "votes": 57861,
-    "share": 37.67
+    "votes": 59022,
+    "share": 37.64
    },
    "runner_up": {
     "id": "15-chief-2",
     "name": "張峻",
     "party": "無",
-    "votes": 57648,
-    "share": 37.53
+    "votes": 58788,
+    "share": 37.5
    }
   },
   {
@@ -418,25 +418,25 @@
    "name": "宜蘭縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10002000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:22:00+08:00",
    "stations": {
-    "reported": 418,
+    "reported": 425,
     "total": 436
    },
-   "valid": 232036,
+   "valid": 237023,
    "leader": {
     "id": "16-chief-1",
     "name": "林國漳",
     "party": "民主進步黨",
-    "votes": 124553,
-    "share": 53.68
+    "votes": 127135,
+    "share": 53.64
    },
    "runner_up": {
     "id": "16-chief-3",
     "name": "吳宗憲",
     "party": "中國國民黨",
-    "votes": 102989,
-    "share": 44.38
+    "votes": 105306,
+    "share": 44.43
    }
   },
   {
@@ -445,25 +445,25 @@
    "name": "澎湖縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10016000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 117,
+    "reported": 118,
     "total": 121
    },
-   "valid": 48904,
+   "valid": 49361,
    "leader": {
     "id": "17-chief-5",
     "name": "陳振中",
     "party": "中國國民黨",
-    "votes": 20496,
-    "share": 41.91
+    "votes": 20710,
+    "share": 41.96
    },
    "runner_up": {
     "id": "17-chief-4",
     "name": "吳淑瑾",
     "party": "民主進步黨",
-    "votes": 15476,
-    "share": 31.65
+    "votes": 15618,
+    "share": 31.64
    }
   },
   {
@@ -472,52 +472,52 @@
    "name": "基隆市",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10017000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 285,
+    "reported": 287,
     "total": 288
    },
-   "valid": 191828,
+   "valid": 194195,
    "leader": {
     "id": "18-chief-3",
     "name": "謝國樑",
     "party": "中國國民黨",
-    "votes": 98369,
-    "share": 51.28
+    "votes": 99568,
+    "share": 51.27
    },
    "runner_up": {
     "id": "18-chief-1",
     "name": "童子瑋",
     "party": "民主進步黨",
-    "votes": 91300,
-    "share": 47.59
+    "votes": 92443,
+    "share": 47.6
    }
   },
   {
    "code": "19",
    "cec": "10018",
    "name": "新竹市",
-   "status": "counting",
+   "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10018000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:22:00+08:00",
    "stations": {
-    "reported": 357,
+    "reported": 359,
     "total": 359
    },
-   "valid": 223322,
+   "valid": 224842,
    "leader": {
     "id": "19-chief-1",
     "name": "高虹安",
     "party": "無",
-    "votes": 128255,
-    "share": 57.43
+    "votes": 129159,
+    "share": 57.44
    },
    "runner_up": {
     "id": "19-chief-3",
     "name": "莊競程",
     "party": "民主進步黨",
-    "votes": 88688,
-    "share": 39.71
+    "votes": 89261,
+    "share": 39.7
    }
   },
   {
@@ -526,7 +526,7 @@
    "name": "嘉義市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10020000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
     "reported": 221,
     "total": 221
@@ -553,7 +553,7 @@
    "name": "金門縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09020000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
     "reported": 101,
     "total": 101
@@ -578,27 +578,27 @@
    "code": "22",
    "cec": "09007",
    "name": "連江縣",
-   "status": "counting",
+   "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09007000000000000.html",
-   "published_at": "2026-11-28T21:10:00+08:00",
+   "published_at": "2026-11-28T21:21:00+08:00",
    "stations": {
-    "reported": 11,
+    "reported": 12,
     "total": 12
    },
-   "valid": 6906,
+   "valid": 7705,
    "leader": {
     "id": "22-chief-1",
     "name": "王忠銘",
     "party": "中國國民黨",
-    "votes": 4040,
-    "share": 58.5
+    "votes": 4494,
+    "share": 58.33
    },
    "runner_up": {
     "id": "22-chief-2",
     "name": "曹爾元",
     "party": "無",
-    "votes": 2866,
-    "share": 41.5
+    "votes": 3211,
+    "share": 41.67
    }
   }
  ]
