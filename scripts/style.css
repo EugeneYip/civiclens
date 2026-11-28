@@ -192,4 +192,4 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .rl-q{margin:4px 0 8px;font-size:14px;line-height:1.55;color:var(--ink)}
 .rm-title{margin-bottom:4px}
 .ref-tolive{margin:0 0 10px;font-size:14px}
-#results .ref-live{margin-bottom:12px}
+#results .ref-live{margin:12px 0 0}

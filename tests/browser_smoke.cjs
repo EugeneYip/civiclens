@@ -245,6 +245,8 @@ const assert = require("node:assert/strict");
   await page.locator("#result-office").selectOption("council");await page.locator("#result-district").selectOption("2");
   assert.ok((await page.locator("#history-status").textContent()).includes("本屆應選"));
   assert.ok((await page.locator("#result-heading").textContent()).includes("第2選區"));
+  await page.locator("#council-map svg").waitFor();assert.equal(await page.locator("#council-map a.cm-d").count(),6,"Penghu council map draws its 6 districts");
+  await page.locator("#council-map a.cm-d").nth(3).click();assert.ok((await page.locator("#result-heading").textContent()).includes("第4選區"),"tapping a district selects it");
   await page.clock.setFixedTime(new Date("2026-11-29T12:00:00+08:00"));
   await page.goto("http://127.0.0.1:8765/results.html?county=01&office=chief",{waitUntil:"networkidle"});
   await page.locator("#result-rows tr").first().waitFor();

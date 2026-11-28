@@ -79,6 +79,24 @@ if(typeof document!=="undefined")(()=>{
    st.textContent="111年議員選舉（含"+x.types.join("、")+"選區）｜"+x.districts+" 個選區、"+fmt.format(x.candidates)+" 位候選人、"+x.seats+" 席；本屆應選 "+data.districts.counties.find(d=>d.code===c.code).seats+" 席，選區劃分可能不同。";
    for(const v of x.parties){const tr=el("tr");tr.append(el("td",partyName(v.party)),el("td",fmt.format(v.candidates)),el("td",fmt.format(v.votes)),el("td",fmt.format(v.seats)));body.append(tr)}}
  }
+ const PC={"中國國民黨":"#2f5ea8","民主進步黨":"#2e9a5a","台灣民眾黨":"#23a3a6","無":"#7b848b"},partyCol=p=>PC[p]||"#9c7f55",NS="http://www.w3.org/2000/svg";
+ const sv=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e};let cmIndex=null;const cmCache={};
+ async function councilMap(c,number){const box=$("council-map");if(office.value!=="council"){box.hidden=true;return}
+  try{cmIndex=cmIndex||await fetch("data/council-maps/index.json").then(r=>r.ok?r.json():Promise.reject());const cec=cmIndex.counties[c.name];if(!cec)throw 0;
+   const m=cmCache[cec]||(cmCache[cec]=await fetch("data/council-maps/"+cec+".json").then(r=>r.ok?r.json():Promise.reject()));
+   if(county.value!==c.code||office.value!=="council")return;drawCouncil(box,m,c,Number(district.value))}catch{box.hidden=true}}
+ function districtWinners(c,n){const g=data.groups.find(x=>x.county===c.code&&x.office==="council"&&x.number===n);if(!g)return null;const seats=data.districts.counties.find(x=>x.code===c.code)?.districts.find(d=>d.number===n)?.seats;const r=validateRace(data.snapshot.races[g.id],g,seats,Date.now());if(!r||r.status!=="final")return null;return r.candidates.filter(v=>v.elected).map(v=>data.parties?.candidates?.[v.id]?.[0]??"待核")}
+ function drawCouncil(box,m,c,sel){box.replaceChildren();const pick=n=>{district.value=String(n);render()};
+  const svg=sv("svg",{viewBox:m.viewBox,role:"group","aria-label":c.name+"議員選區地圖"});if(m.base)svg.append(sv("path",{d:m.base,class:"cm-base"}));
+  let anyFinal=false;const used=new Map();
+  for(const [n,x] of Object.entries(m.districts)){const num=Number(n),win=districtWinners(c,num),a=sv("a",{href:"?county="+c.code+"&office=council&district="+n,class:"cm-d"+(num===sel?" cm-sel":"")});
+   const p=sv("path",{d:x.d});if(win){anyFinal=true;const cnt=new Map();for(const w of win)cnt.set(w,(cnt.get(w)||0)+1);const top=[...cnt].sort((a,b)=>b[1]-a[1]);if(top.length&&(top.length===1||top[0][1]>top[1][1])){p.style.fill=partyCol(top[0][0]);used.set(top[0][0],1)}else p.style.fill="#b9c1c4"}
+   const scope=data.districts.counties.find(y=>y.code===c.code)?.districts.find(d=>d.number===num);const t=sv("title");t.textContent="第"+n+"選區"+(scope?"｜"+scope.scope+"｜應選 "+scope.seats+" 席":"");a.append(t,p);a.addEventListener("click",e=>{e.preventDefault();pick(num)});svg.append(a)}
+  svg.append(sv("path",{d:m.towns,class:"cm-towns"}),sv("path",{d:m.borders,class:"cm-borders"}));
+  for(const [n,x] of Object.entries(m.districts)){const t=sv("text",{x:x.label[0],y:x.label[1]+4,class:"cm-label"+(Number(n)===sel?" cm-label-sel":"")});t.textContent=n;svg.append(t)}
+  const fig=el("figure");fig.className="cm-fig";fig.append(svg);
+  if(m.indigenous.length){const lab=el("p","原住民選區（不依地理劃分）");lab.className="cm-chips-label";fig.append(lab);const row=el("div");row.className="cm-chips";for(const d of m.indigenous){const b=el("button","第"+d.number+"選區・"+(d.scope.includes("山地")?"山地":"平地"));b.type="button";b.title=d.scope+"（應選 "+d.seats+" 席）";b.className="cm-chip"+(d.number===sel?" cm-chip-sel":"");b.setAttribute("aria-pressed",String(d.number===sel));b.addEventListener("click",()=>pick(d.number));row.append(b)}fig.append(row)}
+  const cap=el("figcaption",(anyFinal?"已標示當選之選區依當選人最多之政黨上色；":"中選會尚未標示議員當選，選區暫不依政黨上色；")+"點選選區可切換。選區組成依中選會公告，底圖為內政部國土測繪中心界線（經 taiwan-atlas 轉製）"+(m.omitted.length?"；"+m.omitted.join("、")+"未繪出":"")+"。");fig.append(cap);box.append(fig);box.hidden=false}
  function render(){
   const c=data.election.counties.find(x=>x.code===county.value),role=office.value,number=Number(district.value);
   const group=data.groups.find(g=>g.county===c.code&&g.office===role&&(role==="chief"||g.number===number));
@@ -99,7 +117,7 @@ if(typeof document!=="undefined")(()=>{
    const pct=v&&validCount(race.valid_votes)&&race.valid_votes>0?(v.votes/race.valid_votes*100).toFixed(2)+"%":"—";
    tr.append(el("td",String(c.number)),name,el("td",v?fmt.format(v.votes):"—"),el("td",pct),el("td",v&&race.status==="final"?(v.elected?"當選":"未當選"):"—"));if(v&&race.status==="final"&&v.elected)tr.className="elected";rows.append(tr)
   }
-  const u=new URL(location.href);u.searchParams.set("county",county.value);u.searchParams.set("office",role);if(role==="council")u.searchParams.set("district",district.value);else u.searchParams.delete("district");history.replaceState(null,"",u.pathname+u.search+u.hash);renderParty();renderHistory(c,role)
+  const u=new URL(location.href);u.searchParams.set("county",county.value);u.searchParams.set("office",role);if(role==="council")u.searchParams.set("district",district.value);else u.searchParams.delete("district");history.replaceState(null,"",u.pathname+u.search+u.hash);renderParty();renderHistory(c,role);councilMap(c,number)
  }
  const load=async (p,fresh=false)=>{const r=await fetch("data/"+p+".json",fresh?{cache:"no-cache"}:{});if(!r.ok)throw Error(p);return r.json()};
  Promise.all([load("election"),load("council-districts"),load("published-roster"),load("national-roster-supplement"),load("results-snapshot").catch(()=>({version:"0.1.22",races:{}})),load("party-summary").catch(()=>null),load("historical-results-2022").catch(()=>null)]).then(([e,d,a,b,s,p,h])=>{

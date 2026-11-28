@@ -88,6 +88,8 @@ def main(path):
             if area(r) < max(0.6, big * 0.002) and area(r) != big:
                 continue  # drop specks; keep every county's largest piece
             r = simplify(r, 0.35)
+            if len(r) >= 3 and sum(x1 * y2 - x2 * y1 for (x1, y1), (x2, y2) in zip(r, r[1:] + r[:1])) < 0:
+                r = r[::-1]  # consistent winding
             if len(r) >= 3:
                 parts.append("M" + "L".join("%.1f %.1f" % pt for pt in r) + "Z")
         cx = sum(x for x, _ in max(pr, key=area)) / len(max(pr, key=area))

@@ -17,6 +17,18 @@ class ResultsMapTests(unittest.TestCase):
             self.assertRegex(code, r"^\d{5}$")
             self.assertTrue(c["d"].startswith("M") and c["d"].endswith("Z"), c["name"])
 
+    def test_council_maps_cover_every_district(self):
+        idx = load("council-maps/index.json")["counties"]
+        self.assertEqual(len(idx), 22)
+        for c in load("council-districts.json")["counties"]:
+            m = load("council-maps/%s.json" % idx[c["name"]])
+            regular = {str(d["number"]) for d in c["districts"] if "原住民" not in d["scope"]}
+            indig = [d["number"] for d in c["districts"] if "原住民" in d["scope"]]
+            self.assertEqual(set(m["districts"]), regular, c["name"])
+            self.assertEqual([d["number"] for d in m["indigenous"]], indig, c["name"])
+            for n, d in m["districts"].items():
+                self.assertTrue(d["d"].startswith("M"), (c["name"], n))
+
     def test_leaders_follow_official_counts(self):
         m, snap, parties = load("results-map.json"), load("results-snapshot.json"), load("party-summary.json")["candidates"]
         names = {c["code"]: c["name"] for c in load("election.json")["counties"]}
