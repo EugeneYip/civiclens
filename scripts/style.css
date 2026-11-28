@@ -167,7 +167,7 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 @media(min-width:760px){.rm-grid{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start}}
 .rm-map{margin:0}
 .rm-map svg{display:block;width:100%;max-width:420px;max-height:62vh;margin:0 auto}
-.rm-county{fill:#dfe5e3;stroke:#fff;stroke-width:.7;transition:opacity .15s}
+.rm-county{fill:#dfe5e3;fill-rule:evenodd;stroke:#fff;stroke-width:1.1;stroke-linejoin:round;transition:opacity .15s}
 .rm-map a:hover .rm-county,.rm-map a:focus .rm-county{opacity:.8;stroke:#1f2b31;stroke-width:1.2}
 .rm-inset{fill:none;stroke:#b9c4c1;stroke-width:.7}
 .rm-inset-label{font-size:8px;fill:var(--muted)}

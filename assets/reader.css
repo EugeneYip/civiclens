@@ -24,8 +24,8 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .council-map[hidden]{display:none}
 .cm-fig{margin:0}
 .cm-fig svg{display:block;width:100%;max-width:380px;max-height:44vh;margin:0 auto}
-.cm-base{fill:#e3e6e5}
-.cm-d path{fill:#e2e8e6;stroke:none;cursor:pointer;transition:fill .15s}
+.cm-base{fill:#e3e6e5;fill-rule:evenodd}
+.cm-d path{fill:#e2e8e6;fill-rule:evenodd;stroke:none;cursor:pointer;transition:fill .15s}
 .cm-d:hover path,.cm-d:focus path{fill:#c9d6d2}
 .cm-d.cm-sel path{fill:#3f6773}
 .cm-towns{fill:none;stroke:#fff;stroke-width:.5;pointer-events:none}

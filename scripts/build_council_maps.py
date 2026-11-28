@@ -115,10 +115,11 @@ def main(towns_path, villages_path):
             assign[i] = num
         # rings per feature (list of polygons -> outer ring arc lists)
         polys = []  # (feature index, [arc indices])
+        hole_rings = []  # (feature index, arc list) — kept so an enclosed township/village is not painted over
         for i, g in enumerate(feats):
             ps = g["arcs"] if g["type"] == "MultiPolygon" else [g["arcs"]]
             for poly in ps:
-                polys.append((i, poly[0]))
+                polys.append((i, poly[0])); hole_rings += [(i, h) for h in poly[1:]]
         arcs = src["arcs"]
         ring_pts = lambda idx: [pt for k, a in enumerate(idx) for pt in ((arcs[a] if a >= 0 else arcs[~a][::-1])[(1 if k else 0):])]
         # outlying-island filter on raw lon/lat
@@ -169,6 +170,18 @@ def main(towns_path, villages_path):
             a = area(pts)
             if a > best.get(num, (0,))[0]:
                 best[num] = (a, (round(sum(x for x, _ in pts) / len(pts), 1), round(sum(y for _, y in pts) / len(pts), 1)))
+        kept_f = {i for i, _ in keep}
+        for i, h in hole_rings:
+            if i not in kept_f:
+                continue
+            for a in h:
+                k = a if a >= 0 else ~a
+                if k not in simp:
+                    simp[k] = dp([proj(p) for p in arcs[k]], tol); used.append(k)
+                arc_d[k].add(assign[i]); arc_f[k].add(i)
+            pts = ring_d(h)
+            if len(pts) >= 3:
+                dpaths[assign[i]].append("M" + "L".join("%g %g" % p for p in pts) + "Z")
         border = [k for k in used if len(arc_d[k]) > 1 or len(arc_f[k]) == 1]
         inner = [k for k in used if len(arc_d[k]) == 1 and len(arc_f[k]) > 1]
         line = lambda ks: "".join("M" + "L".join("%g %g" % p for p in simp[k]) for k in ks if len(simp[k]) > 1)

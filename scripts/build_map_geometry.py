@@ -73,7 +73,8 @@ def main(path):
     for g in topo["objects"]["counties"]["geometries"]:
         p = g["properties"]; code = p["COUNTYCODE"]; name = p["COUNTYNAME"].replace("台", "臺")
         polys = g["arcs"] if g["type"] == "MultiPolygon" else [g["arcs"]]
-        rings = [ring(poly[0]) for poly in polys]  # outer rings only; counties have no relevant holes
+        rings = [ring(poly[0]) for poly in polys]
+        holes = [ring(h) for poly in polys for h in poly[1:]]  # e.g. 新北市 around 臺北市, 嘉義縣 around 嘉義市
         if code in INSETS:
             a0, b0, a1, b1 = INSETS[code]; bx, by, bw, bh = inset_boxes[code]
             k = min(bw / ((a1 - a0) * KX), bh / (b1 - b0)) * 0.9
@@ -92,9 +93,14 @@ def main(path):
                 r = r[::-1]  # consistent winding
             if len(r) >= 3:
                 parts.append("M" + "L".join("%.1f %.1f" % pt for pt in r) + "Z")
+        for h in holes:  # drawn with fill-rule evenodd, so holes stay empty and the enclave shows
+            h = simplify([f(x, y) for x, y in h], 0.35)
+            if len(h) >= 3:
+                parts.append("M" + "L".join("%.1f %.1f" % pt for pt in h) + "Z")
         cx = sum(x for x, _ in max(pr, key=area)) / len(max(pr, key=area))
         cy = sum(y for _, y in max(pr, key=area)) / len(max(pr, key=area))
-        counties[code] = {"name": name, "d": "".join(parts), "c": [round(cx, 1), round(cy, 1)]}
+        counties[code] = {"name": name, "d": "".join(parts), "c": [round(cx, 1), round(cy, 1)], "_a": big}
+    counties = {k: {x: y for x, y in v.items() if x != "_a"} for k, v in sorted(counties.items(), key=lambda kv: -kv[1]["_a"])}  # small (enclosed) counties last
     if len(counties) != 22:
         raise SystemExit("expected 22 counties, got %d" % len(counties))
     out = {"version": "0.1.82", "source": SRC, "sha256": hashlib.sha256(raw).hexdigest(),
