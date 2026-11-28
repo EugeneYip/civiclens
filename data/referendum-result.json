@@ -2,18 +2,18 @@
  "version": "0.1.79",
  "case": 22,
  "source": "https://vote.cec.gov.tw/2026-ref/zh-TW/F1/00000000000000000.html",
- "published_at": "2026-11-28T19:35:00+08:00",
+ "published_at": "2026-11-28T19:47:00+08:00",
  "status": "counting",
  "stations": {
-  "reported": 12507,
+  "reported": 13749,
   "total": 18248
  },
- "agree": 4858427,
- "disagree": 3056446,
- "valid": 7914873,
- "invalid": 372161,
- "ballots": 8287034,
- "electorate_reported": 13245940,
+ "agree": 5414339,
+ "disagree": 3388771,
+ "valid": 8803110,
+ "invalid": 412859,
+ "ballots": 9215969,
+ "electorate_reported": 14718883,
  "electorate": 20003835,
  "votes_needed": 5000959
 }
