@@ -7,7 +7,7 @@
   "01-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/63000000000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 1454408,
    "candidates": [
     {
@@ -55,7 +55,7 @@
   "01-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/63000010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 293650,
    "candidates": [
     {
@@ -187,7 +187,7 @@
   "01-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/63000020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 224476,
    "candidates": [
     {
@@ -277,7 +277,7 @@
   "01-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/63000030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 228782,
    "candidates": [
     {
@@ -367,7 +367,7 @@
   "01-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/63000040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 193188,
    "candidates": [
     {
@@ -463,7 +463,7 @@
   "01-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/63000050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 181074,
    "candidates": [
     {
@@ -559,7 +559,7 @@
   "01-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/63000060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 307395,
    "candidates": [
     {
@@ -679,7 +679,7 @@
   "01-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/63000070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 4945,
    "candidates": [
     {
@@ -703,7 +703,7 @@
   "01-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/63000080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 3755,
    "candidates": [
     {
@@ -733,7 +733,7 @@
   "02-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/65000000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 2188018,
    "candidates": [
     {
@@ -763,7 +763,7 @@
   "02-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 148488,
    "candidates": [
     {
@@ -805,7 +805,7 @@
   "02-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000100000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 26162,
    "candidates": [
     {
@@ -823,7 +823,7 @@
   "02-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000110000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 134055,
    "candidates": [
     {
@@ -889,7 +889,7 @@
   "02-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/65000120000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 14975,
    "candidates": [
     {
@@ -943,7 +943,7 @@
   "02-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/65000130000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 7977,
    "candidates": [
     {
@@ -991,7 +991,7 @@
   "02-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 154460,
    "candidates": [
     {
@@ -1045,7 +1045,7 @@
   "02-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 219403,
    "candidates": [
     {
@@ -1129,7 +1129,7 @@
   "02-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 308797,
    "candidates": [
     {
@@ -1243,7 +1243,7 @@
   "02-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 296663,
    "candidates": [
     {
@@ -1327,7 +1327,7 @@
   "02-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 226522,
    "candidates": [
     {
@@ -1393,7 +1393,7 @@
   "02-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000070000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 115016,
    "candidates": [
     {
@@ -1435,7 +1435,7 @@
   "02-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 319361,
    "candidates": [
     {
@@ -1519,7 +1519,7 @@
   "02-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/65000090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 191459,
    "candidates": [
     {
@@ -1585,7 +1585,7 @@
   "03-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/66000000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 1531654,
    "candidates": [
     {
@@ -1615,7 +1615,7 @@
   "03-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 66276,
    "candidates": [
     {
@@ -1651,7 +1651,7 @@
   "03-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 66179,
    "candidates": [
     {
@@ -1687,7 +1687,7 @@
   "03-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000110000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 110842,
    "candidates": [
     {
@@ -1747,7 +1747,7 @@
   "03-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000120000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 102845,
    "candidates": [
     {
@@ -1801,7 +1801,7 @@
   "03-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000130000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 146586,
    "candidates": [
     {
@@ -1867,7 +1867,7 @@
   "03-council-14": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000140000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 50015,
    "candidates": [
     {
@@ -1891,7 +1891,7 @@
   "03-council-15": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/66000150000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 5630,
    "candidates": [
     {
@@ -1915,7 +1915,7 @@
   "03-council-16": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/66000160000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4645,
    "candidates": [
     {
@@ -1939,7 +1939,7 @@
   "03-council-17": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/66000170000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4894,
    "candidates": [
     {
@@ -1975,7 +1975,7 @@
   "03-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000020000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 133745,
    "candidates": [
     {
@@ -2029,7 +2029,7 @@
   "03-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 112139,
    "candidates": [
     {
@@ -2071,7 +2071,7 @@
   "03-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 116834,
    "candidates": [
     {
@@ -2137,7 +2137,7 @@
   "03-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 139933,
    "candidates": [
     {
@@ -2209,7 +2209,7 @@
   "03-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 119689,
    "candidates": [
     {
@@ -2257,7 +2257,7 @@
   "03-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 95596,
    "candidates": [
     {
@@ -2299,7 +2299,7 @@
   "03-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 162779,
    "candidates": [
     {
@@ -2389,7 +2389,7 @@
   "03-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/66000090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 74206,
    "candidates": [
     {
@@ -2425,7 +2425,7 @@
   "04-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/67000000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 993441,
    "candidates": [
     {
@@ -2461,7 +2461,7 @@
   "04-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 98857,
    "candidates": [
     {
@@ -2521,7 +2521,7 @@
   "04-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 92073,
    "candidates": [
     {
@@ -2575,7 +2575,7 @@
   "04-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000110000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 100782,
    "candidates": [
     {
@@ -2641,7 +2641,7 @@
   "04-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/67000120000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 1898,
    "candidates": [
     {
@@ -2665,7 +2665,7 @@
   "04-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/67000130000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2192,
    "candidates": [
     {
@@ -2689,7 +2689,7 @@
   "04-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 84235,
    "candidates": [
     {
@@ -2737,7 +2737,7 @@
   "04-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 62730,
    "candidates": [
     {
@@ -2773,7 +2773,7 @@
   "04-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 19102,
    "candidates": [
     {
@@ -2797,7 +2797,7 @@
   "04-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 91344,
    "candidates": [
     {
@@ -2851,7 +2851,7 @@
   "04-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 107737,
    "candidates": [
     {
@@ -2917,7 +2917,7 @@
   "04-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 120706,
    "candidates": [
     {
@@ -2995,7 +2995,7 @@
   "04-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 102912,
    "candidates": [
     {
@@ -3073,7 +3073,7 @@
   "04-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/67000090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 102708,
    "candidates": [
     {
@@ -3139,7 +3139,7 @@
   "05-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/64000000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 1464871,
    "candidates": [
     {
@@ -3181,7 +3181,7 @@
   "05-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 62581,
    "candidates": [
     {
@@ -3223,7 +3223,7 @@
   "05-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000100000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 175128,
    "candidates": [
     {
@@ -3313,7 +3313,7 @@
   "05-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000110000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 96092,
    "candidates": [
     {
@@ -3361,7 +3361,7 @@
   "05-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/64000120000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 5916,
    "candidates": [
     {
@@ -3391,7 +3391,7 @@
   "05-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/64000130000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 3848,
    "candidates": [
     {
@@ -3415,7 +3415,7 @@
   "05-council-14": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/64000140000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3484,
    "candidates": [
     {
@@ -3445,7 +3445,7 @@
   "05-council-15": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/64000150000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4350,
    "candidates": [
     {
@@ -3469,7 +3469,7 @@
   "05-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 76885,
    "candidates": [
     {
@@ -3511,7 +3511,7 @@
   "05-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 133871,
    "candidates": [
     {
@@ -3571,7 +3571,7 @@
   "05-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 198043,
    "candidates": [
     {
@@ -3655,7 +3655,7 @@
   "05-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 117001,
    "candidates": [
     {
@@ -3709,7 +3709,7 @@
   "05-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000060000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 94449,
    "candidates": [
     {
@@ -3745,7 +3745,7 @@
   "05-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 173523,
    "candidates": [
     {
@@ -3829,7 +3829,7 @@
   "05-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 127169,
    "candidates": [
     {
@@ -3895,7 +3895,7 @@
   "05-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/64000090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 183259,
    "candidates": [
     {
@@ -3967,7 +3967,7 @@
   "06-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/68000000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 1162951,
    "candidates": [
     {
@@ -3991,7 +3991,7 @@
   "06-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 231880,
    "candidates": [
     {
@@ -4117,7 +4117,7 @@
   "06-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 60287,
    "candidates": [
     {
@@ -4159,7 +4159,7 @@
   "06-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000110000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 27095,
    "candidates": [
     {
@@ -4183,7 +4183,7 @@
   "06-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000120000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 37278,
    "candidates": [
     {
@@ -4213,7 +4213,7 @@
   "06-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/68000130000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 15298,
    "candidates": [
     {
@@ -4261,7 +4261,7 @@
   "06-council-14": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/68000140000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 14657,
    "candidates": [
     {
@@ -4321,7 +4321,7 @@
   "06-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 88204,
    "candidates": [
     {
@@ -4387,7 +4387,7 @@
   "06-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 101463,
    "candidates": [
     {
@@ -4447,7 +4447,7 @@
   "06-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 82458,
    "candidates": [
     {
@@ -4495,7 +4495,7 @@
   "06-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 41218,
    "candidates": [
     {
@@ -4525,7 +4525,7 @@
   "06-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 46840,
    "candidates": [
     {
@@ -4567,7 +4567,7 @@
   "06-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000070000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 209813,
    "candidates": [
     {
@@ -4681,7 +4681,7 @@
   "06-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 108883,
    "candidates": [
     {
@@ -4753,7 +4753,7 @@
   "06-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/68000090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 86715,
    "candidates": [
     {
@@ -4807,37 +4807,37 @@
   "07-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10004000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
-   "valid_votes": 301784,
+   "published_at": "2026-11-28T23:58:00+08:00",
+   "valid_votes": 303372,
    "candidates": [
     {
      "id": "07-chief-1",
      "name": "鄭朝方",
      "number": 1,
-     "votes": 172829
+     "votes": 173924
     },
     {
      "id": "07-chief-2",
      "name": "徐欣瑩",
      "number": 2,
-     "votes": 122119
+     "votes": 122576
     },
     {
      "id": "07-chief-3",
      "name": "朱定瑀",
      "number": 3,
-     "votes": 6836
+     "votes": 6872
     }
    ],
    "stations": {
-    "reported": 489,
+    "reported": 491,
     "total": 492
    }
   },
   "07-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 33454,
    "candidates": [
     {
@@ -4885,7 +4885,7 @@
   "07-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 7807,
    "candidates": [
     {
@@ -4909,7 +4909,7 @@
   "07-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004110000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 8187,
    "candidates": [
     {
@@ -4933,7 +4933,7 @@
   "07-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10004120000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 1283,
    "candidates": [
     {
@@ -4950,14 +4950,14 @@
     }
    ],
    "stations": {
-    "reported": 489,
+    "reported": 491,
     "total": 492
    }
   },
   "07-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10004130000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 5619,
    "candidates": [
     {
@@ -4999,7 +4999,7 @@
   "07-council-14": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10004140000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 3761,
    "candidates": [
     {
@@ -5029,7 +5029,7 @@
   "07-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004020000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 70088,
    "candidates": [
     {
@@ -5125,7 +5125,7 @@
   "07-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 41405,
    "candidates": [
     {
@@ -5203,7 +5203,7 @@
   "07-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 29639,
    "candidates": [
     {
@@ -5251,7 +5251,7 @@
   "07-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 15494,
    "candidates": [
     {
@@ -5281,7 +5281,7 @@
   "07-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 19051,
    "candidates": [
     {
@@ -5311,7 +5311,7 @@
   "07-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 7315,
    "candidates": [
     {
@@ -5329,7 +5329,7 @@
   "07-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 9436,
    "candidates": [
     {
@@ -5347,7 +5347,7 @@
   "07-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10004090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 46493,
    "candidates": [
     {
@@ -5413,7 +5413,7 @@
   "08-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10005000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 284378,
    "candidates": [
     {
@@ -5437,7 +5437,7 @@
   "08-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10005010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 65573,
    "candidates": [
     {
@@ -5539,7 +5539,7 @@
   "08-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10005020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 21178,
    "candidates": [
     {
@@ -5569,7 +5569,7 @@
   "08-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10005030000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 41938,
    "candidates": [
     {
@@ -5623,7 +5623,7 @@
   "08-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10005040000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 68862,
    "candidates": [
     {
@@ -5707,7 +5707,7 @@
   "08-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10005050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 59500,
    "candidates": [
     {
@@ -5791,7 +5791,7 @@
   "08-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10005060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 19342,
    "candidates": [
     {
@@ -5821,7 +5821,7 @@
   "08-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10005070000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 2095,
    "candidates": [
     {
@@ -5845,7 +5845,7 @@
   "08-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10005080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3881,
    "candidates": [
     {
@@ -5869,7 +5869,7 @@
   "09-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10007000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 650833,
    "candidates": [
     {
@@ -5905,7 +5905,7 @@
   "09-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 148803,
    "candidates": [
     {
@@ -6007,7 +6007,7 @@
   "09-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10007100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 1534,
    "candidates": [
     {
@@ -6067,7 +6067,7 @@
   "09-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 87336,
    "candidates": [
     {
@@ -6133,7 +6133,7 @@
   "09-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 72190,
    "candidates": [
     {
@@ -6205,7 +6205,7 @@
   "09-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007040000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 105362,
    "candidates": [
     {
@@ -6295,7 +6295,7 @@
   "09-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 64205,
    "candidates": [
     {
@@ -6343,7 +6343,7 @@
   "09-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 51780,
    "candidates": [
     {
@@ -6391,7 +6391,7 @@
   "09-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007070000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 61535,
    "candidates": [
     {
@@ -6451,7 +6451,7 @@
   "09-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10007080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 57357,
    "candidates": [
     {
@@ -6518,7 +6518,7 @@
   "09-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10007090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 1273,
    "candidates": [
     {
@@ -6542,7 +6542,7 @@
   "10-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10008000000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 271863,
    "candidates": [
     {
@@ -6566,7 +6566,7 @@
   "10-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10008010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 75219,
    "candidates": [
     {
@@ -6680,7 +6680,7 @@
   "10-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10008020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 62750,
    "candidates": [
     {
@@ -6770,7 +6770,7 @@
   "10-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10008030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 27849,
    "candidates": [
     {
@@ -6818,7 +6818,7 @@
   "10-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10008040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 38375,
    "candidates": [
     {
@@ -6884,7 +6884,7 @@
   "10-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10008050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 51377,
    "candidates": [
     {
@@ -6956,7 +6956,7 @@
   "10-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10008060000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 958,
    "candidates": [
     {
@@ -6980,7 +6980,7 @@
   "10-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10008070000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 5584,
    "candidates": [
     {
@@ -7010,7 +7010,7 @@
   "10-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10008080000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 8212,
    "candidates": [
     {
@@ -7028,7 +7028,7 @@
   "11-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10009000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 362473,
    "candidates": [
     {
@@ -7064,7 +7064,7 @@
   "11-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10009010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 84120,
    "candidates": [
     {
@@ -7184,7 +7184,7 @@
   "11-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10009020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 51377,
    "candidates": [
     {
@@ -7250,7 +7250,7 @@
   "11-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10009030000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 73260,
    "candidates": [
     {
@@ -7328,7 +7328,7 @@
   "11-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10009040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 50698,
    "candidates": [
     {
@@ -7400,7 +7400,7 @@
   "11-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10009050000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 54463,
    "candidates": [
     {
@@ -7472,7 +7472,7 @@
   "11-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10009060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 45987,
    "candidates": [
     {
@@ -7526,7 +7526,7 @@
   "11-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10009070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 679,
    "candidates": [
     {
@@ -7556,7 +7556,7 @@
   "11-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10009080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 703,
    "candidates": [
     {
@@ -7592,7 +7592,7 @@
   "12-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10010000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 266783,
    "candidates": [
     {
@@ -7616,7 +7616,7 @@
   "12-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10010010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 54772,
    "candidates": [
     {
@@ -7682,7 +7682,7 @@
   "12-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10010020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 55210,
    "candidates": [
     {
@@ -7778,7 +7778,7 @@
   "12-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10010030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 34858,
    "candidates": [
     {
@@ -7832,7 +7832,7 @@
   "12-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10010040000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 47565,
    "candidates": [
     {
@@ -7892,7 +7892,7 @@
   "12-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10010050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 23567,
    "candidates": [
     {
@@ -7928,7 +7928,7 @@
   "12-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10010060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 48919,
    "candidates": [
     {
@@ -7994,7 +7994,7 @@
   "12-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10010070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 2118,
    "candidates": [
     {
@@ -8012,7 +8012,7 @@
   "13-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10013000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 440972,
    "candidates": [
     {
@@ -8036,7 +8036,7 @@
   "13-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10013010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 96311,
    "candidates": [
     {
@@ -8168,7 +8168,7 @@
   "13-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 7006,
    "candidates": [
     {
@@ -8192,7 +8192,7 @@
   "13-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013110000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3994,
    "candidates": [
     {
@@ -8216,7 +8216,7 @@
   "13-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013120000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 5981,
    "candidates": [
     {
@@ -8246,7 +8246,7 @@
   "13-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013130000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 3212,
    "candidates": [
     {
@@ -8270,7 +8270,7 @@
   "13-council-14": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013140000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3165,
    "candidates": [
     {
@@ -8300,7 +8300,7 @@
   "13-council-15": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013150000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 3509,
    "candidates": [
     {
@@ -8336,7 +8336,7 @@
   "13-council-16": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013160000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2260,
    "candidates": [
     {
@@ -8360,7 +8360,7 @@
   "13-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10013020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 77298,
    "candidates": [
     {
@@ -8438,7 +8438,7 @@
   "13-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10013030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 91799,
    "candidates": [
     {
@@ -8534,7 +8534,7 @@
   "13-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10013040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 73240,
    "candidates": [
     {
@@ -8606,7 +8606,7 @@
   "13-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10013050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 33727,
    "candidates": [
     {
@@ -8648,7 +8648,7 @@
   "13-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10013060000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 24527,
    "candidates": [
     {
@@ -8684,7 +8684,7 @@
   "13-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10013070000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 7307,
    "candidates": [
     {
@@ -8708,7 +8708,7 @@
   "13-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10013080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 2488,
    "candidates": [
     {
@@ -8726,7 +8726,7 @@
   "13-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10013090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 5233,
    "candidates": [
     {
@@ -8750,7 +8750,7 @@
   "14-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10014000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 112213,
    "candidates": [
     {
@@ -8786,7 +8786,7 @@
   "14-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10014010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 43728,
    "candidates": [
     {
@@ -8900,7 +8900,7 @@
   "14-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10014100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 2703,
    "candidates": [
     {
@@ -8918,7 +8918,7 @@
   "14-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10014110000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 7490,
    "candidates": [
     {
@@ -8948,7 +8948,7 @@
   "14-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10014120000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2327,
    "candidates": [
     {
@@ -8972,7 +8972,7 @@
   "14-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10014130000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2414,
    "candidates": [
     {
@@ -9008,7 +9008,7 @@
   "14-council-14": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10014140000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3568,
    "candidates": [
     {
@@ -9032,7 +9032,7 @@
   "14-council-15": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10014150000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2436,
    "candidates": [
     {
@@ -9056,7 +9056,7 @@
   "14-council-16": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10014160000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 1787,
    "candidates": [
     {
@@ -9086,7 +9086,7 @@
   "14-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10014020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 5852,
    "candidates": [
     {
@@ -9110,7 +9110,7 @@
   "14-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10014030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 6616,
    "candidates": [
     {
@@ -9140,7 +9140,7 @@
   "14-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10014040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 8128,
    "candidates": [
     {
@@ -9164,7 +9164,7 @@
   "14-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10014050000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4484,
    "candidates": [
     {
@@ -9188,7 +9188,7 @@
   "14-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10014060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2363,
    "candidates": [
     {
@@ -9212,7 +9212,7 @@
   "14-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10014070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 9074,
    "candidates": [
     {
@@ -9266,7 +9266,7 @@
   "14-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10014080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3200,
    "candidates": [
     {
@@ -9290,7 +9290,7 @@
   "14-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10014090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4582,
    "candidates": [
     {
@@ -9314,7 +9314,7 @@
   "15-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10015000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 167302,
    "candidates": [
     {
@@ -9350,7 +9350,7 @@
   "15-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10015010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 43029,
    "candidates": [
     {
@@ -9452,7 +9452,7 @@
   "15-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10015100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3405,
    "candidates": [
     {
@@ -9476,7 +9476,7 @@
   "15-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10015020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 8649,
    "candidates": [
     {
@@ -9500,7 +9500,7 @@
   "15-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10015030000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 51005,
    "candidates": [
     {
@@ -9596,7 +9596,7 @@
   "15-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10015040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 14951,
    "candidates": [
     {
@@ -9638,7 +9638,7 @@
   "15-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10015050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 12206,
    "candidates": [
     {
@@ -9680,7 +9680,7 @@
   "15-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10015060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 9502,
    "candidates": [
     {
@@ -9716,7 +9716,7 @@
   "15-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10015070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 5745,
    "candidates": [
     {
@@ -9746,7 +9746,7 @@
   "15-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10015080000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 11901,
    "candidates": [
     {
@@ -9776,7 +9776,7 @@
   "15-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10015090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 3786,
    "candidates": [
     {
@@ -9800,7 +9800,7 @@
   "16-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10002000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 245288,
    "candidates": [
     {
@@ -9842,7 +9842,7 @@
   "16-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 47926,
    "candidates": [
     {
@@ -9944,7 +9944,7 @@
   "16-council-10": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002100000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 19923,
    "candidates": [
     {
@@ -9974,7 +9974,7 @@
   "16-council-11": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10002110000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 1239,
    "candidates": [
     {
@@ -9992,7 +9992,7 @@
   "16-council-12": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10002120000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4124,
    "candidates": [
     {
@@ -10016,7 +10016,7 @@
   "16-council-13": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10002130000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4223,
    "candidates": [
     {
@@ -10040,7 +10040,7 @@
   "16-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 16172,
    "candidates": [
     {
@@ -10070,7 +10070,7 @@
   "16-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 19966,
    "candidates": [
     {
@@ -10112,7 +10112,7 @@
   "16-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 17926,
    "candidates": [
     {
@@ -10142,7 +10142,7 @@
   "16-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 14430,
    "candidates": [
     {
@@ -10178,7 +10178,7 @@
   "16-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002060000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 33798,
    "candidates": [
     {
@@ -10238,7 +10238,7 @@
   "16-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 22103,
    "candidates": [
     {
@@ -10274,7 +10274,7 @@
   "16-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002080000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 27753,
    "candidates": [
     {
@@ -10310,7 +10310,7 @@
   "16-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10002090000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 12729,
    "candidates": [
     {
@@ -10352,7 +10352,7 @@
   "17-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10016000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 51688,
    "candidates": [
     {
@@ -10400,7 +10400,7 @@
   "17-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10016010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 29191,
    "candidates": [
     {
@@ -10526,7 +10526,7 @@
   "17-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10016020000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 8038,
    "candidates": [
     {
@@ -10568,7 +10568,7 @@
   "17-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10016030000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 5388,
    "candidates": [
     {
@@ -10604,7 +10604,7 @@
   "17-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10016040000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 4193,
    "candidates": [
     {
@@ -10634,7 +10634,7 @@
   "17-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10016050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2405,
    "candidates": [
     {
@@ -10658,7 +10658,7 @@
   "17-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10016060000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 2190,
    "candidates": [
     {
@@ -10688,7 +10688,7 @@
   "18-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10017000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 194905,
    "candidates": [
     {
@@ -10718,7 +10718,7 @@
   "18-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10017010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 25446,
    "candidates": [
     {
@@ -10778,7 +10778,7 @@
   "18-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10017020000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 28650,
    "candidates": [
     {
@@ -10844,7 +10844,7 @@
   "18-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10017030000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 20530,
    "candidates": [
     {
@@ -10880,7 +10880,7 @@
   "18-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10017040000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 24951,
    "candidates": [
     {
@@ -10946,7 +10946,7 @@
   "18-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10017050000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 42283,
    "candidates": [
     {
@@ -11030,7 +11030,7 @@
   "18-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10017060000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 20141,
    "candidates": [
     {
@@ -11072,7 +11072,7 @@
   "18-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10017070000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 26983,
    "candidates": [
     {
@@ -11120,7 +11120,7 @@
   "18-council-8": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10017080000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 3575,
    "candidates": [
     {
@@ -11144,7 +11144,7 @@
   "18-council-9": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10017090000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 724,
    "candidates": [
     {
@@ -11180,7 +11180,7 @@
   "19-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10018000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 224842,
    "candidates": [
     {
@@ -11210,7 +11210,7 @@
   "19-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10018010000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 76796,
    "candidates": [
     {
@@ -11336,7 +11336,7 @@
   "19-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10018020000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 25889,
    "candidates": [
     {
@@ -11384,7 +11384,7 @@
   "19-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10018030000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 16625,
    "candidates": [
     {
@@ -11414,7 +11414,7 @@
   "19-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10018040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 60823,
    "candidates": [
     {
@@ -11504,7 +11504,7 @@
   "19-council-5": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10018050000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 40420,
    "candidates": [
     {
@@ -11564,7 +11564,7 @@
   "19-council-6": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T2/10018060000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 840,
    "candidates": [
     {
@@ -11588,7 +11588,7 @@
   "19-council-7": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T3/10018070000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 1002,
    "candidates": [
     {
@@ -11630,7 +11630,7 @@
   "20-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10020000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 131034,
    "candidates": [
     {
@@ -11672,7 +11672,7 @@
   "20-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10020010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 58475,
    "candidates": [
     {
@@ -11780,7 +11780,7 @@
   "20-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/10020020000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 72301,
    "candidates": [
     {
@@ -11918,7 +11918,7 @@
   "21-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09020000000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 45277,
    "candidates": [
     {
@@ -11972,7 +11972,7 @@
   "21-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/09020010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 24523,
    "candidates": [
     {
@@ -12098,7 +12098,7 @@
   "21-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/09020020000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 17007,
    "candidates": [
     {
@@ -12176,7 +12176,7 @@
   "21-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/09020030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4138,
    "candidates": [
     {
@@ -12212,7 +12212,7 @@
   "22-chief": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09007000000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 7705,
    "candidates": [
     {
@@ -12236,7 +12236,7 @@
   "22-council-1": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/09007010000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 4217,
    "candidates": [
     {
@@ -12290,7 +12290,7 @@
   "22-council-2": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/09007020000000000.html",
-   "published_at": "2026-11-28T23:47:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 1632,
    "candidates": [
     {
@@ -12320,7 +12320,7 @@
   "22-council-3": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/09007030000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:59:00+08:00",
    "valid_votes": 1059,
    "candidates": [
     {
@@ -12344,7 +12344,7 @@
   "22-council-4": {
    "status": "preliminary",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/T1/09007040000000000.html",
-   "published_at": "2026-11-28T23:46:00+08:00",
+   "published_at": "2026-11-28T23:58:00+08:00",
    "valid_votes": 883,
    "candidates": [
     {
