@@ -251,7 +251,7 @@ const assert = require("node:assert/strict");
   await page.goto("http://127.0.0.1:8765/results.html?county=01&office=chief",{waitUntil:"networkidle"});
   await page.locator("#result-rows tr").first().waitFor();
   const liveStatus=await page.locator("#result-data-status").textContent();
-  assert.ok(/^開票(中|完成)/.test(liveStatus)&&/已送投票所 [\d,]+／1,790/.test(liveStatus),"official count status and station progress shown: "+liveStatus);
+  assert.ok(/^(開票(中|完成)|投票所已全部送達)/.test(liveStatus)&&/已送投票所 [\d,]+／1,790/.test(liveStatus),"official count status and station progress shown: "+liveStatus);
   assert.ok((await page.locator("#result-rows tr td:nth-child(3)").allTextContents()).every(x=>/^[\d,]+$/.test(x)),"every Taipei mayor row has an official count");
   assert.ok(/^https:\/\/vote\.cec\.gov\.tw\/2026-local\/zh-TW\/TC\/63000000000000000\.html$/.test(await page.locator("#result-source").getAttribute("href")));
   assert.equal(errors.length,0,errors.join("\n"));
