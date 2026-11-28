@@ -41,3 +41,4 @@
 - 開票結果：取自中選會計票網站 vote.cec.gov.tw 各選區頁面（首長 TC、議員 T1，原住民選區 T2／T3），由 scripts/adapt_cec_vote.py 轉為正規格式，再經 scripts/build_results_snapshot.py 逐筆比對名冊號次與姓名後寫入 data/results-snapshot.json。有效票為候選人得票合計並核對中選會得票率；未送達之投票所不推估；全部投票所送達且中選會標示當選才列為開票完成。正式當選以中選會審定公告為準。
 - 開票地圖：data/results-map.json 由 scripts/build_results_map.py 自開票快照產生，每縣市僅列中選會票數最高者（同票不列），中選會標示當選前不稱「當選」。縣市界線取自內政部國土測繪中心開放資料（經 taiwan-atlas 2021.9.20 版 TopoJSON），由 scripts/build_map_geometry.py 簡化為 data/taiwan-counties-map.json。
 - 議員選區地圖：data/council-maps/ 由 scripts/build_council_maps.py 依 data/council-districts.json（中選會公告之選區組成）將鄉鎮市區（新竹縣竹北市、新竹市為村里）界線合併為選區；每一一般選區皆須有圖形、每一圖形皆須屬於某選區，否則建置失敗。原住民選區不依地理劃分，不繪製。當選人以中選會標示為準，不依得票排序推定。
+- 當選標示：中選會計票網站於全部投票所送達後（2026-11-29 00:21）以「註記」欄標示當選（◎當選、●婦女應當選、-排擠、?同票待抽籤、＜未達最低當選票數），本站逐筆讀取；當選人數須等於應選名額，否則不列為開票完成。中選會標示前，僅於全部投票所送達時依公職人員選舉罷免法婦女保障規定顯示「預計當選」（首長及一般選區）；原住民選區之婦女保障名額為全縣合併計算，不逐區推估。

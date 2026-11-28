@@ -254,6 +254,10 @@ const assert = require("node:assert/strict");
   assert.ok(/^(開票(中|完成)|投票所已全部送達)/.test(liveStatus)&&/已送投票所 [\d,]+／1,790/.test(liveStatus),"official count status and station progress shown: "+liveStatus);
   assert.ok((await page.locator("#result-rows tr td:nth-child(3)").allTextContents()).every(x=>/^[\d,]+$/.test(x)),"every Taipei mayor row has an official count");
   assert.ok(/^https:\/\/vote\.cec\.gov\.tw\/2026-local\/zh-TW\/TC\/63000000000000000\.html$/.test(await page.locator("#result-source").getAttribute("href")));
+  await page.goto("http://127.0.0.1:8765/results.html?county=11&office=council&district=1",{waitUntil:"networkidle"});await page.locator("#result-rows tr").first().waitFor();
+  assert.ok((await page.locator("#result-rows tr",{hasText:"廖郁賢"}).textContent()).includes("當選（婦女保障）"),"CEC women's reserved seat mark shown");
+  assert.ok((await page.locator("#result-rows tr",{hasText:"邱世文"}).textContent()).includes("未當選（婦女保障名額排擠）"),"CEC displacement mark shown");
+  await page.locator("#council-map .cm-legend").waitFor();
   assert.equal(errors.length,0,errors.join("\n"));
     // Election-night rehearsal with a fixture snapshot served by interception (the real file is untouched).
   const rp=await ctx.newPage();await rp.clock.install({time:new Date("2026-11-28T20:00:00+08:00")});

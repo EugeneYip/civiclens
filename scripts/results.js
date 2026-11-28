@@ -90,13 +90,15 @@ if(typeof document!=="undefined")(()=>{
   const svg=sv("svg",{viewBox:m.viewBox,role:"group","aria-label":c.name+"議員選區地圖"});if(m.base)svg.append(sv("path",{d:m.base,class:"cm-base"}));
   let anyFinal=false;const used=new Map();
   for(const [n,x] of Object.entries(m.districts)){const num=Number(n),win=districtWinners(c,num),a=sv("a",{href:"?county="+c.code+"&office=council&district="+n,class:"cm-d"+(num===sel?" cm-sel":"")});
-   const p=sv("path",{d:x.d});if(win){anyFinal=true;const cnt=new Map();for(const w of win)cnt.set(w,(cnt.get(w)||0)+1);const top=[...cnt].sort((a,b)=>b[1]-a[1]);if(top.length&&(top.length===1||top[0][1]>top[1][1])){p.style.fill=partyCol(top[0][0]);used.set(top[0][0],1)}else p.style.fill="#b9c1c4"}
+   const p=sv("path",{d:x.d});if(win){anyFinal=true;const cnt=new Map();for(const w of win)cnt.set(w,(cnt.get(w)||0)+1);const top=[...cnt].sort((a,b)=>b[1]-a[1]);if(top.length&&(top.length===1||top[0][1]>top[1][1])){p.style.fill=partyCol(top[0][0]);used.set(top[0][0],1)}else{p.style.fill="#d9dee0";p.classList.add("cm-tie");used.set("__tie",1)}}
    const scope=data.districts.counties.find(y=>y.code===c.code)?.districts.find(d=>d.number===num);const t=sv("title");t.textContent="第"+n+"選區"+(scope?"｜"+scope.scope+"｜應選 "+scope.seats+" 席":"");a.append(t,p);a.addEventListener("click",e=>{e.preventDefault();pick(num)});svg.append(a)}
   svg.append(sv("path",{d:m.towns,class:"cm-towns"}),sv("path",{d:m.borders,class:"cm-borders"}));
+  if(m.districts[String(sel)])svg.append(sv("path",{d:m.districts[String(sel)].d,class:"cm-sel-outline"}));
   for(const [n,x] of Object.entries(m.districts)){const t=sv("text",{x:x.label[0],y:x.label[1]+4,class:"cm-label"+(Number(n)===sel?" cm-label-sel":"")});t.textContent=n;svg.append(t)}
   const fig=el("figure");fig.className="cm-fig";fig.append(svg);
+  if(used.size){const lg=el("ul");lg.className="cm-legend";for(const k of [...used.keys()].sort((a,b)=>a==="__tie"?1:b==="__tie"?-1:0)){const li=el("li"),sw=el("span");sw.className="cm-sw"+(k==="__tie"?" cm-sw-tie":"");if(k!=="__tie")sw.style.background=partyCol(k);li.append(sw,document.createTextNode(k==="__tie"?"當選人最多之政黨同數":partyName(k)));lg.append(li)}const sl=el("li"),so=el("span");so.className="cm-sw cm-sw-sel";sl.append(so,document.createTextNode("所選選區"));lg.append(sl);fig.append(lg)}
   if(m.indigenous.length){const lab=el("p","原住民選區（不依地理劃分）");lab.className="cm-chips-label";fig.append(lab);const row=el("div");row.className="cm-chips";for(const d of m.indigenous){const b=el("button","第"+d.number+"選區・"+(d.scope.includes("山地")?"山地":"平地"));b.type="button";b.title=d.scope+"（應選 "+d.seats+" 席）";b.className="cm-chip"+(d.number===sel?" cm-chip-sel":"");b.setAttribute("aria-pressed",String(d.number===sel));b.addEventListener("click",()=>pick(d.number));row.append(b)}fig.append(row)}
-  const cap=el("figcaption",(anyFinal?"已標示當選之選區依當選人最多之政黨上色；":"中選會尚未標示議員當選，選區暫不依政黨上色；")+"點選選區可切換。選區組成依中選會公告，底圖為內政部國土測繪中心界線（經 taiwan-atlas 轉製）"+(m.omitted.length?"；"+m.omitted.join("、")+"未繪出":"")+"。");fig.append(cap);box.append(fig);box.hidden=false}
+  const cap=el("figcaption",(anyFinal?"各選區依中選會標示之當選人中人數最多之政黨上色（多黨同數以淺灰表示）；":"中選會尚未標示議員當選，選區暫不依政黨上色；")+"點選選區可切換。選區組成依中選會公告，底圖為內政部國土測繪中心界線（經 taiwan-atlas 轉製）"+(m.omitted.length?"；"+m.omitted.join("、")+"未繪出":"")+"。");fig.append(cap);box.append(fig);box.hidden=false}
  function render(){
   const c=data.election.counties.find(x=>x.code===county.value),role=office.value,number=Number(district.value);
   const group=data.groups.find(g=>g.county===c.code&&g.office===role&&(role==="chief"||g.number===number));
@@ -107,7 +109,7 @@ if(typeof document!=="undefined")(()=>{
   const race=group&&validateRace(data.snapshot.races[group.id],group,seats,Date.now());
   const st=race?.stations,stOk=st&&validCount(st.reported)&&validCount(st.total)&&st.total>0&&st.reported<=st.total;
   const allIn=stOk&&st.reported===st.total;
-  status.textContent=race?(race.status==="final"?"開票完成（中選會計票網站已標示當選；正式當選以審定公告為準）":allIn?"投票所已全部送達（中選會尚未標示當選；本站不自行判定，當選以中選會公告為準）":"開票中（中選會計票網站累計，尚非最終結果）")+"｜"+(stOk?"已送投票所 "+fmt.format(st.reported)+"／"+fmt.format(st.total)+"｜":"")+"更新 "+new Date(race.published_at).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false,month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})+" 臺灣時間":"尚未取得可驗證官方票數；下方僅為選前候選人名冊。";
+  status.textContent=race?(race.status==="final"?"開票完成（中選會計票網站已標示當選；正式當選以審定公告為準）":allIn?(Array.isArray(race.projected)?"投票所已全部送達（依開票結果預計當選；中選會尚未標示，正式當選以中選會公告為準）":"投票所已全部送達（中選會尚未標示當選，正式當選以中選會公告為準）"):"開票中（中選會計票網站累計，尚非最終結果）")+"｜"+(stOk?"已送投票所 "+fmt.format(st.reported)+"／"+fmt.format(st.total)+"｜":"")+"更新 "+new Date(race.published_at).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false,month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})+" 臺灣時間":"尚未取得可驗證官方票數；下方僅為選前候選人名冊。";
   if(race){src.hidden=false;src.href=race.source}
   const votes=new Map((race?.candidates||[]).map(x=>[x.id,x]));
   const order=race?[...(group?.candidates||[])].sort((a,b)=>(votes.get(b.id)?.votes??-1)-(votes.get(a.id)?.votes??-1)||a.number-b.number):(group?.candidates||[]);
@@ -115,7 +117,7 @@ if(typeof document!=="undefined")(()=>{
    const tr=el("tr"),v=votes.get(c.id),name=el("td"),a=el("a",c.name);
    a.href="./?county="+county.value+"&office="+role+(role==="council"?"&district="+number:"")+"&candidate="+encodeURIComponent(c.id)+"#directory";name.append(a);if(v?.source_name&&v.source_name!==c.name){const sn=el("span","計票網站作「"+v.source_name+"」");sn.className="party-sub";name.append(sn)}const pt=data.parties?.candidates?.[c.id]?.[0];if(pt!==undefined){const ps=el("span",partyName(pt));ps.className="party-sub";name.append(ps)}
    const pct=v&&validCount(race.valid_votes)&&race.valid_votes>0?(v.votes/race.valid_votes*100).toFixed(2)+"%":"—";
-   tr.append(el("td",String(c.number)),name,el("td",v?fmt.format(v.votes):"—"),el("td",pct),el("td",v&&race.status==="final"?(v.elected?"當選":"未當選"):"—"));if(v&&race.status==="final"&&v.elected)tr.className="elected";rows.append(tr)
+   tr.append(el("td",String(c.number)),name,el("td",v?fmt.format(v.votes):"—"),el("td",pct),el("td",v&&race.status==="final"?(v.elected?(v.mark==="●"?"當選（婦女保障）":"當選"):(v.mark==="-"?"未當選（婦女保障名額排擠）":v.mark==="＜"?"未當選（未達最低當選票數）":"未當選")):v&&Array.isArray(race.projected)&&race.projected.includes(c.id)?"預計當選":"—"));if(v&&race.status==="final"&&v.elected)tr.className="elected";else if(v&&race.status!=="final"&&Array.isArray(race.projected)&&race.projected.includes(c.id))tr.className="projected";rows.append(tr)
   }
   const u=new URL(location.href);u.searchParams.set("county",county.value);u.searchParams.set("office",role);if(role==="council")u.searchParams.set("district",district.value);else u.searchParams.delete("district");history.replaceState(null,"",u.pathname+u.search+u.hash);renderParty();renderHistory(c,role);councilMap(c,number)
  }

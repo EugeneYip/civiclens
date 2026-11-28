@@ -1,6 +1,6 @@
 {
  "version": "0.1.82",
- "published_at": "2026-11-29T00:10:00+08:00",
+ "published_at": "2026-11-29T00:21:00+08:00",
  "stations": {
   "reported": 18248,
   "total": 18248
@@ -11,9 +11,9 @@
    "code": "01",
    "cec": "63000",
    "name": "臺北市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/63000000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 1790,
     "total": 1790
@@ -38,9 +38,9 @@
    "code": "02",
    "cec": "65000",
    "name": "新北市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/65000000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 2728,
     "total": 2728
@@ -65,9 +65,9 @@
    "code": "03",
    "cec": "66000",
    "name": "臺中市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/66000000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 1980,
     "total": 1980
@@ -92,9 +92,9 @@
    "code": "04",
    "cec": "67000",
    "name": "臺南市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/67000000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 1563,
     "total": 1563
@@ -119,9 +119,9 @@
    "code": "05",
    "cec": "64000",
    "name": "高雄市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/64000000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 2089,
     "total": 2089
@@ -146,9 +146,9 @@
    "code": "06",
    "cec": "68000",
    "name": "桃園市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/68000000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 1479,
     "total": 1479
@@ -173,9 +173,9 @@
    "code": "07",
    "cec": "10004",
    "name": "新竹縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10004000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 492,
     "total": 492
@@ -200,9 +200,9 @@
    "code": "08",
    "cec": "10005",
    "name": "苗栗縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10005000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 508,
     "total": 508
@@ -227,9 +227,9 @@
    "code": "09",
    "cec": "10007",
    "name": "彰化縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10007000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 1087,
     "total": 1087
@@ -254,9 +254,9 @@
    "code": "10",
    "cec": "10008",
    "name": "南投縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10008000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 496,
     "total": 496
@@ -281,9 +281,9 @@
    "code": "11",
    "cec": "10009",
    "name": "雲林縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10009000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 638,
     "total": 638
@@ -308,9 +308,9 @@
    "code": "12",
    "cec": "10010",
    "name": "嘉義縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10010000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 540,
     "total": 540
@@ -335,9 +335,9 @@
    "code": "13",
    "cec": "10013",
    "name": "屏東縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10013000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 740,
     "total": 740
@@ -362,9 +362,9 @@
    "code": "14",
    "cec": "10014",
    "name": "臺東縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10014000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 236,
     "total": 236
@@ -389,9 +389,9 @@
    "code": "15",
    "cec": "10015",
    "name": "花蓮縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10015000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 344,
     "total": 344
@@ -416,9 +416,9 @@
    "code": "16",
    "cec": "10002",
    "name": "宜蘭縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10002000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 436,
     "total": 436
@@ -443,9 +443,9 @@
    "code": "17",
    "cec": "10016",
    "name": "澎湖縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10016000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 121,
     "total": 121
@@ -470,9 +470,9 @@
    "code": "18",
    "cec": "10017",
    "name": "基隆市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10017000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 288,
     "total": 288
@@ -497,9 +497,9 @@
    "code": "19",
    "cec": "10018",
    "name": "新竹市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10018000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 359,
     "total": 359
@@ -524,9 +524,9 @@
    "code": "20",
    "cec": "10020",
    "name": "嘉義市",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10020000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 221,
     "total": 221
@@ -551,9 +551,9 @@
    "code": "21",
    "cec": "09020",
    "name": "金門縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09020000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 101,
     "total": 101
@@ -578,9 +578,9 @@
    "code": "22",
    "cec": "09007",
    "name": "連江縣",
-   "status": "all_reported",
+   "status": "final",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09007000000000000.html",
-   "published_at": "2026-11-29T00:10:00+08:00",
+   "published_at": "2026-11-29T00:21:00+08:00",
    "stations": {
     "reported": 12,
     "total": 12

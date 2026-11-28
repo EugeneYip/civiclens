@@ -80,6 +80,34 @@ def official(url):
     return u.scheme == "https" and u.hostname in OFFICIAL_HOSTS and not u.username and not u.password and not u.port
 
 
+def project(rows, seats, women_reserved):
+    """Projected winners from COMPLETE counts (every station reported), applying the women's
+    reserved seats rule of the Civil Servants Election and Recall Act art. 68: the top `seats`
+    by votes win; if fewer than `women_reserved` of them are women, the women with the most votes
+    among the rest replace the lowest-ranked men. Returns (sorted ids, None) or (None, reason)
+    when a tie at any cutoff makes the outcome depend on the statutory lot (抽籤).
+    rows: [{"id", "votes", "gender"}]."""
+    if seats < 1 or not rows:
+        return None, "no seats"
+    ranked = sorted(rows, key=lambda r: -r["votes"])
+    if len(ranked) > seats and ranked[seats - 1]["votes"] == ranked[seats]["votes"]:
+        return None, "tie at the seat cutoff"
+    win = ranked[:seats]
+    short = women_reserved - sum(r["gender"] == "女" for r in win)
+    if short > 0:
+        outside = [r for r in ranked[seats:] if r["gender"] == "女"]
+        take = outside[:short]
+        if len(outside) > short and short > 0 and outside[short - 1]["votes"] == outside[short]["votes"]:
+            return None, "tie among women for a reserved seat"
+        men = [r for r in win if r["gender"] != "女"]
+        drop = men[len(men) - len(take):] if take else []
+        if take and len(men) > len(take) and men[len(men) - len(take) - 1]["votes"] == drop[0]["votes"]:
+            return None, "tie among men displaced by a reserved seat"
+        ids = {r["id"] for r in drop}
+        win = [r for r in win if r["id"] not in ids] + take
+    return sorted(r["id"] for r in win), None
+
+
 def build_races(doc, groups, codes, now=None):
     if doc.get("status") not in ("preliminary", "final"):
         raise ResultError("status must be preliminary or final")
@@ -103,7 +131,9 @@ def build_races(doc, groups, codes, now=None):
         if gid in out:
             raise ResultError("duplicate race " + gid)
         by_number = {c["number"]: c for c in g["candidates"]}
-        rows, seen, total, winners = [], set(), 0, 0
+        rows, seen, total, winners, gender_of = [], set(), 0, 0, {}
+        if race.get("seats_cec") is not None and race["seats_cec"] != g["seats"]:
+            raise ResultError(f"{gid}: CEC seat count {race['seats_cec']} differs from roster {g['seats']}")
         for v in race["candidates"]:
             c = by_number.get(v["number"])
             if not c or not same_person(gid, v["number"], c["name"], v["name"]):
@@ -112,6 +142,9 @@ def build_races(doc, groups, codes, now=None):
                 raise ResultError(f"{gid}: duplicate candidate {c['id']}")
             if not isinstance(v["votes"], int) or isinstance(v["votes"], bool) or v["votes"] < 0:
                 raise ResultError(f"{gid}: invalid votes for {c['id']}")
+            if v.get("gender") not in (None, "男", "女"):
+                raise ResultError(f"{gid}: unexpected gender {v.get('gender')!r}")
+            gender_of[c["id"]] = v.get("gender")
             row = {"id": c["id"], "name": c["name"], "number": c["number"], "votes": v["votes"]}
             if (gid, v["number"]) in ALIASES:
                 row["source_name"] = v["name"]  # shown beside the roster name on the results page
@@ -120,6 +153,11 @@ def build_races(doc, groups, codes, now=None):
                     raise ResultError(f"{gid}: final results need an elected flag for {c['id']}")
                 row["elected"] = v["elected"]
                 winners += v["elected"]
+                if v.get("mark") is not None:  # CEC 註記: ● = elected on a women's reserved seat, - = displaced by one
+                    if v["mark"] not in ("◎", "●", "-", "＜") or (v["mark"] in ("◎", "●")) != v["elected"]:
+                        raise ResultError(f"{gid}: inconsistent CEC mark {v['mark']!r} for {c['id']}")
+                    if v["mark"] in ("●", "-", "＜"):
+                        row["mark"] = v["mark"]
             elif v.get("elected") is not None:
                 raise ResultError(f"{gid}: preliminary results must not mark winners")
             seen.add(c["id"]); total += v["votes"]; rows.append(row)
@@ -140,6 +178,17 @@ def build_races(doc, groups, codes, now=None):
                     "valid_votes": valid, "candidates": sorted(rows, key=lambda r: r["number"])}
         if st is not None:
             out[gid]["stations"] = st
+        # Projected winners ("預計當選") only from complete counts, while the CEC has not marked winners.
+        # Not for indigenous districts: their women's reserved seats are pooled across all of the county's
+        # lowland (or highland) districts, so a per-district projection is wrong (checked against the
+        # CEC's own marks on 2026-11-29: the rule matched all 238 other races and missed 5 indigenous ones).
+        if not final and "原住民" not in (g.get("scope") or "") and st is not None and st["reported"] == st["total"] and len(seen) == len(by_number) and all(gender_of.get(r["id"]) for r in rows):
+            ids, why = project([{"id": r["id"], "votes": r["votes"], "gender": gender_of[r["id"]]} for r in rows], g["seats"], int(race.get("women_reserved") or 0))
+            out[gid]["projection"] = {"basis": "complete_counts", "women_reserved": int(race.get("women_reserved") or 0)}
+            if ids:
+                out[gid]["projected"] = ids
+            else:
+                out[gid]["projection"]["undetermined"] = why
     return out
 
 

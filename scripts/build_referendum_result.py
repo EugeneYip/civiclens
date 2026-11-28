@@ -27,7 +27,7 @@ FIELDS = {"同意票數": "agree", "不同意票數": "disagree", "有效票數"
 def parse(text):
     t = re.sub(r"<script.*?</script>|<style.*?</style>", "", text, flags=re.S)
     st = re.search(r"已送投票所數/總投票所數:\s*([\d,]+)\s*/\s*([\d,]+)", t)
-    upd = re.search(r"資料更新時間:(?:&nbsp;|\s)*(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})", t)
+    upd = re.search(r"資料(?:更新)?時間:(?:&nbsp;|\s)*(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})", t)
     if not st or not upd or "第22案" not in t:
         raise ValueError("unexpected page layout")
     heads = [re.sub(r"\s+", "", html.unescape(h)) for h in re.findall(r"<th\b[^>]*>(.*?)</th>", t, re.S)]

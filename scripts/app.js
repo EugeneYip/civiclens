@@ -46,7 +46,7 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
  const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e},sv=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e};
  const time=s=>new Date(s).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false,month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
  const okSrc=s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname==='vote.cec.gov.tw'}catch{return false}};
- function word(c){if(!c.leader)return c.status==='none'?'尚無票數':'同票';return c.status==='final'?'當選':c.status==='all_reported'?'得票最高':'領先'}
+ function word(c){if(!c.leader)return c.status==='none'?'尚無票數':'同票';return c.status==='final'?'當選':c.status==='all_reported'?'預計當選':'領先'}
  function draw(geo,m){host.replaceChildren();const rows=m.counties.filter(c=>c.status==='none'||(okSrc(c.source)&&Date.parse(c.published_at)>=opening));
   const allFinal=rows.length===22&&rows.every(c=>c.status==='final'),allIn=rows.length===22&&rows.every(c=>c.status==='final'||c.status==='all_reported');
   const ttl=el('h3','rm-title','縣市長');const head=el('div','rl-head');head.append(el('strong',null,allFinal?'開票完成':allIn?'全部投票所開票完成':'開票中'),el('span','small','已送投票所 '+nf.format(m.stations.reported)+'／'+nf.format(m.stations.total)+'｜更新 '+time(m.published_at)+' 臺灣時間'));

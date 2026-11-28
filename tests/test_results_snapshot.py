@@ -31,6 +31,17 @@ class ResultsSnapshotTests(unittest.TestCase):
         self.assertFalse(b.same_person("01-chief", 1, "郭璽", "郭玺"))
         self.assertFalse(b.same_person("01-chief", 1, "朱仲一", "朱仲二 Kalih"))
 
+    def test_projection_applies_womens_reserved_seats(self):
+        P = lambda *t: [{"id": i, "votes": v, "gender": g} for i, v, g in t]
+        rows = P(("a", 900, "男"), ("b", 800, "男"), ("c", 700, "男"), ("d", 600, "女"), ("e", 500, "女"))
+        self.assertEqual(b.project(rows, 3, 0), (["a", "b", "c"], None))
+        self.assertEqual(b.project(rows, 3, 1), (["a", "b", "d"], None))  # top woman replaces the lowest man
+        self.assertEqual(b.project(rows, 3, 2), (["a", "d", "e"], None))
+        self.assertEqual(b.project(P(("a", 9, "女"), ("b", 8, "男")), 1, 1), (["a"], None))  # quota already met
+        self.assertEqual(b.project(P(("a", 9, "男"), ("b", 9, "男"), ("c", 1, "女")), 1, 0)[0], None)  # tie at cutoff
+        self.assertEqual(b.project(P(("a", 9, "男"), ("b", 5, "女"), ("c", 5, "女")), 1, 1)[0], None)  # tie among women
+        self.assertEqual(b.project(P(("a", 9, "男"), ("b", 3, "男")), 1, 1), (["a"], None))  # no woman ran: seat stays
+
     def test_station_counts(self):
         row = [{"number": 1, "name": "王忠銘", "votes": 10, "elected": None}, {"number": 2, "name": "曹爾元", "votes": 20, "elected": None}]
         d = doc("preliminary", row, 30); d["races"][0]["stations"] = {"reported": 3, "total": 9}

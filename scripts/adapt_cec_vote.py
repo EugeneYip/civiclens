@@ -9,8 +9,9 @@ share, plus "已送投票所數/總投票所數" and "資料更新時間".
 Rules: nothing is estimated. Valid votes are the sum of the listed candidates' votes, which
 is what a single-vote race's valid-vote total is; every row's share is cross-checked against
 the CEC's printed percentage and any mismatch aborts that race. Winners are recorded only
-when the page itself marks them, and a race is "final" only when every station has reported
-and the marked winners equal the seat count; otherwise it is "preliminary" with no winners.
+when the page itself marks them (「註記」 column: ◎ 當選, ● 婦女應當選), and a race is "final" only when
+every station has reported, the marked winners equal the seat count and no tie awaits a lot (?);
+otherwise it is "preliminary" with no winners.
 
 Usage: python3 -I scripts/adapt_cec_vote.py OUT_DIR [--only TC|T1]
 Downloaded pages are kept under OUT_DIR/raw and treated as untrusted text (parsed by regex).
@@ -61,7 +62,7 @@ def cells(row):
 def parse(text, url):
     title = re.search(r'vote-table-header-title">.*?<b>(.*?)</b>', text, re.S)
     st = re.search(r"已送投票所數/總投票所數:\s*([\d,]+)\s*/\s*([\d,]+)", text)
-    upd = re.search(r"資料更新時間:(?:&nbsp;|\s)*(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})", text)
+    upd = re.search(r"資料(?:更新)?時間:(?:&nbsp;|\s)*(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})", text)  # 「資料時間」 once final
     table = re.search(r"<table.*?</table>", text, re.S)
     if not (title and st and upd and table):
         raise ValueError("unexpected page layout: " + url)
@@ -70,22 +71,26 @@ def parse(text, url):
     for need in ("號次", "姓名", "得票數", "得票率%"):
         if need not in idx:
             raise ValueError("missing column %s: %s" % (need, url))
-    mark = next((i for i, h in enumerate(head) if "當選" in h), None)
+    # Final stage: a 「註記」 column — ◎ 當選, ● 婦女應當選, - 排擠, ? 同票待抽籤, ＜ 未達最低當選票數 (legend on the page).
+    mark = next((i for i, h in enumerate(head) if h == "註記" or "當選" in h), None)
+    seats_m = re.search(r"應選人數:\s*(\d+)", text); women_m = re.search(r"婦女應當選名額:\s*(\d+)", text)
     rows = []
     for tr in re.findall(r"<tr>(.*?)</tr>", re.search(r"<tbody>(.*?)</tbody>", table.group(0), re.S).group(1), re.S):
         c = cells(tr)
         if len(c) != len(head):
             raise ValueError("row width mismatch: " + url)
-        elected = None
-        if mark is not None and c[mark]:
-            elected = True
-        if re.search(r'<img[^>]*(?:alt|title)="[^"]*當選', tr):
-            elected = True
+        elected, cec_mark = None, None
+        if mark is not None:
+            cec_mark = c[mark].strip()
+            if cec_mark not in ("", "◎", "●", "-", "?", "＜"):
+                raise ValueError("unknown 註記 mark %r: %s" % (cec_mark, url))
+            elected = cec_mark in ("◎", "●")
         rows.append({"number": int(c[idx["號次"]]), "name": c[idx["姓名"]], "votes": int(c[idx["得票數"]].replace(",", "")),
-                     "pct": float(c[idx["得票率%"]]), "elected": elected})
+                     "pct": float(c[idx["得票率%"]]), "elected": elected, "mark": cec_mark, "gender": c[idx["性別"]] if "性別" in idx else None})
     mo, dd, hh, mi = map(int, upd.groups())
     return {"title": re.sub(r"\s+", " ", html.unescape(title.group(1))).strip(), "reported": int(st.group(1).replace(",", "")),
-            "total": int(st.group(2).replace(",", "")), "published_at": "2026-%02d-%02dT%02d:%02d:00+08:00" % (mo, dd, hh, mi), "rows": rows}
+            "total": int(st.group(2).replace(",", "")), "published_at": "2026-%02d-%02dT%02d:%02d:00+08:00" % (mo, dd, hh, mi), "rows": rows,
+            "seats": int(seats_m.group(1)) if seats_m else None, "women_reserved": int(women_m.group(1)) if women_m else 0}
 
 
 def race_doc(office, county, district, url, p, seats):
@@ -95,12 +100,15 @@ def race_doc(office, county, district, url, p, seats):
         if abs(share - r["pct"]) > 0.011:
             raise ValueError("vote share mismatch %s %s: %.2f vs CEC %.2f" % (url, r["name"], share, r["pct"]))
     winners = [r for r in p["rows"] if r["elected"]]
-    final = p["total"] > 0 and p["reported"] == p["total"] and seats is not None and len(winners) == seats
+    pending = any(r.get("mark") == "?" for r in p["rows"])  # tie awaiting the statutory lot
+    final = p["total"] > 0 and p["reported"] == p["total"] and seats is not None and len(winners) == seats and not pending
     return {"source": url, "published_at": p["published_at"], "status": "final" if final else "preliminary",
             "races": [{"county": county, "office": office, "district": district, "valid_votes": total,
                        "stations": {"reported": p["reported"], "total": p["total"]},
-                       "candidates": [{"number": r["number"], "name": r["name"], "votes": r["votes"],
-                                       "elected": (bool(r["elected"]) if final else None)} for r in p["rows"]]}]}
+                       "seats_cec": p["seats"], "women_reserved": p["women_reserved"],
+                       "candidates": [{"number": r["number"], "name": r["name"], "votes": r["votes"], "gender": r["gender"],
+                                       "elected": (bool(r["elected"]) if final else None),
+                                       "mark": (r.get("mark") or None) if final else None} for r in p["rows"]]}]}
 
 
 def main(argv):
