@@ -140,3 +140,11 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .list-more>summary::after{content:none}
 @media(prefers-reduced-motion:reduce){details>summary::after{transition:none}}
 .nw{white-space:nowrap}
+.bring{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 10px;padding:10px 12px;background:#eef3f1;border:1px solid #d5e0dc;border-radius:10px}
+.bring[hidden]{display:none}
+.bring-title{margin:0;font-size:14px;font-weight:700;color:var(--accent);white-space:nowrap}
+.bring-list{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.bring-list li{display:flex;align-items:center;gap:5px;min-height:32px;padding:0 11px 0 8px;background:#fff;border:1px solid #d5e0dc;border-radius:999px;font-size:14px;font-weight:650;color:var(--ink);white-space:nowrap}
+.bring-list svg{width:18px;height:18px;flex:none;fill:none;stroke:var(--accent);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.bring-note{flex-basis:100%;margin:0;font-size:12px;line-height:1.5;color:var(--muted)}
+@media(min-width:900px){.bring-note{flex-basis:auto;margin-left:auto}}

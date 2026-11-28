@@ -165,6 +165,8 @@ const assert = require("node:assert/strict");
   await page.goto("http://127.0.0.1:8765/#referendum",{waitUntil:"networkidle"});
   const ref=page.locator("#referendum");
   await ref.locator(".ref-question",{hasText:"你是否支持政府使用「核電」振興經濟，以廢除「非核家園」的能源政策？"}).waitFor();
+  assert.equal(await page.locator("#bring").isVisible(),Date.now()<Date.parse("2026-11-28T16:00:00+08:00"),"voting-items reminder shows only until polls close");
+  assert.deepEqual((await page.locator("#bring .bring-list li").allTextContents()).map(t=>t.trim()),["國民身分證","印章","投票通知單"]);
   await ref.getByText("有效同意票多於不同意票，且達 5,000,959 票以上",{exact:true}).waitFor();
   assert.equal(await ref.locator(".ref-hearing").count(),5);
   await ref.locator("summary",{hasText:"理由書全文"}).click();

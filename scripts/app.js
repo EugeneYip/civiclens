@@ -8,7 +8,7 @@ function countdownState(now){
  return {phase,days:Math.floor(remaining/86400),hours:Math.floor(remaining/3600)%24,minutes:Math.floor(remaining/60)%60,seconds:remaining%60};
 }
 const byId=id=>document.getElementById(id);
-function tick(){const t=countdownState(Date.now());byId('countdown-label').textContent={date:'距離投票日期還有',opening:'距離投票開始還有',closing:'距離投票截止還有',ended:'2026 年 11 月 28 日'}[t.phase];byId('countdown-clock').hidden=t.phase==='ended';byId('countdown-ended').hidden=t.phase!=='ended';for(const k of ['days','hours','minutes','seconds'])byId(k).textContent=String(t[k]).padStart(2,'0');}
+function tick(){const t=countdownState(Date.now());byId('countdown-label').textContent={date:'距離投票日期還有',opening:'距離投票開始還有',closing:'距離投票截止還有',ended:'2026 年 11 月 28 日'}[t.phase];byId('countdown-clock').hidden=t.phase==='ended';byId('countdown-ended').hidden=t.phase!=='ended';const bring=byId('bring');if(bring)bring.hidden=t.phase==='ended';for(const k of ['days','hours','minutes','seconds'])byId(k).textContent=String(t[k]).padStart(2,'0');}
 tick();const timer=setInterval(tick,1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick()});
 const cards=[...document.querySelectorAll('.county')],grid=document.querySelector('.county-grid'),panel=byId('county-panel'),office=byId('office');
 let selected=null;
