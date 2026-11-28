@@ -88,7 +88,8 @@ if(typeof document!=="undefined")(()=>{
   rows.replaceChildren();src.hidden=true;src.removeAttribute("href");
   const race=group&&validateRace(data.snapshot.races[group.id],group,seats,Date.now());
   const st=race?.stations,stOk=st&&validCount(st.reported)&&validCount(st.total)&&st.total>0&&st.reported<=st.total;
-  status.textContent=race?(race.status==="final"?"開票完成（中選會計票網站已標示當選；正式當選以審定公告為準）":"開票中（中選會計票網站累計，尚非最終結果）")+"｜"+(stOk?"已送投票所 "+fmt.format(st.reported)+"／"+fmt.format(st.total)+"｜":"")+"更新 "+new Date(race.published_at).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false,month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})+" 臺灣時間":"尚未取得可驗證官方票數；下方僅為選前候選人名冊。";
+  const allIn=stOk&&st.reported===st.total;
+  status.textContent=race?(race.status==="final"?"開票完成（中選會計票網站已標示當選；正式當選以審定公告為準）":allIn?"投票所已全部送達（中選會尚未標示當選；本站不自行判定，當選以中選會公告為準）":"開票中（中選會計票網站累計，尚非最終結果）")+"｜"+(stOk?"已送投票所 "+fmt.format(st.reported)+"／"+fmt.format(st.total)+"｜":"")+"更新 "+new Date(race.published_at).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false,month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})+" 臺灣時間":"尚未取得可驗證官方票數；下方僅為選前候選人名冊。";
   if(race){src.hidden=false;src.href=race.source}
   const votes=new Map((race?.candidates||[]).map(x=>[x.id,x]));
   for(const c of group?.candidates||[]){
