@@ -1,8 +1,8 @@
 {
  "version": "0.1.82",
- "published_at": "2026-11-28T23:34:00+08:00",
+ "published_at": "2026-11-28T23:47:00+08:00",
  "stations": {
-  "reported": 18242,
+  "reported": 18245,
   "total": 18248
  },
  "note": "依中選會計票網站各縣市長得票數；未標示當選前僅顯示目前得票最高者，當選以中選會公告為準。",
@@ -13,7 +13,7 @@
    "name": "臺北市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/63000000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:47:00+08:00",
    "stations": {
     "reported": 1790,
     "total": 1790
@@ -40,7 +40,7 @@
    "name": "新北市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/65000000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 2728,
     "total": 2728
@@ -67,7 +67,7 @@
    "name": "臺中市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/66000000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 1980,
     "total": 1980
@@ -94,7 +94,7 @@
    "name": "臺南市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/67000000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 1563,
     "total": 1563
@@ -121,7 +121,7 @@
    "name": "高雄市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/64000000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 2089,
     "total": 2089
@@ -146,26 +146,26 @@
    "code": "06",
    "cec": "68000",
    "name": "桃園市",
-   "status": "counting",
+   "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/68000000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
-    "reported": 1478,
+    "reported": 1479,
     "total": 1479
    },
-   "valid": 1161617,
+   "valid": 1162951,
    "leader": {
     "id": "06-chief-2",
     "name": "張善政",
     "party": "中國國民黨",
-    "votes": 646772,
+    "votes": 647498,
     "share": 55.68
    },
    "runner_up": {
     "id": "06-chief-1",
     "name": "黃世杰",
     "party": "民主進步黨",
-    "votes": 514845,
+    "votes": 515453,
     "share": 44.32
    }
   },
@@ -175,25 +175,25 @@
    "name": "新竹縣",
    "status": "counting",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10004000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
-    "reported": 487,
+    "reported": 489,
     "total": 492
    },
-   "valid": 300272,
+   "valid": 301784,
    "leader": {
     "id": "07-chief-1",
     "name": "鄭朝方",
     "party": "民主進步黨",
-    "votes": 171785,
-    "share": 57.21
+    "votes": 172829,
+    "share": 57.27
    },
    "runner_up": {
     "id": "07-chief-2",
     "name": "徐欣瑩",
     "party": "中國國民黨",
-    "votes": 121684,
-    "share": 40.52
+    "votes": 122119,
+    "share": 40.47
    }
   },
   {
@@ -202,7 +202,7 @@
    "name": "苗栗縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10005000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 508,
     "total": 508
@@ -229,7 +229,7 @@
    "name": "彰化縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10007000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 1087,
     "total": 1087
@@ -256,7 +256,7 @@
    "name": "南投縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10008000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:47:00+08:00",
    "stations": {
     "reported": 496,
     "total": 496
@@ -283,7 +283,7 @@
    "name": "雲林縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10009000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 638,
     "total": 638
@@ -310,7 +310,7 @@
    "name": "嘉義縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10010000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 540,
     "total": 540
@@ -337,7 +337,7 @@
    "name": "屏東縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10013000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 740,
     "total": 740
@@ -364,7 +364,7 @@
    "name": "臺東縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10014000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 236,
     "total": 236
@@ -391,7 +391,7 @@
    "name": "花蓮縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10015000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 344,
     "total": 344
@@ -418,7 +418,7 @@
    "name": "宜蘭縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10002000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 436,
     "total": 436
@@ -445,7 +445,7 @@
    "name": "澎湖縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10016000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 121,
     "total": 121
@@ -472,7 +472,7 @@
    "name": "基隆市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10017000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 288,
     "total": 288
@@ -499,7 +499,7 @@
    "name": "新竹市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10018000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 359,
     "total": 359
@@ -526,7 +526,7 @@
    "name": "嘉義市",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/10020000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 221,
     "total": 221
@@ -553,7 +553,7 @@
    "name": "金門縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09020000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:46:00+08:00",
    "stations": {
     "reported": 101,
     "total": 101
@@ -580,7 +580,7 @@
    "name": "連江縣",
    "status": "all_reported",
    "source": "https://vote.cec.gov.tw/2026-local/zh-TW/TC/09007000000000000.html",
-   "published_at": "2026-11-28T23:34:00+08:00",
+   "published_at": "2026-11-28T23:47:00+08:00",
    "stations": {
     "reported": 12,
     "total": 12
