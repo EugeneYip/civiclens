@@ -25,6 +25,7 @@ def render_ref(r):
     facts=[('投票日',r['vote']['date']+' '+r['vote']['time']),('公投票',r['vote']['ballot_color']+'，於「同意」或「不同意」上方圈選欄擇一圈選'),('提案',r['proposer']['body']+'（'+r['proposer']['basis']+'）'),('投票權人',f"{r['electorate']['count']:,}\u00a0人"),('通過門檻',f"有效同意票多於不同意票，且達 {r['threshold']['votes_needed']:,}\u00a0票以上")]
     for k,v in facts: o.append('<div><dt>'+E(k)+'</dt><dd>'+C(v)+'</dd></div>')
     o.append('</dl><p class="small">'+C(r['age_note'])+'</p></div>')
+    o.append('<div id="ref-live" class="ref-live" hidden aria-live="polite"></div>')
     def note(x):
         if isinstance(x,str): return '<li>'+E(x)+'</li>'
         return '<li>'+E(x['text'])+'<ol class="ref-sub">'+''.join('<li>'+E(i)+'</li>' for i in x['items'])+'</ol></li>'

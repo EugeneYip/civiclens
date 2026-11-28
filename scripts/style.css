@@ -148,3 +148,15 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .bring-list svg{width:18px;height:18px;flex:none;fill:none;stroke:var(--accent);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .bring-note{flex-basis:100%;margin:0;font-size:12px;line-height:1.5;color:var(--muted)}
 @media(min-width:900px){.bring-note{flex-basis:auto;margin-left:auto}}
+.ref-live{margin:0 0 10px;padding:12px 14px;background:#fff;border:1px solid var(--line);border-radius:10px}
+.ref-live[hidden]{display:none}
+.rl-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:8px}
+.rl-head strong{font-size:15px;color:var(--accent)}
+.rl-row{margin:8px 0}
+.rl-top{display:flex;justify-content:space-between;gap:8px;font-size:14px}
+.rl-label{font-weight:700}
+.rl-num{font-variant-numeric:tabular-nums;color:var(--ink)}
+.rl-track{height:8px;margin-top:4px;background:#e9eeec;border-radius:999px;overflow:hidden}
+.rl-fill{display:block;height:100%;background:#4f6b76;border-radius:999px}
+.rl-threshold .rl-fill{background:#8aa1a9}
+.ref-live .small{margin:6px 0 0}

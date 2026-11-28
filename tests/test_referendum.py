@@ -47,6 +47,21 @@ class ReferendumTests(unittest.TestCase):
         self.assertEqual([p["law"] for p in self.r["penalties"]], ["公民投票法第42條", "公民投票法第44條", "刑法第143條"])
         self.assertEqual(len(self.r["invalid"]), 9)
 
+    def test_live_count_is_consistent(self):
+        f = ROOT / "data/referendum-result.json"
+        if not f.exists():
+            self.skipTest("no official count yet")
+        r = json.loads(f.read_text())
+        self.assertRegex(r["source"], r"^https://vote\.cec\.gov\.tw/2026-ref/")
+        self.assertEqual(r["agree"] + r["disagree"], r["valid"])
+        self.assertEqual(r["valid"] + r["invalid"], r["ballots"])
+        self.assertEqual(r["electorate"], self.r["electorate"]["count"])
+        self.assertEqual(r["votes_needed"], self.r["threshold"]["votes_needed"])
+        self.assertLessEqual(r["stations"]["reported"], r["stations"]["total"])
+        self.assertLessEqual(r["ballots"], r["electorate_reported"])
+        self.assertEqual("meets_threshold" in r, r["status"] == "complete")
+        self.assertEqual(r["status"] == "complete", r["stations"]["reported"] == r["stations"]["total"])
+
     def test_sources_are_official(self):
         for s in self.r["sources"]:
             self.assertRegex(s["url"], r"^https://(web\.cec\.gov\.tw|bulletin\.cec\.gov\.tw|law\.moj\.gov\.tw)/")

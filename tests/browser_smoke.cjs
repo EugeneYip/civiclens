@@ -174,6 +174,7 @@ const assert = require("node:assert/strict");
   await ref.locator(".ref-play").first().click();
   assert.ok(/^https:\/\/www\.youtube-nocookie\.com\/embed\/-_5M7gAlFFM/.test(await ref.locator("iframe.video-frame").first().getAttribute("src")),"referendum hearing plays in-site");
   assert.equal(await ref.locator(".ref-question .clause").count(),2,"question keeps each clause together");
+  if(Date.now()>=Date.parse("2026-11-28T16:00:00+08:00")){await ref.locator("#ref-live").waitFor({state:"visible"});assert.ok(/已送投票所 [\d,]+／18,248/.test(await ref.locator("#ref-live").innerText()),"official referendum count shown after polls close")}
   assert.ok(await page.evaluate(()=>document.documentElement.classList.contains("phrase")&&document.querySelectorAll("#referendum .ref-reason wbr").length>100),"phrase-aware line breaks applied");
   assert.equal(await page.locator(".source a wbr").count(),0,"nowrap links are not given break points");
   await ref.locator("summary",{hasText:"誰可以投、怎麼投"}).click();
