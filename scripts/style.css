@@ -193,3 +193,6 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .rm-title{margin-bottom:4px}
 .ref-tolive{margin:0 0 10px;font-size:14px}
 #results .ref-live{margin:12px 0 0}
+.archive-note{margin:0 0 12px;padding:10px 12px;background:#f1efe8;border:1px solid #e0dccd;border-radius:10px;font-size:13.5px;line-height:1.65;color:var(--ink)}
+.archive-note strong{display:inline-block;margin-right:8px;padding:0 8px;border-radius:999px;background:#5b5446;color:#fff;font-size:12px;line-height:1.8;vertical-align:1px}
+.quick[hidden]{display:none}

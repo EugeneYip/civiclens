@@ -1,7 +1,7 @@
 "use strict";
 const opening=Date.parse("2026-11-28T16:00:00+08:00");
 const officialHosts=new Set(["www.cec.gov.tw","web.cec.gov.tw","info.cec.gov.tw","db.cec.gov.tw","vote.cec.gov.tw","data.cec.gov.tw"]);
-function resultPhase(now){return now<opening?"投票截止後開放官方開票查詢｜11/28 16:00（臺灣時間）":"開票中：票數取自中選會計票網站，正式當選以中選會審定公告為準。"}
+function resultPhase(now){return now<opening?"投票截止後開放官方開票查詢｜11/28 16:00（臺灣時間）":"票數取自中選會計票網站；正式當選以中選會審定公告為準。"}
 function officialSource(s){try{const u=new URL(s);return u.protocol==="https:"&&officialHosts.has(u.hostname)&&!u.username&&!u.password&&!u.port}catch{return false}}
 function validCount(n){return Number.isSafeInteger(n)&&n>=0}
 function validateRace(r,group,seats,now){

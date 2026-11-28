@@ -8,7 +8,7 @@ function countdownState(now){
  return {phase,days:Math.floor(remaining/86400),hours:Math.floor(remaining/3600)%24,minutes:Math.floor(remaining/60)%60,seconds:remaining%60};
 }
 const byId=id=>document.getElementById(id);
-function tick(){const t=countdownState(Date.now());byId('countdown-label').textContent={date:'距離投票日期還有',opening:'距離投票開始還有',closing:'距離投票截止還有',ended:'2026 年 11 月 28 日'}[t.phase];byId('countdown-clock').hidden=t.phase==='ended';byId('countdown-ended').hidden=t.phase!=='ended';const bring=byId('bring');if(bring)bring.hidden=t.phase==='ended';for(const k of ['days','hours','minutes','seconds'])byId(k).textContent=String(t[k]).padStart(2,'0');}
+function tick(){const t=countdownState(Date.now());byId('countdown-label').textContent={date:'距離投票日期還有',opening:'距離投票開始還有',closing:'距離投票截止還有',ended:'2026 年 11 月 28 日'}[t.phase];byId('countdown-clock').hidden=t.phase==='ended';byId('countdown-ended').hidden=t.phase!=='ended';const bring=byId('bring');if(bring)bring.hidden=t.phase==='ended';const quick=byId('quick');if(quick)quick.hidden=t.phase==='ended';for(const k of ['days','hours','minutes','seconds'])byId(k).textContent=String(t[k]).padStart(2,'0');}
 tick();const timer=setInterval(tick,1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick()});
 const cards=[...document.querySelectorAll('.county')],grid=document.querySelector('.county-grid'),panel=byId('county-panel'),office=byId('office');
 let selected=null;
@@ -35,7 +35,7 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
   const head=el('div','rl-head');head.append(el('strong',null,done?'開票完成':'開票中'),el('span','small','已送投票所 '+nf.format(r.stations.reported)+'／'+nf.format(r.stations.total)+'｜更新 '+new Date(r.published_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false,month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})+' 臺灣時間'));
   box.append(title,q,head,bar('同意',r.agree,r.valid),bar('不同意',r.disagree,r.valid));
   const th=el('div','rl-row rl-threshold');const top=el('div','rl-top');top.append(el('span','rl-label','同意票／通過門檻'),el('span','rl-num',nf.format(r.agree)+'／'+nf.format(r.votes_needed)));const track=el('div','rl-track');const fill=el('span','rl-fill');fill.style.width=Math.min(100,r.agree/r.votes_needed*100)+'%';track.append(fill);th.append(top,track);box.append(th);
-  box.append(el('p','small','有效票 '+nf.format(r.valid)+'・無效票 '+nf.format(r.invalid)+'・已完成投票所投票率 '+pct(r.ballots,r.electorate_reported)));
+  box.append(el('p','small','有效票 '+nf.format(r.valid)+'・無效票 '+nf.format(r.invalid)+'・'+(done?'投票率 ':'已完成投票所投票率 ')+pct(r.ballots,r.electorate_reported)));
   const note=done&&typeof r.meets_threshold==='boolean'?(r.meets_threshold?'依開票結果，同意票多於不同意票且達投票權人總數四分之一，符合公民投票法第29條通過條件；正式結果以中選會公告為準。':'依開票結果，未同時符合「同意票多於不同意票」及「達投票權人總數四分之一」，依公民投票法第29條為不通過；正式結果以中選會公告為準。'):'開票完成前不判定通過與否。數字取自中選會計票網站，最新以中選會為準。';
   const p=el('p','small rl-note',note+' ');const a=el('a',null,'中選會原文 ↗');a.href=r.source;a.target='_blank';a.rel='noopener noreferrer';p.append(a);box.append(p);box.hidden=false}
  function load(){if(Date.now()<opening)return;fetch('data/referendum-result.json?t='+Date.now(),{cache:'no-store'}).then(x=>x.ok?x.json():null).then(r=>{if(r&&ok(r))draw(r)}).catch(()=>{})}
@@ -48,8 +48,8 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
  const okSrc=s=>{try{const u=new URL(s);return u.protocol==='https:'&&u.hostname==='vote.cec.gov.tw'}catch{return false}};
  function word(c){if(!c.leader)return c.status==='none'?'尚無票數':'同票';return c.status==='final'?'當選':c.status==='all_reported'?'得票最高':'領先'}
  function draw(geo,m){host.replaceChildren();const rows=m.counties.filter(c=>c.status==='none'||(okSrc(c.source)&&Date.parse(c.published_at)>=opening));
-  const allFinal=rows.length===22&&rows.every(c=>c.status==='final');
-  const ttl=el('h3','rm-title','縣市長');const head=el('div','rl-head');head.append(el('strong',null,allFinal?'開票完成':'開票中'),el('span','small','已送投票所 '+nf.format(m.stations.reported)+'／'+nf.format(m.stations.total)+'｜更新 '+time(m.published_at)+' 臺灣時間'));
+  const allFinal=rows.length===22&&rows.every(c=>c.status==='final'),allIn=rows.length===22&&rows.every(c=>c.status==='final'||c.status==='all_reported');
+  const ttl=el('h3','rm-title','縣市長');const head=el('div','rl-head');head.append(el('strong',null,allFinal?'開票完成':allIn?'全部投票所開票完成':'開票中'),el('span','small','已送投票所 '+nf.format(m.stations.reported)+'／'+nf.format(m.stations.total)+'｜更新 '+time(m.published_at)+' 臺灣時間'));
   const grid=el('div','rm-grid'),fig=el('figure','rm-map'),svg=sv('svg',{viewBox:geo.viewBox,role:'img','aria-labelledby':'rm-title'});svg.append(Object.assign(sv('title',{id:'rm-title'}),{textContent:'各縣市長目前得票最高者地圖（文字版見右側清單）'}));
   for(const b of geo.insets){const [x,y,w,h]=b.box;svg.append(sv('rect',{x,y,width:w,height:h,rx:3,class:'rm-inset'}));const t=sv('text',{x:x+4,y:y+10,class:'rm-inset-label'});t.textContent=geo.counties[b.code].name;svg.append(t)}
   const by=new Map(rows.map(c=>[c.cec,c]));
@@ -59,7 +59,7 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
   fig.append(svg);
   const counts=new Map();for(const c of rows)if(c.leader){const k=c.leader.party;counts.set(k,(counts.get(k)||0)+1)}
   const lg=el('ul','rm-legend');for(const [k,n] of [...counts].sort((a,b)=>b[1]-a[1])){const li=el('li');const sw=el('span','rm-sw');sw.style.background=col(k);li.append(sw,document.createTextNode(pname(k)+' '+n));lg.append(li)}
-  const key=el('p','small rm-key','淺色：開票中目前領先；深色：投票所全數送達之得票最高者'+(rows.some(c=>c.status==='final')?'；標示「當選」者為中選會已標示當選':'')+'。');
+  const key=el('p','small rm-key',allIn&&!allFinal?'各縣市依全部投票所得票數之得票最高者；中選會尚未標示當選。':'淺色：開票中目前領先；深色：投票所全數送達之得票最高者'+(rows.some(c=>c.status==='final')?'；標示「當選」者為中選會已標示當選':'')+'。');
   fig.append(lg,key);
   const list=el('ol','rm-list');for(const c of rows){const li=el('li'),a=el('a');a.href='results.html?county='+c.code+'&office=chief';const nm=el('span','rm-cn',c.name);
    const who=el('span','rm-who');if(c.leader){const d=el('span','rm-dot');d.style.background=col(c.leader.party);who.append(d,document.createTextNode(c.leader.name));const pt=el('span','rm-party',pname(c.leader.party));who.append(pt)}else who.append(document.createTextNode(word(c)));
