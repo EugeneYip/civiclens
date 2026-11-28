@@ -92,7 +92,8 @@ if(typeof document!=="undefined")(()=>{
   status.textContent=race?(race.status==="final"?"開票完成（中選會計票網站已標示當選；正式當選以審定公告為準）":allIn?"投票所已全部送達（中選會尚未標示當選；本站不自行判定，當選以中選會公告為準）":"開票中（中選會計票網站累計，尚非最終結果）")+"｜"+(stOk?"已送投票所 "+fmt.format(st.reported)+"／"+fmt.format(st.total)+"｜":"")+"更新 "+new Date(race.published_at).toLocaleString("zh-TW",{timeZone:"Asia/Taipei",hour12:false,month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})+" 臺灣時間":"尚未取得可驗證官方票數；下方僅為選前候選人名冊。";
   if(race){src.hidden=false;src.href=race.source}
   const votes=new Map((race?.candidates||[]).map(x=>[x.id,x]));
-  for(const c of group?.candidates||[]){
+  const order=race?[...(group?.candidates||[])].sort((a,b)=>(votes.get(b.id)?.votes??-1)-(votes.get(a.id)?.votes??-1)||a.number-b.number):(group?.candidates||[]);
+  for(const c of order){
    const tr=el("tr"),v=votes.get(c.id),name=el("td"),a=el("a",c.name);
    a.href="./?county="+county.value+"&office="+role+(role==="council"?"&district="+number:"")+"&candidate="+encodeURIComponent(c.id)+"#directory";name.append(a);if(v?.source_name&&v.source_name!==c.name){const sn=el("span","計票網站作「"+v.source_name+"」");sn.className="party-sub";name.append(sn)}const pt=data.parties?.candidates?.[c.id]?.[0];if(pt!==undefined){const ps=el("span",partyName(pt));ps.className="party-sub";name.append(ps)}
    const pct=v&&validCount(race.valid_votes)&&race.valid_votes>0?(v.votes/race.valid_votes*100).toFixed(2)+"%":"—";

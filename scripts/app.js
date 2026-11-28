@@ -30,8 +30,10 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
  const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e};
  function bar(label,n,of){const row=el('div','rl-row');const top=el('div','rl-top');top.append(el('span','rl-label',label),el('span','rl-num',nf.format(n)+'（'+pct(n,of)+'）'));const track=el('div','rl-track');const fill=el('span','rl-fill');fill.style.width=of>0?Math.min(100,n/of*100)+'%':'0';track.append(fill);row.append(top,track);return row}
  function draw(r){const done=r.status==='complete'&&r.stations.reported===r.stations.total;box.replaceChildren();
-  const head=el('div','rl-head');head.append(el('strong',null,done?'開票完成':'開票中'),el('span','small','已送投票所 '+nf.format(r.stations.reported)+'／'+nf.format(r.stations.total)+'｜更新 '+new Date(r.published_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false,month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})));
-  box.append(head,bar('同意',r.agree,r.valid),bar('不同意',r.disagree,r.valid));
+  const title=el('div','rl-title');const h=el('h3',null,'全國性公投第22案');const more=el('a','small','主文與說明 ↓');more.href='#referendum';title.append(h,more);
+  const q=el('p','rl-q','你是否支持政府使用「核電」振興經濟，以廢除「非核家園」的能源政策？');
+  const head=el('div','rl-head');head.append(el('strong',null,done?'開票完成':'開票中'),el('span','small','已送投票所 '+nf.format(r.stations.reported)+'／'+nf.format(r.stations.total)+'｜更新 '+new Date(r.published_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false,month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})+' 臺灣時間'));
+  box.append(title,q,head,bar('同意',r.agree,r.valid),bar('不同意',r.disagree,r.valid));
   const th=el('div','rl-row rl-threshold');const top=el('div','rl-top');top.append(el('span','rl-label','同意票／通過門檻'),el('span','rl-num',nf.format(r.agree)+'／'+nf.format(r.votes_needed)));const track=el('div','rl-track');const fill=el('span','rl-fill');fill.style.width=Math.min(100,r.agree/r.votes_needed*100)+'%';track.append(fill);th.append(top,track);box.append(th);
   box.append(el('p','small','有效票 '+nf.format(r.valid)+'・無效票 '+nf.format(r.invalid)+'・已完成投票所投票率 '+pct(r.ballots,r.electorate_reported)));
   const note=done&&typeof r.meets_threshold==='boolean'?(r.meets_threshold?'依開票結果，同意票多於不同意票且達投票權人總數四分之一，符合公民投票法第29條通過條件；正式結果以中選會公告為準。':'依開票結果，未同時符合「同意票多於不同意票」及「達投票權人總數四分之一」，依公民投票法第29條為不通過；正式結果以中選會公告為準。'):'開票完成前不判定通過與否。數字取自中選會計票網站，最新以中選會為準。';
@@ -47,7 +49,7 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
  function word(c){if(!c.leader)return c.status==='none'?'尚無票數':'同票';return c.status==='final'?'當選':c.status==='all_reported'?'得票最高':'領先'}
  function draw(geo,m){host.replaceChildren();const rows=m.counties.filter(c=>c.status==='none'||(okSrc(c.source)&&Date.parse(c.published_at)>=opening));
   const allFinal=rows.length===22&&rows.every(c=>c.status==='final');
-  const head=el('p','rm-head');head.append(el('strong',null,allFinal?'開票完成':'開票中'),document.createTextNode(' 縣市長｜已送投票所 '+nf.format(m.stations.reported)+'／'+nf.format(m.stations.total)+'｜更新 '+time(m.published_at)+' 臺灣時間'));
+  const ttl=el('h3','rm-title','縣市長');const head=el('div','rl-head');head.append(el('strong',null,allFinal?'開票完成':'開票中'),el('span','small','已送投票所 '+nf.format(m.stations.reported)+'／'+nf.format(m.stations.total)+'｜更新 '+time(m.published_at)+' 臺灣時間'));
   const grid=el('div','rm-grid'),fig=el('figure','rm-map'),svg=sv('svg',{viewBox:geo.viewBox,role:'img','aria-labelledby':'rm-title'});svg.append(Object.assign(sv('title',{id:'rm-title'}),{textContent:'各縣市長目前得票最高者地圖（文字版見右側清單）'}));
   for(const b of geo.insets){const [x,y,w,h]=b.box;svg.append(sv('rect',{x,y,width:w,height:h,rx:3,class:'rm-inset'}));const t=sv('text',{x:x+4,y:y+10,class:'rm-inset-label'});t.textContent=geo.counties[b.code].name;svg.append(t)}
   const by=new Map(rows.map(c=>[c.cec,c]));
@@ -64,6 +66,6 @@ if(data&&cards.length===22&&cards.every(c=>Array.isArray(data.counties?.[c.datas
    const st=el('span','rm-st',c.leader?c.leader.share.toFixed(1)+'%':''),pr=el('span','rm-pr',(c.leader?word(c):'')+(c.stations?.total?(c.leader?'・':'')+(c.status==='counting'?'開票 '+Math.floor(c.stations.reported/c.stations.total*100)+'%':'投票所全數送達'):''));a.append(nm,st,who,pr);li.append(a);list.append(li)}
   grid.append(fig,list);
   const note=el('p','small rm-note','依中選會計票網站各縣市長得票數；中選會未標示當選前，僅顯示目前得票最高者，不代表當選。當選以中選會公告為準。地圖依內政部國土測繪中心縣市界線（經 taiwan-atlas 轉製）簡化繪製，金門縣、連江縣以插圖表示。');
-  host.append(head,grid,note)}
+  host.append(ttl,head,grid,note)}
  function load(){if(Date.now()<opening)return;Promise.all(['data/taiwan-counties-map.json','data/results-map.json?t='+Date.now()].map(u=>fetch(u,{cache:u.includes('?t=')?'no-store':'default'}).then(r=>r.ok?r.json():Promise.reject()))).then(([g,m])=>{if(Object.keys(g.counties||{}).length===22&&Array.isArray(m.counties)&&m.counties.length===22)draw(g,m)}).catch(()=>{})}
  load();setInterval(()=>{if(!document.hidden)load()},180000);})();

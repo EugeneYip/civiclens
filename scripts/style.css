@@ -187,3 +187,9 @@ details[open]>summary::after{transform:translateY(2px) rotate(-135deg)}
 .rm-note{margin:10px 0 0}
 .rm-st{font-weight:700;font-size:14px}
 .rm-list a{padding:6px 2px}
+.rl-title{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.rl-title h3,.rm-title{margin:0;font-size:17px}
+.rl-q{margin:4px 0 8px;font-size:14px;line-height:1.55;color:var(--ink)}
+.rm-title{margin-bottom:4px}
+.ref-tolive{margin:0 0 10px;font-size:14px}
+#results .ref-live{margin-bottom:12px}
